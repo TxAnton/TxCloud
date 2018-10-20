@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "fe_lo.h"
+#include "sum_between_even_odd.h"
 void f2(int *arr,int n){//sum_between_even_odd
 	int fe=first_even(arr,n);
 	int lo=last_odd(arr,n);

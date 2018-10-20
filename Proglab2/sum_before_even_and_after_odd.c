@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "fe_lo.h"
+#include "sum_before_even_and_after_odd.h"
 void f3(int *arr,int n){//sum_before_even_and_after_odd
 	int i;
 	int sum=0;

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "fe_lo.h"
 int first_even(int *arr,int n){
 	int i;
 	for(i=1;i<n;i++){
