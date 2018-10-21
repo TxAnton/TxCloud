@@ -1,4 +1,4 @@
-#include "min.h"
+#include "minElement.h"
 int sumElementsBeforeFirstMin(int *a, int n) {
 	int s;
 	int j;

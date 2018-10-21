@@ -1,13 +1,14 @@
 #include<stdio.h>
+#define LENGHT 100
 #include<stdlib.h>
-#include "min.h"
-#include "max.h"
-#include "sum.h"
-#include "diff.h"
+#include "minElement.h"
+#include "maxElement.h"
+#include "sumElementsBeforeFirstMin.h"
+#include "differenceBetweenMaxAndMin.h"
 int main(){
 	int k;
 	int i=0;
-	int a[100];
+	int a[LENGHT];
 	int c;
 	scanf("%d",&k);
 	while(1){
