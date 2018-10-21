@@ -1,10 +1,10 @@
 #include<stdio.h>
 #define LENGHT 100
 #include<stdlib.h>
-#include "minElement.h"
-#include "maxElement.h"
-#include "sumElementsBeforeFirstMin.h"
-#include "differenceBetweenMaxAndMin.h"
+#include "min.h"
+#include "max.h"
+#include "sum.h"
+#include "diff.h"
 int main(){
 	int k;
 	int i=0;

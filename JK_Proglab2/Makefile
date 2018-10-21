@@ -1,22 +1,22 @@
 all: menu
 
-menu: differenceBetweenMaxAndMin.o sumElementsBeforeFirstMin.o maxElement.o minElement.o menu.o
+menu: diff.o sum.o max.o min.o menu.o
 	gcc -o menu ./*.o
 
 menu.o: menu.c
 	gcc -c -o menu.o menu.c 
 
-minElement.o: minElement.c
-	gcc -c -o minElement.o minElement.c
+min.o: min.c
+	gcc -c -o min.o min.c
 
-maxElement.o: maxElement.c
-	gcc -c -o maxElement.o maxElement.c
+max.o: max.c
+	gcc -c -o max.o max.c
 
-sumElementsBeforeFirstMin.o: sumElementsBeforeFirstMin.c minElement.o
-	gcc -c -o sumElementsBeforeFirstMin.o sumElementsBeforeFirstMin.c
+sum.o: sum.c min.o
+	gcc -c -o sum.o sum.c
 
-differenceBetweenMaxAndMin.o: differenceBetweenMaxAndMin.c maxElement.o minElement.o
-	gcc -c -o differenceBetweenMaxAndMin.o differenceBetweenMaxAndMin.c
+diff.o: diff.c max.o min.o
+	gcc -c -o diff.o diff.c
 
 clear:	
 	rm -rf *.o menu
