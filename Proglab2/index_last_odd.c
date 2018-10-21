@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fe_lo.h"
+//#include "fe_lo.h"
 #include "index_last_odd.h"
-void f1(int *arr,int n){//index_last_odd
-	printf("%d",last_odd(arr,n)-1);
-	return;
+int f1(int *arr,int n){//index_last_odd
+	int i;
+	int x;
+	for(i=1;i<n;i++){
+		if(arr[i]%2!=0){
+			x=i;
+		}
+	}
+	return x;
 }

@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fe_lo.h"
+//#include "fe_lo.h"
 #include "index_first_even.h"
 
-void f0(int *arr,int n){//index_first_even
-	printf("%d",first_even(arr,n)-1);
-	return;
+int f0(int *arr,int n){//index_first_even
+	int i;
+	for(i=1;i<n;i++){
+		if(arr[i]%2==0){
+			return i;
+		}
+	}
+	return -1;
 }

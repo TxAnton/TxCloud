@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fe_lo.h"
+//#include "fe_lo.h"
 #include "index_first_even.h"
 #include "index_last_odd.h"
 #include "sum_between_even_odd.h"
 #include "sum_before_even_and_after_odd.h"
-//#include "fe_lo.h"
+
 #define EL_COUNT 100
 
 int main()
@@ -39,10 +39,10 @@ int main()
 	
 	switch(arr[0]){
 		case 0:
-			f0(arr,i);
+			printf("%d",f0(arr,i)-1);
 			break;
 		case 1:
-			f1(arr,i);
+			printf("%d",f1(arr,i)-1);
 			break;
 		case 2:
 			f2(arr,i);

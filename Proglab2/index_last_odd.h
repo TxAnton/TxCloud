@@ -1,2 +1,2 @@
 #pragma once
-void f1(int *arr,int n);
+int f1(int *arr,int n);
