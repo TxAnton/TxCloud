@@ -1,7 +1,7 @@
-#include "summa_before_and_after.h"
+#include "sum_before_and_after.h"
 #include <stdio.h>
 #include <stdlib.h>
-int summa_before_and_after(int array[], int number)
+int sum_before_and_after(int array[], int number)
 	{
 int first = index_first_zero(array, number);
 int last = index_last_zero (array,number);

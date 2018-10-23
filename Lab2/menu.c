@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include "index_first_zero.h"
 #include "index_last_zero.h"
-#include "summa_between.h"
-#include "summa_before_and_after.h"
+#include "sum_between.h"
+#include "sum_before_and_after.h"
 #define SIZE 100
 int main()
 {
@@ -30,11 +30,11 @@ printf ("%d\n",index_last_zero (array, result));
 break;
 
 case 2:
-printf("%d\n", summa_between (array, result));
+printf("%d\n", sum_between (array, result));
 break;
 
 case 3:
-printf("%d\n", summa_before_and_after (array, result));
+printf("%d\n", sum_before_and_after (array, result));
 break;
 
 default:

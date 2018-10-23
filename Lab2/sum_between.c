@@ -1,7 +1,7 @@
-#include "summa_between.h"
+#include "sum_between.h"
 #include <stdio.h>
 #include <stdlib.h>
-int summa_between(int array[], int number)	
+int sum_between(int array[], int number)	
 {
 int first = index_first_zero(array, number);
 int last = index_last_zero(array, number);
