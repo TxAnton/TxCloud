@@ -3,10 +3,12 @@
 #include<string.h>
 #include<dirent.h>
 
-int list_dir(const char *dirPath,int op,int level)
+#define TYPE int
+
+TYPE list_dir(const char *dirPath,int op,int level)
 {
-	int res = op&&1;
-	int c,a;
+	TYPE res = (TYPE)(op&&1);
+	TYPE c,a;
     DIR *dir = opendir(dirPath);					//"открываем" директорию
     if(dir){ 										// если это удалось успешно
         struct dirent *de = readdir(dir);  			// получаем очередной элемент открытой директории
@@ -17,8 +19,8 @@ int list_dir(const char *dirPath,int op,int level)
             char* str = malloc(strlen(dirPath) + strlen(de->d_name) + 1);
 	        strcpy(str,dirPath);strcat(str, "/");strcat(str, de->d_name);
 	        
-            if(de->d_type == DT_DIR){
-            //if(!strchr(de->d_name, '.')){
+            //if(de->d_type == DT_DIR){
+            if(!strchr(de->d_name, '.')){
             	
             	
             	if(!strstr(de->d_name,".")){
@@ -53,7 +55,7 @@ int list_dir(const char *dirPath,int op,int level)
 int main(){
 	char str[] = "./tmp";
 	DIR *dir = opendir(str);
-	int val = 0;
+	TYPE val = 0;
 	//readdir(dir)->d_name[0]-'a';
 	FILE * ptrFile = fopen("result.txt", "w");
 	val = list_dir(str,readdir(dir)->d_name[0]-'a',0);
@@ -61,5 +63,5 @@ int main(){
 	printf("%d",val);
 	closedir(dir);
 	fclose (ptrFile);
-	return 0;	
+	return 0;
 }
