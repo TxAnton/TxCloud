@@ -1,67 +1,51 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-#include<dirent.h>
+#include <stdio.h>
+#include <dirent.h>
+#include <stdlib.h>
 
-#define TYPE int
-
-TYPE list_dir(const char *dirPath,int op,int level)
+char* list_dir(const char *dirPath, char u)
 {
-	TYPE res = (TYPE)(op&&1);
-	TYPE c,a;
-    DIR *dir = opendir(dirPath);					//"открываем" директорию
-    if(dir){ 										// если это удалось успешно
-        struct dirent *de = readdir(dir);  			// получаем очередной элемент открытой директории
-        while (de){  								// если это удалось
-            for(int i = 0;i<level;i++)putchar('\t');
-			printf("%0.0s/%s\n", dirPath, de->d_name); // печатаем имя этого элемента
-            
-            char* str = malloc(strlen(dirPath) + strlen(de->d_name) + 1);
-	        strcpy(str,dirPath);strcat(str, "/");strcat(str, de->d_name);
-	        
-            //if(de->d_type == DT_DIR){
-            if(!strchr(de->d_name, '.')){
-            	
-            	
-            	if(!strstr(de->d_name,".")){
-	            	
-	            	a = list_dir(str,de->d_name[0]-'a',level+1);
-	            	res = op?res*a:res+a;
-	            	//directory
-            	}
+    DIR *dir = opendir(dirPath);  
+    if(dir) { 
+        struct  dirent *de = readdir(dir);  
+        while (de) {  
+            char *st = malloc(strlen(dirPath)+strlen(de->d_name)+2);
+            strcpy(st,dirPath); strcat(st,"/"); strcat(st,de->d_name);
+            char* h;
+            if (((de->d_name)[0])!='.') h = list_dir(st,u);
+            else h = NULL;
+            if (h){
+            	return h;
             }
-            else{
-            	FILE * ptrFile = fopen(str, "r");
-            	if(ptrFile){
-	            	c = fscanf(ptrFile,"%d ",&a);
-	            	while(c!=-1){
-	            		res = op?res*a:res+a;
-	            		c = fscanf(ptrFile,"%d ",&a);
-	            	}
-	            	
-	            	fclose (ptrFile);
-            	}
-            	else printf(str);
-            	//file
-            	printf("\nFILE %s DONE %d\n",de->d_name,res);
+            else {
+            	FILE* file = fopen(st,"r+");
+            	if (file){
+            		if (((de->d_name)[0] == u) && ((de->d_name)[1] == '.')){
+            			return st;
+            		}
+              	}
             }
-            de = readdir(dir);						// снова получаем очередной элемент открытой директории
+            de = readdir(dir);
+			free(st);
         }
+        return NULL;
     }
-    closedir(dir); 									// не забываем "закрыть" директорию
-    return res;
+    closedir(dir); 
+	return NULL;
 }
 
 int main(){
+	char s[255];
+	char *way;
 	char str[] = "./tmp";
-	DIR *dir = opendir(str);
-	TYPE val = 0;
-	//readdir(dir)->d_name[0]-'a';
-	FILE * ptrFile = fopen("result.txt", "w");
-	val = list_dir(str,readdir(dir)->d_name[0]-'a',0);
-	fprintf(ptrFile,"%d",val);
-	printf("%d",val);
-	closedir(dir);
-	fclose (ptrFile);
-	return 0;
+	FILE* output = fopen("result.txt","w");
+	int i;
+	scanf("%s", s);  
+	while(s[i]!='\0'){
+		way = list_dir(str,s[i]);
+		if (way) {
+			fprintf(output,"%s\n",way+2);
+			free(way);
+		}
+		i++;					     	
+	}
 }
