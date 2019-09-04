@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/BMPTools.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+
+/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Control.cpp
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+BMPTools.h
+/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/BMPTools.h
+

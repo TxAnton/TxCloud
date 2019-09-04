@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TxCloud"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anton/Git/TxCloud/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anton/Git/TxCloud/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TxCloud">
+				<Option output="/home/anton/Git/TxCloud/cmake-build-debug/TxCloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Git/TxCloud/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 TxCloud"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TxCloud/fast">
+				<Option output="/home/anton/Git/TxCloud/cmake-build-debug/TxCloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/Git/TxCloud/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 TxCloud/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anton/Git/TxCloud/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anton/Git/TxCloud/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/Debug/TxPaint.exe">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/Debug/TxPaint.ilk">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/Debug/TxPaint.pdb">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint.sln">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/ArrayStack.cpp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/BMPTools.exe">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/BMPTools.h">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Control.c">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Control.cpp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Control.exe">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/ArrayStack.obj">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Control.obj">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.log">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/CL.command.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/CL.read.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/CL.write.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/Project1.lastbuildstate">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/link.command.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/link.read.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Project1.tlog/link.write.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/Source.obj">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.log">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/CL.command.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/CL.read.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/CL.write.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/TxPaint.lastbuildstate">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/link.command.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/link.read.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/TxPaint.tlog/link.write.1.tlog">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/vc141.idb">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/Debug/vc141.pdb">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/SmallPic.bmp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/TxPaint.vcxproj">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/TxPaint.vcxproj.filters">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/TxPaint.vcxproj.user">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/fun.bmp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/new.bmp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/KR_1_2/TxPaint/TxPaint/test.bmp">
+			<Option target="TxCloud"/>
+		</Unit>
+		<Unit filename="/home/anton/Git/TxCloud/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

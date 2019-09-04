@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TxCloud.dir/KR_1_2/TxPaint/TxPaint/ArrayStack.cpp.o CMakeFiles/TxCloud.dir/KR_1_2/TxPaint/TxPaint/Control.c.o CMakeFiles/TxCloud.dir/KR_1_2/TxPaint/TxPaint/Control.cpp.o ../KR_1_2/TxPaint/TxPaint/Debug/ArrayStack.obj ../KR_1_2/TxPaint/TxPaint/Debug/Control.obj ../KR_1_2/TxPaint/TxPaint/Debug/Source.obj  -o TxCloud 

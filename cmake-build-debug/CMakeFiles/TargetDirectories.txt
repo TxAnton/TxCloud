@@ -1,0 +1,3 @@
+/home/anton/Git/TxCloud/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anton/Git/TxCloud/cmake-build-debug/CMakeFiles/TxCloud.dir
+/home/anton/Git/TxCloud/cmake-build-debug/CMakeFiles/edit_cache.dir
