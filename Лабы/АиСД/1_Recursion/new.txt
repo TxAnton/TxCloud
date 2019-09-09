@@ -1,0 +1,17 @@
+Enter integer elements of vector phi:
+1 2 3 4 5 6 7 8 9 10 
+B:	 1 2 3 4 5 
+Ba:	 	 1 2 3 
+Ba:	 	 	 1 2 
+aC:	 	 	 2 3 
+aC:	 	 3 4 5 
+Ba:	 	 	 3 4 
+aC:	 	 	 4 5 
+C:	 6 7 8 9 10 
+Ba:	 	 6 7 8 
+Ba:	 	 	 6 7 
+aC:	 	 	 7 8 
+aC:	 	 8 9 10 
+Ba:	 	 	 8 9 
+aC:	 	 	 9 10 
+1 2 2 3 3 4 4 5 6 7 7 8 8 9 9 10 
