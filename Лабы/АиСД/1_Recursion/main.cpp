@@ -12,11 +12,11 @@ using namespace std;
 ostream *outFile;
 bool printToFile= false;
 
-int parseArgs(int argc, char** argv, string &fileName);
-ATYPE<int> input(istream *istr);
-void printStr(string str);
-void printColl(ATYPE<int> alpha,int recLvl = 0);
-ATYPE<int> phi(ATYPE<int> alpha,int recLvl = 0);
+int parseArgs(int argc, char** argv, string &fileName);	//Parses arguments. Returns 1 if program is to be closed
+int input(istream *istr,ATYPE<int> &inp);				//Fills int vector from *istr
+void printStr(string str);								//Prints string to all necessary outputs
+void printColl(ATYPE<int> alpha,int recLvl = 0);		//Prints given collection to all necessary outputs. alpha - collection to print, recLvl - offset
+ATYPE<int> phi(ATYPE<int> &alpha,int recLvl = 0);		//Recursively processes alpha
 
 void help(){
     cout<<"-h\thelp\n";
@@ -33,9 +33,9 @@ int main(int argc, char** argv) {
     string fileName;
 
     ATYPE<int> inp;//input container
+    ATYPE<int> res;//result container
 
     ofstream oFile;
-
     //Parse arguments
     if(parseArgs(argc,argv,fileName))return 0;
     
@@ -46,42 +46,27 @@ int main(int argc, char** argv) {
 			return 1;
 		}
 		setOFile(&oFile);
-        //printColl(inp,0,&oFile);
-    }
-/*
-    if(argc>1){
-        if(!((string)argv[1]).compare("-h")){
-            help();
-            return 0;
-        } else if(!((string)argv[1]).compare("-f")){
-            printToFile=true;
-            if(argc>2){
-                fileName=(string)argv[2];
-            } else fileName = DEFAULT_FILE_NAME;
-        }
     }
 
-    if (printToFile){
-        oFile.open(fileName,ios::out);
-        if(!oFile){cerr<<"Cannot open file: "<<fileName<<endl;}
-        printColl(inp,0,&oFile);
-    }
-	*/
 	//Input	
-	inp = input(&cin);
-    
+	if(input(&cin,inp)){
+		printStr("Error: Bad input data\n");
+		return 1;
+	}
 
 
     //Process and print
-
-    printColl(phi(inp));
+    printStr("Input:");
+	res=phi(inp);
+    printStr("Result:");
+    printColl(res);
 
     if(printToFile)oFile.close();
 
     return 0;
 }
 
-int parseArgs(int argc, char** argv, string &fileName){//Parses arguments. Returns 1 if program is to be closed
+int parseArgs(int argc, char** argv, string &fileName){
 	ATYPE<int> t;
 	//string fileName;
 	if(argc>1){
@@ -95,32 +80,24 @@ int parseArgs(int argc, char** argv, string &fileName){//Parses arguments. Retur
             } else fileName = DEFAULT_FILE_NAME;
         }
     }
-/*
-    if (printToFile){
-        oFile.open(fileName,ios::out);
-        if(!oFile){
-			cerr<<"Cannot open file: "<<fileName<<endl; 
-			return 1;
-		}
-        printColl(t,0,&oFile);
-    }*/
 	return 0;
 }
 
-ATYPE<int> input(istream *istr){//Fills int vector from *istr
-	ATYPE<int> inp;
+int input(istream *istr,ATYPE<int> &inp){
+	//ATYPE<int> inp;
 	
 	int a;
 	
-	printStr("Enter integer elements of vector phi:\n");
+	printStr("Enter integer elements of vector phi(end with EOF):\n");
 	
     cin>>a;
 
-    while(!feof(stdin)){
+    while(!cin.fail() && !feof(stdin)){
         inp.push_back(a);
         (*istr)>>a;
     }
-    return inp;
+    if(cin.fail()&&!feof(stdin))return 1;
+    else return 0;
 }
 
 void printStr(string str){
@@ -128,7 +105,7 @@ void printStr(string str){
 	if(printToFile&&outFile)(*outFile)<<str;
 }
 
-void printColl(ATYPE<int> alpha,int recLvl) {//Prints given collection. Takes alpha - collection ot print, recLvl - offset, ostr - *ostream: when ostr is given - sets ostream in addition to cout
+void printColl(ATYPE<int> alpha,int recLvl) {
 
 	while (recLvl--) {
 		cout << "\t ";
@@ -142,7 +119,7 @@ void printColl(ATYPE<int> alpha,int recLvl) {//Prints given collection. Takes al
 	if (printToFile&&outFile) (*outFile) << endl;
 }
 
-ATYPE<int> phi(ATYPE<int> alpha,int recLvl){//Recursively processes alpha.
+ATYPE<int> phi(ATYPE<int> &alpha,int recLvl){
 
     printColl(alpha,recLvl);
 
