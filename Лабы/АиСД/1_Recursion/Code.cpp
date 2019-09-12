@@ -151,7 +151,7 @@ int parseArgs(int argc, char** argv, string &iFileName, string &oFileName){
                 i++;
             } else awtoLim = 2;
             i++;
-        }
+        } else i++;
     }
     if(readFromFile&&repeat){
         readFromFile=false;
@@ -193,7 +193,7 @@ int awtoInput(vector<int> &inp, int lim){
 }
 
 void printStr(string str){
-    cout<<str;
+    cout<<str;	
     if(printToFile&&outFile&&(*outFile))(*outFile)<<str;
 }
 
@@ -210,9 +210,9 @@ void printColl(vector<int> alpha,int recLvl) {
     cout << endl;
     if (printToFile&&outFile) (*outFile) << endl;
 }
-
+	
 vector<int> phi(vector<int> &alpha,int recLvl){
-
+	
     printColl(alpha,recLvl);
 
     size_t len=alpha.size();

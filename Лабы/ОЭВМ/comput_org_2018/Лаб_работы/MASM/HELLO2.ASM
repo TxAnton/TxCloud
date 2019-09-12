@@ -35,11 +35,8 @@ WriteMsg  ENDP
 
 ; Головная процедура
 Main      PROC  FAR
-          push  DS       ;\  Сохранение адреса начала PSP в стеке
-          sub   AX,AX    ; > для последующего восстановления по
-          push  AX       ;/  команде ret, завершающей процедуру.
-          mov   AX,DATA             ; Загрузка сегментного
-          mov   DS,AX               ; регистра данных.
+          ;mov   AX,DATA             ; Загрузка сегментного
+          ;mov   DS,AX               ; регистра данных.
           mov   DX, OFFSET HELLO    ; Вывод на экран первой
           call  WriteMsg            ; строки приветствия.
           mov   DX, OFFSET GREETING ; Вывод на экран второй
