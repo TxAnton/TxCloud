@@ -30,7 +30,7 @@ int awtoLim = 0;
 
 void help(){
     cout<<"-h\t\thelp\n";
-    cout<<"-A [N]\t\tAuto testing with 0 to N vector length (ignores -i and -r)\n";
+    cout<<"-A [N]\t\tAuto testing with 0 to N  (ignores -i and -r)\n";
     cout<<"-r\t\tchose to repeat input after compliton. Incompatable with \"-i\"!\n";
     cout<<"-i [file]\t input from file (\""<<DEFAULT_IFILE_NAME<<"\" by default)\n";
     cout<<"-o [file]\t output to file (\""<<DEFAULT_OFILE_NAME<<"\" by default)\n";
@@ -55,7 +55,7 @@ int parseArgs(int argc, char** argv, string &iFileName, string &oFileName);	//Pa
 using namespace h_list;
 
 
-int maxDepth(const lisp s, int recLvl = 0); // Ищет максимальную глубину вложений иерархического списка
+int maxDepth(const lisp s, int recLvl = 0); // Returns max depth of hierarchical list
 
 string genHL(int lvl);//Get generated string Hierarch-List of depth lvl
 
@@ -63,14 +63,20 @@ int awtoInput(lisp &s1);//Auto testing
 
 int main (int argc, char** argv){
 
+	//Variables
     string iFileName;
     string oFileName;
 
     ofstream oFile;
     ifstream iFile;
+	
+	lisp s1;
+    int _depth; //Result container
 
+	//Parse argsuments
     if(parseArgs(argc,argv,iFileName,oFileName))return 0;
 
+	//File management
     if (printToFile){
         oFile.open(oFileName,ios::out);
         if(!oFile){
@@ -88,9 +94,8 @@ int main (int argc, char** argv){
         setIFile(&iFile);
     }
 
-    //Variables
-    lisp s1;
-    int _depth; //Result container
+    
+    //Main cycle
 
     do {
 
@@ -131,7 +136,7 @@ int main (int argc, char** argv){
 }
 
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName){
- //Run through all arguments looking for matches. Wrong keys are ignored. Wrong values leads to an undefined behaviou.
+ //Run through all arguments looking for matches. Wrong keys are ignored. Wrong values leads to an undefined behaviour.
 
 
     int i=1;
@@ -215,7 +220,7 @@ int maxDepth(const lisp s, int recLvl)
     }
 }
 
-string genHL(int lvl){
+string genHL(int lvl){//list lvl deep consists of lvl lists lvl-1 deep. lvl=0 deep list is an '1' atom
     if(lvl)
     {
         string s = "( ";
@@ -230,7 +235,7 @@ string genHL(int lvl){
     }
 }
 
-int awtoInput(lisp &s1){
+int awtoInput(lisp &s1){//gens string, turns it into stream, feeds is as an input. last iteration returns 1
     static int n = 0;
 
     string strg = genHL(n);
