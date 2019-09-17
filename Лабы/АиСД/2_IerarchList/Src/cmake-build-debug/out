@@ -1,0 +1,9 @@
+Enter hierarchical list(bound wihh brackets. Any standalone symbol is interpritet as an atom):
+Input: 
+( 1 2 ) 
+Inter=results:
+( 1 2 ) 
+1
+Depth: 
+1
+
