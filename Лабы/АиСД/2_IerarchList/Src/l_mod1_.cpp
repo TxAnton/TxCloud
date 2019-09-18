@@ -9,8 +9,6 @@
 #include <vector>
 #include <sstream>
 
-//#include "l_mod1_.h"
-
 #include "l_intrfc_.h"
 
 #define DEFAULT_IFILE_NAME "in"
