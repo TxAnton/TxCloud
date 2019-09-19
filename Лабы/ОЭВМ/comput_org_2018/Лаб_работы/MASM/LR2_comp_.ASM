@@ -52,7 +52,7 @@ Main      PROC  FAR
           mov  mem1,ax
 ;  Косвенная адресация
           mov  al,[bx]
-          mov  mem3,[bx]
+          ;mov  mem3,[bx]
 ;  Базированная адресация
           mov  al,[bx]+3
           mov  cx,3[bx]
@@ -64,10 +64,10 @@ Main      PROC  FAR
           mov  bx,3
           mov  al,matr[bx][di]
           mov  cx,matr[bx][di]
-          mov  ax,matr[bx*4][di]
+          ;mov  ax,matr[bx*4][di]
 
 ;  ПРОВЕРКА АДРЕСАЦИИ С УЧЕТОМ СЕГМЕНТОВ
-;  Переопределение сегмента
+;  Переопределение сегмента	
 ;  ------ вариант 1
           mov  ax, SEG vec2
           mov  es, ax
@@ -84,8 +84,8 @@ Main      PROC  FAR
           mov  es:[bx+di],ax
 ;  ------ вариант 4
           mov  bp,sp
-          mov  ax,matr[bp+bx]
-          mov  ax,matr[bp+di+si]
+          ;mov  ax,matr[bp+bx]
+          ;mov  ax,matr[bp+di+si]
 ;  Использование сегмента стека
           push  mem1
           push  mem2
