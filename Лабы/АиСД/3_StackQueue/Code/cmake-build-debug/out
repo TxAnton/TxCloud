@@ -1,0 +1,98 @@
+
+Input: 
+(qwe)
+Inter results:
+(
+	<-
+)
+Result:
+Correct!
+
+Input: 
+{asd}
+Inter results:
+{
+	<-
+}
+Result:
+Correct!
+
+Input: 
+{qwe[asd]zxc(tyu)zxc}
+Inter results:
+{
+	[
+		<-
+	]
+	(
+		<-
+	)
+	<-
+}
+Result:
+Correct!
+
+Input: 
+(ad[]dwmk{dq[dqw]ffwq}zz)
+Inter results:
+(
+	[
+		<-
+	]
+	{
+		[
+			<-
+		]
+		<-
+	}
+	<-
+)
+Result:
+Correct!
+
+Input: 
+
+Inter results:
+Result:
+Correct!
+
+Input: 
+)Booooo(!)
+Inter results:
+<-
+Result:
+) <<ERROR HERE!
+Unexpected ')'
+
+Input: 
+{What's this!---->[a]}(
+Inter results:
+{
+	[
+		<-
+	]
+	<-
+}
+(
+Result:
+Bracket '(' left unclosed
+
+Input: 
+[This ([is] {not}) {bracket] youre} (looking for)
+Inter results:
+[
+	(
+		[
+			<-
+		]
+		{
+			<-
+		}
+		<-
+	)
+	{
+		<-
+	<-
+Result:
+[This ([is] {not}) {bracket] <<ERROR HERE!
+Expected '{' while got ']'
