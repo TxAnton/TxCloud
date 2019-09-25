@@ -1,6 +1,3 @@
-// ��������� ��� "����" (���������� ��� ������ ������������� ������� � ����)� �������� ������
-// � ���������, � ���������� � ����� ������������ �����
-
 #include<iostream>
 
 //Memory is allocated for BLOCK elements at once
@@ -14,21 +11,23 @@ namespace st_modul2 {
     template <class Elem>
     class Stack {
     private:
-        Elem* vec;
+
         //std::vector<Elem>* vec;
 
-        int topOfStack;
-        //size_t alloc_mem;
-        //node *topOfStack;
+
+            //size_t alloc_mem;
+            //node *topOfStack;
 
     public:
+        Elem* vec;
+        int topOfStack;
         Stack() {
             vec=0;
 
             topOfStack=-1;
         }//;
 // -------------------------------------
-        bool isEmpty(void)//
+            bool isEmpty(void)//
         {
             return (topOfStack<0);
         }
@@ -48,7 +47,7 @@ namespace st_modul2 {
                 std::cerr << "Error: ttop(Empty) \n";
                 exit(1);
             }
-            else {auto ret = vec[topOfStack]; destroy(); return ret;}
+            else {recClear(); auto ret = vec[topOfStack]; destroy(); return ret;}
         }
 
 //-------------------------------------
@@ -92,11 +91,27 @@ namespace st_modul2 {
             }
         }
 
+        void recClear()//recusrive clear
+        {
+
+            if (!vec) {
+                std::cerr << "Error: recClear(None) \n";
+                exit(1);
+            }
+            if(!this->isEmpty()){
+                pop();
+                recClear();
+            }
+
+
+        }
+
 
 
 //-------------------------------------
         void destroy(void)//Suicide
         {
+            recClear();
             topOfStack=0;
             if(vec)
             {

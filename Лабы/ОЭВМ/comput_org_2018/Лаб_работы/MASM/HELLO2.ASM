@@ -34,7 +34,7 @@ WriteMsg  PROC  NEAR
 WriteMsg  ENDP
 
 ; Головная процедура
-Main      PROC  FAR
+	Main      PROC  FAR
           ;mov   AX,DATA             ; Загрузка сегментного
           ;mov   DS,AX               ; регистра данных.
           mov   DX, OFFSET HELLO    ; Вывод на экран первой

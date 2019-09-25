@@ -46,14 +46,14 @@ void setOFile(ostream* ostr){
 
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName);	//Parses arguments. Returns 1 if program is to be closed
 char bracketPair(char b);
-char processStr(string str,int &i,int reclvl=0);
+int processStr(string str);
+//char processStr(string str,int &i,int reclvl=0);
 void printStr(string str);
 int input(string &inp);
 using namespace st_modul2;
 
 
 int main (int argc, char** argv ) {
-
     ///Variables
     string iFileName;
     string oFileName;
@@ -82,13 +82,14 @@ int main (int argc, char** argv ) {
         setIFile(&iFile);
     }
 
-    while(repeat || awto) {///Main inpit-process-output-out cycle
+    do
+    {///Main inpit-process-output-out cycle
 
         ///Input
 
         string str;
         printStr("\n");
-        if(!awto)printStr("Enter string:\n");
+        if(!awto)printStr("Enter bracket sequense:\n");
 
         if(input(str)){
             if(awto)return 0;
@@ -100,9 +101,9 @@ int main (int argc, char** argv ) {
         ///Processing with inter-results output
 
         printStr("Inter results:\n");
-        int i = 0;
-        char c = processStr(str, i);
-
+        //int i = 0;
+        int c = processStr(str);
+/*
         printStr("Result:\n");
         if (c == 0) {
             printStr("Correct!\n");
@@ -120,13 +121,13 @@ int main (int argc, char** argv ) {
             else {
                 printStr(str.substr(0, i + 1) + " <<ERROR HERE!" + "\n");
                 string o = "";
-                o += bracketPair(c);
+                o += c;//bracketPair(c);
                 string q = "";
                 q += str[i];
                 printStr("Expected '" + o + "' while got '" + q + "'");
             }
         }
-
+*/
         if(repeat){
             printStr("\nRepeat? [1-Yes|0-No]\n");
             cin.clear();
@@ -136,7 +137,10 @@ int main (int argc, char** argv ) {
             if (repeat)printStr("\n");
             else printStr("Good bye!\n");
         }
-    }
+
+    }while(repeat || awto);
+
+
 
     return (0);
 }
@@ -225,6 +229,64 @@ char bracketPair(char b){
     }
 }
 
+int processStr(string str){
+    Stack<char> s;
+    int len=str.length();
+    int pi=0;
+    for(int i=0;i<len;i++){
+        while(i<len && !isOpenBracket(str[i]) && !isCloseBracket(str[i]))i++;///Skip all none-brackets
+        if(isOpenBracket(str[i])) {///As we met open bracket...
+            s.push(str[i]);//push
+            pi=i;
+            for(int i=0; i<s.topOfStack;i++){///ECHO PUSH
+                string o="";o+=s.vec[i];
+                printStr(o+" ");
+            }
+            string o="";o+=s.top();
+            printStr("<< "+ o+"\n");
+        }else if(isCloseBracket(str[i])){///As we met close bracket...
+
+            if(s.isEmpty()){
+                ///ERR UNEXPECTED
+                printStr(str.substr(0, i + 1) + " <<ERROR HERE!" + "\n");
+                string o = "";
+                o += str[i];
+                printStr("Unexpected '" + o + "'\n");
+                s.destroy();
+                return 0;
+            }
+            if(s.top()==bracketPair(str[i])){///... korrekt bracket...
+                for(int i=0; i<s.topOfStack;i++){///ECHO POP
+                    string o="";o+=s.vec[i];
+                    printStr(o+" ");
+                }
+                string o="";o+=s.pop2();//pop
+                printStr(">> "+ o+" <"+str[i]+">\n");
+            }else{///wrong bracket
+                ///ERROR WRONG
+                printStr(str.substr(0, i + 1) + " <<ERROR HERE!" + "\n");
+                string o = "";
+                o += bracketPair(s.top());//bracketPair(c);
+                string q = "";
+                q += str[i];
+                printStr("Expected '" + o + "' while got '" + q + "'\n");
+                s.destroy();
+                return 0;
+            }
+        }
+    }
+    if(!s.isEmpty()){
+        ///ERROR LEFT
+        printStr(str.substr(0, pi + 1) + " <<ERROR HERE!" + "\n");
+        string o = "";
+        o += s.top();
+        printStr("Bracket '"+o+"' left unclosed\n");
+
+    }else{
+        printStr("Correct!\n");
+    }
+}
+/*
 char processStr(string str,int &i, int reclvl){
 
     int len=str.length();///Needed meny times
@@ -251,7 +313,7 @@ char processStr(string str,int &i, int reclvl){
             char c = processStr(str,i,reclvl+1);///
             if(c!=1&&c!=0)return bracketPair(c);///...we dive into next lvl recursion
         } else if(isCloseBracket(str[i])){///As we met close bracket...
-
+            if()
 
             if(!s.isEmpty()&&s.top()==bracketPair(str[i])){///... korrekt bracket...
 
@@ -281,7 +343,7 @@ char processStr(string str,int &i, int reclvl){
         }
     }
 }
-
+*/
 void printStr(string str){
     cout<<str;
     if(printToFile&&outFile&&(*outFile))(*outFile)<<str;
