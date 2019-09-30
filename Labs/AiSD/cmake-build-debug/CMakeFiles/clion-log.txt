@@ -1,0 +1,13 @@
+/home/anton/Documents/ummy/clion-2019.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Лабы/АиСД
+CMake Error at CMakeLists.txt:2 (project):
+  project PROJECT called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  The target name "4_Tree/Программы к лекции (бин
+  дер)/bt_implementation.cpp" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!

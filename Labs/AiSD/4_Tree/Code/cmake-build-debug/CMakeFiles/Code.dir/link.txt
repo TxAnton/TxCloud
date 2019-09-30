@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Code.dir/bt_implementation.cpp.o CMakeFiles/Code.dir/work_bt.cpp.o  -o Code 
