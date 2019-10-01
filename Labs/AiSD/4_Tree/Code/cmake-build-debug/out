@@ -1,0 +1,34 @@
+Enter tree sequense:
+Input: ( a ( s / / ) ( d / / ) ) 
+Bin tree flipped: 
+ a d
+   s
+Deepest level = 2
+Total tree lenght = 3
+Bit tree Rlr order: 
+asd
+Bin tree in lRr order: 
+sad
+Bin tree in lrR order: 
+sda
+Knots per 0 lvl = 0( a ( s / / ) ( d / / ) ) 
+
+Repeat? [1-Yes|0-No]
+
+Enter tree sequense:
+Input: ( z ( x / / ) ( c / / ) ) 
+Bin tree flipped: 
+ z c
+   x
+Deepest level = 2
+Total tree lenght = 3
+Bit tree Rlr order: 
+zxc
+Bin tree in lRr order: 
+xzc
+Bin tree in lrR order: 
+xcz
+Knots per 0 lvl = 0( z ( x / / ) ( c / / ) ) 
+
+Repeat? [1-Yes|0-No]
+Good bye!

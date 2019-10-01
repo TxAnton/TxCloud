@@ -7,5 +7,5 @@ include_directories(.)
 
 add_executable(Code
         bt_implementation.cpp
-        Btree.h
-        work_bt.cpp Btree_.h)
+        work_bt.cpp
+        Btree_.h)

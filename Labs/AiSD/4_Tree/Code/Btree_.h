@@ -10,155 +10,59 @@
 
 using namespace std;
 
-template <class Elem>
+template <class Elem>////Template class
 class BinaryTree
 {
 private:
-    struct binTree
+    struct binTree ///Core structure
     {
         binTree* left;
         binTree* right;
         Elem data;
-
-        //binTree()
-        //binTree(binTree* _left,binTree* _right,Elem _data){            left=_left;right=_right;data=_data;        }
-
     };
     binTree* root;
-    //constructor
+    ///constructor
 public:
-    BinaryTree()
+    BinaryTree()///Constructor
     {
         root =NULL;
     }
 
-    BinaryTree(binTree* _root)
+    BinaryTree(binTree* _root)///Constructor from ref
     {
         root =_root;
     }
 
-    BinaryTree(Elem _el,BinaryTree l,BinaryTree r)
+    BinaryTree(Elem _el,BinaryTree l,BinaryTree r)///Constructor from values
     {
-        root = new binTree;root->data=_el;root->left=l.root,root->right=r.root;//new binTree(_el,l.root,r.root);
+        root = new binTree;root->data=_el;root->left=l.root,root->right=r.root;///new binTree(_el,l.root,r.root);
     }
-    BinaryTree(Elem _el){
+    BinaryTree(Elem _el){///Constructor from root only
         root = new binTree;root->data=_el;root->left=NULL,root->right=NULL;
     }
 
-    //prototypes
-    bool isNull() const {return root == NULL;}
-    Elem RootBT(){
+    ///prototypes
+    bool isNull() const {return root == NULL;}///Empty tree
+    Elem RootBT(){///Root value
         if(this->isNull()){ cerr << "Error: RootBT(null) \n"; exit(1); }
         else return root->data;
     }
-    BinaryTree Left(){
+    BinaryTree Left(){///Return left branch
         if(this->isNull()){ cerr << "Error: RootBT(null) \n"; exit(1); }
-        else return BinaryTree(root->left);//*(new BinaryTree(root->left));
-    }
-    BinaryTree Right(){
+        else return BinaryTree(root->left);///*(new BinaryTree(root->left));
+        }
+    BinaryTree Right(){///Return right branch
         if(this->isNull()){ cerr << "Error: RootBT(null) \n"; exit(1); }
-        else return BinaryTree(root->right);//*(new BinaryTree(root->right));
+        else return BinaryTree(root->right);///*(new BinaryTree(root->right));
     }
 
-    void destroy(){
+    void destroy(){///Destroy this tree
         if(!isNull()){
             Left().destroy();
             Right().destroy();
             delete root;
         }
     }
-/*
-    static BinaryTree ConsBT(const Elem &x, BinaryTree lst, BinaryTree rst){
-        return new BinaryTree(x,lst,rst);
-    }
-*/
-    static BinaryTree Empty(){
-        return new BinaryTree<Elem>();
-    }
-
-/*
-    void print_inorder();
-    void inorder(binTree*);
-    void insert(int);
-    void search(int);
-    */
-
 };
-/*
-void BinaryTree :: search(int d)
-{
-    bool found = false;
-    if(isEmpty())
-    {
-        cout << "This tree is empty!" << endl;
-        return;
-    }
-    binTree* curr;
-    binTree* parent;
-    curr = root;
-    while (curr != NULL)
-    {
-        if(curr -> data ==d)
-        {
-            found  = true;
-            break;
-        }
-        else
-        {
-            parent = curr;
-            if(d> curr -> data) curr = curr -> right;
-            else curr = curr -> left;
-        }
-    }
-    if (!found)
-    {
-        cout <<"Data not found! " << endl;
-    }
-    else
-        cout << "Element " << d << " is found " << endl;
-}
-//place small values in left and larger values in right side
-//larger elements go right
-void BinaryTree :: insert(int d)
-{
-    binTree* t = new binTree;
-    binTree* parent;
-    t-> data = d;
-    t->left = NULL;
-    t->right = NULL;
-    //is this a new tree?
-    if(isEmpty()) root = t;
-    else
-    {
-        //Note : all insertions are as leaf noods
-        binTree* curr;
-        curr = root;
-        //Find the Node's parent
-        while(curr)
-        {
-            parent = curr;
-            if(t-> data > curr ->data) curr = curr ->right;
-            else curr = curr ->left;
-        }
-        if(t -> data < parent -> data)
-            parent -> left = t;
-        else
-            parent -> right = t;
-        cout << "Element " << d << " is inserted into tree " << endl;
-    }
-}
-//to display inorder
-void BinaryTree :: inorder(binTree* p)
-{
-    if( p != NULL)
-    {
-        if(p->left) inorder (p ->left);
-        cout << " " << p -> data << "  ";
-        if(p->right) inorder (p -> right);
-    }
-    else return;
-}
-
-*/
 
 #endif //CODE_BTREE__H

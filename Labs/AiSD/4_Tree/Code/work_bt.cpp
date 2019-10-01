@@ -1,4 +1,4 @@
-// Пример работы с АТД "Бинарное дерево" (в процедурно-модульной парадигме)
+// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ" (пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 #include <iostream>
 #include <fstream>
 #include <fstream>
@@ -90,67 +90,129 @@ void help(){
     cout<<"-o [file]\t output to file (\""<<DEFAULT_OFILE_NAME<<"\" by default)\n";
 
 }
+#define INS ( readFromFile?(*inFile):cin )
+//ifstream infile("KLP.txt");
 
-ifstream infile("KLP.txt");
+int main(int argc, char** argv) {
 
-int main() {
+    ///Variables
+    string iFileName;
+    string oFileName;
     BinaryTree<char> b;
+
+    ///WIN setup
 #ifdef _WIN32
-    //SetConsoleCP(1251);			// для вывода кирилицы
-    //SetConsoleOutputCP(1251);	// для вывода кирилицы
+    SetConsoleCP(1251);			// пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    SetConsoleOutputCP(1251);	// пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 #endif
 
-    if (_enterBT(b))return 1;
-    printStr("Bin tree in Rlr representation\n");
-    //printStr( "Bin tree in Rlr representation" << endl;
-    outBT(b);
+    ///Parce argsuments
+    if(parseArgs(argc,argv,iFileName,oFileName))exit(0);
 
+    ofstream oFile;
+    ifstream iFile;
 
-    printStr("Bin tree flipped: \n");
-    //printStr( "Bin tree flipped: " << endl;
-    displayBT(b, 1);
-    printStr("Deepest level = ");
-    printInt(hBT(b));
-    printStr("\n");
+    ///File management
+    if (printToFile){
+        oFile.open(oFileName,ios::out);
+        if(!oFile){
+            printStr("Cannot open file: "+oFileName+"\n");
+            exit(1);
+        }
+        setOFile(&oFile);
+    }
+    if (readFromFile) {
+        iFile.open(iFileName);
+        if (!iFile) {
+            printStr("Cannot open file: " + iFileName + "\n");
+            exit(1);
+        }
+        setIFile(&iFile);
+    }
 
-    printStr("Total tree lenght = ");
-    printInt(mBT(b));
-    printStr("\n");
+    do
+    {///Main inpit-process-output-out cycle
 
-    //printStr( "Tree's size (knot count)= " << sizeBT(b) << endl;
+        ///Input
 
-    printStr("Bit tree Rlr order: \n");
-    //printStr( "Bit tree Rlr order: " << endl;
-    printKLP(b);
-    printStr("\n");
-    //printStr("\n");
+        if(!awto)printStr("Enter tree sequense:\n");
 
-    printStr("\"Bin tree in lRr order: \n");
-    //printStr( "Bin tree in lRr order: " << endl;
-    printLKP(b);
-    printStr("\n");
+        if(_enterBT(b)){
+            if(INS.eof()){printStr("Input is over!\n");return 0;}
+            if(INS.fail()){printStr("Input stuck!\n");return 0;}
+            printStr("Wrong input data!\n");
+            continue;
+        }
+        printStr("Input: ");
+        _outBT(b);
+        printStr("\n");
 
-    printStr("Bin tree in lrR order: \n");
-    //printStr( "Bin tree in lrR order: " << endl;
-    printLPK(b);
-    printStr("\n");
+        ///Processing
 
-    printStr("Knots per ");
-    printInt(lvl);
-    printStr(" lvl = ");
-    printInt(knotsPerLvl(b, 4));
+        ///Representation
+        printStr("Bin tree flipped: \n");
+        //printStr( "Bin tree flipped: " << endl;
+        displayBT(b, 1);
 
-    //printStr( "(knot count)= " << knotsPerLvl(b, 4) << endl;
-    _outBT(b);
-    b.destroy();
+        ///REal processing
 
-    printStr("\n");
+        printStr("Deepest level = ");
+        printInt(hBT(b));
+        printStr("\n");
+
+        printStr("Total tree lenght = ");
+        printInt(mBT(b)-1);
+        printStr("\n");
+
+        //printStr( "Tree's size (knot count)= " << sizeBT(b) << endl;
+
+        printStr("Bit tree Rlr order: \n");
+        //printStr( "Bit tree Rlr order: " << endl;
+        printKLP(b);
+        printStr("\n");
+        //printStr("\n");
+
+        printStr("Bin tree in lRr order: \n");
+        //printStr( "Bin tree in lRr order: " << endl;
+        printLKP(b);
+        printStr("\n");
+
+        printStr("Bin tree in lrR order: \n");
+        //printStr( "Bin tree in lrR order: " << endl;
+        printLPK(b);
+        printStr("\n");
+
+        ///Dat is optional
+        if(printLvl){
+            printStr("Knots per ");
+            printInt(lvl);
+            printStr(" lvl = ");
+            printInt(knotsPerLvl(b, lvl));
+            printStr("\n");
+        }
+
+        b.destroy();
+
+        printStr("\n");
+
+        ///Repeat condition
+        if(repeat){
+            printStr("\nRepeat? [1-Yes|0-No]\n");
+            cin.clear();
+            int t;
+            cin >> t;
+            repeat = t;
+            if (repeat)printStr("\n");
+            else printStr("Good bye!\n");
+        }
+
+    }while(repeat || awto);
     return (0);
 }
 
 //---------------------------------------
-#define INS ( readFromFile?(*inFile):cin )
 
+///Read tree expression. Called from _enterBT
 int _readExpr(BinaryTree<char> &b) {
     // BinaryTree<char> b;
     char ch;
@@ -159,7 +221,7 @@ int _readExpr(BinaryTree<char> &b) {
     BinaryTree<char> r;
     INS >> ch;
     while (ch == ' ')INS >> ch;
-    if (ch == ')') { b = BinaryTree<char>(); }
+    if (ch == ')') { b = BinaryTree<char>();return 0; }
 
     root = ch;
 
@@ -197,6 +259,7 @@ int _readExpr(BinaryTree<char> &b) {
 
 }
 
+///User function for tree reading
 int _enterBT(BinaryTree<char> &b) {
 
     char ch;
@@ -215,7 +278,7 @@ int _enterBT(BinaryTree<char> &b) {
 BinaryTree<char> enterBT() {
     char ch;
     BinaryTree<char> p, q;
-    infile >> ch;
+    INS >> ch;
     if (ch == '/') return BinaryTree<char>();//*(new BinaryTree<char>());
     else {
         p = enterBT();
@@ -225,6 +288,7 @@ BinaryTree<char> enterBT() {
 }
 
 //---------------------------------------
+///Prints formatted string tree
 void _outBT(BinaryTree<char> b) {
     if (!b.isNull()) {
         //if(b.Left().isNull() && b.Right().isNull()){cout<<b.RootBT()<<" ";return;}
@@ -245,19 +309,20 @@ void outBT(BinaryTree<char> b) {
 }
 
 //---------------------------------------
-void displayBT(BinaryTree<char> b, int n) {    // n - уровень узла
+void displayBT(BinaryTree<char> b, int n) {    // n - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     if (!b.isNull()) {
         printStr( " ");printChar(b.RootBT());
         if (!b.Right().isNull()) { displayBT(b.Right(), n + 1); }
-        else printStr("\n"); // вниз
+        else printStr("\n"); // пїЅпїЅпїЅпїЅ
         if (!b.Left().isNull()) {
-            for (int i = 1; i <= n; i++) printStr( "  "); // вправо
+            for (int i = 1; i <= n; i++) printStr( "  "); // пїЅпїЅпїЅпїЅпїЅпїЅ
             displayBT(b.Left(), n + 1);
         }
     } else {};
 }
 
 //---------------------------------------
+///Main task stuff
 unInt hBT(BinaryTree<char> b) {
     if (b.isNull()) return 0;
     else return max(hBT(b.Left()), hBT(b.Right())) + 1;
@@ -284,6 +349,7 @@ unInt knotsPerLvl(BinaryTree<char> b, int lvl) {
 
 
 //---------------------------------------
+///Utility stuff
 unInt sizeBT(BinaryTree<char> b) {
     if (b.isNull()) return 0;
     else return sizeBT(b.Left()) + sizeBT(b.Right()) + 1;

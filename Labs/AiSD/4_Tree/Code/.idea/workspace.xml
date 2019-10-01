@@ -12,389 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d215a9-4304-4bbe-be34-347e7970c0e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Code/.idea/Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Code/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/CM/.~lock.Larin_Anton_cm_21_1.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/CM/.~lock.Larin_Anton_cm_21_1_1.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/CM/LAB1(1).EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/CM/Larin_Anton_cm_21_1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/CM/Larin_Anton_cm_21_1_1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/1_1/Kartinka.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/1_1/larin_Anton_fiz_21_1_1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/1_1/larin_Anton_fiz_21_1_1.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicAtomFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicDifrFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicGeomFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicInterfFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicKvantFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicPolyarizFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphicTeplFKTI.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/GraphiclabFKTI2019.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiAtomnaya.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiDifr.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiGeom.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiInterfer.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiKvantOptic.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiPolyarize.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Grafiki/VoprosiTeplIzl.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/Experiment2004.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/Experiment2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/Lab18plus.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/Lab19plus.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/LabRaboti1_15.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/LabRabotiDopolnitelniye.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/ListLabs.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/UprajneniyaOptics.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzdifraction.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzeplovoeizluchenie.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzgeom.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzinterference.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzkvantsvet.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/idzpolarization.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/lab16.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Methodichki/lab17.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Fizziks/Titulnikfizika.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/Ряды Фурье.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/Ряды.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/дз_струна_.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/дз_числ_ряды.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/задание_р_Ф.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/пример_дз_струна.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/Mathan/усл_дз_ряд_Ф_18.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Code.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Code.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Larin_Anton_AiSD_21_1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Larin_Anton_AiSD_21_1.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/main (backup).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Из Уч пособия Рекурсия(1).doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/1_Recursion/Требования к лаб_р 2019АиСД(1).doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/.~lock.Larin_Anton_AiSD_21_2.doc#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Larin_Anton_AiSD_21_1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Larin_Anton_AiSD_21_2.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/.idea/Src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/l_impl_.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/l_mod1_.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/Src.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/Src" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/Src.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/cmake-build-debug/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_impl_.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_intrfc_.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_intrfc_.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_mod1_.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_mod1_.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/l_mod1_.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Src/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/АиСД лаб.2 вар. 28-33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Задания 2(1).docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1).7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/1/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/1/in_list.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/1/lisp_list1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_impl.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_impl_.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_intrfc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_intrfc_.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_intrfc_.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_mod1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_mod1_.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/2_IerarchList/Можно использовать во 2-ой работе(1)/2/l_mod1_.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/.~lock.2СтекОчДек1.rtf#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/.~lock.Larin_Anton_AiSD_21_3.odt#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/2СтекОчДек1.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/Code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.vs/Code/v15/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.vs/Code/v15/Browse.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/main2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/Code" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/Code.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/main2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/st_interf2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Code/st_interf2.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Larin_Anton_AiSD_21_3.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/АиСД лаб5сорт.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/К" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/1/main1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/1/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/1/st_impl1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/1/st_interf1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/2/main2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/2/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/2/st_interf2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/3/main3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/3/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/3/st_implementation3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/3/st_interface3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/5/postfix.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/5/postfix0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/5/postfix_calc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/3_StackQueue/Можно использовать в 3-ей работе/5/st_templ.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/АиСД деревья.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Лекция 05 1 Деревья.7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/АиСД/4_Tree/Программы к лекции (бин дер).rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/.~lock.Larin_Anton_8383_EVM_21_1.doc#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/3004_1_ShABLON-lab.r..doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/AsmHelp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Kalashnikov_Assembler.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/.~lock.Larin_Anton_OEVM_21_1.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/1/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/2/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/CYCLE2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/HELLO1.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/HELLO2.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/INIT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/LINK1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/Larin_Anton_OEVM_21_1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/Larin_Anton_OEVM_21_1.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/MASM 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_1/RESULT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/.~lock.Larin_Anton_OEVM_21_2_.odt#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/1ERRS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/2NOERR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/3ERFOLG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/FIN.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/INIT.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/LR2_comp.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/LR2_comp_INIT.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/Larin_Anton_OEVM_21_2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/Larin_Anton_OEVM_21_2.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/Larin_Anton_OEVM_21_2_.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_2/Larin_Anton_OEVM_21_2_.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/.~lock.Larin_Anton_OEVM_21_2_.odt#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/LR3.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/LR3.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/LR3.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/Larin_Anton_OEVM_21_3.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/Untitled Folder/LR3.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/Untitled Folder/LR3.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_8383_EVM_21_3/Untitled Folder/LR3.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/Larin_Anton_AiSD_21_1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/EQ2018_Comp_Org.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/EQ2018_Comp_Org_real.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/.~lock.Мет_указ_ЛР_ОргКомп.rtf#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/.~lock.вопросы к лаб_раб_асс.doc#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/3.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/3.asm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/AFD.COM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/HELLO1.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/HELLO2 (copy).ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/HELLO2.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/HELLO2.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LIB.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LINK.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR2_CO~1.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR2_comp_.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR3.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR3.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR3.LST" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LR3.OBJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/LST.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/MASM/MASM.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/ACOSASIN.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/ATAN2.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/COSH.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/FL_PNT.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/FREXP.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/HYPOT.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/LDEXP.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/MODF.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/POLY.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/POLYL.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/SINH.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/FLOW_PNT/TANH.CAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/HELLO1.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/HELLO2.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/IX86FULL.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/IX86_COM.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR1_comp.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR2.DAT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR2_comp.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR3_comp.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR4_comp.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR6_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR7_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR8_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/LR9_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/C/RANDOM.CPP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/C/RANDOM.H" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/PASCAL/GAUSS.PAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/PASCAL/PR1_RND.PAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/PASCAL/PROB_RND.PAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/PASCAL/PROV_NOR.PAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/RAND_GEN/PASCAL/RANDOM.PAS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/lr2_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Задания/lr5_comp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/Мет_указ_ЛР_ОргКомп.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/вопросы к лаб_раб_асс.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Лаб_работы/ссылка_опис_обработка_звука.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/.~lock.Ассемблер и программирование для IBM PC_Ершов.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL00.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL01.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL02.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL03.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL04.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL05.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL06.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL07.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL08.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL09.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL10.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL11.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL12.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL13.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL14.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL15.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL16.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL17.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL18.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL19.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL20.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL21.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL22.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABEL23.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABELAPP.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABELFIG1.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABELFIG2.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/ABELFIG3.TXT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ABEL_учебник/FILE_ID.DIZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/harris_devid_m_harris_sara_l_cifrovaya_shemotehnika_i_arhite.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/jmakin_Architecture_EOM.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Ассемблер и программирование для IBM PC_Ершов.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/RAID - массивы.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Архитектура ARM.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Доп_лекции_внешние/Лекция1_арх_комп.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Доп_лекции_внешние/Лекция2_жесткие_диски.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Доп_лекции_внешние/Лекция3_оптич_диски.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Доп_лекции_внешние/Лекция4_видеоадапт.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/Доп_лекции_внешние/Лекция5_Шины.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Доп_материалы/КСНК.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Прерывание  INT21h_состав функций.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Прерывания_братья Фроловы.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Таблица_прерываний_ДОС.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/Уч_пос_АрхКомп_2017.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Лабы/ОЭВМ/comput_org_2018/Теория/ФУНКЦИИ ПРЕРЫВАНИЯ DOS INT 21H_для студентов.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Btree_.h" beforeDir="false" afterPath="$PROJECT_DIR$/Btree_.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Code" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Code.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Code.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_bt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work_bt.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -408,28 +36,51 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Btree_.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="443">
+              <caret line="45" column="31" lean-forward="true" selection-end-line="68" />
               <folding>
-                <element signature="e#84#103#0" expanded="true" />
-                <element signature="e#155#167#0" expanded="true" />
+                <element signature="e#87#106#0" expanded="true" />
+                <element signature="e#158#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_bt.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+            <state relative-caret-position="487">
+              <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
               <folding>
                 <element signature="e#76#95#0" expanded="true" />
-                <element signature="e#1158#1256#0" expanded="true" />
+                <element signature="e#2329#2430#0" expanded="true" />
+                <element signature="e#6270#6525#0" />
+                <element signature="e#6580#6914#1" />
+                <element signature="e#7142#7549#1" />
+                <element signature="e#7593#7712#1" />
+                <element signature="e#7703#7820#0" />
+                <element signature="e#7822#8141#0" />
+                <element signature="e#8197#8321#1" />
+                <element signature="e#8365#8520#1" />
+                <element signature="e#8564#8719#1" />
+                <element signature="e#8763#8918#1" />
+                <element signature="e#9043#9143#1" />
+                <element signature="e#9134#9231#0" />
+                <element signature="e#9233#9332#0" />
+                <element signature="e#9334#11142#0" />
               </folding>
             </state>
           </provider>
@@ -439,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/KLP.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+              <caret selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -447,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/KLP.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -467,6 +118,7 @@
       <find>cout &lt;&lt; endl;</find>
       <find>Root</find>
       <find>RootBT</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace>binTree</replace>
@@ -475,6 +127,7 @@
       <replace>b.Right()</replace>
       <replace>printStr(&quot;\n&quot;);</replace>
       <replace>printStr(</replace>
+      <replace>///</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -484,9 +137,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/KLP.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Btree_.h" />
-        <option value="$PROJECT_DIR$/work_bt.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/KLP.txt" />
+        <option value="$PROJECT_DIR$/work_bt.cpp" />
       </list>
     </option>
   </component>
@@ -498,16 +152,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2715" />
-    <option name="width" value="949" />
-    <option name="height" value="1050" />
+    <option name="width" value="959" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectId" id="1RVIg04Ml7UfsTkAnc5p8YKkJc3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -519,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,7 +196,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
+    <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-r -l 3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -561,35 +215,39 @@
       <workItem from="1569745966564" duration="870000" />
       <workItem from="1569746920541" duration="3566000" />
       <workItem from="1569856427242" duration="19264000" />
+      <workItem from="1569930166958" duration="1220000" />
+      <workItem from="1569933766301" duration="2375000" />
+      <workItem from="1569963805309" duration="6996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19264000" />
+    <option name="totallyTimeSpent" value="29855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120064035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.31903765" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22521552" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.31788793" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,13 +296,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>102</line>
-          <option name="timeStamp" value="4" />
+          <line>79</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>79</line>
-          <option name="timeStamp" value="7" />
+          <line>189</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/work_bt.cpp</url>
+          <line>163</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/work_bt.cpp</url>
+          <line>137</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -681,38 +349,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work_bt.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
-          <folding>
-            <element signature="e#76#95#0" expanded="true" />
-            <element signature="e#1158#1256#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KLP.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <caret selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/KLP.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Btree_.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="443">
+          <caret line="45" column="31" lean-forward="true" selection-end-line="68" />
           <folding>
-            <element signature="e#84#103#0" expanded="true" />
-            <element signature="e#155#167#0" expanded="true" />
+            <element signature="e#87#106#0" expanded="true" />
+            <element signature="e#158#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_bt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+            <element signature="e#2329#2430#0" expanded="true" />
+            <element signature="e#6270#6525#0" />
+            <element signature="e#6580#6914#1" />
+            <element signature="e#7142#7549#1" />
+            <element signature="e#7593#7712#1" />
+            <element signature="e#7703#7820#0" />
+            <element signature="e#7822#8141#0" />
+            <element signature="e#8197#8321#1" />
+            <element signature="e#8365#8520#1" />
+            <element signature="e#8564#8719#1" />
+            <element signature="e#8763#8918#1" />
+            <element signature="e#9043#9143#1" />
+            <element signature="e#9134#9231#0" />
+            <element signature="e#9233#9332#0" />
+            <element signature="e#9334#11142#0" />
           </folding>
         </state>
       </provider>
