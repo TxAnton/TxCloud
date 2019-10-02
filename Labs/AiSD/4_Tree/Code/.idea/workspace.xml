@@ -12,17 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d215a9-4304-4bbe-be34-347e7970c0e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_StackQueue/.~lock.Larin_Anton_AiSD_21_3.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_StackQueue/Larin_Anton_AiSD_21_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_StackQueue/Larin_Anton_AiSD_21_3.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.АиСД деревья.doc#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Btree_.h" beforeDir="false" afterPath="$PROJECT_DIR$/Btree_.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KLP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KLP.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Code" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Code.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Code.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_bt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work_bt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Larin_Anton_AiSD_21_4.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../Larin_Anton_AiSD_21_4.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/Borland C++.ver.3.1(Portable).English/TCDEF.DSK" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/Borland C++.ver.3.1(Portable).English/TCDEF.DSK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTEST.OBJ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.LST" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.OBJ" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Btree_.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="45" column="31" lean-forward="true" selection-end-line="68" />
-              <folding>
-                <element signature="e#87#106#0" expanded="true" />
-                <element signature="e#158#170#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -62,26 +62,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_bt.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+            <state relative-caret-position="474">
+              <caret line="417" column="25" selection-start-line="417" selection-start-column="25" selection-end-line="417" selection-end-column="25" />
               <folding>
                 <element signature="e#76#95#0" expanded="true" />
-                <element signature="e#2329#2430#0" expanded="true" />
-                <element signature="e#6270#6525#0" />
-                <element signature="e#6580#6914#1" />
-                <element signature="e#7142#7549#1" />
-                <element signature="e#7593#7712#1" />
-                <element signature="e#7703#7820#0" />
-                <element signature="e#7822#8141#0" />
-                <element signature="e#8197#8321#1" />
-                <element signature="e#8365#8520#1" />
-                <element signature="e#8564#8719#1" />
-                <element signature="e#8763#8918#1" />
-                <element signature="e#9043#9143#1" />
-                <element signature="e#9134#9231#0" />
-                <element signature="e#9233#9332#0" />
-                <element signature="e#9334#11142#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_algobase.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3960">
+              <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -90,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/KLP.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="24" />
+              <caret selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -98,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/KLP.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -151,9 +145,10 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1051" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectId" id="1RVIg04Ml7UfsTkAnc5p8YKkJc3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +191,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-r -l 3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
+    <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-l 3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -217,23 +212,25 @@
       <workItem from="1569856427242" duration="19264000" />
       <workItem from="1569930166958" duration="1220000" />
       <workItem from="1569933766301" duration="2375000" />
-      <workItem from="1569963805309" duration="6996000" />
+      <workItem from="1569963805309" duration="7186000" />
+      <workItem from="1570001213774" duration="3889000" />
+      <workItem from="1570038656891" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29855000" />
+    <option name="totallyTimeSpent" value="34002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
+    <frame x="961" y="0" width="959" height="1052" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26396495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22521552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22545847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,23 +293,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>79</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>189</line>
+          <line>194</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>163</line>
+          <line>165</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/work_bt.cpp</url>
-          <line>137</line>
+          <line>139</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/work_bt.cpp</url>
+          <line>340</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -349,59 +346,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Btree_.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KLP.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="24" />
+          <caret selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/KLP.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Btree_.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="45" column="31" lean-forward="true" selection-end-line="68" />
-          <folding>
-            <element signature="e#87#106#0" expanded="true" />
-            <element signature="e#158#170#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work_bt.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="106" column="6" lean-forward="true" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
+        <state relative-caret-position="474">
+          <caret line="417" column="25" selection-start-line="417" selection-start-column="25" selection-end-line="417" selection-end-column="25" />
           <folding>
             <element signature="e#76#95#0" expanded="true" />
-            <element signature="e#2329#2430#0" expanded="true" />
-            <element signature="e#6270#6525#0" />
-            <element signature="e#6580#6914#1" />
-            <element signature="e#7142#7549#1" />
-            <element signature="e#7593#7712#1" />
-            <element signature="e#7703#7820#0" />
-            <element signature="e#7822#8141#0" />
-            <element signature="e#8197#8321#1" />
-            <element signature="e#8365#8520#1" />
-            <element signature="e#8564#8719#1" />
-            <element signature="e#8763#8918#1" />
-            <element signature="e#9043#9143#1" />
-            <element signature="e#9134#9231#0" />
-            <element signature="e#9233#9332#0" />
-            <element signature="e#9334#11142#0" />
           </folding>
         </state>
       </provider>

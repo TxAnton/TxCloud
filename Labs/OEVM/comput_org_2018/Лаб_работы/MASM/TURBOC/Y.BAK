@@ -1,0 +1,12 @@
+#include<stdio.h>
+#define N 20
+
+int main(){
+	char str[N];
+	gets(str);
+	printf("%s",str);
+asm{
+mov str[1] 49;
+};
+	
+}

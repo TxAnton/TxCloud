@@ -36,6 +36,8 @@ void setOFile(ostream* ostr){
     outFile=ostr;
 }
 
+int _max(int a, int b){return a>b?a:b;}
+
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName);	//Parses arguments. Returns 1 if program is to be closed
 
 void printStr(string str);
@@ -58,27 +60,27 @@ BinaryTree<char> ConsBT(const char &x) {
 
 BinaryTree<char> enterBT();
 
-int _enterBT(BinaryTree<char> &b);
+int _enterBT(BinaryTree<char> &b);//Input
 
-void outBT(BinaryTree<char> b);
+void _outBT(BinaryTree<char> b);//Formatter str tree output
 
-void _outBT(BinaryTree<char> b);
+void displayBT(BinaryTree<char> b, int n);//Fancy tree graph
 
-void displayBT(BinaryTree<char> b, int n);
+unInt hBT(BinaryTree<char> b,int reclvl=0);//Max depth(hight)
 
-unInt hBT(BinaryTree<char> b);
+unInt mBT(BinaryTree<char> b,int reclvl=0);//Summ of all knot-to-root pathes
 
-unInt mBT(BinaryTree<char> b);
+unInt sizeBT(BinaryTree<char> b);//Size thes BinTree
 
-unInt sizeBT(BinaryTree<char> b);
+void printKLP(BinaryTree<char> b);//Print tree Rlr
 
-void printKLP(BinaryTree<char> b);
+void printLKP(BinaryTree<char> b);//Print tree lRr
 
-void printLKP(BinaryTree<char> b);
+void printLPK(BinaryTree<char> b);//Print tree lrR
 
-void printLPK(BinaryTree<char> b);
+unInt knotsPerLvl(BinaryTree<char> b, int lvl);//Calculates knots per given level
 
-unInt knotsPerLvl(BinaryTree<char> b, int lvl);
+void printLeaves(BinaryTree<char> b,int reclvl=0);//Prints leaves in lr order
 
 void help(){
 
@@ -156,16 +158,16 @@ int main(int argc, char** argv) {
 
         ///REal processing
 
-        printStr("Deepest level = ");
+        printStr("Deepest level = \n");
         printInt(hBT(b));
         printStr("\n");
 
-        printStr("Total tree lenght = ");
-        printInt(mBT(b)-1);
+        printStr("Total tree lenght = \n");
+        printInt(mBT(b));
         printStr("\n");
 
         //printStr( "Tree's size (knot count)= " << sizeBT(b) << endl;
-
+/*
         printStr("Bit tree Rlr order: \n");
         //printStr( "Bit tree Rlr order: " << endl;
         printKLP(b);
@@ -181,7 +183,10 @@ int main(int argc, char** argv) {
         //printStr( "Bin tree in lrR order: " << endl;
         printLPK(b);
         printStr("\n");
-
+*/
+        printStr("Leaves in lr order: \n");
+        printLeaves(b);
+        printStr("\n");
         ///Dat is optional
         if(printLvl){
             printStr("Knots per ");
@@ -219,10 +224,12 @@ int _readExpr(BinaryTree<char> &b) {
     char root;
     BinaryTree<char> l;
     BinaryTree<char> r;
+
+    ///Read before first
     INS >> ch;
     while (ch == ' ')INS >> ch;
     if (ch == ')') { b = BinaryTree<char>();return 0; }
-
+    ///Read root
     root = ch;
 
     INS >> ch;
@@ -231,7 +238,7 @@ int _readExpr(BinaryTree<char> &b) {
         b = BinaryTree<char>(root);
         return 0;
     }
-
+    ///Read left
     if (ch == '(') { if (_readExpr(l)) return 1; }
     else if (ch == '/')l = BinaryTree<char>();// *(new BinaryTree<char>());
     else l = ConsBT(ch);
@@ -242,11 +249,11 @@ int _readExpr(BinaryTree<char> &b) {
         b = BinaryTree<char>(root, l, BinaryTree<char>());
         return 0;
     }
-
+    ///Read right
     if (ch == '(') { if (_readExpr(r)) return 1; }
     else if (ch == '/')r = BinaryTree<char>();// *(new BinaryTree<char>());
     else r = ConsBT(ch);
-
+    ///Read to the end
     INS >> ch;
     while (ch == ' ')INS >> ch;
     if (ch == ')') {
@@ -274,22 +281,22 @@ int _enterBT(BinaryTree<char> &b) {
 
 
 }
-
+/*
 BinaryTree<char> enterBT() {
     char ch;
     BinaryTree<char> p, q;
     INS >> ch;
-    if (ch == '/') return BinaryTree<char>();//*(new BinaryTree<char>());
+    if (ch == '/') return BinaryTree<char>();
     else {
         p = enterBT();
         q = enterBT();
         return ConsBT(ch, p, q);
     }
-}
+}*/
 
 //---------------------------------------
-///Prints formatted string tree
-void _outBT(BinaryTree<char> b) {
+
+void _outBT(BinaryTree<char> b) {///Prints formatted string tree
     if (!b.isNull()) {
         //if(b.Left().isNull() && b.Right().isNull()){cout<<b.RootBT()<<" ";return;}
         printStr( "( ");
@@ -300,16 +307,9 @@ void _outBT(BinaryTree<char> b) {
     } else printStr( "/ ");
 }
 
-void outBT(BinaryTree<char> b) {
-    if (!b.isNull()) {
-        printChar( b.RootBT());//b.RootBT()
-        _outBT(b.Left());
-        _outBT(b.Right());
-    } else printStr( "/ ");
-}
 
 //---------------------------------------
-void displayBT(BinaryTree<char> b, int n) {    // n - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+void displayBT(BinaryTree<char> b, int n) {///Prints graphic tree
     if (!b.isNull()) {
         printStr( " ");printChar(b.RootBT());
         if (!b.Right().isNull()) { displayBT(b.Right(), n + 1); }
@@ -323,31 +323,64 @@ void displayBT(BinaryTree<char> b, int n) {    // n - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï
 
 //---------------------------------------
 ///Main task stuff
-unInt hBT(BinaryTree<char> b) {
+unInt hBT(BinaryTree<char> b,int reclvl) {///Find hight
     if (b.isNull()) return 0;
-    else return max(hBT(b.Left()), hBT(b.Right())) + 1;
+    else {
+        ///Takes biggest hight of two branches
+        int c =max(hBT(b.Left(),reclvl+1), hBT(b.Right(),reclvl+1)) + 1;
+        ///Echoing
+        for (int i = 0; i < reclvl; ++i) {printStr("\t");}
+        printInt(c);
+        printStr("\n");
+        ///This would be it
+        return c;
+    }
 }
 
-unInt mBT(BinaryTree<char> b) {
+unInt mBT(BinaryTree<char> b, int reclvl) {
     if (b.isNull()) return 0;
-    else return (hBT(b.Left()) + hBT(b.Right())) + 1;
+    else {
+        ///Takes summ of branches's deepnesses + self's
+        int l=mBT(b.Left(),reclvl+1);
+        int r=mBT(b.Right(),reclvl+1);
+        int c =(l + r + reclvl);
+        ///Echoing
+        for (int i = 0; i < reclvl; ++i) {printStr("\t");}
+        printInt(c);
+        printStr("\n");
+        ///This would'ge'n be it as well
+        return c;
+    }
 }
 
 unInt knotsPerLvl(BinaryTree<char> b, int lvl) {
+    ///Precautions
     if (lvl < 1)return 0;
+    ///Decrease for counting
     lvl--;
     if (!b.isNull()) {
-        if (!lvl) return 1;
+        if (!lvl) return 1;/// If zero - we found one
         else {
             int c1;
+            ///Take all needed knots
             c1 = knotsPerLvl(b.Left(), lvl);
+            ///From both branches
             c1 += knotsPerLvl(b.Right(), lvl);
             return c1;
         }
     } else return 0;
 }
 
-
+void printLeaves(BinaryTree<char> b,int reclvl) {///Prints all leaves lr
+    if (b.isNull()) return;
+    else {
+        //If this is a leave
+        if(b.Left().isNull()&&b.Right().isNull()) {printChar(b.RootBT());printStr(" ");}
+        printLeaves(b.Left(),reclvl+1);
+        printLeaves(b.Right(),reclvl+1);
+        return;
+    }
+}
 //---------------------------------------
 ///Utility stuff
 unInt sizeBT(BinaryTree<char> b) {
