@@ -95,15 +95,13 @@ namespace st_modul2 {
         {
 
             if (!vec) {
-                std::cerr << "Error: recClear(None) \n";
-                exit(1);
+                return;
             }
             if(!this->isEmpty()){
                 pop();
                 recClear();
             }
-
-
+            return;
         }
 
 

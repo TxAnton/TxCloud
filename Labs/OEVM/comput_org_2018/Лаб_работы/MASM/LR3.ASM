@@ -53,7 +53,7 @@ f1_2:					;else (6i-10)
 	mov ax,VARI			;ax = i
 	shl ax,1			;ax *= 2
 	add ax,bx			;ax += bx	(ax = 6i)
-	sub ax,10			;ax -= 10
+	sub ax,10			;ax -= 8 ;NOPE 10 - 8
 	push ax				;ret ax
 	jmp f1_c
 	
@@ -83,7 +83,7 @@ f2_1:   				;then -(6i + 8) = (-6i - 8)
 	add ax,bx			;ax += bx	(ax = 6i)
 	sub bx,bx			;bx = 0
 	sub bx,ax			;bx = -ax	(bx = -6i)
-	sub bx,8			;bx -= 8
+	add bx,8			;bx += 8
 	push bx				;ret bx
 
 	jmp f2_c
@@ -95,7 +95,7 @@ f2_2:					;else 9-3(i-1) = -3i + 12
 	sub bx,ax			;bx = -ax	(bx = -3i)
 	add bx,12			;bx += 12
 	push bx				;ret bx
-	jmp f2_c
+	jmp f2_c				;NOPE hwat?? f2_c - f2_1
 f2_c:
 	jmp f2_end
 	
@@ -108,7 +108,7 @@ f3: ;dw f3(VARI1,VARI2,VARK)
 f3_2:					;else min(i1,i2)
 	mov ax,VARI1			;ax = i1
 	cmp ax,VARI2		;cmp i1,i2
-	jg f3_2_c			;unless quiri1 > i2
+	jl f3_2_c			;unless quiri1 > i2 ; NOPE jl-jg
 	push ax				;ret i2
 	jmp f3_c
 f3_2_c:					;else
@@ -118,7 +118,7 @@ f3_1:   				;then abs(i1+i2)
 	mov ax,VARI1			;ax = i1
 	add ax,VARI2			;ax += i2 (ax = i1 + i2)
 	cmp ax,0			;cmp i1+i2,0
-	jnl	f3_1_c			;unless ax >= 0
+	jnl	f3_1_c			;unless ax >= 0 NOPE jnl-jng
 	neg ax				;neg ax
 f3_1_c:					;else dont			
 	push ax				;ret ax

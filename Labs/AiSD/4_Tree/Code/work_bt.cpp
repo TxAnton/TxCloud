@@ -1,4 +1,3 @@
-// ������ ������ � ��� "�������� ������" (� ����������-��������� ���������)
 #include <iostream>
 #include <fstream>
 #include <fstream>
@@ -58,7 +57,7 @@ BinaryTree<char> ConsBT(const char &x) {
     return BinaryTree<char>(x);//*(new BinaryTree<char>(x));
 }
 
-BinaryTree<char> enterBT();
+
 
 int _enterBT(BinaryTree<char> &b);//Input
 
@@ -104,8 +103,8 @@ int main(int argc, char** argv) {
 
     ///WIN setup
 #ifdef _WIN32
-    SetConsoleCP(1251);			// ��� ������ ��������
-    SetConsoleOutputCP(1251);	// ��� ������ ��������
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 #endif
 
     ///Parce argsuments
@@ -153,7 +152,6 @@ int main(int argc, char** argv) {
 
         ///Representation
         printStr("Bin tree flipped: \n");
-        //printStr( "Bin tree flipped: " << endl;
         displayBT(b, 1);
 
         ///REal processing
@@ -267,7 +265,7 @@ int _readExpr(BinaryTree<char> &b) {
 }
 
 ///User function for tree reading
-int _enterBT(BinaryTree<char> &b) {
+int _enterBT(BinaryTree<char> &b) {//Input
 
     char ch;
     INS >> ch;
@@ -313,9 +311,9 @@ void displayBT(BinaryTree<char> b, int n) {///Prints graphic tree
     if (!b.isNull()) {
         printStr( " ");printChar(b.RootBT());
         if (!b.Right().isNull()) { displayBT(b.Right(), n + 1); }
-        else printStr("\n"); // ����
+        else printStr("\n");
         if (!b.Left().isNull()) {
-            for (int i = 1; i <= n; i++) printStr( "  "); // ������
+            for (int i = 1; i <= n; i++) printStr( "  ");
             displayBT(b.Left(), n + 1);
         }
     } else {};
@@ -326,7 +324,7 @@ void displayBT(BinaryTree<char> b, int n) {///Prints graphic tree
 unInt hBT(BinaryTree<char> b,int reclvl) {///Find hight
     if (b.isNull()) return 0;
     else {
-        ///Takes biggest hight of two branches
+        ///Takes highest of two branches
         int c =max(hBT(b.Left(),reclvl+1), hBT(b.Right(),reclvl+1)) + 1;
         ///Echoing
         for (int i = 0; i < reclvl; ++i) {printStr("\t");}
@@ -337,29 +335,29 @@ unInt hBT(BinaryTree<char> b,int reclvl) {///Find hight
     }
 }
 
-unInt mBT(BinaryTree<char> b, int reclvl) {
+unInt mBT(BinaryTree<char> b, int reclvl) {///Summ of all knot-to-root pathes
     if (b.isNull()) return 0;
     else {
         ///Takes summ of branches's deepnesses + self's
-        int l=mBT(b.Left(),reclvl+1);
-        int r=mBT(b.Right(),reclvl+1);
-        int c =(l + r + reclvl);
+        int l=mBT(b.Left(),reclvl+1);///Summ by left branch
+        int r=mBT(b.Right(),reclvl+1);///Summ by right branch
+        int c =(l + r + reclvl);///Summ  of summs + self
         ///Echoing
         for (int i = 0; i < reclvl; ++i) {printStr("\t");}
         printInt(c);
         printStr("\n");
-        ///This would'ge'n be it as well
+        ///This would'ge'n' be it as well
         return c;
     }
 }
 
-unInt knotsPerLvl(BinaryTree<char> b, int lvl) {
+unInt knotsPerLvl(BinaryTree<char> b, int lvl) {//Calculates knots per given level
     ///Precautions
     if (lvl < 1)return 0;
     ///Decrease for counting
     lvl--;
     if (!b.isNull()) {
-        if (!lvl) return 1;/// If zero - we found one
+        if (!lvl) return 1;/// If zero - we found one knot
         else {
             int c1;
             ///Take all needed knots
@@ -375,8 +373,10 @@ void printLeaves(BinaryTree<char> b,int reclvl) {///Prints all leaves lr
     if (b.isNull()) return;
     else {
         //If this is a leave
-        if(b.Left().isNull()&&b.Right().isNull()) {printChar(b.RootBT());printStr(" ");}
-        printLeaves(b.Left(),reclvl+1);
+        if(b.Left().isNull()&&b.Right().isNull()) {
+            printChar(b.RootBT());printStr(" ");// We print it.
+        }
+        printLeaves(b.Left(),reclvl+1); //Go looking for others recursively
         printLeaves(b.Right(),reclvl+1);
         return;
     }
@@ -389,7 +389,7 @@ unInt sizeBT(BinaryTree<char> b) {
 }
 
 //---------------------------------------
-void printKLP(BinaryTree<char> b) {
+void printKLP(BinaryTree<char> b) {//Print tree Rlr
     if (!b.isNull()) {
         printChar( b.RootBT());
         printKLP(b.Left());
@@ -398,7 +398,7 @@ void printKLP(BinaryTree<char> b) {
 }
 
 //---------------------------------------
-void printLKP(BinaryTree<char> b) {
+void printLKP(BinaryTree<char> b) {//Print tree lRr
     if (!b.isNull()) {
         printLKP(b.Left());
         printChar( b.RootBT());
@@ -407,7 +407,7 @@ void printLKP(BinaryTree<char> b) {
 }
 
 //---------------------------------------
-void printLPK(BinaryTree<char> b) {
+void printLPK(BinaryTree<char> b) {//Print tree lrR
     if (!b.isNull()) {
         printLPK(b.Left());
         printLPK(b.Right());

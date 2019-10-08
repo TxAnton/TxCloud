@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Лабы/АиСД/3_StackQueue/Code/main2.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/main2.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/3_StackQueue/Code/main2.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/3_StackQueue/Code/cmake-build-debug/CMakeFiles/Code.dir/main2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

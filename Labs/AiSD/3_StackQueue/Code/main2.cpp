@@ -45,8 +45,8 @@ void setOFile(ostream* ostr){
 }
 
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName);	//Parses arguments. Returns 1 if program is to be closed
-char bracketPair(char b);
-int processStr(string str);
+char bracketPair(char b);//Retrens pair bracket to one in argument
+int processStr(string str);//Main priessing gunction
 //char processStr(string str,int &i,int reclvl=0);
 void printStr(string str);
 int input(string &inp);
@@ -248,6 +248,7 @@ int processStr(string str){
 
             if(s.isEmpty()){
                 ///ERR UNEXPECTED
+                printStr("Result:\n");
                 printStr(str.substr(0, i + 1) + " <<ERROR HERE!" + "\n");
                 string o = "";
                 o += str[i];
@@ -264,7 +265,16 @@ int processStr(string str){
                 printStr(">> "+ o+" <"+str[i]+">\n");
             }else{///wrong bracket
                 ///ERROR WRONG
+                printStr("Result:\n");
                 printStr(str.substr(0, i + 1) + " <<ERROR HERE!" + "\n");
+
+                printStr("Stack:\n");
+                for(int i=0; i<=s.topOfStack;i++){///ECHO PUSH
+                    string o="";o+=s.vec[i];
+                    printStr(o+" ");
+                }
+                printStr("\n");
+
                 string o = "";
                 o += bracketPair(s.top());//bracketPair(c);
                 string q = "";
@@ -277,12 +287,22 @@ int processStr(string str){
     }
     if(!s.isEmpty()){
         ///ERROR LEFT
+        printStr("Result:\n");
         printStr(str.substr(0, pi + 1) + " <<ERROR HERE!" + "\n");
+        printStr("Stack:\n");
+        for(int i=0; i<=s.topOfStack;i++){///ECHO PUSH
+            string o="";o+=s.vec[i];
+            printStr(o+" ");
+        }
+        printStr("\n");
+
         string o = "";
         o += s.top();
+
         printStr("Bracket '"+o+"' left unclosed\n");
 
     }else{
+        printStr("Result:\n");
         printStr("Correct!\n");
     }
 }
@@ -338,7 +358,6 @@ char processStr(string str,int &i, int reclvl){
                 else if(s.top()!=bracketPair(str[i])){///Met wrong close bracket
                         return s.ttop();///Return bracket we expected to be closed; str[i] is what we actually got. INNER RETURN
                     }
-
             }
         }
     }

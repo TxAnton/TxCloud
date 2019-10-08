@@ -1,4 +1,4 @@
-# Install script for directory: /media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Лабы/АиСД/3_StackQueue/Code
+# Install script for directory: /media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/3_StackQueue/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Лабы/АиСД/3_StackQueue/Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/3_StackQueue/Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
