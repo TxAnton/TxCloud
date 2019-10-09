@@ -12,276 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d215a9-4304-4bbe-be34-347e7970c0e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../3_StackQueue/К" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_StackQueue/К" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3_StackQueue/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_StackQueue/Code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in" beforeDir="false" afterPath="$PROJECT_DIR$/in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_bt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/work_bt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Larin_Anton_AiSD_21_4.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../Larin_Anton_AiSD_21_4.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/.~lock.3003_Trebovaniya-k-oformleniyu-NTO.doc#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/.~lock.Larin_Anton_cm_21_1.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/.~lock.Larin_Anton_cm_21_1_1.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/3003_Trebovaniya-k-oformleniyu-NTO.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/LAB1(1).EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_2/CM2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_2/CM2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_cm_21_1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_cm_21_1_Tab2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_cm_21_1_Tab4.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/~$03_Trebovaniya-k-oformleniyu-NTO.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/~$rin_Anton_cm_21_1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Рис1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../CM/Рис2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_3/latest/LR3.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_3/latest/LR3.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_4/Lr4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_4/Lr4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/.~lock.Мет_указ_ЛР_ОргКомп.rtf#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/Borland C++.ver.3.1(Portable).English/LR4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/Borland C++.ver.3.1(Portable).English/LR4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/BGI/BGIDEMO.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/BGI/BGIDEMO.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/BINARY/TURBOC.CFG" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/BINARY/TURBOC.CFG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/CLASSLIB.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/CLASSLIB.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/DIRECTRY.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/DIRECTRY.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/DIRECTRY.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/DIRECTRY.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/FILEDATA.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/FILEDATA.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/FILEDATA.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/FILEDATA.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/LOOKUP.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/LOOKUP.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/QUEUETST.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/QUEUETST.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/REVERSE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/REVERSE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/STRNGMAX.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/STRNGMAX.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/TESTDIR.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/EXAMPLES/TESTDIR.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ABSTARRY.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ABSTARRY.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ARRAY.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ARRAY.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ASSOC.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/ASSOC.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/BAG.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/BAG.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CLSDEFS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CLSDEFS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CLSTYPES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CLSTYPES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/COLLECT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/COLLECT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CONTAIN.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/CONTAIN.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DBLLIST.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DBLLIST.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DEQUE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DEQUE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DICT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DICT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DLSTELEM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/DLSTELEM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/HASHTBL.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/HASHTBL.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LDATE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LDATE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LIST.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LIST.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LSTELEM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LSTELEM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LTIME.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/LTIME.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/OBJECT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/OBJECT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/QUEUE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/QUEUE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/RESOURCE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/RESOURCE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SET.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SET.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SORTABLE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SORTABLE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SORTARRY.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/SORTARRY.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/STACK.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/STACK.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/STRNG.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/INCLUDE/STRNG.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ABSTARRY.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ABSTARRY.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ARRAY.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ARRAY.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ASSOC.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/ASSOC.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/BAG.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/BAG.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/BUILD.BAT" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/BUILD.BAT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/CLASSLIB.RSP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/CLASSLIB.RSP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/COLLECT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/COLLECT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/CONTAIN.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/CONTAIN.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DBLLIST.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DBLLIST.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DEQUE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DEQUE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DICT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/DICT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/HASHTBL.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/HASHTBL.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LDATE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LDATE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LIST.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LIST.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LTIME.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/LTIME.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/OBJECT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/OBJECT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/QUEUE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/QUEUE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SET.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SET.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SORTABLE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SORTABLE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SORTARRY.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/SORTARRY.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/STACK.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/STACK.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/STRNG.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/CLASSLIB/SOURCE/STRNG.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/BARCHART.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/BARCHART.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CIRCLE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CIRCLE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CPASDEMO.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CPASDEMO.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CPASDEMO.PAS" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CPASDEMO.PAS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CTOPAS.CFG" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/CTOPAS.CFG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DCOPY.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DCOPY.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF2.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF2.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF2.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DEF2.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DICTION.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DICTION.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DICTION.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DICTION.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DYNPOINT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/DYNPOINT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX1.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX1.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX2.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX2.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX3.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX3.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX4.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX4.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX5.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX5.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX6.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX6.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX7.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX7.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX8.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX8.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX9.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/EX9.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGDEMO.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGDEMO.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGURES.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGURES.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGURES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FIGURES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FILTER.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/FILTER.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GAME.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GAME.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GETOPT.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GETOPT.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GREP2MSG.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/GREP2MSG.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/HELLO.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/HELLO.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO1.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO1.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO10.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO10.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO11.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO11.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO12.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO12.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO13.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO13.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO14.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO14.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO15.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO15.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO16.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO16.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO17.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO17.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO18.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO18.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO19.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO19.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO2.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO2.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO20.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO20.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO21.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO21.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO22.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO22.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO23.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO23.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO24.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO24.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO25.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO25.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO26.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO26.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO27.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO27.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO28.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO28.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO29.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO29.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO3.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO3.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO30.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO30.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO31.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO31.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO32.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO32.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO33.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO33.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO34.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO34.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO4.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO4.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO5.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO5.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO6.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO6.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO7.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO7.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO8.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO8.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO9.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/INTRO9.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST2.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST2.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST2.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LIST2.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LISTDEMO.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/LISTDEMO.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/MATHERR.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/MATHERR.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/MCIRCLE.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/MCIRCLE.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PIXEL.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PIXEL.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLANETS.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLANETS.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP1.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP1.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP2.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP2.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP3.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP3.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP4.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP4.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP5.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP5.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP6.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/PLOTEMP6.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT2.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/POINT2.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/SALESTAG.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/SALESTAG.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/SOLAR.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/SOLAR.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK2.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK2.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK2.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STACK2.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/BUILD-C0.BAT" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/BUILD-C0.BAT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/C0.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/C0.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/RULES.ASI" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STARTUP/RULES.ASI" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STRING.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/STRING.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TASM2MSG.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TASM2MSG.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCALC.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCDISPLY.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCDISPLY.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCINPUT.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCINPUT.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCOMMAND.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCOMMAND.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCPARSER.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCPARSER.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCUTIL.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/TCALC/TCUTIL.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VCIRC.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VCIRC.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VPOINT.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VPOINT.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VPOINT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/VPOINT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/XSTRING.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/EXAMPLES/XSTRING.CPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/FILELIST.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/FILELIST.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/HELPME!.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/HELPME!.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ALLOC.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ALLOC.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ASSERT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ASSERT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/BCD.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/BCD.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/BIOS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/BIOS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/COMPLEX.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/COMPLEX.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/CONIO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/CONIO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/CTYPE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/CTYPE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/DIR.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/DIR.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/DOS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/DOS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ERRNO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/ERRNO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FCNTL.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FCNTL.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FLOAT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FLOAT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FSTREAM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/FSTREAM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/GENERIC.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/GENERIC.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/GRAPHICS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/GRAPHICS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IOMANIP.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IOMANIP.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IOSTREAM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/IOSTREAM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/LIMITS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/LIMITS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/LOCALE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/LOCALE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/MATH.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/MATH.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/MEM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/MEM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/PROCESS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/PROCESS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SETJMP.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SETJMP.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SHARE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SHARE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SIGNAL.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SIGNAL.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDARG.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDARG.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDDEF.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDDEF.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDIO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDIO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDIOSTR.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDIOSTR.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDLIB.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STDLIB.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STREAM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STREAM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STRING.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STRING.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STRSTREA.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/STRSTREA.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/STAT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/STAT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/TIMEB.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/TIMEB.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/TYPES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/SYS/TYPES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/TIME.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/TIME.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/VALUES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/INCLUDE/VALUES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/OLDSTR.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/OLDSTR.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/README" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/TEMC.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/TEMC.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/THELP.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/THELP.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/TOUR/QWERTY.USR" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/TOUR/QWERTY.USR" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/UTIL.DOC" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/CPPTURBo/UTIL.DOC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.EXE" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.EXE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR32.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR32.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3_.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR3_.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ALLOC.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ALLOC.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ASSERT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ASSERT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/BIOS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/BIOS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/CONIO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/CONIO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/CTYPE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/CTYPE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/DIR.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/DIR.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/DOS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/DOS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ERRNO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/ERRNO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/FCNTL.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/FCNTL.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/FLOAT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/FLOAT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/IO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/IO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/LIMITS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/LIMITS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/MATH.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/MATH.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/MEM.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/MEM.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/PROCESS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/PROCESS.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SETJMP.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SETJMP.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SHARE.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SHARE.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SIGNAL.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SIGNAL.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDARG.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDARG.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDDEF.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDDEF.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDIO.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDIO.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDLIB.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STDLIB.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STRING.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/STRING.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/STAT.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/STAT.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/TIMEB.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/TIMEB.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/TYPES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/SYS/TYPES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/TIME.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/TIME.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/VALUES.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/INCLUDE/VALUES.H" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/NONAME.BAK" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/NONAME.BAK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/NONAME.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/NONAME.C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/Y.BAK" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/Y.BAK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/Y.C" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/TURBOC/Y.C" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../k" beforeDir="false" afterPath="$PROJECT_DIR$/../k" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Btree_.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="795">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="e#84#103#0" expanded="true" />
               </folding>
@@ -320,13 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work_bt.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#76#95#0" expanded="true" />
-                <element signature="e#2664#2761#0" expanded="true" />
-                <element signature="e#10863#12671#0" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="133" column="6" lean-forward="true" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -344,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/KLP.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -407,9 +137,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1079" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectId" id="1RVIg04Ml7UfsTkAnc5p8YKkJc3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -477,28 +206,28 @@
       <workItem from="1570001213774" duration="3889000" />
       <workItem from="1570038656891" duration="68000" />
       <workItem from="1570540982766" duration="8442000" />
+      <workItem from="1570605550518" duration="3652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42444000" />
+    <option name="totallyTimeSpent" value="46096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1079" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="0" width="959" height="1051" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2705367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22513089" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22437972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.3172775" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3172775" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -603,6 +332,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Btree_.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="e#84#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -617,6 +356,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KLP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/KLP.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -624,32 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KLP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Btree_.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="e#84#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work_bt.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#76#95#0" expanded="true" />
-            <element signature="e#2664#2761#0" expanded="true" />
-            <element signature="e#10863#12671#0" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="133" column="6" lean-forward="true" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
         </state>
       </provider>
     </entry>

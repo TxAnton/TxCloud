@@ -156,11 +156,11 @@ int main(int argc, char** argv) {
 
         ///REal processing
 
-        printStr("Deepest level = \n");
+        printStr("Deepest level(max depth of l/r branches+1) = \n");
         printInt(hBT(b));
         printStr("\n");
 
-        printStr("Total tree lenght = \n");
+        printStr("Total tree lenght(sum of l/r brances + self's) = \n");
         printInt(mBT(b));
         printStr("\n");
 
@@ -324,10 +324,17 @@ void displayBT(BinaryTree<char> b, int n) {///Prints graphic tree
 unInt hBT(BinaryTree<char> b,int reclvl) {///Find hight
     if (b.isNull()) return 0;
     else {
+        printStr("\n");
+        for(int i=0;i<reclvl;i++)printStr("\t");
+        printStr("Check:");printChar(b.RootBT());
+
         ///Takes highest of two branches
         int c =max(hBT(b.Left(),reclvl+1), hBT(b.Right(),reclvl+1)) + 1;
         ///Echoing
         for (int i = 0; i < reclvl; ++i) {printStr("\t");}
+        printStr("\n");
+        for(int i=0;i<reclvl;i++)printStr("\t");
+        printStr("Depth:");
         printInt(c);
         printStr("\n");
         ///This would be it
@@ -338,12 +345,20 @@ unInt hBT(BinaryTree<char> b,int reclvl) {///Find hight
 unInt mBT(BinaryTree<char> b, int reclvl) {///Summ of all knot-to-root pathes
     if (b.isNull()) return 0;
     else {
+        printStr("\n");
+        for(int i=0;i<reclvl;i++)printStr("\t");
+        printStr("Check:");printChar(b.RootBT());
+
+
         ///Takes summ of branches's deepnesses + self's
         int l=mBT(b.Left(),reclvl+1);///Summ by left branch
         int r=mBT(b.Right(),reclvl+1);///Summ by right branch
         int c =(l + r + reclvl);///Summ  of summs + self
         ///Echoing
         for (int i = 0; i < reclvl; ++i) {printStr("\t");}
+        printStr("\n");
+        for(int i=0;i<reclvl;i++)printStr("\t");
+        printStr("Dist to root:");
         printInt(c);
         printStr("\n");
         ///This would'ge'n' be it as well
@@ -370,14 +385,23 @@ unInt knotsPerLvl(BinaryTree<char> b, int lvl) {//Calculates knots per given lev
 }
 
 void printLeaves(BinaryTree<char> b,int reclvl) {///Prints all leaves lr
+    static string s = "";
     if (b.isNull()) return;
     else {
-        //If this is a leave
+        printStr("\n");
+        for(int i=0;i<reclvl;i++)printStr("\t");
+        printStr("Check:");printChar(b.RootBT());
         if(b.Left().isNull()&&b.Right().isNull()) {
-            printChar(b.RootBT());printStr(" ");// We print it.
+            if(b.RootBT()!='/'){
+                printStr(":Found leave!");
+                s+=b.RootBT();s+=+" ";
+                //printChar(b.RootBT());printStr(" ");
+            }// We print it.
+            else printStr("\n");
         }
         printLeaves(b.Left(),reclvl+1); //Go looking for others recursively
         printLeaves(b.Right(),reclvl+1);
+        if(reclvl==0)printStr("\n"+s);
         return;
     }
 }
