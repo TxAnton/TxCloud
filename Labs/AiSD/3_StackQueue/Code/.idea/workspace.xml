@@ -12,13 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f801710-031d-4ca1-ad30-8062f801af11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/cmake-build-debug/CMakeFiles/Code.dir/work_bt.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/cmake-build-debug/Code" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/cmake-build-debug/Code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/in" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/Code/work_bt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/Code/work_bt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Tree/k" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Tree/k" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
-              <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
+            <state relative-caret-position="1277">
+              <caret line="308" column="2" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
               <folding>
                 <element signature="e#3580#5158#0" />
               </folding>
@@ -98,9 +92,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="width" value="959" />
-    <option name="height" value="1051" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="540" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,17 +153,19 @@
       <workItem from="1569750657311" duration="248000" />
       <workItem from="1570554683981" duration="3201000" />
       <workItem from="1570605456031" duration="2214000" />
+      <workItem from="1571167308101" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50306000" />
+    <option name="totallyTimeSpent" value="50545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1051" extended-state="4" />
+    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27601314" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13767342" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -297,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
+        <state relative-caret-position="1277">
+          <caret line="308" column="2" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
           <folding>
             <element signature="e#3580#5158#0" />
           </folding>

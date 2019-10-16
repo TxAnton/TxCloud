@@ -1,0 +1,25 @@
+Input:
+
+Building AVL tree of entered sequence
+Built tree:
+
+Entered element:
+1
+Adding element
+Current AVL tree: 
+ 1
+
+Entered element:
+2
+Adding element
+Current AVL tree: 
+ 1 2
+
+Entered element:
+3
+Adding element
+Current AVL tree: 
+ 2 3
+   1
+
+Input is over!
