@@ -1,25 +1,318 @@
 Input:
-
+q 
 Building AVL tree of entered sequence
 Built tree:
+ q
 
 Entered element:
-1
+w
 Adding element
 Current AVL tree: 
- 1
+ q w
 
 Entered element:
-2
+e
 Adding element
 Current AVL tree: 
- 1 2
+ q w
+   e
 
 Entered element:
-3
+r
 Adding element
 Current AVL tree: 
- 2 3
-   1
+ q w
+     r
+   e
+
+Entered element:
+t
+Adding element
+Rotating left around 'r'
+Rotating right around 'w'
+Current AVL tree: 
+ q t w
+     r
+   e
+
+Entered element:
+y
+Adding element
+Rotating left around 'q'
+Current AVL tree: 
+ t w y
+   q r
+     e
+
+Entered element:
+u
+Adding element
+Current AVL tree: 
+ t w y
+     u
+   q r
+     e
+
+Entered element:
+i
+Adding element
+Current AVL tree: 
+ t w y
+     u
+   q r
+     e i
+
+Entered element:
+o
+Adding element
+Rotating left around 'e'
+Current AVL tree: 
+ t w y
+     u
+   q r
+     i o
+       e
+
+Entered element:
+a
+Adding element
+Rotating right around 'q'
+Current AVL tree: 
+ t w y
+     u
+   i q r
+       o
+     e
+       a
+
+Entered element:
+s
+Adding element
+Rotating left around 'i'
+Rotating right around 't'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   i o
+     e
+       a
+
+Entered element:
+d
+Adding element
+Rotating left around 'a'
+Rotating right around 'e'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   i o
+     d e
+       a
+
+Entered element:
+f
+Adding element
+Rotating left around 'd'
+Rotating right around 'i'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   e i o
+       f
+     d
+       a
+
+Entered element:
+g
+Adding element
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   e i o
+       f g
+     d
+       a
+
+Entered element:
+h
+Adding element
+Rotating left around 'f'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   e i o
+       g h
+         f
+     d
+       a
+
+Entered element:
+j
+Adding element
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   e i o
+         j
+       g h
+         f
+     d
+       a
+
+Entered element:
+k
+Adding element
+Rotating left around 'j'
+Rotating right around 'o'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   e i k o
+         j
+       g h
+         f
+     d
+       a
+
+Entered element:
+l
+Adding element
+Rotating left around 'e'
+Current AVL tree: 
+ q t w y
+       u
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       d
+         a
+
+Entered element:
+z
+Adding element
+Current AVL tree: 
+ q t w y z
+       u
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       d
+         a
+
+Entered element:
+x
+Adding element
+Current AVL tree: 
+ q t w y z
+         x
+       u
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       d
+         a
+
+Entered element:
+c
+Adding element
+Rotating left around 'a'
+Rotating right around 'd'
+Current AVL tree: 
+ q t w y z
+         x
+       u
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       c d
+         a
+
+Entered element:
+v
+Adding element
+Current AVL tree: 
+ q t w y z
+         x
+       u v
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       c d
+         a
+
+Entered element:
+b
+Adding element
+Current AVL tree: 
+ q t w y z
+         x
+       u v
+     r s
+   i k o
+         l
+       j
+     e g h
+         f
+       c d
+         a b
+
+Entered element:
+n
+Adding element
+Rotating left around 'l'
+Rotating right around 'o'
+Current AVL tree: 
+ q t w y z
+         x
+       u v
+     r s
+   i k n o
+         l
+       j
+     e g h
+         f
+       c d
+         a b
+
+Entered element:
+m
+Adding element
+Rotating right around 'n'
+Rotating left around 'k'
+Current AVL tree: 
+ q t w y z
+         x
+       u v
+     r s
+   i l n o
+         m
+       k
+         j
+     e g h
+         f
+       c d
+         a b
 
 Input is over!

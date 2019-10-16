@@ -12,7 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f801710-031d-4ca1-ad30-8062f801af11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1_Recursion/Larin_Anton_AiSD_21_1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../1_Recursion/Larin_Anton_AiSD_21_1.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_IerarchList/.~lock.Larin_Anton_AiSD_21_2.doc#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/.~lock.5-я лаб. и курсовая работа АиСД.doc#" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/.~lock.5-я лаб. и курсовая работа АиСД.doc#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/AVLTreeClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/AVLTreeClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/CMakeFiles/Code__copy_.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/CMakeFiles/Code__copy_.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/Code__copy_" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/Code__copy_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/in" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5_/Larin_Anton_AiSD_21_5.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Larin_Anton_AiSD_21_5.doc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1277">
-              <caret line="308" column="2" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
+            <state relative-caret-position="876">
+              <caret line="285" column="7" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="9" />
               <folding>
                 <element signature="e#3580#5158#0" />
               </folding>
@@ -92,11 +104,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="540" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="961" />
+    <option name="width" value="959" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,8 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,27 +165,28 @@
       <workItem from="1570554683981" duration="3201000" />
       <workItem from="1570605456031" duration="2214000" />
       <workItem from="1571167308101" duration="239000" />
+      <workItem from="1571214019229" duration="348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50545000" />
+    <option name="totallyTimeSpent" value="50893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="961" y="0" width="959" height="1051" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13767342" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28587076" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3265086" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3257821" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.2801724" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.19201726" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -295,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1277">
-          <caret line="308" column="2" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
+        <state relative-caret-position="876">
+          <caret line="285" column="7" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="9" />
           <folding>
             <element signature="e#3580#5158#0" />
           </folding>

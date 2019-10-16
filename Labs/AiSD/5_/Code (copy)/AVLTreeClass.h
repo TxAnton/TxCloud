@@ -39,6 +39,7 @@ private:
 
     node* rotateright(node* p) // right rotation around p
     {
+        if(1){printStr("Rotating right around '");printChar(p->key);printStr("'\n");}
         node* q = p->left;//Save left
         p->left = q->right;//Transive common
         q->right = p; //Swap one under another
@@ -49,6 +50,7 @@ private:
 
     node* rotateleft(node* q) // left rotation around q
     {
+        if(1){printStr("Rotating left around '");printChar((q)->key);printStr("'\n");}
         node* p = q->right; //Save right
         q->right = p->left; //Transive common
         p->left = q; //Swap one under another
@@ -62,8 +64,9 @@ private:
         fixheight(p);
         if( bfactor(p)==2 )//Disbalance to the right
         {
-            if( bfactor(p->right) < 0 )
-                p->right = rotateright(p->right);
+            if( bfactor(p->right) < 0 ){
+                p->right = rotateright(p->right);}
+
             return rotateleft(p);
         }
         if( bfactor(p)==-2 )//Disbalance to the left
@@ -115,10 +118,12 @@ private:
             }
             p->right = _insert(p->right, k,lvl+1);
         }
+        /*
         if(DEBUG) {
             for (int i = 0; i < lvl; i++)printStr("\t");
             printStr("Rebalancing AVL\n");
         }
+         */
         return balance(p);//Required before return
     }
 

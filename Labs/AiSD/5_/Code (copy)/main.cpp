@@ -115,9 +115,8 @@ int main(int argc, char** argv) {
     }
     printChar('\n');
     printStr("Building AVL tree of entered sequence\n");
-    DEBUG=false;
     b=AVL<char>(seq);
-    DEBUG=debug;
+
     printStr("Built tree:\n");
     displayAVL(b);
     printChar('\n');
