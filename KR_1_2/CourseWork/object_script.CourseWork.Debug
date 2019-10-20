@@ -1,0 +1,15 @@
+debug/create_dialog.o
+debug/info_dialog.o
+debug/line_dialog.o
+debug/main.o
+debug/mainwindow.o
+debug/mygraphicsview.o
+debug/qbmptools.o
+debug/triangle_dialog.o
+debug/moc_create_dialog.o
+debug/moc_info_dialog.o
+debug/moc_line_dialog.o
+debug/moc_mainwindow.o
+debug/moc_mygraphicsview.o
+debug/moc_qbmptools.o
+debug/moc_triangle_dialog.o

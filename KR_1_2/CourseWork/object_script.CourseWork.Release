@@ -1,0 +1,15 @@
+release/create_dialog.o
+release/info_dialog.o
+release/line_dialog.o
+release/main.o
+release/mainwindow.o
+release/mygraphicsview.o
+release/qbmptools.o
+release/triangle_dialog.o
+release/moc_create_dialog.o
+release/moc_info_dialog.o
+release/moc_line_dialog.o
+release/moc_mainwindow.o
+release/moc_mygraphicsview.o
+release/moc_qbmptools.o
+release/moc_triangle_dialog.o
