@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionopen_file"/>
+    <addaction name="actionCreate"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionProperties"/>
+   </widget>
+   <widget class="QMenu" name="menuUtil">
+    <property name="title">
+     <string>Util</string>
+    </property>
+    <addaction name="actionGraphWindow"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionDraw_triangle"/>
+    <addaction name="actionDraw_line"/>
+    <addaction name="actionInvert_circle"/>
+    <addaction name="actionCut_image"/>
+    <addaction name="actionNew_tool"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuUtil"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionopen_file">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionCreate">
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionFile_info">
+   <property name="text">
+    <string>Information about file</string>
+   </property>
+  </action>
+  <action name="actionAuhor_info">
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </action>
+  <action name="actionReference">
+   <property name="text">
+    <string>Reference</string>
+   </property>
+  </action>
+  <action name="actionDraw_triangle">
+   <property name="text">
+    <string>Draw triangle</string>
+   </property>
+  </action>
+  <action name="actionDraw_line">
+   <property name="text">
+    <string>Draw line</string>
+   </property>
+  </action>
+  <action name="actionInvert_circle">
+   <property name="text">
+    <string>Invert circle</string>
+   </property>
+  </action>
+  <action name="actionCut_image">
+   <property name="text">
+    <string>Cut image</string>
+   </property>
+  </action>
+  <action name="actionNew_tool">
+   <property name="text">
+    <string>New tool</string>
+   </property>
+  </action>
+  <action name="actionProperties">
+   <property name="text">
+    <string>Properties</string>
+   </property>
+  </action>
+  <action name="actionGraphWindow">
+   <property name="text">
+    <string>GraphWindow</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
