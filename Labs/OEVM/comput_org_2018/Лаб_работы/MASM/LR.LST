@@ -1,0 +1,345 @@
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Page     1-1
+
+
+ 0000				STACKSG SEGMENT  PARA STACK 'Stack'
+ 0000  0200[			        DW       512 DUP(?)
+	   ????			
+			 ]	
+				
+ 0400				STACKSG	ENDS
+				
+ 0000				DATASG  SEGMENT  PARA 'Data'		
+						;SEG DATA
+ 0000  0000				KEEP_CS DW 0 ;
+ 0002  2D 30 31 32 33 34		TPL DB '-0123456789abcdef0123456789abcd
+				efG$'
+       35 36 37 38 39 61	
+       62 63 64 65 66 30	
+       31 32 33 34 35 36	
+       37 38 39 61 62 63	
+       64 65 66 47 24		
+ 0025				DATASG	ENDS				
+								;ENDS DATA
+				
+				
+ 0000				CODE      SEGMENT   			
+							;SEG CODE
+				ASSUME  DS:DataSG, CS:Code, SS:STACKSG
+				
+				
+ 0000				DTOB PROC NEAR; DX:AX - Number; DX - Final bina
+				ry string
+ 0000  EB 03 90				jmp dtob_start
+ 0003  0001				BASE DW 1;Keep track of registers order
+ 0005				dtob_start:	
+ 0005  2E: C7 06 0003 R 0001		mov BASE,1;
+ 000C  BF 0000				mov DI,0h
+ 000F  C6 85 0002 R 2B			mov TPL[DI],'+'
+ 0014  83 FA 00				cmp DX,0
+ 0017  BB 8000				mov BX,8000h;bit mask
+ 001A  7D 2D				jge posit
+				;negative
+ 001C  C6 85 0002 R 2D			mov TPL[DI],'-'
+ 0021  83 C7 01				add DI,1
+					;neg
+ 0024  F7 D2				not DX;
+ 0026  F7 D0				not AX;
+ 0028  05 0001				add AX,1;
+ 002B  73 03				jnc no_carry
+ 002D  83 C2 01				add DX,1;
+ 0030				no_carry:	
+ 0030  EB 1F 90				jmp scan
+ 0033				reg_skip:;skept register
+ 0033  2E: 83 3E 0003 R 01		cmp BASE,1
+ 0039  75 67				jne ZERO_OR_OVERFLOW
+ 003B  8B F0				mov SI,AX
+ 003D  2E: 83 2E 0003 R 01		sub BASE,1
+ 0043  BB 8000				mov BX,8000h
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Page     1-2
+
+
+ 0046  EB 0D 90				jmp kostyl;Like not_yet but no initial 
+				bit skip
+				;positive
+ 0049				posit:
+ 0049  C6 06 0002 R 2B			mov TPL[0],'+'
+ 004E  83 C7 01				add DI,1
+					;DX
+					;WHILE FIRST NON-ZERO DIGIT NOT FOUND
+ 0051				scan:
+ 0051  8B F2				mov SI,DX
+ 0053				not_yet:
+ 0053  D1 EB				shr BX,1
+ 0055				kostyl:;Like not_yet but no initial bit skip
+ 0055  83 FB 00				cmp BX,0
+ 0058  74 D9				je reg_skip
+ 005A  8B CB				mov CX,BX;CX <- mask
+ 005C  23 CE				and CX,SI;CX <- digit of SI
+ 005E  83 F9 00				cmp CX,0
+ 0061  74 F0				je not_yet;LOOP DIGIT SKIP
+					;CX - first left nonzero digit
+ 0063				digit_loop:;SI - REGISTER TO PROCESS
+ 0063  8B CB				mov CX,BX; CX <- mask
+ 0065  23 CE				and CX,SI; CX <- digit of SI
+ 0067  83 F9 00				cmp CX,0; if zero digit
+ 006A  74 09				je zero_digit
+				;non-zero digit
+ 006C  C6 85 0002 R 31			mov TPL[DI],'1'
+ 0071  47				inc DI;
+ 0072  EB 0A 90				jmp digit_fi
+ 0075				zero_digit:
+ 0075  C6 85 0002 R 30			mov TPL[DI],'0'
+ 007A  47				inc DI;
+ 007B  EB 01 90				jmp digit_fi
+ 007E				digit_fi:;endif
+ 007E  D1 EB				shr BX,1
+ 0080  83 FB 00				cmp BX,0
+ 0083  75 DE				jne digit_loop
+					;some register processed
+ 0085  2E: 83 3E 0003 R 01		cmp BASE,1
+ 008B  75 0D				jne loop_end;AX register processed, we'
+				re done
+ 008D  8B F0				mov SI,AX;AX not processed
+ 008F  2E: 83 2E 0003 R 01		sub BASE,1
+ 0095  BB 8000				mov bx,8000h;
+ 0098  EB C9				jmp digit_loop
+ 009A				loop_end:
+ 009A  C6 85 0002 R 24			mov TPL[DI],'$'
+ 009F  EB 33 90				jmp dtob_end
+ 00A2				ZERO_OR_OVERFLOW:
+ 00A2  BE 0000				mov SI,0
+ 00A5  80 BC 0002 R 2D			cmp TPL[SI],'-'
+ 00AA  75 1D				jne EZERO
+				;OVERFLOW
+ 00AC  46				inc SI
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Page     1-3
+
+
+ 00AD  C6 84 0002 R 31			mov TPL[SI],'1'
+ 00B2  B9 0020				mov CX,32
+ 00B5				OF_LOOP:
+ 00B5  8B F1				mov SI,CX;
+ 00B7  83 C6 01				add SI,1;
+ 00BA  C6 84 0002 R 30			mov TPL[SI],'0'
+ 00BF  E2 F4				loop OF_LOOP
+ 00C1  BE 0021				mov SI,33
+ 00C4  C6 84 0002 R 24			mov TPL[SI],'$'
+ 00C9				EZERO:
+ 00C9  C6 84 0002 R 30			mov TPL[SI],'0'
+ 00CE  46				inc SI
+ 00CF  C6 84 0002 R 24			mov TPL[SI],'$'
+					
+ 00D4				dtob_end:
+ 00D4  BA 0002 R			mov DX,offset TPL
+					
+ 00D7  C3				ret
+ 00D8				DTOB ENDP	
+				
+ 00D8				BTOD PROC FAR;TPL - string to process; DX:AX - 
+				result number
+ 00D8  EB 03 90				jmp btod_start
+ 00DB  00				NEGT DB 0
+ 00DC  01				REGN DB 1; REg number: 1, then 0
+					
+ 00DD				btod_start:
+ 00DD  BE 0000				mov SI,0
+ 00E0  80 BC 0002 R 2D			cmp TPL[SI],'-'
+ 00E5  75 07				jne positive;
+				;negative
+ 00E7  2E: C6 06 00DB R 01		mov NEGT,1
+ 00ED  46				inc SI;
+ 00EE				positive:
+					;cld
+ 00EE  2B C0				sub ax, ax;
+ 00F0  BE 0000				mov SI,0
+ 00F3  83 EE 01				sub SI,1
+ 00F6				len_loop:
+ 00F6  83 C6 01				add SI,1
+ 00F9  80 BC 0002 R 24			cmp TPL[SI],'$'
+ 00FE  75 F6				jne len_loop
+ 0100  B9 000A			mov cx,10;	
+				
+				;start parsing	
+ 0103  2E: C6 06 00DC R 01		mov REGN,1
+ 0109  83 FE 22				cmp SI,22h
+ 010C  74 48				je max_d
+ 010E  83 FE 01				cmp SI,1
+ 0111  74 4C				je zero_d
+ 0113  8B F8				mov DI,AX ;DI - active register
+ 0115  BB 0001				mov BX,1;BX - bit mask
+ 0118  4E				dec SI
+ 0119				parse_loop:
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Page     1-4
+
+
+				;parse_if
+					
+ 0119  80 BC 0002 R 31			cmp TPL[SI],'1'
+ 011E  75 05				jne parse_zero
+				;parse_one
+ 0120  0B FB				or DI,BX;set one by mask BX
+ 0122  EB 07 90				jmp parse_fi
+ 0125				parse_zero:
+ 0125  F7 D3				not BX;set zero by inverted mask BX
+ 0127  23 FB				and DI,BX;
+ 0129  F7 D3				not BX;
+ 012B				parse_fi:
+ 012B  D1 E3				shl BX,1
+ 012D  81 FB 8000			cmp BX,8000h
+ 0131  7C E6				jl parse_loop
+				;BX 8000 or more
+ 0133  2E: 80 3E 00DC R 00		cmp REGN,0;
+ 0139  74 16				je parse_pool;;EXIT CONDITION HERE
+				;regn 1
+				;check 8000h as well
+ 013B  81 FB 8000			cmp BX,8000h
+ 013F  74 D8				je parse_loop
+				
+ 0141  8B C7				mov AX,DI;Set processed register
+ 0143  BF 0000				mov DI,0;Reset active register
+ 0146  2E: C6 06 00DC R 00		mov REGN,0;Set 0 register number(DX)
+ 014C  BB 0001				mov BX,1;Reset bit mask
+ 014F  EB C8				jmp parse_loop
+ 0151				parse_pool:
+ 0151  8B D7				mov DX,DI;Set processed register
+ 0153  EB 13 90				jmp btod_check_neg
+					
+ 0156				max_d:;max negative number
+ 0156  B8 0000				mov AX,0
+ 0159  BA 8000				mov DX,8000h;
+ 015C  EB 1E 90				jmp btod_end
+ 015F				zero_d:;Zero number
+ 015F  B8 0000				mov AX,0;
+ 0162  BA 0000				mov DX,0;
+ 0165  EB 15 90				jmp btod_end
+					
+ 0168				btod_check_neg:
+ 0168  2E: 80 3E 00DB R 00		cmp NEGT,0
+ 016E  74 0C				je btod_end
+				;btod_neg
+ 0170  F7 D2				not DX;
+ 0172  F7 D0				not AX;
+ 0174  05 0001				add AX,1;
+ 0177  73 03				jnc btod_end;no carry
+ 0179  83 C2 01				add DX,1;	
+				;no carry
+				;btod_pos
+ 017C				btod_end:
+				
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Page     1-5
+
+
+ 017C  CB				ret
+ 017D				BTOD ENDP
+				
+					
+ 017D				Main      PROC  FAR
+ 017D  B8 ---- R		   	mov  ax, DATASG                        
+				;ds setup
+ 0180  8E D8			   	mov  ds, ax   
+				;51080821
+ 0182  BA 5108				mov DX,5108h;19173961
+ 0185  B8 0821				mov AX,0821h;1001001001001001001001001
+ 0188  E8 0000 R			call DTOB
+					
+ 018B  B4 09				mov ah,09h;
+ 018D  CD 21				int 21h;
+ 018F  B8 0000				mov ax,0
+ 0192  BA 0000				mov dx,0
+ 0195  9A 00D8 ---- R			call BTOD;
+					
+ 019A  B4 4C				mov ah,4Ch;
+ 019C  CD 21				int 21h;
+					
+					
+				 
+ 019E				Main      ENDP
+ 019E				CODE      ENDS
+				END Main				
+									;ENDS C
+				ODE	
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Symbols-1
+
+
+Segments and Groups:
+
+                N a m e         	Length	 Align	Combine Class
+
+CODE . . . . . . . . . . . . . .  	019E	PARA	NONE	
+DATASG . . . . . . . . . . . . .  	0025	PARA	NONE	'DATA'
+STACKSG  . . . . . . . . . . . .  	0400	PARA	STACK	'STACK'
+
+Symbols:            
+
+                N a m e         	Type	 Value	 Attr
+
+BASE . . . . . . . . . . . . . .  	L WORD	0003	CODE
+BTOD . . . . . . . . . . . . . .  	F PROC	00D8	CODE	Length = 00A5
+BTOD_CHECK_NEG . . . . . . . . .  	L NEAR	0168	CODE
+BTOD_END . . . . . . . . . . . .  	L NEAR	017C	CODE
+BTOD_START . . . . . . . . . . .  	L NEAR	00DD	CODE
+
+DIGIT_FI . . . . . . . . . . . .  	L NEAR	007E	CODE
+DIGIT_LOOP . . . . . . . . . . .  	L NEAR	0063	CODE
+DTOB . . . . . . . . . . . . . .  	N PROC	0000	CODE	Length = 00D8
+DTOB_END . . . . . . . . . . . .  	L NEAR	00D4	CODE
+DTOB_START . . . . . . . . . . .  	L NEAR	0005	CODE
+
+EZERO  . . . . . . . . . . . . .  	L NEAR	00C9	CODE
+
+KEEP_CS  . . . . . . . . . . . .  	L WORD	0000	DATASG
+KOSTYL . . . . . . . . . . . . .  	L NEAR	0055	CODE
+
+LEN_LOOP . . . . . . . . . . . .  	L NEAR	00F6	CODE
+LOOP_END . . . . . . . . . . . .  	L NEAR	009A	CODE
+
+MAIN . . . . . . . . . . . . . .  	F PROC	017D	CODE	Length = 0021
+MAX_D  . . . . . . . . . . . . .  	L NEAR	0156	CODE
+
+NEGT . . . . . . . . . . . . . .  	L BYTE	00DB	CODE
+NOT_YET  . . . . . . . . . . . .  	L NEAR	0053	CODE
+NO_CARRY . . . . . . . . . . . .  	L NEAR	0030	CODE
+
+OF_LOOP  . . . . . . . . . . . .  	L NEAR	00B5	CODE
+
+PARSE_FI . . . . . . . . . . . .  	L NEAR	012B	CODE
+PARSE_LOOP . . . . . . . . . . .  	L NEAR	0119	CODE
+PARSE_POOL . . . . . . . . . . .  	L NEAR	0151	CODE
+PARSE_ZERO . . . . . . . . . . .  	L NEAR	0125	CODE
+POSIT  . . . . . . . . . . . . .  	L NEAR	0049	CODE
+POSITIVE . . . . . . . . . . . .  	L NEAR	00EE	CODE
+
+REGN . . . . . . . . . . . . . .  	L BYTE	00DC	CODE
+REG_SKIP . . . . . . . . . . . .  	L NEAR	0033	CODE
+
+SCAN . . . . . . . . . . . . . .  	L NEAR	0051	CODE
+
+TPL  . . . . . . . . . . . . . .  	L BYTE	0002	DATASG
+Microsoft (R) Macro Assembler Version 5.10                  10/23/19 14:55:5
+                                                             Symbols-2
+
+
+
+ZERO_D . . . . . . . . . . . . .  	L NEAR	015F	CODE
+ZERO_DIGIT . . . . . . . . . . .  	L NEAR	0075	CODE
+ZERO_OR_OVERFLOW . . . . . . . .  	L NEAR	00A2	CODE
+
+@CPU . . . . . . . . . . . . . .  	TEXT  0101h		
+@FILENAME  . . . . . . . . . . .  	TEXT  LR7		
+@VERSION . . . . . . . . . . . .  	TEXT  510		
+
+
+    226 Source  Lines
+    226 Total   Lines
+     44 Symbols
+
+  47954 + 455209 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors
