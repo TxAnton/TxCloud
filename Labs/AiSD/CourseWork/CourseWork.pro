@@ -36,7 +36,8 @@ SOURCES += \
     triangle_dialog.cpp \
     graph_window.cpp \
     drawgraphicsview.cpp \
-    graphgraphicview.cpp
+    graphgraphicview.cpp \
+    listviewactionlogger.cpp
 
 HEADERS += \
     BMPTools.h \
@@ -50,7 +51,8 @@ HEADERS += \
     graph_window.h \
     drawgraphicsview.h \
     graphgraphicview.h \
-    AVLTreeClass.h
+    AVLTreeClass.h \
+    listviewactionlogger.h
 
 FORMS += \
     mainwindow.ui

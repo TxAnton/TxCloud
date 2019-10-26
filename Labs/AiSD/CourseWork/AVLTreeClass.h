@@ -28,9 +28,7 @@ namespace  AVL {
 template <class Elem>////Template class
 class AVL {
 
-
-private:
-
+public:
     struct node // структура для представления узлов дерева
     {
         Elem key;
@@ -39,6 +37,10 @@ private:
         node* right;
         node(Elem k) { key = k; left = right = 0; height = 1; }
     };
+
+private:
+
+
 
     node* Root;
 
