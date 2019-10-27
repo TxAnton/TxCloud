@@ -28,7 +28,7 @@ private:
 
     AVL::AVL<char> avltree;
 
-    AVL::AVL<int> _avl;
+    AVL::AVL<int> last_drawn_avl;
     int _width = 0;
     int _height = 0;
     float _nodeSize = 50;
@@ -43,8 +43,8 @@ private:
 
 signals:
 
-private slots:
-    void slotDrawAvl();
+public slots:
+    void slotDrawAvl(AVL::AVL<int> _avl);
     void _slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord);
     void slotAlarmTimer();  /* slot timer overflow handler there will be repainting the widget*/
     void resizeEvent(QResizeEvent *event);

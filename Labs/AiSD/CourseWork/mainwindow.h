@@ -13,7 +13,8 @@
 #include <QtDebug>
 #include <QStandardItemModel>
 #include <QStandardItem>
-//#include <Qt
+#include <QButtonGroup>
+#include <QPushButton>
 
 #include "qbmptools.h"
 
@@ -27,6 +28,7 @@
 #include "line_dialog.h"
 #include "rot_dialog.h"
 #include "create_dialog.h"
+#include "listviewactionlogger.h"
 
 
 namespace Ui {
@@ -73,23 +75,42 @@ private slots:
 
     void on_actionGraphWindow_triggered();
 
+    void slot_butAdd_clicked(bool);
+
+    void slot_listView_clicked(QModelIndex);
+
 
 private:
     Ui::MainWindow *ui;
     //DrawGraphicsView *graphicsView;
     GraphGraphicView *graphicsView;
     My_Image *_image;
-    QHBoxLayout *layout;
+    QHBoxLayout *sideslayout;
+    QVBoxLayout *vertlayout;
+    QHBoxLayout *buttonslayout;
+
     QWidget *central_widget;
+
     QPixmap stdPixmap;
     QListView *lstVw;
     GraphWindow* graph_window;
+    ListViewActionLogger* listViewAL;
+    QPushButton* butNew;
+    QPushButton* butAdd;
+    QPushButton* butRem;
+    QPushButton* butFind;
+    QPushButton* butStep;
+
+    QSpinBox* spinBox;
 
     infoDialog* info_dialog;
     triangleDialog* triangle_dialog;
     lineDialog* line_dialog;
     createDialog* create_dialog;
     rotDialog* rot_dialog;
+
+    AVL::AVL<int> avl;
+
 
 };
 

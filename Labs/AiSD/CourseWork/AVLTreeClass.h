@@ -7,13 +7,19 @@
 
 
 #include <QtDebug>
+
 #include <iostream>
 #include <vector>
 #include <string>
 
+
+
 #ifndef AVL_DEBUG
 #define AVL_DEBUG 0
 #endif
+
+class ListViewActionLogger;
+
 //extern bool AVL_DEBUG;
 static void printStr(std::string str)
 {
@@ -35,14 +41,21 @@ public:
         unsigned char height;
         node* left;
         node* right;
+
+        bool highlight=false;
+        bool highlightLeft=false;
+        bool highlightRight=false;
+
         node(Elem k) { key = k; left = right = 0; height = 1; }
     };
 
+    ListViewActionLogger* logger;
+
+    node* Root;
 private:
 
 
 
-    node* Root;
 
     AVL(node* p)//Construct based on existing node(private)
     {
@@ -122,7 +135,9 @@ private:
                 for(int i=0;i<lvl;i++)printStr("\t");
                 printStr("Insertion place!\n");
             }
-            return new node(k);
+            node *n = new node(k);
+            n->highlight=true;
+            return n;
         }
         if(AVL_DEBUG){
             for(int i=0;i<lvl;i++)printStr("\t");
@@ -180,11 +195,14 @@ private:
     node* _copy(node* p){ // deep copy of tree
         if(!p)return 0;
 
-        node* n = new node;
-        n->key=p->key;
+        node* n = new node(p->key);
+        //n->key=p->key;
         n->left=_copy(p->left); //recursively  travel through
         n->right=_copy(p->right); // and make copies
         n->height=p->height;
+        n->highlight=p->highlight;
+        n->highlightLeft=p->highlightLeft;
+        n->highlightRight=p->highlightRight;
         return n;
     }
 
@@ -264,6 +282,10 @@ public:
         }
 
         Root=_insert(Root,key);
+
+        logger->logAction("Insertion",this->copy());
+
+
         if(AVL_DEBUG)printStr("Insertion completed\n");
     }
 

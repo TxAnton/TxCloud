@@ -23,10 +23,10 @@ GraphGraphicView::GraphGraphicView(QGraphicsView *parent) : QGraphicsView(parent
     timer = new QTimer();               // Initialize Timer
     timer->setSingleShot(true);
 
-    _avl=AVL::AVL<int>();
+    //_avl=AVL::AVL<int>();
     _width = this->width();
     _height = this->height();
-
+/*
     _avl = AVL::AVL<int>();
     _avl.insert(1);
     _avl.insert(22);
@@ -34,6 +34,7 @@ GraphGraphicView::GraphGraphicView(QGraphicsView *parent) : QGraphicsView(parent
     _avl.insert(4444);
     _avl.insert(55555);
     _avl.insert(666666);_avl.insert(4);_avl.insert(5);_avl.insert(6);
+*/
 
     //connect(timer, SIGNAL(timeout()), this, SLOT(slotAlarmTimer()));
     timer->start(50);
@@ -44,15 +45,18 @@ GraphGraphicView::~GraphGraphicView()
     //TODO
 }
 
-void GraphGraphicView::slotDrawAvl()
+void GraphGraphicView::slotDrawAvl(AVL::AVL<int> _avl)
 {
+    last_drawn_avl = _avl;
     this->deleteItemsFromGroup(group_1);
     this->deleteItemsFromGroup(group_2);
 
     scene->setSceneRect(0,0,_width,_height);
     _lvlInt = (_height - 2*_nodeSize) / _avl.height();
-
-    _slotDrawAvl(_avl,1,_width/2);
+    if(!_avl.isEmpty())_slotDrawAvl(_avl,1,_width/2);
+    else{
+        group_1->addToGroup(scene->addText("<empty_tree>"));
+    }
 }
 
 void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
@@ -64,9 +68,13 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     int x=xCoord;
     int y=_lvlInt*lvl-_lvlInt/2;
 
-
-    group_1->addToGroup(scene->addEllipse(xCoord,y,_nodeSize,_nodeSize,penBlack));
+    if(avl.Root->highlight)
+        group_1->addToGroup(scene->addEllipse(xCoord,y,_nodeSize,_nodeSize,penRed));
+    else
+        group_1->addToGroup(scene->addEllipse(xCoord,y,_nodeSize,_nodeSize,penBlack));
     group_1->addToGroup(scene->addEllipse(xCoord,y,1,1,penRed));
+
+
 
     std::string strRoot = std::to_string( avl.root() );
     QFont font = QFont();
@@ -179,7 +187,7 @@ void GraphGraphicView::resizeEvent(QResizeEvent *event)
 
     _width = this->width();
     _height= this->height();
-    slotDrawAvl();
+    slotDrawAvl(last_drawn_avl);
 
     QGraphicsView::resizeEvent(event);  //Run event the parent class
 }

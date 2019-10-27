@@ -8,10 +8,14 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
+    //TODO add other functions, add//remove highlight, logg everything, list focus, clear list, more info on actions
 
     graph_window = new GraphWindow;
 
-    layout = new QHBoxLayout;
+    sideslayout = new QHBoxLayout;
+    vertlayout  = new QVBoxLayout;
+    buttonslayout = new QHBoxLayout;
+
     central_widget = new QWidget;
 
     info_dialog = new infoDialog;
@@ -23,39 +27,47 @@ MainWindow::MainWindow(QWidget *parent) :
     rot_dialog = new rotDialog;
     //graphicsView = new DrawGraphicsView(_image->getPixMap());
     graphicsView = new GraphGraphicView();
+    listViewAL = new ListViewActionLogger();
 
-    /*
-    lstVw = new QListView();
+    butAdd = new QPushButton("Add");
+    butRem = new QPushButton("Rem");
+    butNew = new QPushButton("New");
+    butFind = new QPushButton("Find");
+    butStep = new QPushButton("Step");
 
-    QStandardItemModel *model = new QStandardItemModel;//новая модель списка
-    QStandardItem *item;//элемент списка
-
-    //добавление нового элемента
-    item = new QStandardItem(QString("TEST 1\nSome veeery long text here\nLook At me!"));
-    model->appendRow(item);
-
-    //добавление нового элемента
-    item = new QStandardItem(QString("TEST 2"));
-    model->appendRow(item);
-
-    //соединение модели списка с конкретным списком
-    lstVw->setModel(model);
-*/
-
-
+    spinBox = new QSpinBox();
+    spinBox->setFixedSize(85,26);
     //info_dialog->set_info(_image->getHeader().size, _image->getHeader().offset, _image->getHeader().width_px, _image->getHeader().height_px, _image->getHeader().bits_per_pixel);
 
+    buttonslayout->addWidget(butAdd);
+    buttonslayout->addWidget(butRem);
+    buttonslayout->addWidget(butNew);
+    buttonslayout->addWidget(butFind);
+    buttonslayout->addWidget(butStep);
+    buttonslayout->addWidget(spinBox);
 
-    layout->addWidget(graphicsView);
-    //layout->addWidget(lstVw);
-    central_widget->setLayout(layout);
+    sideslayout->addWidget(graphicsView);
+    vertlayout->addWidget(listViewAL);
+    vertlayout->addLayout(buttonslayout);
+    sideslayout->addLayout(vertlayout);
+
+    //layout->addWidget(listViewAL);
+    central_widget->setLayout(sideslayout);
     setCentralWidget(central_widget);
+
+    avl = AVL::AVL<int>();
+    avl.logger = listViewAL;
 
     //connect(this,SIGNAL(sig_turn(Mode)),graphicsView, SLOT(sl_turn(Mode)));
     connect(this,SIGNAL(sig_cre()),create_dialog, SLOT(exec()));
     connect(this,SIGNAL(sig_tri()),triangle_dialog, SLOT(exec()));
     connect(this,SIGNAL(sig_lin()),line_dialog, SLOT(exec()));
     connect(this,SIGNAL(sig_rot()),rot_dialog,SLOT(exec()));
+
+    connect(listViewAL,SIGNAL(pressed(QModelIndex)),this,SLOT(slot_listView_clicked(QModelIndex)));
+    connect(butAdd,SIGNAL(clicked(bool)),this,SLOT(slot_butAdd_clicked(bool)));
+    //listViewAL->focusInEvent(QFocusEvent);
+    //listViewAL->selectedIndexes().
 
     //connect(this,SIGNAL(sig_inv()),graphicsView, SLOT(sl_turn_inv()));
     //connect(this,SIGNAL(sig_cut()),graphicsView, SLOT(sl_turn_cut()));
@@ -82,7 +94,7 @@ MainWindow::~MainWindow() {
     //delete image;
     delete _image;
     delete graphicsView;
-    delete layout;
+    delete sideslayout;
     delete central_widget;
     delete info_dialog;
 }
@@ -166,3 +178,25 @@ void MainWindow::on_actionGraphWindow_triggered()
 
 }
 
+void MainWindow::slot_butAdd_clicked(bool)
+{
+    avl.insert(spinBox->value());
+
+}
+
+
+void MainWindow::slot_listView_clicked(QModelIndex index)
+{
+    //QString Result;//Итоговый результат
+
+    //выдергиваем текст
+    int i = index.row();
+
+    std::list<AVL::AVL<int> >::iterator it;
+    it = listViewAL->treeList.begin();
+    while(i--)it++;
+    graphicsView->slotDrawAvl(*(it));
+
+    //Result=index.data(Qt::DisplayRole).toString();
+
+}
