@@ -18,6 +18,8 @@
 #define AVL_DEBUG 0
 #endif
 
+static bool LOGGING=true;
+
 class ListViewActionLogger;
 
 //extern bool AVL_DEBUG;
@@ -62,6 +64,19 @@ private:
         Root = p;
     }
 
+    void deselectall(node* p){
+        if(!p)return;
+        p->highlight=false;
+        p->highlightLeft=false;
+        p->highlightRight=false;
+        deselectall(p->left);
+        deselectall(p->right);
+    }
+
+    bool _isList(node *p){
+        return (p && !p->left && !p->right);
+    }
+
     int bfactor(node* p)//Balance factor -difference between branches
     {
         return _height(p->right)-_height(p->left);
@@ -78,17 +93,40 @@ private:
     {
         if(AVL_DEBUG){printStr("Rotating right around '");printChar(p->key);printStr("'\n");}
         node* q = p->left;//Save left
+
+        if(LOGGING){
+            deselectall(Root);
+            p->highlight=true;
+            q->highlight=true;
+            std::string logstr = "";logstr+="*\tBalancing: Rotating right around: ";logstr+=std::to_string(p->key);
+            logstr+="\n\tLeft neighbour is element: ";logstr+=std::to_string(q->key);
+            logger->logAction(logstr,this->copy());
+            deselectall(Root);
+        }
+
         p->left = q->right;//Transive common
         q->right = p; //Swap one under another
         fixheight(p); //Redo hight
         fixheight(q);
         return q;
+        //Log after rotation??
     }
 
     node* rotateleft(node* q) // left rotation around q
     {
         if(AVL_DEBUG){printStr("Rotating left around '");printChar((q)->key);printStr("'\n");}
         node* p = q->right; //Save right
+
+        if(LOGGING){
+            deselectall(Root);
+            p->highlight=true;
+            q->highlight=true;
+            std::string logstr = "";logstr+="*\tBalancing: Rotating left around: ";logstr+=std::to_string(q->key);
+            logstr+="\n\tRight neighbour is element: ";logstr+=std::to_string(p->key);
+            logger->logAction(logstr,this->copy());
+            deselectall(Root);
+        }
+
         q->right = p->left; //Transive common
         p->left = q; //Swap one under another
         fixheight(q); //Redo hight
@@ -98,6 +136,7 @@ private:
 
     node* balance(node* p) // balancing node p
     {
+
         fixheight(p);
         if( bfactor(p)==2 )//Disbalance to the right
         {
@@ -117,45 +156,131 @@ private:
 
     node* findmin(node* p) // find minimal key node in tree p
     {
+
+        if(p->left){
+            if(LOGGING)
+            {
+                p->highlightLeft=true;
+                std::string logstr = "";logstr+="*\t\tCurrent min: ";logstr+=std::to_string(p->key);
+                logstr+="\n\t\tGoing Left";
+                logger->logAction(logstr,this->copy());
+            }
+            return findmin(p->left);
+        }
+        else{
+            if(LOGGING)
+            {
+                p->highlight=true;
+                std::string logstr = "";logstr+="*\t\tFound min: ";logstr+=std::to_string(p->key);
+                logger->logAction(logstr,this->copy());
+            }
+
+            return p;
+        }
+
         return p->left?findmin(p->left):p;
     }
 
-    node* removemin(node* p) // remove minimal key node from tree p
+    node* removemin(node* p) // remove minimal key node from tree p, one that pointed on it now pointing on its right element
     {
+
         if( p->left==0 )
             return p->right;
         p->left = removemin(p->left);
+        LOGGING=false;
         return balance(p);
     }
 
     node* _insert(node* p, Elem k, int lvl = 0) // insert key k in tree with root p
     {
-        if( !p ) {// If tree is empty - found ins place
+        if( !p ) {// If tree is empty - found its place
             if (AVL_DEBUG){
                 for(int i=0;i<lvl;i++)printStr("\t");
                 printStr("Insertion place!\n");
             }
             node *n = new node(k);
+
             n->highlight=true;
+
             return n;
         }
         if(AVL_DEBUG){
             for(int i=0;i<lvl;i++)printStr("\t");
             printStr("Current:");printChar(p->key);printChar('\n');
         }
-        if( k<p->key ){ // if root is greater than key - go to left subtree
+        if(k==p->key){
+            if (AVL_DEBUG){
+                for(int i=0;i<lvl;i++)printStr("\t");
+                printStr("Element already exists. Nothing is added!\n");
+            }
+
+            if(LOGGING)
+            {
+
+                std::string logstr = "";logstr+="*\tElement: ";logstr+=std::to_string(k);logstr+=" already exists. Nothing is added!";
+                p->highlight=true;
+                logger->logAction(logstr,this->copy());
+                deselectall(Root);
+                p->highlight=true;
+            }
+            return p;
+        }
+        else if( k<p->key ){ // if root is greater than key - go to left subtree
             if(AVL_DEBUG) {
                 for (int i = 0; i < lvl; i++)printStr("\t");
                 printStr("Going left\n");
             }
+            if(LOGGING)
+            {
+                p->highlightRight=false;
+                p->highlightLeft=true;
+                std::string logstr = "";logstr+="*\tInserting element: ";logstr+=std::to_string(k);
+                logstr+="\n\tCurent root: ";logstr+=std::to_string(p->key);
+                logstr+="\n\tElement is smaller thar root => ";
+                logstr+="Going Left";
+                //if(!p->left)Root->height+=1;
+                logger->logAction(logstr,this->copy());
+                //if(!p->left)Root->height-=1;
+            }
+
+
             p->left = _insert(p->left,k,lvl+1);
+
+            if(LOGGING && _isList(p->left)){
+                fixheight(Root);
+
+                std::string logstr = "";logstr+="*\tInserted element: ";logstr+=std::to_string(k);
+                logger->logAction(logstr,this->copy());
+                deselectall(Root);
+            }
         }
         else {// if root is less than key - go to right subtree
             if(AVL_DEBUG) {
                 for (int i = 0; i < lvl; i++)printStr("\t");
                 printStr("Going right\n");
             }
+            if(LOGGING)
+            {
+                p->highlightLeft=false;
+                p->highlightRight=true;
+                std::string logstr = "";logstr+="*\tInserting element: ";logstr+=std::to_string(k);
+                logstr+="\n\tCurent root: ";logstr+=std::to_string(p->key);
+                logstr+="\n\tElement is bigger thar root => ";
+                logstr+="Going Right";
+                //if(!p->right) Root->height+=1;
+                logger->logAction(logstr,this->copy());
+                //if(!p->right)Root->height-=1;
+            }
+
             p->right = _insert(p->right, k,lvl+1);
+
+            if(LOGGING && _isList(p->right)){
+                fixheight(Root);
+                fixheight(Root);
+                std::string logstr = "";logstr+="*\tInserted element: ";logstr+=std::to_string(k);
+                logger->logAction(logstr,this->copy());
+                deselectall(Root);
+            }
         }
         /*
         if(DEBUG) {
@@ -163,32 +288,108 @@ private:
             printStr("Rebalancing AVL\n");
         }
          */
+        /*
+        if(LOGGING && p==Root)
+        {
+            fixheight(p);
+
+            std::string logstr = "";logstr+="*\tInserted element: ";logstr+=std::to_string(k);
+            logger->logAction(logstr,this->copy());
+        }
+        */
         return balance(p);//Required before return
     }
 
     node* _remove(node* p, Elem k) // removing key k from tree p
     {
-        if( !p ) return 0;//Empty - nothing to remove, key is absent
-        if( k < p->key )// Looking for key to remove
+        if( !p ) {//Not found
+
+            if(LOGGING)
+            {
+                std::string logstr = "";logstr+="*\tElement: ";logstr+=std::to_string(k);logstr+=" not found. Nothing to remove!";
+                logger->logAction(logstr,this->copy());
+            }
+            return 0;//Empty - nothing to remove, key is absent
+        }
+        //  Looking for key to remove.
+        if( k < p->key ){//  Key is less than root
+            if(LOGGING)
+            {
+                p->highlightRight=false;
+                p->highlightLeft=true;
+                std::string logstr = "";logstr+="*\tRemoving element: ";logstr+=std::to_string(k);
+                logstr+="\n\tCurent root: ";logstr+=std::to_string(p->key);
+                logstr+="\n\tElement is smaller thar root => ";
+                logstr+="Going Left";
+                logger->logAction(logstr,this->copy());
+            }
+
             p->left = _remove(p->left,k); //less - to the left
-        else if( k > p->key )
-            p->right = _remove(p->right,k);//more - to the right
-        else //  k == p->key found the key
+        }
+        else if( k > p->key ){//Key is more than root
+            if(LOGGING)
+            {
+                p->highlightLeft=false;
+                p->highlightRight=true;
+                std::string logstr = "";logstr+="*\tRemoving element: ";logstr+=std::to_string(k);
+                logstr+="\n\tCurent root: ";logstr+=std::to_string(p->key);
+                logstr+="\n\tElement is bigger thar root => ";
+                logstr+="Going Right";
+                logger->logAction(logstr,this->copy());
+            }
+
+            p->right = _remove(p->right,k);//more - going to the right
+        }
+        else //  k == p->key ; found the key
         {
+            if(LOGGING){
+                p->highlight=true;
+                std::string logstr = "";logstr+="*\tFound element to remove: ";logstr+=std::to_string(k);
+                logger->logAction(logstr,this->copy());
+            }
+
             node* q = p->left; // save left/right
             node* r = p->right;
-            delete p; // delete key
-            if( !r ) return q; // no right branch - all is fine
+            //delete p; // delete key
+            if( !r ){
+                delete p; // delete key
+                return q; // no right branch - all is fine
+            }
+
+
+            if(LOGGING){
+                deselectall(Root);
+                std::string logstr = "";logstr+="*\tLooking for min in right subtree of ";logstr+=std::to_string(k);logstr+=" which is: ";logstr+=std::to_string(r->key);
+                r->highlight=true;
+                logger->logAction(logstr,this->copy());
+                deselectall(Root);
+            }
             node* min = findmin(r); // else - find least object in right subtree
-            min->right = removemin(r); // swap it with deleted and remove from old place
+
+            if(LOGGING)
+            {
+                deselectall(Root);
+                p->highlight=true;
+                min->highlight=true;
+                std::string logstr = "";logstr+="*\tMin in right subtree of ";logstr+=std::to_string(k);logstr+=" found: ";logstr+=std::to_string(min->key);
+                logstr+="\n\tSet min instead of element to delete and remove from old place. (Old place gets balanced)";
+                logger->logAction(logstr,this->copy());
+            }
+
+            min->right = removemin(r); // swap it with deleted and remove from old place. Old place gets balanced
+            LOGGING=true;
             min->left = q;
+            delete p; // delete key
             return balance(min);// required before return;
         }
+        if(AVL_DEBUG)printStr("ACHTUNG!! ACHTUNG!! REMOVE ENDED UP SOMEWHAT WIERD");
         return balance(p);
     }
 
     unsigned char _height(node* p) // get tree hight
     {
+        if(!p)return 0;
+        fixheight(p);
         return p?p->height:0;
     }
 
@@ -267,6 +468,10 @@ public:
         return Root==0;
     }
 
+    bool isList(){
+        return (Root && !Root->left && !Root->right);
+    }
+
     void insert(Elem key) //Insert key k in this tree
     {
         if(AVL_DEBUG){
@@ -280,10 +485,19 @@ public:
                 printStr("'\n");
             }
         }
-
+        if(LOGGING)
+        {
+            std::string logstr = "";logstr+="# Inserting element: ";logstr+=std::to_string(key);
+            logger->logAction(logstr,this->copy());
+        }
         Root=_insert(Root,key);
+        if(LOGGING)
+        {
+            std::string logstr = "";logstr+="# Insertion completed of element: ";logstr+=std::to_string(key);
+            deselectall(Root);
+            logger->logAction(logstr,this->copy());
+        }
 
-        logger->logAction("Insertion",this->copy());
 
 
         if(AVL_DEBUG)printStr("Insertion completed\n");
@@ -291,7 +505,21 @@ public:
 
     void remove(Elem key) //Remove key k from this tree
     {
+        if(LOGGING)
+        {
+            std::string logstr = "";logstr+="# Removing element: ";logstr+=std::to_string(key);
+            logger->logAction(logstr,this->copy());
+        }
+
         Root=_remove(Root,key);
+
+        if(LOGGING)
+        {
+            std::string logstr = "";logstr+="# Removing completed of element: ";logstr+=std::to_string(key);
+            deselectall(Root);
+            logger->logAction(logstr,this->copy());
+        }
+
     }
 
     unsigned char height() //Height(depth) of this tree

@@ -24,7 +24,7 @@ GraphGraphicView::GraphGraphicView(QGraphicsView *parent) : QGraphicsView(parent
     timer->setSingleShot(true);
 
     //_avl=AVL::AVL<int>();
-    _width = this->width();
+    _width = this->width()*9/10;
     _height = this->height();
 /*
     _avl = AVL::AVL<int>();
@@ -53,9 +53,10 @@ void GraphGraphicView::slotDrawAvl(AVL::AVL<int> _avl)
 
     scene->setSceneRect(0,0,_width,_height);
     _lvlInt = (_height - 2*_nodeSize) / _avl.height();
+    //_width*=3;_width/=4;
     if(!_avl.isEmpty())_slotDrawAvl(_avl,1,_width/2);
     else{
-        group_1->addToGroup(scene->addText("<empty_tree>"));
+        group_1->addToGroup(scene->addText("Empty tree!"));
     }
 }
 
@@ -65,6 +66,10 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     //TODO SOMETHING WITH TEXT
     QPen penBlack(Qt::black);
     QPen penRed(Qt::red);
+    int penWidth = penBlack.width();
+
+    penRed.setWidth(2*penWidth);
+
     int x=xCoord;
     int y=_lvlInt*lvl-_lvlInt/2;
 
@@ -87,7 +92,7 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     QGraphicsTextItem* text = scene->addText(QString::fromStdString( strRoot ),font);
     text->setTextWidth(_nodeSize);
 
-    QTextBlockFormat format;//Alignment
+    QTextBlockFormat format;//Text alignment
     format.setAlignment(Qt::AlignCenter);
     format.setIndent(0);
     format.setTextIndent(0);
@@ -106,17 +111,31 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     text->setPos(xCoord+(_nodeSize-text->boundingRect().width())/2 ,y + (strRoot.length()==1? -10:strRoot.length()>2?15:0));//some magic going on here
 
     group_1->addToGroup(text);
+
     if(!avl.left().isEmpty()){
-        group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penBlack));
+        if(avl.Root->highlightLeft)
+            group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
+        else
+            group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penBlack));
         _slotDrawAvl(avl.left(),lvl+1,xCoord-_width/(1<<(lvl+1)));
+    }
+    else
+    {
+        if(avl.Root->highlightLeft)group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
     }
 
     if(!avl.right().isEmpty()){
-        group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penBlack));
+        if(avl.Root->highlightRight)
+            group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
+        else
+            group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penBlack));
+
         _slotDrawAvl(avl.right(),lvl+1,xCoord+_width/(1<<(lvl+1)));
     }
-
-
+    else
+    {
+        if(avl.Root->highlightRight)group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
+    }
 
 }
 
@@ -185,7 +204,7 @@ void GraphGraphicView::resizeEvent(QResizeEvent *event)
 {
     timer->start(50);   // As soon as we start the timer event has occurred to render
 
-    _width = this->width();
+    _width = this->width()*9/10;
     _height= this->height();
     slotDrawAvl(last_drawn_avl);
 

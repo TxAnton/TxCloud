@@ -34,6 +34,7 @@ private:
     float _nodeSize = 50;
     float _lvlInt = 0;
 
+
     /* Timer for delayed rendering.
      * The fact is that when you create a window and the widget
      * needs some time to parent layer turned to take

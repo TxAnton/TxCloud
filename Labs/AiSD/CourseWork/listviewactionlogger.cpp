@@ -31,3 +31,18 @@ void ListViewActionLogger::logText(std::string str)
 
     return;
 }
+
+void ListViewActionLogger::currentChanged(const QModelIndex &cur, const QModelIndex &prv)
+{
+    emit reselect( cur.row() );
+}
+
+void ListViewActionLogger::clear()
+{
+    model->clear();
+    treeList.clear();
+    this->setModel(model);
+}
+
+
+

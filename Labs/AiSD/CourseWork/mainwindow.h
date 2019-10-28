@@ -15,19 +15,19 @@
 #include <QStandardItem>
 #include <QButtonGroup>
 #include <QPushButton>
-
-#include "qbmptools.h"
+#include <QSpinBox>
+//#include "qbmptools.h"
 
 //#include"graph_window.h"
 
-#include "graph_window.h"
-#include "info_dialog.h"
+//#include "graph_window.h"
+//#include "info_dialog.h"
 //#include "drawgraphicsview.h"
 #include "graphgraphicview.h"
-#include "triangle_dialog.h"
-#include "line_dialog.h"
-#include "rot_dialog.h"
-#include "create_dialog.h"
+//#include "triangle_dialog.h"
+//#include "line_dialog.h"
+//#include "rot_dialog.h"
+//#include "create_dialog.h"
 #include "listviewactionlogger.h"
 
 
@@ -53,6 +53,7 @@ signals:
     void sig_rot();
 
 private slots:
+    /*
     void on_actionopen_file_triggered();
 
     void on_actionSave_triggered();
@@ -74,17 +75,23 @@ private slots:
     void on_actionNew_tool_triggered();
 
     void on_actionGraphWindow_triggered();
-
+*/
     void slot_butAdd_clicked(bool);
+    void slot_butRem_clicked(bool);
+    void slot_butNew_clicked(bool);
+    //void slot_butFind_clicked(bool);
+    void slot_butSkip_clicked(bool);
 
     void slot_listView_clicked(QModelIndex);
+    void slot_listView_selectionChanged(QItemSelection,QItemSelection);
+    void slot_listView_select(int);
 
 
 private:
     Ui::MainWindow *ui;
     //DrawGraphicsView *graphicsView;
     GraphGraphicView *graphicsView;
-    My_Image *_image;
+    //My_Image *_image;
     QHBoxLayout *sideslayout;
     QVBoxLayout *vertlayout;
     QHBoxLayout *buttonslayout;
@@ -93,22 +100,22 @@ private:
 
     QPixmap stdPixmap;
     QListView *lstVw;
-    GraphWindow* graph_window;
+    //GraphWindow* graph_window;
     ListViewActionLogger* listViewAL;
     QPushButton* butNew;
     QPushButton* butAdd;
     QPushButton* butRem;
-    QPushButton* butFind;
-    QPushButton* butStep;
+    //QPushButton* butFind;
+    QPushButton* butSkip;
 
     QSpinBox* spinBox;
-
+/*
     infoDialog* info_dialog;
     triangleDialog* triangle_dialog;
     lineDialog* line_dialog;
     createDialog* create_dialog;
     rotDialog* rot_dialog;
-
+*/
     AVL::AVL<int> avl;
 
 
