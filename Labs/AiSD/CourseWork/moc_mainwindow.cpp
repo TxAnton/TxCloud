@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[19];
-    char stringdata0[370];
+    QByteArrayData data[17];
+    char stringdata0[242];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,31 +39,23 @@ QT_MOC_LITERAL(4, 28, 7), // "sig_lin"
 QT_MOC_LITERAL(5, 36, 7), // "sig_inv"
 QT_MOC_LITERAL(6, 44, 7), // "sig_cre"
 QT_MOC_LITERAL(7, 52, 7), // "sig_rot"
-QT_MOC_LITERAL(8, 60, 28), // "on_actionopen_file_triggered"
-QT_MOC_LITERAL(9, 89, 23), // "on_actionSave_triggered"
-QT_MOC_LITERAL(10, 113, 25), // "on_actionCreate_triggered"
-QT_MOC_LITERAL(11, 139, 17), // "size_error_dialog"
-QT_MOC_LITERAL(12, 157, 29), // "on_actionProperties_triggered"
-QT_MOC_LITERAL(13, 187, 32), // "on_actionDraw_triangle_triggered"
-QT_MOC_LITERAL(14, 220, 28), // "on_actionDraw_line_triggered"
-QT_MOC_LITERAL(15, 249, 32), // "on_actionInvert_circle_triggered"
-QT_MOC_LITERAL(16, 282, 28), // "on_actionCut_image_triggered"
-QT_MOC_LITERAL(17, 311, 27), // "on_actionNew_tool_triggered"
-QT_MOC_LITERAL(18, 339, 30) // "on_actionGraphWindow_triggered"
+QT_MOC_LITERAL(8, 60, 19), // "slot_butAdd_clicked"
+QT_MOC_LITERAL(9, 80, 19), // "slot_butRem_clicked"
+QT_MOC_LITERAL(10, 100, 19), // "slot_butNew_clicked"
+QT_MOC_LITERAL(11, 120, 20), // "slot_butSkip_clicked"
+QT_MOC_LITERAL(12, 141, 21), // "slot_listView_clicked"
+QT_MOC_LITERAL(13, 163, 11), // "QModelIndex"
+QT_MOC_LITERAL(14, 175, 30), // "slot_listView_selectionChanged"
+QT_MOC_LITERAL(15, 206, 14), // "QItemSelection"
+QT_MOC_LITERAL(16, 221, 20) // "slot_listView_select"
 
     },
     "MainWindow\0sig_cut\0\0sig_tri\0sig_lin\0"
-    "sig_inv\0sig_cre\0sig_rot\0"
-    "on_actionopen_file_triggered\0"
-    "on_actionSave_triggered\0"
-    "on_actionCreate_triggered\0size_error_dialog\0"
-    "on_actionProperties_triggered\0"
-    "on_actionDraw_triangle_triggered\0"
-    "on_actionDraw_line_triggered\0"
-    "on_actionInvert_circle_triggered\0"
-    "on_actionCut_image_triggered\0"
-    "on_actionNew_tool_triggered\0"
-    "on_actionGraphWindow_triggered"
+    "sig_inv\0sig_cre\0sig_rot\0slot_butAdd_clicked\0"
+    "slot_butRem_clicked\0slot_butNew_clicked\0"
+    "slot_butSkip_clicked\0slot_listView_clicked\0"
+    "QModelIndex\0slot_listView_selectionChanged\0"
+    "QItemSelection\0slot_listView_select"
 };
 #undef QT_MOC_LITERAL
 
@@ -73,7 +65,7 @@ static const uint qt_meta_data_MainWindow[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-      17,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -81,25 +73,21 @@ static const uint qt_meta_data_MainWindow[] = {
        6,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   99,    2, 0x06 /* Public */,
-       3,    0,  100,    2, 0x06 /* Public */,
-       4,    0,  101,    2, 0x06 /* Public */,
-       5,    0,  102,    2, 0x06 /* Public */,
-       6,    0,  103,    2, 0x06 /* Public */,
-       7,    0,  104,    2, 0x06 /* Public */,
+       1,    0,   79,    2, 0x06 /* Public */,
+       3,    0,   80,    2, 0x06 /* Public */,
+       4,    0,   81,    2, 0x06 /* Public */,
+       5,    0,   82,    2, 0x06 /* Public */,
+       6,    0,   83,    2, 0x06 /* Public */,
+       7,    0,   84,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    0,  105,    2, 0x08 /* Private */,
-       9,    0,  106,    2, 0x08 /* Private */,
-      10,    0,  107,    2, 0x08 /* Private */,
-      11,    0,  108,    2, 0x08 /* Private */,
-      12,    0,  109,    2, 0x08 /* Private */,
-      13,    0,  110,    2, 0x08 /* Private */,
-      14,    0,  111,    2, 0x08 /* Private */,
-      15,    0,  112,    2, 0x08 /* Private */,
-      16,    0,  113,    2, 0x08 /* Private */,
-      17,    0,  114,    2, 0x08 /* Private */,
-      18,    0,  115,    2, 0x08 /* Private */,
+       8,    1,   85,    2, 0x08 /* Private */,
+       9,    1,   88,    2, 0x08 /* Private */,
+      10,    1,   91,    2, 0x08 /* Private */,
+      11,    1,   94,    2, 0x08 /* Private */,
+      12,    1,   97,    2, 0x08 /* Private */,
+      14,    2,  100,    2, 0x08 /* Private */,
+      16,    1,  105,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -110,17 +98,13 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
 
  // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void, QMetaType::Bool,    2,
+    QMetaType::Void, 0x80000000 | 13,    2,
+    QMetaType::Void, 0x80000000 | 15, 0x80000000 | 15,    2,    2,
+    QMetaType::Void, QMetaType::Int,    2,
 
        0        // eod
 };
@@ -137,18 +121,26 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 3: _t->sig_inv(); break;
         case 4: _t->sig_cre(); break;
         case 5: _t->sig_rot(); break;
-        case 6: _t->on_actionopen_file_triggered(); break;
-        case 7: _t->on_actionSave_triggered(); break;
-        case 8: _t->on_actionCreate_triggered(); break;
-        case 9: _t->size_error_dialog(); break;
-        case 10: _t->on_actionProperties_triggered(); break;
-        case 11: _t->on_actionDraw_triangle_triggered(); break;
-        case 12: _t->on_actionDraw_line_triggered(); break;
-        case 13: _t->on_actionInvert_circle_triggered(); break;
-        case 14: _t->on_actionCut_image_triggered(); break;
-        case 15: _t->on_actionNew_tool_triggered(); break;
-        case 16: _t->on_actionGraphWindow_triggered(); break;
+        case 6: _t->slot_butAdd_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 7: _t->slot_butRem_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 8: _t->slot_butNew_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 9: _t->slot_butSkip_clicked((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 10: _t->slot_listView_clicked((*reinterpret_cast< QModelIndex(*)>(_a[1]))); break;
+        case 11: _t->slot_listView_selectionChanged((*reinterpret_cast< QItemSelection(*)>(_a[1])),(*reinterpret_cast< QItemSelection(*)>(_a[2]))); break;
+        case 12: _t->slot_listView_select((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 11:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 1:
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QItemSelection >(); break;
+            }
+            break;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
@@ -195,7 +187,6 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
             }
         }
     }
-    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {
@@ -227,13 +218,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 17)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 17;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 17)
-            *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 17;
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
     }
     return _id;
 }

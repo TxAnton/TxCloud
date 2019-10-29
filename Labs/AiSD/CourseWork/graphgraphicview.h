@@ -47,7 +47,7 @@ signals:
 public slots:
     void slotDrawAvl(AVL::AVL<int> _avl);
     void _slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord);
-    void slotAlarmTimer();  /* slot timer overflow handler there will be repainting the widget*/
+    //void slotAlarmTimer();  /* slot timer overflow handler there will be repainting the widget*/
     void resizeEvent(QResizeEvent *event);
     void deleteItemsFromGroup(QGraphicsItemGroup *group_1);
 

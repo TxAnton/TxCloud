@@ -26,26 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-    info_dialog.cpp \
-    line_dialog.cpp \
         main.cpp \
         mainwindow.cpp \
-    qbmptools.cpp \
-    rot_dialog.cpp \
-    triangle_dialog.cpp \
-    drawgraphicsview.cpp \
     graphgraphicview.cpp \
     listviewactionlogger.cpp
 
 HEADERS += \
-    BMPTools.h \
-    info_dialog.h \
-    line_dialog.h \
         mainwindow.h \
-    qbmptools.h \
-    rot_dialog.h \
-    triangle_dialog.h \
-    drawgraphicsview.h \
     graphgraphicview.h \
     AVLTreeClass.h \
     listviewactionlogger.h

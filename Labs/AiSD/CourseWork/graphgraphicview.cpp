@@ -138,37 +138,36 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     }
 
 }
-
+/*
 void GraphGraphicView::slotAlarmTimer()
 {
-    /* We remove all items from the stage if they are facing a new rendering
-     * */
+    // We remove all items from the stage if they are facing a new rendering
+
     this->deleteItemsFromGroup(group_1);
     this->deleteItemsFromGroup(group_2);
 
     int width = this->width();
     int height = this->height();
 
-    /* Set the stage size to size the widget.
-     * The first coordinate - it is the top left corner,
-     * and the second - is the lower right corner
-     * */
+    // Set the stage size to size the widget.
+    //  The first coordinate - it is the top left corner,
+    //  and the second - is the lower right corner
+    //
+
     scene->setSceneRect(0,0,width,height);
 
-    /* Getting started drawing random pictures
-     * */
+    // Getting started drawing random pictures
     QPen penBlack(Qt::black);
     QPen penRed(Qt::red);
 
-    /* Draw a black rectangle
-     * */
+    // Draw a black rectangle
+
     group_1->addToGroup(scene->addLine(20,20, width - 20, 20, penBlack));
     group_1->addToGroup(scene->addLine(width - 20, 20, width - 20, height -20, penBlack));
     group_1->addToGroup(scene->addLine(width - 20, height -20, 20, height -20, penBlack));
     group_1->addToGroup(scene->addLine(20, height -20, 20, 20, penBlack));
 
-    /* Draw a red rectangle
-     * */
+    // Draw a red rectangle
     int sideOfSquare = (height > width) ? (width - 60) : (height - 60);
     int centerOfWidget_X = width/2;
     int centerOfWidget_Y = height/2;
@@ -197,9 +196,9 @@ void GraphGraphicView::slotAlarmTimer()
                                        centerOfWidget_Y - (sideOfSquare/2),
                                        penRed));
 }
+*/
+// This method catches widget resize event
 
-/* This method catches widget resize event
- * */
 void GraphGraphicView::resizeEvent(QResizeEvent *event)
 {
     timer->start(50);   // As soon as we start the timer event has occurred to render

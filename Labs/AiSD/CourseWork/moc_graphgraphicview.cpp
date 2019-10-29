@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_GraphGraphicView_t {
-    QByteArrayData data[15];
-    char stringdata0[168];
+    QByteArrayData data[16];
+    char stringdata0[173];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,23 +34,24 @@ static const qt_meta_stringdata_GraphGraphicView_t qt_meta_stringdata_GraphGraph
 QT_MOC_LITERAL(0, 0, 16), // "GraphGraphicView"
 QT_MOC_LITERAL(1, 17, 11), // "slotDrawAvl"
 QT_MOC_LITERAL(2, 29, 0), // ""
-QT_MOC_LITERAL(3, 30, 12), // "_slotDrawAvl"
-QT_MOC_LITERAL(4, 43, 13), // "AVL::AVL<int>"
-QT_MOC_LITERAL(5, 57, 3), // "avl"
-QT_MOC_LITERAL(6, 61, 3), // "lvl"
-QT_MOC_LITERAL(7, 65, 6), // "xCoord"
-QT_MOC_LITERAL(8, 72, 14), // "slotAlarmTimer"
-QT_MOC_LITERAL(9, 87, 11), // "resizeEvent"
-QT_MOC_LITERAL(10, 99, 13), // "QResizeEvent*"
-QT_MOC_LITERAL(11, 113, 5), // "event"
-QT_MOC_LITERAL(12, 119, 20), // "deleteItemsFromGroup"
-QT_MOC_LITERAL(13, 140, 19), // "QGraphicsItemGroup*"
-QT_MOC_LITERAL(14, 160, 7) // "group_1"
+QT_MOC_LITERAL(3, 30, 13), // "AVL::AVL<int>"
+QT_MOC_LITERAL(4, 44, 4), // "_avl"
+QT_MOC_LITERAL(5, 49, 12), // "_slotDrawAvl"
+QT_MOC_LITERAL(6, 62, 3), // "avl"
+QT_MOC_LITERAL(7, 66, 3), // "lvl"
+QT_MOC_LITERAL(8, 70, 6), // "xCoord"
+QT_MOC_LITERAL(9, 77, 14), // "slotAlarmTimer"
+QT_MOC_LITERAL(10, 92, 11), // "resizeEvent"
+QT_MOC_LITERAL(11, 104, 13), // "QResizeEvent*"
+QT_MOC_LITERAL(12, 118, 5), // "event"
+QT_MOC_LITERAL(13, 124, 20), // "deleteItemsFromGroup"
+QT_MOC_LITERAL(14, 145, 19), // "QGraphicsItemGroup*"
+QT_MOC_LITERAL(15, 165, 7) // "group_1"
 
     },
     "GraphGraphicView\0slotDrawAvl\0\0"
-    "_slotDrawAvl\0AVL::AVL<int>\0avl\0lvl\0"
-    "xCoord\0slotAlarmTimer\0resizeEvent\0"
+    "AVL::AVL<int>\0_avl\0_slotDrawAvl\0avl\0"
+    "lvl\0xCoord\0slotAlarmTimer\0resizeEvent\0"
     "QResizeEvent*\0event\0deleteItemsFromGroup\0"
     "QGraphicsItemGroup*\0group_1"
 };
@@ -70,18 +71,18 @@ static const uint qt_meta_data_GraphGraphicView[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   39,    2, 0x08 /* Private */,
-       3,    3,   40,    2, 0x08 /* Private */,
-       8,    0,   47,    2, 0x08 /* Private */,
-       9,    1,   48,    2, 0x08 /* Private */,
-      12,    1,   51,    2, 0x08 /* Private */,
+       1,    1,   39,    2, 0x0a /* Public */,
+       5,    3,   42,    2, 0x0a /* Public */,
+       9,    0,   49,    2, 0x0a /* Public */,
+      10,    1,   50,    2, 0x0a /* Public */,
+      13,    1,   53,    2, 0x0a /* Public */,
 
  // slots: parameters
+    QMetaType::Void, 0x80000000 | 3,    4,
+    QMetaType::Void, 0x80000000 | 3, QMetaType::Int, QMetaType::Float,    6,    7,    8,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 4, QMetaType::Int, QMetaType::Float,    5,    6,    7,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 10,   11,
-    QMetaType::Void, 0x80000000 | 13,   14,
+    QMetaType::Void, 0x80000000 | 11,   12,
+    QMetaType::Void, 0x80000000 | 14,   15,
 
        0        // eod
 };
@@ -92,7 +93,7 @@ void GraphGraphicView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         auto *_t = static_cast<GraphGraphicView *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->slotDrawAvl(); break;
+        case 0: _t->slotDrawAvl((*reinterpret_cast< AVL::AVL<int>(*)>(_a[1]))); break;
         case 1: _t->_slotDrawAvl((*reinterpret_cast< AVL::AVL<int>(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< float(*)>(_a[3]))); break;
         case 2: _t->slotAlarmTimer(); break;
         case 3: _t->resizeEvent((*reinterpret_cast< QResizeEvent*(*)>(_a[1]))); break;
