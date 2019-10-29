@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_GraphGraphicView_t {
-    QByteArrayData data[16];
-    char stringdata0[173];
+    QByteArrayData data[15];
+    char stringdata0[158];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -40,19 +40,18 @@ QT_MOC_LITERAL(5, 49, 12), // "_slotDrawAvl"
 QT_MOC_LITERAL(6, 62, 3), // "avl"
 QT_MOC_LITERAL(7, 66, 3), // "lvl"
 QT_MOC_LITERAL(8, 70, 6), // "xCoord"
-QT_MOC_LITERAL(9, 77, 14), // "slotAlarmTimer"
-QT_MOC_LITERAL(10, 92, 11), // "resizeEvent"
-QT_MOC_LITERAL(11, 104, 13), // "QResizeEvent*"
-QT_MOC_LITERAL(12, 118, 5), // "event"
-QT_MOC_LITERAL(13, 124, 20), // "deleteItemsFromGroup"
-QT_MOC_LITERAL(14, 145, 19), // "QGraphicsItemGroup*"
-QT_MOC_LITERAL(15, 165, 7) // "group_1"
+QT_MOC_LITERAL(9, 77, 11), // "resizeEvent"
+QT_MOC_LITERAL(10, 89, 13), // "QResizeEvent*"
+QT_MOC_LITERAL(11, 103, 5), // "event"
+QT_MOC_LITERAL(12, 109, 20), // "deleteItemsFromGroup"
+QT_MOC_LITERAL(13, 130, 19), // "QGraphicsItemGroup*"
+QT_MOC_LITERAL(14, 150, 7) // "group_1"
 
     },
     "GraphGraphicView\0slotDrawAvl\0\0"
     "AVL::AVL<int>\0_avl\0_slotDrawAvl\0avl\0"
-    "lvl\0xCoord\0slotAlarmTimer\0resizeEvent\0"
-    "QResizeEvent*\0event\0deleteItemsFromGroup\0"
+    "lvl\0xCoord\0resizeEvent\0QResizeEvent*\0"
+    "event\0deleteItemsFromGroup\0"
     "QGraphicsItemGroup*\0group_1"
 };
 #undef QT_MOC_LITERAL
@@ -63,7 +62,7 @@ static const uint qt_meta_data_GraphGraphicView[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -71,18 +70,16 @@ static const uint qt_meta_data_GraphGraphicView[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   39,    2, 0x0a /* Public */,
-       5,    3,   42,    2, 0x0a /* Public */,
-       9,    0,   49,    2, 0x0a /* Public */,
-      10,    1,   50,    2, 0x0a /* Public */,
-      13,    1,   53,    2, 0x0a /* Public */,
+       1,    1,   34,    2, 0x0a /* Public */,
+       5,    3,   37,    2, 0x0a /* Public */,
+       9,    1,   44,    2, 0x0a /* Public */,
+      12,    1,   47,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int, QMetaType::Float,    6,    7,    8,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 11,   12,
-    QMetaType::Void, 0x80000000 | 14,   15,
+    QMetaType::Void, 0x80000000 | 10,   11,
+    QMetaType::Void, 0x80000000 | 13,   14,
 
        0        // eod
 };
@@ -95,9 +92,8 @@ void GraphGraphicView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         switch (_id) {
         case 0: _t->slotDrawAvl((*reinterpret_cast< AVL::AVL<int>(*)>(_a[1]))); break;
         case 1: _t->_slotDrawAvl((*reinterpret_cast< AVL::AVL<int>(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< float(*)>(_a[3]))); break;
-        case 2: _t->slotAlarmTimer(); break;
-        case 3: _t->resizeEvent((*reinterpret_cast< QResizeEvent*(*)>(_a[1]))); break;
-        case 4: _t->deleteItemsFromGroup((*reinterpret_cast< QGraphicsItemGroup*(*)>(_a[1]))); break;
+        case 2: _t->resizeEvent((*reinterpret_cast< QResizeEvent*(*)>(_a[1]))); break;
+        case 3: _t->deleteItemsFromGroup((*reinterpret_cast< QGraphicsItemGroup*(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -132,13 +128,13 @@ int GraphGraphicView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 4)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 5;
+        _id -= 4;
     }
     return _id;
 }

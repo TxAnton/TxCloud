@@ -22,24 +22,18 @@ public:
     ~GraphGraphicView();
 
 private:
-    QGraphicsScene      *scene;
-    QGraphicsItemGroup  *group_1;
-    QGraphicsItemGroup  *group_2;
+    QGraphicsScene      *scene;//Graphics scene - canvas
+    QGraphicsItemGroup  *group_1;//One group for elements containing
+    QGraphicsItemGroup  *group_2;//Another one
 
-    AVL::AVL<char> avltree;
+    AVL::AVL<char> avltree;//Extra tree precaution purposes
 
-    AVL::AVL<int> last_drawn_avl;
-    int _width = 0;
-    int _height = 0;
-    float _nodeSize = 50;
-    float _lvlInt = 0;
+    AVL::AVL<int> last_drawn_avl;//Last drawn tree saved for redrawing if needed
+    int _width = 0;//Drawing field widtg
+    int _height = 0;//Drawing field heitght
+    float _nodeSize = 50;//Size of one tree node
+    float _lvlInt = 0;//Interval between intervals
 
-
-    /* Timer for delayed rendering.
-     * The fact is that when you create a window and the widget
-     * needs some time to parent layer turned to take
-     * from him adequate width and height settings
-     * */
     QTimer              *timer;
 
 signals:

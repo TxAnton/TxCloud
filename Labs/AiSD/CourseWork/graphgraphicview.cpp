@@ -26,44 +26,31 @@ GraphGraphicView::GraphGraphicView(QGraphicsView *parent) : QGraphicsView(parent
     //_avl=AVL::AVL<int>();
     _width = this->width()*9/10;
     _height = this->height();
-/*
-    _avl = AVL::AVL<int>();
-    _avl.insert(1);
-    _avl.insert(22);
-    _avl.insert(333);
-    _avl.insert(4444);
-    _avl.insert(55555);
-    _avl.insert(666666);_avl.insert(4);_avl.insert(5);_avl.insert(6);
-*/
 
-    //connect(timer, SIGNAL(timeout()), this, SLOT(slotAlarmTimer()));
     timer->start(50);
 }
 
 GraphGraphicView::~GraphGraphicView()
 {
-    //TODO
+
 }
 
 void GraphGraphicView::slotDrawAvl(AVL::AVL<int> _avl)
 {
-    last_drawn_avl = _avl;
-    this->deleteItemsFromGroup(group_1);
-    this->deleteItemsFromGroup(group_2);
+    last_drawn_avl = _avl;//Save last drawn tree to redraw if needed
+    this->deleteItemsFromGroup(group_1);//Clead groups
+    this->deleteItemsFromGroup(group_2);//They will be refilled
 
     scene->setSceneRect(0,0,_width,_height);
-    _lvlInt = (_height - 2*_nodeSize) / _avl.height();
-    //_width*=3;_width/=4;
-    if(!_avl.isEmpty())_slotDrawAvl(_avl,1,_width/2);
+    _lvlInt = (_height - 2*_nodeSize) / _avl.height();//Calculate interval between levels of tree
+    if(!_avl.isEmpty())_slotDrawAvl(_avl,1,_width/2);//Is tree is not empty - draw it
     else{
-        group_1->addToGroup(scene->addText("Empty tree!"));
+        group_1->addToGroup(scene->addText("Empty tree!"));//Otherwise print empty tree tittle
     }
 }
 
 void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
 {
-
-    //TODO SOMETHING WITH TEXT
     QPen penBlack(Qt::black);
     QPen penRed(Qt::red);
     int penWidth = penBlack.width();
@@ -73,14 +60,12 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     int x=xCoord;
     int y=_lvlInt*lvl-_lvlInt/2;
 
-    if(avl.Root->highlight)
+    if(avl.Root->highlight)// Draw root node
         group_1->addToGroup(scene->addEllipse(xCoord,y,_nodeSize,_nodeSize,penRed));
     else
         group_1->addToGroup(scene->addEllipse(xCoord,y,_nodeSize,_nodeSize,penBlack));
-    group_1->addToGroup(scene->addEllipse(xCoord,y,1,1,penRed));
 
-
-
+    //Do stuff with text. Here and hence!
     std::string strRoot = std::to_string( avl.root() );
     QFont font = QFont();
     font.setStyleHint(QFont::Monospace);
@@ -96,7 +81,6 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     format.setAlignment(Qt::AlignCenter);
     format.setIndent(0);
     format.setTextIndent(0);
-    //format.setLineHeight(_nodeSize,1);
 
     QTextCursor cursor = text->textCursor();
     cursor.select(QTextCursor::Document);
@@ -110,9 +94,11 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
     QRectF rect = text->boundingRect();
     text->setPos(xCoord+(_nodeSize-text->boundingRect().width())/2 ,y + (strRoot.length()==1? -10:strRoot.length()>2?15:0));//some magic going on here
 
-    group_1->addToGroup(text);
+    //Done messing with text
 
-    if(!avl.left().isEmpty()){
+    group_1->addToGroup(text);//Adding text
+
+    if(!avl.left().isEmpty()){//Draw left line
         if(avl.Root->highlightLeft)
             group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
         else
@@ -124,7 +110,7 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
         if(avl.Root->highlightLeft)group_1->addToGroup(scene->addLine(xCoord,y+_nodeSize,xCoord-_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
     }
 
-    if(!avl.right().isEmpty()){
+    if(!avl.right().isEmpty()){//Draw right line
         if(avl.Root->highlightRight)
             group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
         else
@@ -137,67 +123,7 @@ void GraphGraphicView::_slotDrawAvl(AVL::AVL<int> avl, int lvl, float xCoord)
         if(avl.Root->highlightRight)group_1->addToGroup(scene->addLine(xCoord+_nodeSize,y+_nodeSize,xCoord+_width/(1<<(lvl+1))+_nodeSize/2,y+_lvlInt,penRed));
     }
 
-}
-/*
-void GraphGraphicView::slotAlarmTimer()
-{
-    // We remove all items from the stage if they are facing a new rendering
-
-    this->deleteItemsFromGroup(group_1);
-    this->deleteItemsFromGroup(group_2);
-
-    int width = this->width();
-    int height = this->height();
-
-    // Set the stage size to size the widget.
-    //  The first coordinate - it is the top left corner,
-    //  and the second - is the lower right corner
-    //
-
-    scene->setSceneRect(0,0,width,height);
-
-    // Getting started drawing random pictures
-    QPen penBlack(Qt::black);
-    QPen penRed(Qt::red);
-
-    // Draw a black rectangle
-
-    group_1->addToGroup(scene->addLine(20,20, width - 20, 20, penBlack));
-    group_1->addToGroup(scene->addLine(width - 20, 20, width - 20, height -20, penBlack));
-    group_1->addToGroup(scene->addLine(width - 20, height -20, 20, height -20, penBlack));
-    group_1->addToGroup(scene->addLine(20, height -20, 20, 20, penBlack));
-
-    // Draw a red rectangle
-    int sideOfSquare = (height > width) ? (width - 60) : (height - 60);
-    int centerOfWidget_X = width/2;
-    int centerOfWidget_Y = height/2;
-
-    group_2->addToGroup(scene->addLine(centerOfWidget_X - (sideOfSquare/2),
-                                       centerOfWidget_Y - (sideOfSquare/2),
-                                       centerOfWidget_X + (sideOfSquare/2),
-                                       centerOfWidget_Y - (sideOfSquare/2),
-                                       penRed));
-
-    group_2->addToGroup(scene->addLine(centerOfWidget_X + (sideOfSquare/2),
-                                       centerOfWidget_Y - (sideOfSquare/2),
-                                       centerOfWidget_X + (sideOfSquare/2),
-                                       centerOfWidget_Y + (sideOfSquare/2),
-                                       penRed));
-
-    group_2->addToGroup(scene->addLine(centerOfWidget_X + (sideOfSquare/2),
-                                       centerOfWidget_Y + (sideOfSquare/2),
-                                       centerOfWidget_X - (sideOfSquare/2),
-                                       centerOfWidget_Y + (sideOfSquare/2),
-                                       penRed));
-
-    group_2->addToGroup(scene->addLine(centerOfWidget_X - (sideOfSquare/2),
-                                       centerOfWidget_Y + (sideOfSquare/2),
-                                       centerOfWidget_X - (sideOfSquare/2),
-                                       centerOfWidget_Y - (sideOfSquare/2),
-                                       penRed));
-}
-*/
-// This method catches widget resize event
+}// This method catches widget resize event
 
 void GraphGraphicView::resizeEvent(QResizeEvent *event)
 {

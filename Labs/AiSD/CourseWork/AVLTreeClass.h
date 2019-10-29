@@ -5,14 +5,11 @@
 #ifndef CODE_AVLTREECLASS_H
 #define CODE_AVLTREECLASS_H
 
-
 #include <QtDebug>
 
 #include <iostream>
 #include <vector>
 #include <string>
-
-
 
 #ifndef AVL_DEBUG
 #define AVL_DEBUG 0
@@ -56,15 +53,12 @@ public:
     node* Root;
 private:
 
-
-
-
     AVL(node* p)//Construct based on existing node(private)
     {
         Root = p;
     }
 
-    void deselectall(node* p){
+    void deselectall(node* p){//Disable all highlights
         if(!p)return;
         p->highlight=false;
         p->highlightLeft=false;
@@ -73,26 +67,26 @@ private:
         deselectall(p->right);
     }
 
-    bool _isList(node *p){
+    bool _isList(node *p){//Reterns true is node p is a list
         return (p && !p->left && !p->right);
     }
 
-    int bfactor(node* p)//Balance factor -difference between branches
+    int bfactor(node* p)//Balance factor -difference between branches heights
     {
         return _height(p->right)-_height(p->left);
     }
 
     void fixheight(node* p)//Recalculating height after other operations
     {
-        unsigned char hl = _height(p->left);
-        unsigned char hr = _height(p->right);
-        p->height = (hl>hr?hl:hr)+1;
+        unsigned char hl = _height(p->left);//Height of left branch
+        unsigned char hr = _height(p->right);//Height of right branch
+        p->height = (hl>hr?hl:hr)+1;//Hight eqs maximu of branches plus 1
     }
 
     node* rotateright(node* p) // right rotation around p
     {
         if(AVL_DEBUG){printStr("Rotating right around '");printChar(p->key);printStr("'\n");}
-        node* q = p->left;//Save left
+        node* q = p->left;//Save left subtree of p
 
         if(LOGGING){
             deselectall(Root);
@@ -100,7 +94,6 @@ private:
             q->highlight=true;
             std::string logstr = "";logstr+="*\tBalancing: Rotating right around: ";logstr+=std::to_string(p->key);
             logstr+="\n\tLeft neighbour is element: ";logstr+=std::to_string(q->key);
-            //logger->logAction(logstr,this->copy());
             logger->logAction(logstr,AVL(p).copy());
             deselectall(Root);
         }
@@ -110,7 +103,6 @@ private:
         fixheight(p); //Redo hight
         fixheight(q);
         return q;
-        //Log after rotation??
     }
 
     node* rotateleft(node* q) // left rotation around q
@@ -142,8 +134,9 @@ private:
         fixheight(p);
         if( bfactor(p)==2 )//Disbalance to the right
         {
-            if( bfactor(p->right) < 0 ){
-                p->right = rotateright(p->right);
+            if( bfactor(p->right) < 0 ){//If right branch has disbalance to the left..
+                p->right = rotateright(p->right);//Negate is, as after rotation it can cause further disbalance
+
                 if(LOGGING)
                 {
                     deselectall(Root);
@@ -156,26 +149,14 @@ private:
                     logger->logAction(logstr,this->copy());
                 }
             }
-            node* tmp = rotateleft(p);
-            /*
-            if(LOGGING)
-            {
-                deselectall(Root);
-                if(p){
-                    p->highlight=true;
-                    if(p->right)
-                        p->right->highlight=true;
-                }
-                std::string logstr = "";logstr+="*\t\tRotation left competed";
-                logger->logAction(logstr,this->copy());
-            }*/
+            node* tmp = rotateleft(p);//Fix disbalance
             return tmp;
             //return rotateleft(p);
         }
         if( bfactor(p)==-2 )//Disbalance to the left
         {
-            if( bfactor(p->left) > 0  ){
-                p->left = rotateleft(p->left);
+            if( bfactor(p->left) > 0  ){//If left branch has disbalance to the right
+                p->left = rotateleft(p->left);//Negate is, as after rotation it can cause further disbalance
                 if(LOGGING)
                 {
                     deselectall(Root);
@@ -188,18 +169,8 @@ private:
                     logger->logAction(logstr,this->copy());
                 }
             }
-            node* tmp = rotateright(p);
+            node* tmp = rotateright(p);//Fix disbalance
 /*
-            if(LOGGING){
-                deselectall(Root);
-                if(p){
-                    p->highlight=true;
-                    if(p->left)
-                        p->left->highlight=true;
-                }
-                std::string logstr = "";logstr+="*\t\t<<Rotation right competed>";
-                logger->logAction(logstr,this->copy());
-            }
 */
             return tmp;
         }
@@ -250,11 +221,10 @@ private:
                 for(int i=0;i<lvl;i++)printStr("\t");
                 printStr("Insertion place!\n");
             }
-            node *n = new node(k);
 
+            node *n = new node(k);//New node...
             n->highlight=true;
-
-            return n;
+            return n;//Stands instead of an empty sub-tree
         }
         if(AVL_DEBUG){
             for(int i=0;i<lvl;i++)printStr("\t");
@@ -290,11 +260,8 @@ private:
                 logstr+="\n\tCurent root: ";logstr+=std::to_string(p->key);
                 logstr+="\n\tElement is smaller thar root => ";
                 logstr+="Going Left";
-                //if(!p->left)Root->height+=1;
                 logger->logAction(logstr,this->copy());
-                //if(!p->left)Root->height-=1;
             }
-
 
             p->left = _insert(p->left,k,lvl+1);
 
@@ -334,21 +301,6 @@ private:
                 deselectall(Root);
             }
         }
-        /*
-        if(DEBUG) {
-            for (int i = 0; i < lvl; i++)printStr("\t");
-            printStr("Rebalancing AVL\n");
-        }
-         */
-        /*
-        if(LOGGING && p==Root)
-        {
-            fixheight(p);
-
-            std::string logstr = "";logstr+="*\tInserted element: ";logstr+=std::to_string(k);
-            logger->logAction(logstr,this->copy());
-        }
-        */
         return balance(p);//Required before return
     }
 
@@ -408,7 +360,6 @@ private:
                 return q; // no right branch - all is fine
             }
 
-
             if(LOGGING){
                 deselectall(Root);
                 std::string logstr = "";logstr+="*\tLooking for min in right subtree of ";logstr+=std::to_string(k);logstr+=" which is: ";logstr+=std::to_string(r->key);
@@ -434,7 +385,6 @@ private:
             delete p; // delete key
             return balance(min);// required before return;
         }
-        if(AVL_DEBUG)printStr("ACHTUNG!! ACHTUNG!! REMOVE ENDED UP SOMEWHAT WIERD");
         return balance(p);
     }
 
