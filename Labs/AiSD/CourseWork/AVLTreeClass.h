@@ -100,7 +100,8 @@ private:
             q->highlight=true;
             std::string logstr = "";logstr+="*\tBalancing: Rotating right around: ";logstr+=std::to_string(p->key);
             logstr+="\n\tLeft neighbour is element: ";logstr+=std::to_string(q->key);
-            logger->logAction(logstr,this->copy());
+            //logger->logAction(logstr,this->copy());
+            logger->logAction(logstr,AVL(p).copy());
             deselectall(Root);
         }
 
@@ -123,7 +124,8 @@ private:
             q->highlight=true;
             std::string logstr = "";logstr+="*\tBalancing: Rotating left around: ";logstr+=std::to_string(q->key);
             logstr+="\n\tRight neighbour is element: ";logstr+=std::to_string(p->key);
-            logger->logAction(logstr,this->copy());
+            //logger->logAction(logstr,this->copy());
+            logger->logAction(logstr,AVL(q).copy());
             deselectall(Root);
         }
 
@@ -141,15 +143,65 @@ private:
         if( bfactor(p)==2 )//Disbalance to the right
         {
             if( bfactor(p->right) < 0 ){
-                p->right = rotateright(p->right);}
-
-            return rotateleft(p);
+                p->right = rotateright(p->right);
+                if(LOGGING)
+                {
+                    deselectall(Root);
+                    if(p->right){
+                        p->right->highlight=true;
+                        if(p->right->left)
+                            p->right->left->highlight=true;
+                    }
+                    std::string logstr = "";logstr+="*\t\tRotation right competed";
+                    logger->logAction(logstr,this->copy());
+                }
+            }
+            node* tmp = rotateleft(p);
+            /*
+            if(LOGGING)
+            {
+                deselectall(Root);
+                if(p){
+                    p->highlight=true;
+                    if(p->right)
+                        p->right->highlight=true;
+                }
+                std::string logstr = "";logstr+="*\t\tRotation left competed";
+                logger->logAction(logstr,this->copy());
+            }*/
+            return tmp;
+            //return rotateleft(p);
         }
         if( bfactor(p)==-2 )//Disbalance to the left
         {
-            if( bfactor(p->left) > 0  )
+            if( bfactor(p->left) > 0  ){
                 p->left = rotateleft(p->left);
-            return rotateright(p);
+                if(LOGGING)
+                {
+                    deselectall(Root);
+                    if(p->left){
+                        p->left->highlight=true;
+                        if(p->left->right)
+                            p->left->right->highlight=true;
+                    }
+                    std::string logstr = "";logstr+="*\t\t<<Rotation left competed>>";
+                    logger->logAction(logstr,this->copy());
+                }
+            }
+            node* tmp = rotateright(p);
+/*
+            if(LOGGING){
+                deselectall(Root);
+                if(p){
+                    p->highlight=true;
+                    if(p->left)
+                        p->left->highlight=true;
+                }
+                std::string logstr = "";logstr+="*\t\t<<Rotation right competed>";
+                logger->logAction(logstr,this->copy());
+            }
+*/
+            return tmp;
         }
         return p; // balance not required
     }

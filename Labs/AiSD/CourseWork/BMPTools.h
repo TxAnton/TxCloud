@@ -143,6 +143,7 @@ BMPImage* BMPRead(const char *name)
         fread(ret, 1, len, fl);
         fclose(fl);
         return (BMPImage*)ret;
+
     } else
     {
         fclose(fl);

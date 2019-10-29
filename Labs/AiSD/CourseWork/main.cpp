@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
-
+#include <iostream>
 
 int main(int argc, char *argv[]) {
 
@@ -8,6 +8,5 @@ int main(int argc, char *argv[]) {
     MainWindow w;
     w.setWindowTitle("TxPaint");
     w.show();
-
     return a.exec();
 }
