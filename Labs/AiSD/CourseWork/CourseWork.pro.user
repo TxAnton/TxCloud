@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.2, 2019-10-29T16:40:50. -->
+<!-- Written by QtCreator 4.5.2, 2019-10-30T10:29:37. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -323,7 +323,7 @@
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">CourseWork.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">/media/anton/E6D8B24FD8B21E2D/CourseWork</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/CourseWork</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

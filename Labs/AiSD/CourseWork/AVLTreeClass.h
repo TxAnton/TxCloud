@@ -37,6 +37,7 @@ public:
     struct node // структура для представления узлов дерева
     {
         Elem key;
+
         unsigned char height;
         node* left;
         node* right;
@@ -444,7 +445,7 @@ private:
     }
 
     void _destroy(node* p){ // deep destroy of tree p
-        if(!p)return;
+        if(!p)return;static bool LOGGING=true;
         _destroy(p->left);
         _destroy(p->right);
         delete p;
