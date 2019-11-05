@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/2_AlA/Src/l_intrfc_.h
+cstring
+-
+
+/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/2_AlA/Src/l_mod1_.cpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+vector
+-
+sstream
+-
+l_intrfc_.h
+/media/anton/E6D8B24FD8B21E2D/Git/TxCloud/Labs/AiSD/2_AlA/Src/l_intrfc_.h
+cctype
+-
+
