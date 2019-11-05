@@ -12,19 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f801710-031d-4ca1-ad30-8062f801af11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../1_Recursion/Larin_Anton_AiSD_21_1.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../1_Recursion/Larin_Anton_AiSD_21_1.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2_IerarchList/.~lock.Larin_Anton_AiSD_21_2.doc#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/.~lock.5-я лаб. и курсовая работа АиСД.doc#" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/.~lock.5-я лаб. и курсовая работа АиСД.doc#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/AVLTreeClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/AVLTreeClass.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/CMakeFiles/Code__copy_.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/CMakeFiles/Code__copy_.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/Code__copy_" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/cmake-build-debug/Code__copy_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/in" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Code (copy)/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Code (copy)/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../5_/Larin_Anton_AiSD_21_5.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../5_/Larin_Anton_AiSD_21_5.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CourseWork/CourseWork.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../CourseWork/CourseWork.pro.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/CM5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/METHODS.CPP" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/METHODS.CPP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/METHODS.H" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/METHODS.H" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/t.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CM/Larin_Anton_8383_CM_21_6/t.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fizziks/Grafiki/.~lock.GraphiclabFKTI2019.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_8/Lr8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/Larin_Anton_8383_EVM_21_8/Lr8.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR5.EXE" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR5.EXE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR5.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OEVM/comput_org_2018/Лаб_работы/MASM/LR5.OBJ" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="876">
-              <caret line="285" column="7" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="9" />
+            <state relative-caret-position="435">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="e#3580#5158#0" />
               </folding>
@@ -107,7 +112,7 @@
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1051" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,18 +171,19 @@
       <workItem from="1570605456031" duration="2214000" />
       <workItem from="1571167308101" duration="239000" />
       <workItem from="1571214019229" duration="348000" />
+      <workItem from="1572775331845" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50893000" />
+    <option name="totallyTimeSpent" value="50960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1051" extended-state="5" />
+    <frame x="961" y="0" width="959" height="1052" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28587076" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2924425" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -307,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="285" column="7" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="e#3580#5158#0" />
           </folding>
