@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cyth.dir/cyth.cpp.o  -o cyth 

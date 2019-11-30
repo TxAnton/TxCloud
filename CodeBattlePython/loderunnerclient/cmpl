@@ -1,0 +1,2 @@
+g++ -c -fPIC cyth.cpp -o cyth.o
+g++ -shared -Wl,-soname,libcyth.so -o libcyth.so  cyth.o
