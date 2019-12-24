@@ -48,10 +48,7 @@ void setOFile(ostream* ostr){
 
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName);	//Parses arguments. Returns 1 if program is to be closed
 
-
-
 using namespace h_list;
-
 
 int maxDepth(const lisp s, int recLvl = 0); // Returns max depth of hierarchical list
 
@@ -117,7 +114,6 @@ int main (int argc, char** argv){
         cout << "Depth: \n" << _depth << endl;
 
         //Checks
-
         if(repeat)
         {
             printStr("\nRepeat? [1-Yes|0-No]\n");
@@ -136,9 +132,7 @@ int main (int argc, char** argv){
 int parseArgs(int argc, char** argv, string &iFileName, string &oFileName){
  //Run through all arguments looking for matches. Wrong keys are ignored. Wrong values leads to an undefined behaviour.
 
-
     int i=1;
-
 
     while(i<argc){
 

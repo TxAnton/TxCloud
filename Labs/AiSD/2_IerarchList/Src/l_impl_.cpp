@@ -5,7 +5,6 @@
 #include "l_intrfc_.h"
 //#include "l_mod1_.h"
 
-
 #ifndef INS
 #define INS cin
 #endif
