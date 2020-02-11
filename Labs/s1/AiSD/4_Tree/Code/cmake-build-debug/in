@@ -1,0 +1,3 @@
+(a (b / d) (c (e / (f g h))))
+(a b c)
+(a (b c) (c / b))
