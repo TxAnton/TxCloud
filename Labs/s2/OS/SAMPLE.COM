@@ -1,0 +1,20 @@
+TESTPC	SEGMENT
+	ASSUME CS:TESTPC, DS:TESTPC, ES:NOTHING, SS:NOTHING
+	ORG 100H
+	
+START:	JMP BEGIN
+;data
+STRING DB 'Some text       ',0DH,0AH,'$'
+;procedures
+
+BEGIN:	
+	mov DX,offset STRING
+	mov AH,09h
+	int 21h
+	
+	xor AL,AL
+	mov AH,4Ch
+	int 21h
+TESTPC ENDS
+	END START
+	

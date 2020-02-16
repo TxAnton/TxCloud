@@ -1,0 +1,50 @@
+Turbo Assembler	 Version 3.1	    02/16/20 17:35:21	    Page 1
+SAMPLE.ASM
+
+
+
+      1	0000			     TESTPC  SEGMENT
+      2					     ASSUME CS:TESTPC, DS:TESTPC, ES:NOTHING, SS:NOTHING
+      3					     ORG 100H
+      4
+      5	0100  EB 14 90		     START:  JMP BEGIN
+      6				     ;data
+      7	0103  53 6F 6D 65 20 74	65+  STRING DB 'Some text	',0DH,0AH,'$'
+      8	      78 74 20 20 20 20	20+
+      9	      20 20 0D 0A 24
+     10				     ;procedures
+     11
+     12	0116			     BEGIN:
+     13	0116  BA 0103r			     mov DX,offset STRING
+     14	0119  B4 09			     mov AH,09h
+     15	011B  CD 21			     int 21h
+     16
+     17	011D  32 C0			     xor AL,AL
+     18	011F  B4 4C			     mov AH,4Ch
+     19	0121  CD 21			     int 21h
+     20	0123			     TESTPC ENDS
+     21					     END START
+Turbo Assembler	 Version 3.1	    02/16/20 17:35:21	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "02/16/20"
+??FILENAME			  Text	 "SAMPLE  "
+??TIME				  Text	 "17:35:21"
+??VERSION			  Number 030A
+@CPU				  Text	 0101H
+@CURSEG				  Text	 TESTPC
+@FILENAME			  Text	 SAMPLE
+@WORDSIZE			  Text	 2
+BEGIN				  Near	 TESTPC:0116
+START				  Near	 TESTPC:0100
+STRING				  Byte	 TESTPC:0103
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+TESTPC				  16  0123 Para	  none
+
