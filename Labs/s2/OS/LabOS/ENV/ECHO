@@ -1,8 +1,5 @@
-Microsoft (R) Macro Assembler Version 5.10 
-Copyright (C) Microsoft Corp 1981, 1988.  All rights reserved.
 
+Microsoft (R) Overlay Linker  Version 3.64   
+Copyright (C) Microsoft Corp 1983-1988.  All rights reserved.
 
-  49948 + 457312 Bytes symbol space free
-
-      0 Warning Errors
-      0 Severe  Errors
+Run File [BADSAMPL.EXE]: List File [NUL.MAP]: Libraries [.LIB]: LINK : warning L4021: no stack segment
