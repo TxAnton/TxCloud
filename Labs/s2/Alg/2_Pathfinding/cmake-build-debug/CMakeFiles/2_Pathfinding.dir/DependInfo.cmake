@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/Alg/2_Pathfinding/main.cpp" "/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/Alg/2_Pathfinding/cmake-build-debug/CMakeFiles/2_Pathfinding.dir/main.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/2_Pathfinding/main.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/2_Pathfinding/cmake-build-debug/CMakeFiles/2_Pathfinding.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

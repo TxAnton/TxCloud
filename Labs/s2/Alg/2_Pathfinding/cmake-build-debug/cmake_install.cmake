@@ -1,4 +1,4 @@
-# Install script for directory: /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/Alg/2_Pathfinding
+# Install script for directory: /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/2_Pathfinding
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/Alg/2_Pathfinding/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/2_Pathfinding/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

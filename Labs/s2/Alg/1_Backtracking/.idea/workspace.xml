@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab580a4-38e2-4e7f-8a30-cd81151bf93e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.~lock.Larin_Anton_Alg_22_1.odt#" beforeDir="false" afterPath="$PROJECT_DIR$/.~lock.Larin_Anton_Alg_22_1.odt#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Larin_Anton_Alg_22_1.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Larin_Anton_Alg_22_1.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/Larin_Anton_8383_OS_22_1/Larin_Anton_OS_22_1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/Larin_Anton_8383_OS_22_1/Larin_Anton_OS_22_1.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +26,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="1389">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -63,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="959" />
     <option name="height" value="1051" />
   </component>
@@ -72,20 +70,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1_Backtracking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_Backtracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -127,14 +112,15 @@
       <workItem from="1581534560479" duration="15655000" />
       <workItem from="1581584142969" duration="4335000" />
       <workItem from="1581591251928" duration="1194000" />
+      <workItem from="1581970067784" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25578000" />
+    <option name="totallyTimeSpent" value="25610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1052" extended-state="7" />
+    <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.07417289" />
@@ -225,8 +211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="1389">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
