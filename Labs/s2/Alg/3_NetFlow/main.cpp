@@ -7,6 +7,7 @@
 #include <map>
 #include <algorithm>
 #include <string>
+#include <assert.h>
 
 #define FILE_INP
 //#define DEBUG
@@ -15,6 +16,7 @@
 #define V_TYPE char
 #define W_TYPE double
 
+#define CLAMP(VAL) ((VAL)<0?0:(VAL))
 /*
 struct Edge{
     int a;
@@ -38,7 +40,8 @@ struct HaEdge {
     V_TYPE b;
     W_TYPE cap;
     mutable  W_TYPE flow;
-    bool backward;
+    mutable bool backward;
+    mutable bool fpr;
 
     W_TYPE resCap()const{
         return backward?flow:cap-flow;
@@ -64,6 +67,7 @@ struct HaEdge {
         }else{
             flow+=amount;
         }
+        //assert(flow>=0 && flow<=cap);
     }
 
     bool operator<(const HaEdge &other) const {//Compare by destination vertex
@@ -168,9 +172,17 @@ void read() {
         std::cin >> a >> b >> w;
 
         edge = {a, b, w, 0, false};
+        if(graph[a].count(edge)){
+            graph[a].find(edge)->fpr=true;
+            graph[a].find(edge)->backward=false;
+        }
         graph[a].insert(edge);
 
         edge = {b, a, w, 0, true};
+        if(graph[b].count(edge)){
+            graph[b].find(edge)->fpr=true;
+            graph[b].find(edge)->backward=false;
+        }
         graph[b].insert(edge);
     }
 }
@@ -184,12 +196,16 @@ void write(){
     }
 }
 
+#define FLOW(IT) (((IT).flow>=0&&(IT).flow<=(IT).cap)?((IT).flow):0)
+//#define FLOW(IT) (((((IT).flow>=0)?((IT).flow):0)<=((IT).cap))?(((IT).flow>=0)?((IT).flow):0):(IT).cap)
+
 void propperWrite(){
     std::cout<<getMaxFlow()<<std::endl;
     for(auto it:graph){
+
         for(auto it1:it.second){
-            if(!it1.backward)
-                std::cout<<it1.a<<" "<<it1.b<<" "<<it1.flow<<std::endl;
+            if(!it1.backward ||it1.fpr )
+                std::cout<<it1.a<<" "<<it1.b<<" "<<FLOW(it1)<<std::endl;
         }
     }
 }
@@ -307,7 +323,7 @@ void printPath(){
 
 
 void ff() {
-    bool flag = _findPath();
+    bool flag = findPath();
     W_TYPE bottleNeck = 0;
     while (flag) {
         bottleNeck = findBottleneck();
@@ -317,7 +333,7 @@ void ff() {
         printPath();
         write();
 #endif
-        flag=_findPath();
+        flag=findPath();
 
     }
 }
