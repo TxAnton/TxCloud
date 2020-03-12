@@ -10,7 +10,7 @@
 #include <assert.h>
 
 #define FILE_INP
-//#define DEBUG
+#define DEBUG
 
 
 #define V_TYPE char
@@ -52,7 +52,7 @@ struct HaEdge {
     }
 
     void augment(std::map<V_TYPE, std::set<HaEdge> > &gr, W_TYPE amount)const {
-        if(backward){
+        if(backward&&fpr){
             modFlow(-amount);
             gr[b].find({0,a,0,0,false})->modFlow(amount);
         }else{
@@ -104,13 +104,13 @@ struct HaEdge {
 
     std::string toString()const{
         std::ostringstream strs;
-        strs<<"("<<a<<" "<<(backward?"<-":"->")<<" "<<b<<" "<<flow<<"/"<<cap<<")";
+        strs<<"("<<a<<" "<<(backward?"<-":"->")<<" "<<b<<" "<<CLAMP(flow)<<"/"<<cap<<")";
         return strs.str();
     }
 
     std::string shortStr()const {
         std::ostringstream strs;
-        strs<<a<<(backward?"<--":"-->")<<flow<<"/"<<cap<<"--"<<b;
+        strs<<a<<(backward?"<--":"-->")<<CLAMP(flow)<<"/"<<cap<<"--"<<b;
         return strs.str();
     }
 };
@@ -196,8 +196,8 @@ void write(){
     }
 }
 
-#define FLOW(IT) (((IT).flow>=0&&(IT).flow<=(IT).cap)?((IT).flow):0)
-//#define FLOW(IT) (((((IT).flow>=0)?((IT).flow):0)<=((IT).cap))?(((IT).flow>=0)?((IT).flow):0):(IT).cap)
+//#define FLOW(IT) (((IT).flow>=0&&(IT).flow<=(IT).cap)?((IT).flow):0)
+#define FLOW(IT) ((IT).flow)
 
 void propperWrite(){
     std::cout<<getMaxFlow()<<std::endl;
@@ -205,7 +205,7 @@ void propperWrite(){
 
         for(auto it1:it.second){
             if(!it1.backward ||it1.fpr )
-                std::cout<<it1.a<<" "<<it1.b<<" "<<FLOW(it1)<<std::endl;
+                std::cout<<it1.a<<" "<<it1.b<<" "<<CLAMP(FLOW(it1))<<std::endl;
         }
     }
 }
@@ -253,31 +253,67 @@ bool _findPath(){
 }
 
 bool findPath() {
+
     std::set<V_TYPE> visited;
     std::vector<V_TYPE> _path;
     bool flag = true;
 
     _path.push_back(S);
-
+#ifdef DEBUG
+    std::cout<<"/-------------------------------------------------\\"<<std::endl;
+    std::cout<<"Looking for path"<<std::endl;
+#endif
     auto itInit = graph[_path.back()].begin();
 
     while(_path.back()!=T){
+#ifdef DEBUG
+        std::cout<<"Stack state:"<<std::endl;
+        for(auto it:_path)std::cout<<it<<" ";
+        std::cout<<std::endl;
+#endif
         flag=false;
         for(auto it=itInit;it!=graph[_path.back()].end();it++){
+#ifdef DEBUG
+            std::cout<<"\t/Consider edge "<<it->toString()<<std::endl;
+#endif
             if(it->augmentable() && !visited.count(it->b)&&(it->b!=_path[_path.size()!=1?_path.size()-2:0])){
+#ifdef DEBUG
+                std::cout<<"\t|Edge added"<<it->toString()<<std::endl;
+#endif
                 _path.push_back(it->b);
                 visited.insert(it->b);
                 flag = true;
                 break;
+            }else{
+#ifdef DEBUG
+                if(!it->augmentable()){
+                    std::cout<<"\t\\Edge not augmentable "<<std::endl;
+                }
+                if(visited.count(it->b)){
+                    std::cout<<"\t\\Edge already considered"<<std::endl;
+                }
+                if(!((it->b!=_path[_path.size()!=1?_path.size()-2:0]))){
+                    std::cout<<"\t\\Edge leads back"<<std::endl;
+                }
+#endif
             }
         }
         if(!flag){
+#ifdef DEBUG
+            std::cout<<"!No new edges added from current. Popping edge"<<std::endl;
+#endif
             bool backtrack = true;
             //while(backtrack) {
             V_TYPE v = _path.back();
             _path.pop_back();
 
-            if (_path.empty())return false;
+            if (_path.empty()){
+#ifdef DEBUG
+                std::cout<<"Path does not exist!"<<std::endl;
+                std::cout<<"\\-------------------------------------------------/"<<std::endl;
+#endif
+                return false;
+            }
             auto it = graph[_path.back()].find({0, v, 0, 0, false});
             it++;
             /*
@@ -293,6 +329,11 @@ bool findPath() {
             itInit = graph[_path.back()].begin();
         }
     }
+#ifdef DEBUG
+    std::cout<<"Path found successfully:"<<std::endl;
+    for(auto it:_path)std::cout<<it<<" ";
+    std::cout<<"\n\\-------------------------------------------------/"<<std::endl;
+#endif
     path=_path;
     return true;
 }
@@ -314,7 +355,7 @@ void augmentPath(W_TYPE amount) {
 }
 
 void printPath(){
-    std::cout<<S<<std::endl;
+    //std::cout<<S<<std::endl;
     for(int i = 1;i<path.size();i++){
         std::cout<< (graph[path[i-1]].find({0, path[i], 0, 0, false}))->shortStr()<<std::endl;
     }
@@ -326,12 +367,18 @@ void ff() {
     bool flag = findPath();
     W_TYPE bottleNeck = 0;
     while (flag) {
+#ifdef DEBUG
+        std::cout<<"Found path:"<<std::endl;
+        printPath();
+#endif
         bottleNeck = findBottleneck();
         augmentPath(bottleNeck);
 #ifdef DEBUG
-        std::cout<<"AugPath by "<<bottleNeck<<":"<<std::endl;
+        std::cout<<"Augment path by "<<bottleNeck<<":"<<std::endl;
         printPath();
+        std::cout<<"Res net:"<<std::endl;
         write();
+        std::cout<<"==================================================="<<std::endl;
 #endif
         flag=findPath();
 
