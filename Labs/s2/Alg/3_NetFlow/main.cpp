@@ -10,7 +10,7 @@
 #include <assert.h>
 
 #define FILE_INP
-#define DEBUG
+//#define DEBUG
 
 
 #define V_TYPE char
@@ -117,8 +117,8 @@ struct HaEdge {
 
 std::map<V_TYPE, std::set<HaEdge> > graph;
 
-V_TYPE S;
-V_TYPE T;
+V_TYPE S;//Starting vertex
+V_TYPE T;//Sinc vertex
 
 std::vector<V_TYPE> path;
 
@@ -149,7 +149,7 @@ void quickGreedy() {
     }
 }
 
-W_TYPE getMaxFlow(){
+W_TYPE getMaxFlow(){//Summ by all edges from start
     W_TYPE sum = 0;
     for(auto it:graph[S]){
         sum+=it.flow;
@@ -164,7 +164,7 @@ void read() {
     W_TYPE w;
     HaEdge edge;
 
-    std::cin>>n>>S>>T;
+    std::cin>>n>>S>>T;// Here's sufficiently trivial
 
 
 
@@ -200,12 +200,12 @@ void write(){
 #define FLOW(IT) ((IT).flow)
 
 void propperWrite(){
-    std::cout<<getMaxFlow()<<std::endl;
+    std::cout<<getMaxFlow()<<std::endl;//Max flow forst
     for(auto it:graph){
 
         for(auto it1:it.second){
             if(!it1.backward ||it1.fpr )
-                std::cout<<it1.a<<" "<<it1.b<<" "<<CLAMP(FLOW(it1))<<std::endl;
+                std::cout<<it1.a<<" "<<it1.b<<" "<<CLAMP(FLOW(it1))<<std::endl;//Then all enges in required format
         }
     }
 }
@@ -265,18 +265,18 @@ bool findPath() {
 #endif
     auto itInit = graph[_path.back()].begin();
 
-    while(_path.back()!=T){
+    while(_path.back()!=T){// Main loop. On the turns one vertex get processed
 #ifdef DEBUG
         std::cout<<"Stack state:"<<std::endl;
         for(auto it:_path)std::cout<<it<<" ";
         std::cout<<std::endl;
 #endif
         flag=false;
-        for(auto it=itInit;it!=graph[_path.back()].end();it++){
+        for(auto it=itInit;it!=graph[_path.back()].end();it++){//Loop for vertexed from current
 #ifdef DEBUG
             std::cout<<"\t/Consider edge "<<it->toString()<<std::endl;
 #endif
-            if(it->augmentable() && !visited.count(it->b)&&(it->b!=_path[_path.size()!=1?_path.size()-2:0])){
+            if(it->augmentable() && !visited.count(it->b)&&(it->b!=_path[_path.size()!=1?_path.size()-2:0])){//If current edge can be traced
 #ifdef DEBUG
                 std::cout<<"\t|Edge added"<<it->toString()<<std::endl;
 #endif
@@ -298,7 +298,7 @@ bool findPath() {
 #endif
             }
         }
-        if(!flag){
+        if(!flag){//If no edges were added in this iteration
 #ifdef DEBUG
             std::cout<<"!No new edges added from current. Popping edge"<<std::endl;
 #endif
@@ -338,7 +338,7 @@ bool findPath() {
     return true;
 }
 
-W_TYPE findBottleneck() {
+W_TYPE findBottleneck() {//Trace found path, finding minimal rese. capacity
     W_TYPE minW = INT32_MAX;
     for(int i = 1;i<path.size();i++){
         HaEdge edge = *(graph[path[i-1]].find({0, path[i], 0, 0, false}));
@@ -348,13 +348,13 @@ W_TYPE findBottleneck() {
     return minW;
 }
 
-void augmentPath(W_TYPE amount) {
+void augmentPath(W_TYPE amount) {//Trace found path, augmenting edges with regard to their direction
     for(int i = 1;i<path.size();i++){
         (graph[path[i-1]].find({0, path[i], 0, 0, false}))->augment(graph,amount);
     }
 }
 
-void printPath(){
+void printPath(){//Print found path in human readable way
     //std::cout<<S<<std::endl;
     for(int i = 1;i<path.size();i++){
         std::cout<< (graph[path[i-1]].find({0, path[i], 0, 0, false}))->shortStr()<<std::endl;
@@ -363,16 +363,16 @@ void printPath(){
 
 
 
-void ff() {
+void ff() {//Main Ford-Fulkerson method logic function
     bool flag = findPath();
     W_TYPE bottleNeck = 0;
-    while (flag) {
+    while (flag) {//While there is a path from start to sink
 #ifdef DEBUG
         std::cout<<"Found path:"<<std::endl;
         printPath();
 #endif
-        bottleNeck = findBottleneck();
-        augmentPath(bottleNeck);
+        bottleNeck = findBottleneck();//Find aug value
+        augmentPath(bottleNeck);//Modify path with that value
 #ifdef DEBUG
         std::cout<<"Augment path by "<<bottleNeck<<":"<<std::endl;
         printPath();
@@ -380,7 +380,7 @@ void ff() {
         write();
         std::cout<<"==================================================="<<std::endl;
 #endif
-        flag=findPath();
+        flag=findPath();//Find new path
 
     }
 }
