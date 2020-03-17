@@ -3,3 +3,42 @@
 //
 
 #include "Delta.h"
+
+#include "../LandscapeProxy.h"
+
+wchar_t Delta::toChar() {
+    //return L'δ';
+    return L'd';
+}
+
+UnitClass Delta::getUnitClass() {
+    return UnitClass::DELTA;
+}
+
+int Delta::getPower() {
+    return girdle == 4 ? 1 : girdle;
+}
+
+bool Delta::isValidStep(int x, int y) {
+    return true;
+}
+
+bool Delta::step(int x, int y) {
+    if (isValidStep(x, y)) {
+        GameObject::setCoords(x, y);
+        return true;
+    }
+    return false;
+
+}
+
+Delta::Delta(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, int girdle) : Mage(fld, x, y,
+                                                                                                          health,
+                                                                                                          devotion,
+                                                                                                          active),
+                                                                                                     girdle(girdle) {/*TODO init girdle*/}
+
+GameObject &Delta::operator+=(const LandscapeProxy &b) {
+    this->girdle = b.getGirdle();
+    return *this;
+}

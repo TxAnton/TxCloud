@@ -3,7 +3,7 @@
 //
 
 #include "EntityBush.h"
-#include "GameObject.h"
+#include "../GameObject.h"
 
 
 wchar_t EntityBush::toChar() {
@@ -12,4 +12,8 @@ wchar_t EntityBush::toChar() {
 
 bool EntityBush::die(GameObject *src) {
     return false;
+}
+
+GameObject &EntityBush::operator+=(const LandscapeProxy &b) {
+    return *this;
 }

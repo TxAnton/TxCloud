@@ -6,7 +6,16 @@
 #define PROJ_DELTAFACTORY_H
 
 
-class DeltaFactory {
+#include "UnitFactory.h"
+
+class DeltaFactory : UnitFactory {
+    friend class CommonFactory;
+
+public:
+    DeltaFactory(Field *fld);
+
+private:
+    GameObject *createUnit(UnitClass _class, UnitDevotion devotion, int x, int y) override;
 
 };
 

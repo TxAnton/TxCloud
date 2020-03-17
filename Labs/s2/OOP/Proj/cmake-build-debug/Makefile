@@ -48,10 +48,10 @@ RM = /home/anton/Documents/ummy/clion-2019.1.2/bin/cmake/linux/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj
+CMAKE_SOURCE_DIR = /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug
+CMAKE_BINARY_DIR = /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,249 @@ Proj: cmake_check_build_system
 Proj/fast:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/build
 .PHONY : Proj/fast
+
+Base.o: Base.cpp.o
+
+.PHONY : Base.o
+
+# target to build an object file
+Base.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Base.cpp.o
+.PHONY : Base.cpp.o
+
+Base.i: Base.cpp.i
+
+.PHONY : Base.i
+
+# target to preprocess a source file
+Base.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Base.cpp.i
+.PHONY : Base.cpp.i
+
+Base.s: Base.cpp.s
+
+.PHONY : Base.s
+
+# target to generate assembly for a file
+Base.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Base.cpp.s
+.PHONY : Base.cpp.s
+
+Factory/AlphaFactory.o: Factory/AlphaFactory.cpp.o
+
+.PHONY : Factory/AlphaFactory.o
+
+# target to build an object file
+Factory/AlphaFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o
+.PHONY : Factory/AlphaFactory.cpp.o
+
+Factory/AlphaFactory.i: Factory/AlphaFactory.cpp.i
+
+.PHONY : Factory/AlphaFactory.i
+
+# target to preprocess a source file
+Factory/AlphaFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.i
+.PHONY : Factory/AlphaFactory.cpp.i
+
+Factory/AlphaFactory.s: Factory/AlphaFactory.cpp.s
+
+.PHONY : Factory/AlphaFactory.s
+
+# target to generate assembly for a file
+Factory/AlphaFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.s
+.PHONY : Factory/AlphaFactory.cpp.s
+
+Factory/BetaFactory.o: Factory/BetaFactory.cpp.o
+
+.PHONY : Factory/BetaFactory.o
+
+# target to build an object file
+Factory/BetaFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o
+.PHONY : Factory/BetaFactory.cpp.o
+
+Factory/BetaFactory.i: Factory/BetaFactory.cpp.i
+
+.PHONY : Factory/BetaFactory.i
+
+# target to preprocess a source file
+Factory/BetaFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.i
+.PHONY : Factory/BetaFactory.cpp.i
+
+Factory/BetaFactory.s: Factory/BetaFactory.cpp.s
+
+.PHONY : Factory/BetaFactory.s
+
+# target to generate assembly for a file
+Factory/BetaFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.s
+.PHONY : Factory/BetaFactory.cpp.s
+
+Factory/CommonFactory.o: Factory/CommonFactory.cpp.o
+
+.PHONY : Factory/CommonFactory.o
+
+# target to build an object file
+Factory/CommonFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o
+.PHONY : Factory/CommonFactory.cpp.o
+
+Factory/CommonFactory.i: Factory/CommonFactory.cpp.i
+
+.PHONY : Factory/CommonFactory.i
+
+# target to preprocess a source file
+Factory/CommonFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.i
+.PHONY : Factory/CommonFactory.cpp.i
+
+Factory/CommonFactory.s: Factory/CommonFactory.cpp.s
+
+.PHONY : Factory/CommonFactory.s
+
+# target to generate assembly for a file
+Factory/CommonFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.s
+.PHONY : Factory/CommonFactory.cpp.s
+
+Factory/DeltaFactory.o: Factory/DeltaFactory.cpp.o
+
+.PHONY : Factory/DeltaFactory.o
+
+# target to build an object file
+Factory/DeltaFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o
+.PHONY : Factory/DeltaFactory.cpp.o
+
+Factory/DeltaFactory.i: Factory/DeltaFactory.cpp.i
+
+.PHONY : Factory/DeltaFactory.i
+
+# target to preprocess a source file
+Factory/DeltaFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.i
+.PHONY : Factory/DeltaFactory.cpp.i
+
+Factory/DeltaFactory.s: Factory/DeltaFactory.cpp.s
+
+.PHONY : Factory/DeltaFactory.s
+
+# target to generate assembly for a file
+Factory/DeltaFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.s
+.PHONY : Factory/DeltaFactory.cpp.s
+
+Factory/EpsilonFactory.o: Factory/EpsilonFactory.cpp.o
+
+.PHONY : Factory/EpsilonFactory.o
+
+# target to build an object file
+Factory/EpsilonFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o
+.PHONY : Factory/EpsilonFactory.cpp.o
+
+Factory/EpsilonFactory.i: Factory/EpsilonFactory.cpp.i
+
+.PHONY : Factory/EpsilonFactory.i
+
+# target to preprocess a source file
+Factory/EpsilonFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.i
+.PHONY : Factory/EpsilonFactory.cpp.i
+
+Factory/EpsilonFactory.s: Factory/EpsilonFactory.cpp.s
+
+.PHONY : Factory/EpsilonFactory.s
+
+# target to generate assembly for a file
+Factory/EpsilonFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.s
+.PHONY : Factory/EpsilonFactory.cpp.s
+
+Factory/GammaFactory.o: Factory/GammaFactory.cpp.o
+
+.PHONY : Factory/GammaFactory.o
+
+# target to build an object file
+Factory/GammaFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o
+.PHONY : Factory/GammaFactory.cpp.o
+
+Factory/GammaFactory.i: Factory/GammaFactory.cpp.i
+
+.PHONY : Factory/GammaFactory.i
+
+# target to preprocess a source file
+Factory/GammaFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.i
+.PHONY : Factory/GammaFactory.cpp.i
+
+Factory/GammaFactory.s: Factory/GammaFactory.cpp.s
+
+.PHONY : Factory/GammaFactory.s
+
+# target to generate assembly for a file
+Factory/GammaFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.s
+.PHONY : Factory/GammaFactory.cpp.s
+
+Factory/UnitFactory.o: Factory/UnitFactory.cpp.o
+
+.PHONY : Factory/UnitFactory.o
+
+# target to build an object file
+Factory/UnitFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o
+.PHONY : Factory/UnitFactory.cpp.o
+
+Factory/UnitFactory.i: Factory/UnitFactory.cpp.i
+
+.PHONY : Factory/UnitFactory.i
+
+# target to preprocess a source file
+Factory/UnitFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.i
+.PHONY : Factory/UnitFactory.cpp.i
+
+Factory/UnitFactory.s: Factory/UnitFactory.cpp.s
+
+.PHONY : Factory/UnitFactory.s
+
+# target to generate assembly for a file
+Factory/UnitFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.s
+.PHONY : Factory/UnitFactory.cpp.s
+
+Factory/ZetaFactory.o: Factory/ZetaFactory.cpp.o
+
+.PHONY : Factory/ZetaFactory.o
+
+# target to build an object file
+Factory/ZetaFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o
+.PHONY : Factory/ZetaFactory.cpp.o
+
+Factory/ZetaFactory.i: Factory/ZetaFactory.cpp.i
+
+.PHONY : Factory/ZetaFactory.i
+
+# target to preprocess a source file
+Factory/ZetaFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.i
+.PHONY : Factory/ZetaFactory.cpp.i
+
+Factory/ZetaFactory.s: Factory/ZetaFactory.cpp.s
+
+.PHONY : Factory/ZetaFactory.s
+
+# target to generate assembly for a file
+Factory/ZetaFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.s
+.PHONY : Factory/ZetaFactory.cpp.s
 
 Field.o: Field.cpp.o
 
@@ -204,6 +447,87 @@ GameObject.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
 
+GameObjectList.o: GameObjectList.cpp.o
+
+.PHONY : GameObjectList.o
+
+# target to build an object file
+GameObjectList.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/GameObjectList.cpp.o
+.PHONY : GameObjectList.cpp.o
+
+GameObjectList.i: GameObjectList.cpp.i
+
+.PHONY : GameObjectList.i
+
+# target to preprocess a source file
+GameObjectList.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/GameObjectList.cpp.i
+.PHONY : GameObjectList.cpp.i
+
+GameObjectList.s: GameObjectList.cpp.s
+
+.PHONY : GameObjectList.s
+
+# target to generate assembly for a file
+GameObjectList.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/GameObjectList.cpp.s
+.PHONY : GameObjectList.cpp.s
+
+LandscapeProxy.o: LandscapeProxy.cpp.o
+
+.PHONY : LandscapeProxy.o
+
+# target to build an object file
+LandscapeProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/LandscapeProxy.cpp.o
+.PHONY : LandscapeProxy.cpp.o
+
+LandscapeProxy.i: LandscapeProxy.cpp.i
+
+.PHONY : LandscapeProxy.i
+
+# target to preprocess a source file
+LandscapeProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/LandscapeProxy.cpp.i
+.PHONY : LandscapeProxy.cpp.i
+
+LandscapeProxy.s: LandscapeProxy.cpp.s
+
+.PHONY : LandscapeProxy.s
+
+# target to generate assembly for a file
+LandscapeProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/LandscapeProxy.cpp.s
+.PHONY : LandscapeProxy.cpp.s
+
+Mediator.o: Mediator.cpp.o
+
+.PHONY : Mediator.o
+
+# target to build an object file
+Mediator.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Mediator.cpp.o
+.PHONY : Mediator.cpp.o
+
+Mediator.i: Mediator.cpp.i
+
+.PHONY : Mediator.i
+
+# target to preprocess a source file
+Mediator.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Mediator.cpp.i
+.PHONY : Mediator.cpp.i
+
+Mediator.s: Mediator.cpp.s
+
+.PHONY : Mediator.s
+
+# target to generate assembly for a file
+Mediator.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Mediator.cpp.s
+.PHONY : Mediator.cpp.s
+
 Units/Alpha.o: Units/Alpha.cpp.o
 
 .PHONY : Units/Alpha.o
@@ -285,6 +609,141 @@ Units/Delta.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Delta.cpp.s
 .PHONY : Units/Delta.cpp.s
 
+Units/Entity.o: Units/Entity.cpp.o
+
+.PHONY : Units/Entity.o
+
+# target to build an object file
+Units/Entity.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Entity.cpp.o
+.PHONY : Units/Entity.cpp.o
+
+Units/Entity.i: Units/Entity.cpp.i
+
+.PHONY : Units/Entity.i
+
+# target to preprocess a source file
+Units/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Entity.cpp.i
+.PHONY : Units/Entity.cpp.i
+
+Units/Entity.s: Units/Entity.cpp.s
+
+.PHONY : Units/Entity.s
+
+# target to generate assembly for a file
+Units/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Entity.cpp.s
+.PHONY : Units/Entity.cpp.s
+
+Units/EntityBush.o: Units/EntityBush.cpp.o
+
+.PHONY : Units/EntityBush.o
+
+# target to build an object file
+Units/EntityBush.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityBush.cpp.o
+.PHONY : Units/EntityBush.cpp.o
+
+Units/EntityBush.i: Units/EntityBush.cpp.i
+
+.PHONY : Units/EntityBush.i
+
+# target to preprocess a source file
+Units/EntityBush.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityBush.cpp.i
+.PHONY : Units/EntityBush.cpp.i
+
+Units/EntityBush.s: Units/EntityBush.cpp.s
+
+.PHONY : Units/EntityBush.s
+
+# target to generate assembly for a file
+Units/EntityBush.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityBush.cpp.s
+.PHONY : Units/EntityBush.cpp.s
+
+Units/EntityFire.o: Units/EntityFire.cpp.o
+
+.PHONY : Units/EntityFire.o
+
+# target to build an object file
+Units/EntityFire.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityFire.cpp.o
+.PHONY : Units/EntityFire.cpp.o
+
+Units/EntityFire.i: Units/EntityFire.cpp.i
+
+.PHONY : Units/EntityFire.i
+
+# target to preprocess a source file
+Units/EntityFire.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityFire.cpp.i
+.PHONY : Units/EntityFire.cpp.i
+
+Units/EntityFire.s: Units/EntityFire.cpp.s
+
+.PHONY : Units/EntityFire.s
+
+# target to generate assembly for a file
+Units/EntityFire.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityFire.cpp.s
+.PHONY : Units/EntityFire.cpp.s
+
+Units/EntityStone.o: Units/EntityStone.cpp.o
+
+.PHONY : Units/EntityStone.o
+
+# target to build an object file
+Units/EntityStone.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityStone.cpp.o
+.PHONY : Units/EntityStone.cpp.o
+
+Units/EntityStone.i: Units/EntityStone.cpp.i
+
+.PHONY : Units/EntityStone.i
+
+# target to preprocess a source file
+Units/EntityStone.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityStone.cpp.i
+.PHONY : Units/EntityStone.cpp.i
+
+Units/EntityStone.s: Units/EntityStone.cpp.s
+
+.PHONY : Units/EntityStone.s
+
+# target to generate assembly for a file
+Units/EntityStone.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityStone.cpp.s
+.PHONY : Units/EntityStone.cpp.s
+
+Units/EntityTree.o: Units/EntityTree.cpp.o
+
+.PHONY : Units/EntityTree.o
+
+# target to build an object file
+Units/EntityTree.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityTree.cpp.o
+.PHONY : Units/EntityTree.cpp.o
+
+Units/EntityTree.i: Units/EntityTree.cpp.i
+
+.PHONY : Units/EntityTree.i
+
+# target to preprocess a source file
+Units/EntityTree.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityTree.cpp.i
+.PHONY : Units/EntityTree.cpp.i
+
+Units/EntityTree.s: Units/EntityTree.cpp.s
+
+.PHONY : Units/EntityTree.s
+
+# target to generate assembly for a file
+Units/EntityTree.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/EntityTree.cpp.s
+.PHONY : Units/EntityTree.cpp.s
+
 Units/Epsilon.o: Units/Epsilon.cpp.o
 
 .PHONY : Units/Epsilon.o
@@ -311,6 +770,33 @@ Units/Epsilon.s: Units/Epsilon.cpp.s
 Units/Epsilon.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Epsilon.cpp.s
 .PHONY : Units/Epsilon.cpp.s
+
+Units/Fighter.o: Units/Fighter.cpp.o
+
+.PHONY : Units/Fighter.o
+
+# target to build an object file
+Units/Fighter.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Fighter.cpp.o
+.PHONY : Units/Fighter.cpp.o
+
+Units/Fighter.i: Units/Fighter.cpp.i
+
+.PHONY : Units/Fighter.i
+
+# target to preprocess a source file
+Units/Fighter.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Fighter.cpp.i
+.PHONY : Units/Fighter.cpp.i
+
+Units/Fighter.s: Units/Fighter.cpp.s
+
+.PHONY : Units/Fighter.s
+
+# target to generate assembly for a file
+Units/Fighter.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Units/Fighter.cpp.s
+.PHONY : Units/Fighter.cpp.s
 
 Units/Gamma.o: Units/Gamma.cpp.o
 
@@ -456,6 +942,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proj"
 	@echo "... edit_cache"
+	@echo "... Base.o"
+	@echo "... Base.i"
+	@echo "... Base.s"
+	@echo "... Factory/AlphaFactory.o"
+	@echo "... Factory/AlphaFactory.i"
+	@echo "... Factory/AlphaFactory.s"
+	@echo "... Factory/BetaFactory.o"
+	@echo "... Factory/BetaFactory.i"
+	@echo "... Factory/BetaFactory.s"
+	@echo "... Factory/CommonFactory.o"
+	@echo "... Factory/CommonFactory.i"
+	@echo "... Factory/CommonFactory.s"
+	@echo "... Factory/DeltaFactory.o"
+	@echo "... Factory/DeltaFactory.i"
+	@echo "... Factory/DeltaFactory.s"
+	@echo "... Factory/EpsilonFactory.o"
+	@echo "... Factory/EpsilonFactory.i"
+	@echo "... Factory/EpsilonFactory.s"
+	@echo "... Factory/GammaFactory.o"
+	@echo "... Factory/GammaFactory.i"
+	@echo "... Factory/GammaFactory.s"
+	@echo "... Factory/UnitFactory.o"
+	@echo "... Factory/UnitFactory.i"
+	@echo "... Factory/UnitFactory.s"
+	@echo "... Factory/ZetaFactory.o"
+	@echo "... Factory/ZetaFactory.i"
+	@echo "... Factory/ZetaFactory.s"
 	@echo "... Field.o"
 	@echo "... Field.i"
 	@echo "... Field.s"
@@ -465,6 +978,15 @@ help:
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... GameObjectList.o"
+	@echo "... GameObjectList.i"
+	@echo "... GameObjectList.s"
+	@echo "... LandscapeProxy.o"
+	@echo "... LandscapeProxy.i"
+	@echo "... LandscapeProxy.s"
+	@echo "... Mediator.o"
+	@echo "... Mediator.i"
+	@echo "... Mediator.s"
 	@echo "... Units/Alpha.o"
 	@echo "... Units/Alpha.i"
 	@echo "... Units/Alpha.s"
@@ -474,9 +996,27 @@ help:
 	@echo "... Units/Delta.o"
 	@echo "... Units/Delta.i"
 	@echo "... Units/Delta.s"
+	@echo "... Units/Entity.o"
+	@echo "... Units/Entity.i"
+	@echo "... Units/Entity.s"
+	@echo "... Units/EntityBush.o"
+	@echo "... Units/EntityBush.i"
+	@echo "... Units/EntityBush.s"
+	@echo "... Units/EntityFire.o"
+	@echo "... Units/EntityFire.i"
+	@echo "... Units/EntityFire.s"
+	@echo "... Units/EntityStone.o"
+	@echo "... Units/EntityStone.i"
+	@echo "... Units/EntityStone.s"
+	@echo "... Units/EntityTree.o"
+	@echo "... Units/EntityTree.i"
+	@echo "... Units/EntityTree.s"
 	@echo "... Units/Epsilon.o"
 	@echo "... Units/Epsilon.i"
 	@echo "... Units/Epsilon.s"
+	@echo "... Units/Fighter.o"
+	@echo "... Units/Fighter.i"
+	@echo "... Units/Fighter.s"
 	@echo "... Units/Gamma.o"
 	@echo "... Units/Gamma.i"
 	@echo "... Units/Gamma.s"

@@ -6,8 +6,18 @@
 #define PROJ_BETAFACTORY_H
 
 
-class BetaFactory {
+#include "UnitFactory.h"
 
+class BetaFactory : UnitFactory {
+    friend class CommonFactory;
+
+public:
+    BetaFactory(Field *fld);
+
+    //BetaFactory(Field *fld, CommonFactory *commonFactory);
+
+private:
+    GameObject *createUnit(UnitClass _class, UnitDevotion devotion, int x, int y) override;
 };
 
 

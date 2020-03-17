@@ -6,7 +6,16 @@
 #define PROJ_GAMMAFACTORY_H
 
 
-class GammaFactory {
+#include "UnitFactory.h"
+
+class GammaFactory : UnitFactory {
+    friend class CommonFactory;
+
+public:
+    GammaFactory(Field *fld);
+
+private:
+    GameObject *createUnit(UnitClass _class, UnitDevotion devotion, int x, int y) override;
 
 };
 

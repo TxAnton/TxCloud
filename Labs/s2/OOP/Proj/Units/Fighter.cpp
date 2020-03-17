@@ -19,3 +19,8 @@ bool Fighter::isEnemyPowered() const {
 void Fighter::setEnemyPowered(bool enemyPowered) {
     Fighter::enemyPowered = enemyPowered;
 }
+
+
+Fighter::Fighter(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, bool allyPowered,
+                 bool enemyPowered) : GameObject(fld, x, y, health, devotion, active), allyPowered(allyPowered),
+                                      enemyPowered(enemyPowered) {/*TODO get power from field*/}

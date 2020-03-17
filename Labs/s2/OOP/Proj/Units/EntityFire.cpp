@@ -3,3 +3,11 @@
 //
 
 #include "EntityFire.h"
+
+wchar_t EntityFire::toChar() {
+    return 0;
+}
+
+bool EntityFire::die(GameObject *src) {
+    return GameObject::die(src);
+}

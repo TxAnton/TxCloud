@@ -7,22 +7,21 @@
 
 #include "../GameObject.h"
 
-
-
-class God:GameObject {
+class God : public GameObject {
 private:
 
-
 public:
-    void deathWill();
+    God(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active);
 
-    void summon(Direction dir);
+    virtual void deathEvent() = 0;
 
-    virtual char toChar();
+    virtual void summon(Direction dir);
 
-    virtual bool isValidStep(int x, int y);
+    virtual wchar_t toChar() = 0;
 
-    virtual bool step(int x, int y);
+    virtual bool isValidStep(int x, int y) = 0;
+
+    virtual bool step(int x, int y) = 0;
 };
 
 

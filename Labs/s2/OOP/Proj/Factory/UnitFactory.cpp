@@ -4,6 +4,7 @@
 
 #include "UnitFactory.h"
 
+/*
 GameObject* UnitFactory::createUnit(UnitClass _class,UnitDevotion devotion,int x, int y) {
 
     switch (_class){
@@ -44,10 +45,9 @@ GameObject* UnitFactory::createUnit(UnitClass _class,UnitDevotion devotion,int x
 
 
 }
+*/
 
-UnitFactory::UnitFactory(Field *fld) {
-    this->fld=fld;
-}
+UnitFactory::UnitFactory(Field *fld) : fld(fld) {}
 
 UnitFactory::~UnitFactory() {
 

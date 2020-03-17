@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
+				<Option working_dir="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
+				<Option working_dir="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proj">
-				<Option output="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
+				<Option output="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proj/fast">
-				<Option output="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
+				<Option output="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,93 +67,204 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
+				<Option working_dir="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Field.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Game.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/God.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.h">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.h">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/main.cpp">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp">
 			<Option target="Proj"/>
 		</Unit>
-		<Unit filename="/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/CMakeLists.txt">
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Vector.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/main.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

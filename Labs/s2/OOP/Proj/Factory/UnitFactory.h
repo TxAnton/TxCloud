@@ -5,26 +5,31 @@
 #ifndef PROJ_UNITFACTORY_H
 #define PROJ_UNITFACTORY_H
 
-#include "GameObject.h"
-#include "Units/God.h"
-#include "Units/Mage.h"
-#include "Units/Fighter.h"
-#include "Units/Alpha.h"
-#include "Units/Beta.h"
-#include "Units/Gamma.h"
-#include "Units/Delta.h"
-#include "Units/Epsilon.h"
-#include "Units/Zeta.h"
+#include "../GameObject.h"
+//#include "CommonFactory.h"
+#include "../Units/God.h"
+#include "../Units/Mage.h"
+#include "../Units/Fighter.h"
+#include "../Units/Alpha.h"
+#include "../Units/Beta.h"
+#include "../Units/Gamma.h"
+#include "../Units/Delta.h"
+#include "../Units/Epsilon.h"
+#include "../Units/Zeta.h"
 class UnitFactory {
-private:
-    Field* fld;
+    friend class CommonFactory;
 public:
-    UnitFactory(Field* fld);
+
+    UnitFactory(Field *fld);
+
 
     virtual ~UnitFactory();
 
-    GameObject* createUnit(UnitClass _class,UnitDevotion  devotion = UnitDevotion ::NEUTER, int x=-1, int y=-1);
+    virtual GameObject *
+    createUnit(UnitClass _class, UnitDevotion devotion = UnitDevotion::NEUTER, int x = -1, int y = -1) = 0;
 
+protected:
+    Field *fld;
 };
 
 

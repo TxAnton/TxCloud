@@ -5,8 +5,13 @@
 #ifndef PROJ_ENTITYFIRE_H
 #define PROJ_ENTITYFIRE_H
 
+#include "Entity.h"
 
-class EntityFire {
+class EntityFire : public Entity {
+public:
+    wchar_t toChar() override;
+
+    bool die(GameObject *src) override;
 
 };
 

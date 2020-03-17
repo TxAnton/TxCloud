@@ -2,29 +2,31 @@
 // Created by anton on 2/12/20.
 //
 
-#ifndef PROJ_ZETA_H
-#define PROJ_ZETA_H
-
+#ifndef PROJ_FIGHTER_H
+#define PROJ_FIGHTER_H
 
 #include "../GameObject.h"
 
-class Zeta : GameObject {
+class Fighter : public GameObject {
 private:
     bool allyPowered;
     bool enemyPowered;
 public:
-    bool isAllyPowered() const;
+    Fighter(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, bool allyPowered,
+            bool enemyPowered);
 
-    void setAllyPowered(bool allyPowered);
+    virtual bool isAllyPowered() const;
 
-    bool isEnemyPowered() const;
+    virtual void setAllyPowered(bool allyPowered);
 
-    void setEnemyPowered(bool enemyPowered);
+    virtual bool isEnemyPowered() const;
 
-    bool isValidStep(int x, int y);
+    virtual void setEnemyPowered(bool enemyPowered);
 
-    char toChar();
+    virtual bool isValidStep(int x, int y) = 0;
+
+    virtual bool step(int x, int y) = 0;
 };
 
 
-#endif //PROJ_ZETA_H
+#endif //PROJ_FIGHTER_H

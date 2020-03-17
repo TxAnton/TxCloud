@@ -6,8 +6,26 @@
 #define PROJ_LANDSCAPEPROXY_H
 
 
-class LandscapeProxy {
+#include "GameObject.h"
 
+class Mediator;
+
+class LandscapeProxy {
+private:
+    Mediator *mediator;
+public:
+
+    int x;
+    int y;
+
+
+    LandscapeProxy(Mediator *mediator, int x, int y);
+
+    int getGirdle() const;
+
+    int getOrd(UnitDevotion side) const;
+
+    UnitDevotion getColor();
 };
 
 

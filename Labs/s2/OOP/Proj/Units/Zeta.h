@@ -6,7 +6,30 @@
 #define PROJ_ZETA_H
 
 
-class Zeta {
+#include "Fighter.h"
+
+class Zeta : public Fighter {
+public:
+    Zeta(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false,
+         bool allyPowered = false, bool enemyPowered = false);
+
+    UnitClass getUnitClass() override;
+
+    bool isAllyPowered() const override;
+
+    void setAllyPowered(bool allyPowered) override;
+
+    bool isEnemyPowered() const override;
+
+    void setEnemyPowered(bool enemyPowered) override;
+
+    bool isValidStep(int x, int y) override;
+
+    wchar_t toChar() override;
+
+    bool step(int x, int y) override;
+
+    virtual GameObject &operator+=(const LandscapeProxy &b);
 
 };
 

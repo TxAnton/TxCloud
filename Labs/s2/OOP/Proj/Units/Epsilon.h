@@ -6,14 +6,28 @@
 #define PROJ_EPSILON_H
 
 
-class Epsilon {
-private:
+#include "Mage.h"
+
+class Epsilon : public Mage {
 public:
-    char toChar();
+    Epsilon(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER,
+            bool active = false);
 
-    bool isValidStep(int x, int y);
+    wchar_t toChar() override;
 
-    bool step(int x, int y);
+    UnitClass getUnitClass() override;
+
+    int getPower() override;
+
+    bool isValidStep(int x, int y) override;
+
+    bool step(int x, int y) override;
+
+    virtual GameObject &operator+=(const LandscapeProxy &b);
+
+private:
+    int ord;
+
 };
 
 

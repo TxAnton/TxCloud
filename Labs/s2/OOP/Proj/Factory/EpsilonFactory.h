@@ -6,7 +6,16 @@
 #define PROJ_EPSILONFACTORY_H
 
 
-class EpsilonFactory {
+#include "UnitFactory.h"
+
+class EpsilonFactory : UnitFactory {
+    friend class CommonFactory;
+
+public:
+    EpsilonFactory(Field *fld);
+
+private:
+    GameObject *createUnit(UnitClass _class, UnitDevotion devotion, int x, int y) override;
 
 };
 

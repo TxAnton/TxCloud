@@ -43,10 +43,10 @@ RM = /home/anton/Documents/ummy/clion-2019.1.2/bin/cmake/linux/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj
+CMAKE_SOURCE_DIR = /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug
+CMAKE_BINARY_DIR = /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proj.dir/depend.make
@@ -59,159 +59,393 @@ include CMakeFiles/Proj.dir/flags.make
 
 CMakeFiles/Proj.dir/main.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proj.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/main.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proj.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/main.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/main.cpp
 
 CMakeFiles/Proj.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/main.cpp > CMakeFiles/Proj.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/main.cpp > CMakeFiles/Proj.dir/main.cpp.i
 
 CMakeFiles/Proj.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/main.cpp -o CMakeFiles/Proj.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/main.cpp -o CMakeFiles/Proj.dir/main.cpp.s
 
 CMakeFiles/Proj.dir/Game.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proj.dir/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Game.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proj.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Game.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp
 
 CMakeFiles/Proj.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp > CMakeFiles/Proj.dir/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp > CMakeFiles/Proj.dir/Game.cpp.i
 
 CMakeFiles/Proj.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp -o CMakeFiles/Proj.dir/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp -o CMakeFiles/Proj.dir/Game.cpp.s
 
 CMakeFiles/Proj.dir/Field.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Field.cpp.o: ../Field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proj.dir/Field.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Field.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proj.dir/Field.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Field.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp
 
 CMakeFiles/Proj.dir/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Field.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp > CMakeFiles/Proj.dir/Field.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp > CMakeFiles/Proj.dir/Field.cpp.i
 
 CMakeFiles/Proj.dir/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Field.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp -o CMakeFiles/Proj.dir/Field.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp -o CMakeFiles/Proj.dir/Field.cpp.s
 
 CMakeFiles/Proj.dir/GameObject.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/GameObject.cpp.o: ../GameObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proj.dir/GameObject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/GameObject.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proj.dir/GameObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/GameObject.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp
 
 CMakeFiles/Proj.dir/GameObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/GameObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp > CMakeFiles/Proj.dir/GameObject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp > CMakeFiles/Proj.dir/GameObject.cpp.i
 
 CMakeFiles/Proj.dir/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/GameObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp -o CMakeFiles/Proj.dir/GameObject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp -o CMakeFiles/Proj.dir/GameObject.cpp.s
 
-CMakeFiles/Proj.dir/Units/Zeta.cpp.o: CMakeFiles/Proj.dir/flags.make
-CMakeFiles/Proj.dir/Units/Zeta.cpp.o: ../Units/Zeta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proj.dir/Units/Zeta.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Zeta.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp
+CMakeFiles/Proj.dir/Units/Fighter.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/Fighter.cpp.o: ../Units/Fighter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proj.dir/Units/Fighter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Fighter.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.cpp
 
-CMakeFiles/Proj.dir/Units/Zeta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Zeta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp > CMakeFiles/Proj.dir/Units/Zeta.cpp.i
+CMakeFiles/Proj.dir/Units/Fighter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Fighter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.cpp > CMakeFiles/Proj.dir/Units/Fighter.cpp.i
 
-CMakeFiles/Proj.dir/Units/Zeta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Zeta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp -o CMakeFiles/Proj.dir/Units/Zeta.cpp.s
+CMakeFiles/Proj.dir/Units/Fighter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Fighter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.cpp -o CMakeFiles/Proj.dir/Units/Fighter.cpp.s
 
 CMakeFiles/Proj.dir/Units/Mage.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Mage.cpp.o: ../Units/Mage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proj.dir/Units/Mage.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Mage.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proj.dir/Units/Mage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Mage.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp
 
 CMakeFiles/Proj.dir/Units/Mage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Mage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp > CMakeFiles/Proj.dir/Units/Mage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp > CMakeFiles/Proj.dir/Units/Mage.cpp.i
 
 CMakeFiles/Proj.dir/Units/Mage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Mage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp -o CMakeFiles/Proj.dir/Units/Mage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp -o CMakeFiles/Proj.dir/Units/Mage.cpp.s
 
 CMakeFiles/Proj.dir/Units/God.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/God.cpp.o: ../Units/God.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proj.dir/Units/God.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/God.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proj.dir/Units/God.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/God.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp
 
 CMakeFiles/Proj.dir/Units/God.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/God.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp > CMakeFiles/Proj.dir/Units/God.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp > CMakeFiles/Proj.dir/Units/God.cpp.i
 
 CMakeFiles/Proj.dir/Units/God.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/God.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp -o CMakeFiles/Proj.dir/Units/God.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp -o CMakeFiles/Proj.dir/Units/God.cpp.s
 
 CMakeFiles/Proj.dir/Units/Alpha.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Alpha.cpp.o: ../Units/Alpha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proj.dir/Units/Alpha.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Alpha.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proj.dir/Units/Alpha.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Alpha.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp
 
 CMakeFiles/Proj.dir/Units/Alpha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Alpha.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp > CMakeFiles/Proj.dir/Units/Alpha.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp > CMakeFiles/Proj.dir/Units/Alpha.cpp.i
 
 CMakeFiles/Proj.dir/Units/Alpha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Alpha.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp -o CMakeFiles/Proj.dir/Units/Alpha.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp -o CMakeFiles/Proj.dir/Units/Alpha.cpp.s
 
 CMakeFiles/Proj.dir/Units/Beta.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Beta.cpp.o: ../Units/Beta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proj.dir/Units/Beta.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Beta.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proj.dir/Units/Beta.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Beta.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp
 
 CMakeFiles/Proj.dir/Units/Beta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Beta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp > CMakeFiles/Proj.dir/Units/Beta.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp > CMakeFiles/Proj.dir/Units/Beta.cpp.i
 
 CMakeFiles/Proj.dir/Units/Beta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Beta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp -o CMakeFiles/Proj.dir/Units/Beta.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp -o CMakeFiles/Proj.dir/Units/Beta.cpp.s
 
 CMakeFiles/Proj.dir/Units/Gamma.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Gamma.cpp.o: ../Units/Gamma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proj.dir/Units/Gamma.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Gamma.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proj.dir/Units/Gamma.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Gamma.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp
 
 CMakeFiles/Proj.dir/Units/Gamma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Gamma.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp > CMakeFiles/Proj.dir/Units/Gamma.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp > CMakeFiles/Proj.dir/Units/Gamma.cpp.i
 
 CMakeFiles/Proj.dir/Units/Gamma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Gamma.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp -o CMakeFiles/Proj.dir/Units/Gamma.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp -o CMakeFiles/Proj.dir/Units/Gamma.cpp.s
 
 CMakeFiles/Proj.dir/Units/Delta.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Delta.cpp.o: ../Units/Delta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proj.dir/Units/Delta.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Delta.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proj.dir/Units/Delta.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Delta.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp
 
 CMakeFiles/Proj.dir/Units/Delta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Delta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp > CMakeFiles/Proj.dir/Units/Delta.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp > CMakeFiles/Proj.dir/Units/Delta.cpp.i
 
 CMakeFiles/Proj.dir/Units/Delta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Delta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp -o CMakeFiles/Proj.dir/Units/Delta.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp -o CMakeFiles/Proj.dir/Units/Delta.cpp.s
 
 CMakeFiles/Proj.dir/Units/Epsilon.cpp.o: CMakeFiles/Proj.dir/flags.make
 CMakeFiles/Proj.dir/Units/Epsilon.cpp.o: ../Units/Epsilon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proj.dir/Units/Epsilon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Epsilon.cpp.o -c /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proj.dir/Units/Epsilon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Epsilon.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp
 
 CMakeFiles/Proj.dir/Units/Epsilon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Epsilon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp > CMakeFiles/Proj.dir/Units/Epsilon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp > CMakeFiles/Proj.dir/Units/Epsilon.cpp.i
 
 CMakeFiles/Proj.dir/Units/Epsilon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Epsilon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp -o CMakeFiles/Proj.dir/Units/Epsilon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp -o CMakeFiles/Proj.dir/Units/Epsilon.cpp.s
+
+CMakeFiles/Proj.dir/Units/Zeta.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/Zeta.cpp.o: ../Units/Zeta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proj.dir/Units/Zeta.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Zeta.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp
+
+CMakeFiles/Proj.dir/Units/Zeta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Zeta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp > CMakeFiles/Proj.dir/Units/Zeta.cpp.i
+
+CMakeFiles/Proj.dir/Units/Zeta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Zeta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp -o CMakeFiles/Proj.dir/Units/Zeta.cpp.s
+
+CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o: ../Factory/UnitFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp > CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp -o CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o: ../Factory/AlphaFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp > CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp -o CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o: ../Factory/BetaFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp > CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp -o CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o: ../Factory/GammaFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp > CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp -o CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o: ../Factory/DeltaFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.cpp > CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.cpp -o CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o: ../Factory/EpsilonFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.cpp > CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.cpp -o CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o: ../Factory/ZetaFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp > CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp -o CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o: ../Factory/CommonFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp > CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp -o CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.s
+
+CMakeFiles/Proj.dir/Units/Entity.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/Entity.cpp.o: ../Units/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proj.dir/Units/Entity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/Entity.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.cpp
+
+CMakeFiles/Proj.dir/Units/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.cpp > CMakeFiles/Proj.dir/Units/Entity.cpp.i
+
+CMakeFiles/Proj.dir/Units/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.cpp -o CMakeFiles/Proj.dir/Units/Entity.cpp.s
+
+CMakeFiles/Proj.dir/Base.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Base.cpp.o: ../Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Proj.dir/Base.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Base.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp
+
+CMakeFiles/Proj.dir/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Base.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp > CMakeFiles/Proj.dir/Base.cpp.i
+
+CMakeFiles/Proj.dir/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Base.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp -o CMakeFiles/Proj.dir/Base.cpp.s
+
+CMakeFiles/Proj.dir/Mediator.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Mediator.cpp.o: ../Mediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Proj.dir/Mediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Mediator.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp
+
+CMakeFiles/Proj.dir/Mediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Mediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp > CMakeFiles/Proj.dir/Mediator.cpp.i
+
+CMakeFiles/Proj.dir/Mediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Mediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp -o CMakeFiles/Proj.dir/Mediator.cpp.s
+
+CMakeFiles/Proj.dir/GameObjectList.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/GameObjectList.cpp.o: ../GameObjectList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Proj.dir/GameObjectList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/GameObjectList.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp
+
+CMakeFiles/Proj.dir/GameObjectList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/GameObjectList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp > CMakeFiles/Proj.dir/GameObjectList.cpp.i
+
+CMakeFiles/Proj.dir/GameObjectList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/GameObjectList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp -o CMakeFiles/Proj.dir/GameObjectList.cpp.s
+
+CMakeFiles/Proj.dir/LandscapeProxy.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/LandscapeProxy.cpp.o: ../LandscapeProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Proj.dir/LandscapeProxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/LandscapeProxy.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.cpp
+
+CMakeFiles/Proj.dir/LandscapeProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/LandscapeProxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.cpp > CMakeFiles/Proj.dir/LandscapeProxy.cpp.i
+
+CMakeFiles/Proj.dir/LandscapeProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/LandscapeProxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.cpp -o CMakeFiles/Proj.dir/LandscapeProxy.cpp.s
+
+CMakeFiles/Proj.dir/Units/EntityBush.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/EntityBush.cpp.o: ../Units/EntityBush.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Proj.dir/Units/EntityBush.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/EntityBush.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.cpp
+
+CMakeFiles/Proj.dir/Units/EntityBush.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/EntityBush.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.cpp > CMakeFiles/Proj.dir/Units/EntityBush.cpp.i
+
+CMakeFiles/Proj.dir/Units/EntityBush.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/EntityBush.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.cpp -o CMakeFiles/Proj.dir/Units/EntityBush.cpp.s
+
+CMakeFiles/Proj.dir/Units/EntityTree.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/EntityTree.cpp.o: ../Units/EntityTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Proj.dir/Units/EntityTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/EntityTree.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.cpp
+
+CMakeFiles/Proj.dir/Units/EntityTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/EntityTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.cpp > CMakeFiles/Proj.dir/Units/EntityTree.cpp.i
+
+CMakeFiles/Proj.dir/Units/EntityTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/EntityTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.cpp -o CMakeFiles/Proj.dir/Units/EntityTree.cpp.s
+
+CMakeFiles/Proj.dir/Units/EntityStone.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/EntityStone.cpp.o: ../Units/EntityStone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Proj.dir/Units/EntityStone.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/EntityStone.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.cpp
+
+CMakeFiles/Proj.dir/Units/EntityStone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/EntityStone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.cpp > CMakeFiles/Proj.dir/Units/EntityStone.cpp.i
+
+CMakeFiles/Proj.dir/Units/EntityStone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/EntityStone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.cpp -o CMakeFiles/Proj.dir/Units/EntityStone.cpp.s
+
+CMakeFiles/Proj.dir/Units/EntityFire.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Units/EntityFire.cpp.o: ../Units/EntityFire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Proj.dir/Units/EntityFire.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Units/EntityFire.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.cpp
+
+CMakeFiles/Proj.dir/Units/EntityFire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Units/EntityFire.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.cpp > CMakeFiles/Proj.dir/Units/EntityFire.cpp.i
+
+CMakeFiles/Proj.dir/Units/EntityFire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Units/EntityFire.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.cpp -o CMakeFiles/Proj.dir/Units/EntityFire.cpp.s
 
 # Object files for target Proj
 Proj_OBJECTS = \
@@ -219,14 +453,32 @@ Proj_OBJECTS = \
 "CMakeFiles/Proj.dir/Game.cpp.o" \
 "CMakeFiles/Proj.dir/Field.cpp.o" \
 "CMakeFiles/Proj.dir/GameObject.cpp.o" \
-"CMakeFiles/Proj.dir/Units/Zeta.cpp.o" \
+"CMakeFiles/Proj.dir/Units/Fighter.cpp.o" \
 "CMakeFiles/Proj.dir/Units/Mage.cpp.o" \
 "CMakeFiles/Proj.dir/Units/God.cpp.o" \
 "CMakeFiles/Proj.dir/Units/Alpha.cpp.o" \
 "CMakeFiles/Proj.dir/Units/Beta.cpp.o" \
 "CMakeFiles/Proj.dir/Units/Gamma.cpp.o" \
 "CMakeFiles/Proj.dir/Units/Delta.cpp.o" \
-"CMakeFiles/Proj.dir/Units/Epsilon.cpp.o"
+"CMakeFiles/Proj.dir/Units/Epsilon.cpp.o" \
+"CMakeFiles/Proj.dir/Units/Zeta.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Units/Entity.cpp.o" \
+"CMakeFiles/Proj.dir/Base.cpp.o" \
+"CMakeFiles/Proj.dir/Mediator.cpp.o" \
+"CMakeFiles/Proj.dir/GameObjectList.cpp.o" \
+"CMakeFiles/Proj.dir/LandscapeProxy.cpp.o" \
+"CMakeFiles/Proj.dir/Units/EntityBush.cpp.o" \
+"CMakeFiles/Proj.dir/Units/EntityTree.cpp.o" \
+"CMakeFiles/Proj.dir/Units/EntityStone.cpp.o" \
+"CMakeFiles/Proj.dir/Units/EntityFire.cpp.o"
 
 # External object files for target Proj
 Proj_EXTERNAL_OBJECTS =
@@ -235,7 +487,7 @@ Proj: CMakeFiles/Proj.dir/main.cpp.o
 Proj: CMakeFiles/Proj.dir/Game.cpp.o
 Proj: CMakeFiles/Proj.dir/Field.cpp.o
 Proj: CMakeFiles/Proj.dir/GameObject.cpp.o
-Proj: CMakeFiles/Proj.dir/Units/Zeta.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/Fighter.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/Mage.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/God.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/Alpha.cpp.o
@@ -243,9 +495,27 @@ Proj: CMakeFiles/Proj.dir/Units/Beta.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/Gamma.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/Delta.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/Epsilon.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/Zeta.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/DeltaFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/CommonFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/Entity.cpp.o
+Proj: CMakeFiles/Proj.dir/Base.cpp.o
+Proj: CMakeFiles/Proj.dir/Mediator.cpp.o
+Proj: CMakeFiles/Proj.dir/GameObjectList.cpp.o
+Proj: CMakeFiles/Proj.dir/LandscapeProxy.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/EntityBush.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/EntityTree.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/EntityStone.cpp.o
+Proj: CMakeFiles/Proj.dir/Units/EntityFire.cpp.o
 Proj: CMakeFiles/Proj.dir/build.make
 Proj: CMakeFiles/Proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Proj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Proj"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,6 +528,6 @@ CMakeFiles/Proj.dir/clean:
 .PHONY : CMakeFiles/Proj.dir/clean
 
 CMakeFiles/Proj.dir/depend:
-	cd /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug /media/anton/E6D8B24FD8B21E2D1/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proj.dir/depend
 

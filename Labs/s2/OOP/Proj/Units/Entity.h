@@ -6,8 +6,10 @@
 #define PROJ_ENTITY_H
 
 
-class Entity {
+#include "../GameObject.h"
 
+class Entity : public GameObject {
+    Entity &operator+=(const GameObject &other);
 };
 
 

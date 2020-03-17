@@ -5,8 +5,13 @@
 #ifndef PROJ_ENTITYSTONE_H
 #define PROJ_ENTITYSTONE_H
 
+#include "Entity.h"
 
-class EntityStone {
+class EntityStone : public Entity {
+public:
+    wchar_t toChar() override;
+
+    bool die(GameObject *src) override;
 
 };
 

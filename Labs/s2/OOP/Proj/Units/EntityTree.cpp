@@ -3,3 +3,11 @@
 //
 
 #include "EntityTree.h"
+
+wchar_t EntityTree::toChar() {
+    return 0;
+}
+
+bool EntityTree::die(GameObject *src) {
+    return GameObject::die(src);
+}

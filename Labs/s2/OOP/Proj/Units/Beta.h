@@ -7,15 +7,34 @@
 
 
 #include "God.h"
+#include "../Base.h"
 
-class Beta: God {
+
+class Beta : public God {
 private:
 public:
-    char toChar();
+    Beta(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false);
 
-    bool isValidStep(int x, int y);
+    //Beta(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, CommonFactory *factory,int unitLim);
 
-    bool step(int x, int y);
+    UnitClass getUnitClass() override;
+
+    void deathEvent() override;
+
+    void summon(Direction dir) override;
+
+    wchar_t toChar() override;
+
+    bool isValidStep(int x, int y) override;
+
+    bool step(int x, int y) override;
+
+    virtual GameObject &operator+=(const LandscapeProxy &b);
+
+    bool die(GameObject *src) override;
+
+//    void recieveDeath(GameObject *gameObject) override;
+
 
 };
 

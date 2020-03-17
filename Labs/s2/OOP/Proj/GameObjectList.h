@@ -2,8 +2,8 @@
 // Created by anton on 3/2/20.
 //
 
-#ifndef PROJ_GAMEOBJECTSET_H
-#define PROJ_GAMEOBJECTSET_H
+#ifndef PROJ_GAMEOBJECTLIST_H
+#define PROJ_GAMEOBJECTLIST_H
 
 
 #include <list>
@@ -11,20 +11,24 @@
 #include "GameObject.h"
 
 
-class GameObjectSet {
+class GameObjectList : public std::list<GameObject *> {
 private:
-    std::list<GameObject> container;
+    //std::list<GameObject> container;
 public:
-    GameObjectSet()=default;
-    GameObjectSet(GameObjectSet& src);
-    GameObjectSet(std::list<GameObject*> lst);
+    GameObjectList() = default;
 
-    GameObjectSet& ofDevotion(UnitDevotion unitDevotion, bool inclusive = true);
-    GameObjectSet& ofClass(UnitClass unitClass, bool inclusive  = true);
-    GameObjectSet& ofType(UnitType unitType, bool inclusive  = true);
+    GameObjectList(GameObjectList &src);
+
+    GameObjectList(std::list<GameObject *> lst);
+
+    GameObjectList &ofDevotion(UnitDevotion unitDevotion, bool inclusive = true);
+
+    GameObjectList &ofClass(UnitClass unitClass, bool inclusive = true);
+
+    GameObjectList &ofType(UnitType unitType, bool inclusive = true);
 
 
 };
 
 
-#endif //PROJ_GAMEOBJECTSET_H
+#endif //PROJ_GAMEOBJECTLIST_H

@@ -3,3 +3,11 @@
 //
 
 #include "EntityStone.h"
+
+wchar_t EntityStone::toChar() {
+    return 0;
+}
+
+bool EntityStone::die(GameObject *src) {
+    return GameObject::die(src);
+}

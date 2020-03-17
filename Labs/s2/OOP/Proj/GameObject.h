@@ -5,19 +5,28 @@
 #ifndef PROJ_GAMEOBJECT_H
 #define PROJ_GAMEOBJECT_H
 
+#include <cwchar>
 
-//#include "Game.h"
+//#include "Observee.h"
+
+#include "Mediator.h"
 
 class Field;
 
-enum Direction{
+//class Observer;
+
+class Mediator;
+
+class LandscapeProxy;
+
+enum class Direction {
     UP,
     RIGHT,
     DOWN,
     LEFT
 };
 
-enum UnitClass{
+enum class UnitClass {
     ALPHA,
     BETA,
     GAMMA,
@@ -25,18 +34,40 @@ enum UnitClass{
     EPSILON,
     ZETA,
     NO_CLASS
-};,
+};
+
+
+enum class UnitType {
+    GOD,
+    MAGE,
+    FIGHTER,
+    NO_TYPE
+};
+
+enum class UnitDevotion {
+    LIGHT,
+    DARK,
+    NEUTER
+};
+
+//#include "LandscapeProxy.h"
+
 
 class GameObject {
+
+public:
+    static Mediator *mediator;
+    static Observer *observer;
 private:
-    Field *fld;
+    //Field *fld;//TODO replace with interface
     int health;
-    bool side;
+    UnitDevotion devotion;
     bool active;
     int x;
     int y;
 public:
-    GameObject(int x, int y);
+    GameObject(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER,
+               bool active = false);
 
     GameObject();
 
@@ -48,13 +79,21 @@ public:
 
     void setActive(bool flag);
 
-    virtual char toChar();
+    virtual wchar_t toChar() = 0;
 
-    virtual bool isValidStep(int x, int y);
+    virtual bool isValidStep(int x, int y) = 0;
 
-    virtual bool step(int x, int y);
+    virtual bool step(int x, int y) = 0;
 
-    virtual UnitClass getUnitClass();
+    virtual bool die(GameObject *src);
+
+    virtual UnitClass getUnitClass() = 0;
+
+    virtual UnitDevotion getUnitDevotion();
+
+    virtual GameObject &operator+=(const LandscapeProxy &b) = 0;
+
+    static UnitType classToType(UnitClass unitClass);
 };
 
 

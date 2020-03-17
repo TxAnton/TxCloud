@@ -7,19 +7,38 @@
 
 
 #include <utility>
-#include "Mage.h"
+#include "Fighter.h"
 
-class Gamma : Mage {
+class Gamma : public Fighter {
 private:
     std::pair<int, int> link;
 public:
+    Gamma(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false,
+          bool allyPowered = false, bool enemyPowered = false);
+
     std::pair<int, int> *getIntersects(int &amount);
 
-    char toChar();
+    bool ritual();
 
-    bool isValidStep(int x, int y);
+    UnitClass getUnitClass() override;
 
-    bool step(int x, int y);
+    bool isAllyPowered() const override;
+
+    void setAllyPowered(bool allyPowered) override;
+
+    bool isEnemyPowered() const override;
+
+    void setEnemyPowered(bool enemyPowered) override;
+
+    bool isValidStep(int x, int y) override;
+
+    wchar_t toChar() override;
+
+    bool step(int x, int y) override;
+
+    virtual GameObject &operator+=(const LandscapeProxy &b);
+
+
 };
 
 
