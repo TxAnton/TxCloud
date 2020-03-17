@@ -12,22 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc73556-4c6e-45b7-945d-fd4e02347e0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_Pathfinding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2_Pathfinding/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1_Backtracking/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1_Backtracking/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_Pathfinding/.~lock.Larin_Anton_Alg_22_2.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Larin_Anton_Alg_22_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Larin_Anton_Alg_22_3.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in" beforeDir="false" afterPath="$PROJECT_DIR$/in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" afterDir="false" />
@@ -55,6 +45,12 @@
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObject.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Mediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.cpp" afterDir="false" />
@@ -62,6 +58,14 @@
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Entity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.cpp" afterDir="false" />
@@ -115,26 +119,6 @@
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/BADHEX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/BADSAMPL.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/BADSAMPL.OBJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/BSAMPLE.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/COMHEX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/COMSAM~1.COM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/COMSAM~1.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/COMSAM~1.MAP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/COMSAM~1.OBJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/EXE2BIN.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/EXEHEX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/EXESAM~1.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/EXESAM~1.OBJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/EXESample.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/SAMPLE.COM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/SAMPLE.EXE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/SAMPLE.MAP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/SAMPLE~1.COM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/SAMPLE~1.MAP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/Larin_Anton_8383_OS_22_1/Larin_Anton_OS_22_1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/Larin_Anton_8383_OS_22_1/Larin_Anton_OS_22_1.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,18 +141,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="443">
+              <caret line="382" column="39" selection-end-line="405" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#59#73#0" expanded="true" />
-                <element signature="e#1109#1501#0" />
-                <element signature="e#835#1096#0" />
-                <element signature="e#1465#1485#0" />
-                <element signature="e#3207#4433#0" />
-                <element signature="e#7100#7191#0" expanded="true" />
-                <element signature="e#7425#7492#0" expanded="true" />
+                <element signature="e#77#91#0" expanded="true" />
+                <element signature="e#649#2613#1" />
+                <element signature="e#2709#3245#0" />
+                <element signature="e#4503#5633#0" />
+                <element signature="e#5781#5904#0" expanded="true" />
+                <element signature="e#6009#6122#0" expanded="true" />
+                <element signature="e#6239#6297#0" expanded="true" />
+                <element signature="e#6444#6498#0" expanded="true" />
+                <element signature="e#6685#7086#0" expanded="true" />
+                <element signature="e#7162#7233#0" expanded="true" />
+                <element signature="e#7438#7577#0" expanded="true" />
+                <element signature="e#8062#8237#0" expanded="true" />
+                <element signature="e#9009#9066#0" expanded="true" />
+                <element signature="e#9167#9390#0" expanded="true" />
+                <element signature="e#9623#9690#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_tree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5400">
+              <caret line="360" selection-start-line="360" selection-end-line="360" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_set.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11460">
+              <caret line="764" selection-start-line="764" selection-end-line="764" />
             </state>
           </provider>
         </entry>
@@ -176,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="617" selection-start-line="617" selection-end-line="617" />
+            <state relative-caret-position="11955">
+              <caret line="797" selection-start-line="797" selection-end-line="797" />
             </state>
           </provider>
         </entry>
@@ -185,17 +195,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/stl_map.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="515" selection-start-line="515" selection-end-line="515" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/stl_pair.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+            <state relative-caret-position="7245">
+              <caret line="483" selection-start-line="483" selection-end-line="483" />
             </state>
           </provider>
         </entry>
@@ -212,6 +213,7 @@
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -237,6 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,22 +276,28 @@
       <workItem from="1583764465005" duration="2653000" />
       <workItem from="1583790920239" duration="3254000" />
       <workItem from="1583832345408" duration="27590000" />
+      <workItem from="1583908854030" duration="6963000" />
+      <workItem from="1583959919830" duration="4296000" />
+      <workItem from="1584002336783" duration="3781000" />
+      <workItem from="1584012355814" duration="3269000" />
+      <workItem from="1584027371715" duration="4783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33497000" />
+    <option name="totallyTimeSpent" value="56589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.035218783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08189655" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,7 +306,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,23 +322,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>330</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>309</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>333</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>229</line>
-          <option name="timeStamp" value="10" />
+          <line>366</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -337,6 +331,10 @@
       <configuration name="CMakeRunConfiguration">
         <watch expression="path" />
         <watch expression="graph" />
+        <watch expression="S" />
+        <watch expression="T" />
+        <watch expression="edge" />
+        <watch expression="path[i]" />
       </configuration>
     </watches-manager>
   </component>
@@ -355,9 +353,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///usr/include/c++/7/bits/stl_pair.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
@@ -365,33 +360,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_map.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_tree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
+        <state relative-caret-position="5400">
+          <caret line="360" selection-start-line="360" selection-end-line="360" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_set.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11460">
+          <caret line="764" selection-start-line="764" selection-end-line="764" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="617" selection-start-line="617" selection-end-line="617" />
+        <state relative-caret-position="11955">
+          <caret line="797" selection-start-line="797" selection-end-line="797" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7245">
+          <caret line="483" selection-start-line="483" selection-end-line="483" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="443">
+          <caret line="382" column="39" selection-end-line="405" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#59#73#0" expanded="true" />
-            <element signature="e#1109#1501#0" />
-            <element signature="e#835#1096#0" />
-            <element signature="e#1465#1485#0" />
-            <element signature="e#3207#4433#0" />
-            <element signature="e#7100#7191#0" expanded="true" />
-            <element signature="e#7425#7492#0" expanded="true" />
+            <element signature="e#77#91#0" expanded="true" />
+            <element signature="e#649#2613#1" />
+            <element signature="e#2709#3245#0" />
+            <element signature="e#4503#5633#0" />
+            <element signature="e#5781#5904#0" expanded="true" />
+            <element signature="e#6009#6122#0" expanded="true" />
+            <element signature="e#6239#6297#0" expanded="true" />
+            <element signature="e#6444#6498#0" expanded="true" />
+            <element signature="e#6685#7086#0" expanded="true" />
+            <element signature="e#7162#7233#0" expanded="true" />
+            <element signature="e#7438#7577#0" expanded="true" />
+            <element signature="e#8062#8237#0" expanded="true" />
+            <element signature="e#9009#9066#0" expanded="true" />
+            <element signature="e#9167#9390#0" expanded="true" />
+            <element signature="e#9623#9690#0" expanded="true" />
           </folding>
         </state>
       </provider>

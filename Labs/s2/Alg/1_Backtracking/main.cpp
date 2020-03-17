@@ -34,7 +34,6 @@ void drawMap(std::vector<std::vector<int> > map){
     for(auto it = map.begin();it!=map.end();it++){
         for(auto it1=it->begin();it1!=it->end();it1++){
             std::cout<<(char)(*it1<=9?*it1 + '0':*it1-10 + 'a');
-//            std::cout<<(char)(*it1 + '0');
         }
         std::cout<<std::endl;
     }
@@ -45,15 +44,16 @@ void iterate(int n, std::vector<std::vector<int> > vtx, std::vector<std::vector<
     if(bestCnt && cnt>=bestCnt)return;
     if (cap==0)cap = n * n;//Capacity
     //drawMap(map);
-    for (int size = initSize > 0 ? initSize : n - 1; size >= 1; size--) {//For all sizes size
-        auto vec = fct(n);
-        if(vec.size()>2)size = n/vec[1];//Check for prime factors
+    for (int size = initSize > 0 ? initSize : (n + 1)/2; size >= 1; size--) {//For all sizes size
+        ///auto vec = fct(n);
+        ///if(vec.size()>2)size = n/vec[1];//Check for prime factors
         for (int i = 0; i <= n - size; i++) {//Starting with each row i
             int occCol = -1;
             for (int col = 0; col < n; col++) {//Through whole horizontal lane col:0..n
                 for (int j = i; j < i + size; j++) {//For its full width(vertical) j:0..size ROW - J
                     if (map[j][col] != 0) {
                         occCol = col;
+						
                     }
                     ops++;
                 }
@@ -100,10 +100,9 @@ void iterate(int n, std::vector<std::vector<int> > vtx, std::vector<std::vector<
                         }
                         return;
                     }
-                    if(vec.size()>2&&bestCnt == vec[1]*vec[1])return;//Check for prime factors
+                    //if(vec.size() > 2 && bestCnt == vec[1]*vec[1])return;//Check for prime factors
                     if(size==1)return;
-                }else if(col - occCol == 2*size)return;
-
+                }else if(col - occCol > size)return;//if(col - occCol == 2*size)return;//
             }
         }
     }
@@ -113,8 +112,8 @@ void backtrack(int n) {
     std::vector<std::vector<int> > map;
     std::vector<std::vector<int> > vtx;
     bestCnt = 0;
+	std::vector<int> tmp(n, 0);
     for (int i = 0; i < n; i++) {
-        std::vector<int> tmp(n, 0);
         map.push_back(tmp);
     }
     if(DEBUG)std::cout <<"Interresults:"<< std::endl;
@@ -127,6 +126,15 @@ int main() {
     int n=5;
     std::cin>>n;
 
+	backtrack(n);
+	std::cout<<bestCnt<<std::endl;
+	
+	for(auto it = bestVtx.begin();it!=bestVtx.end();it++){
+            std::cout<<(*it)[0]+1<<" "<<(*it)[1]+1<<" "<<(*it)[2]<<std::endl;
+    }
+    //std::cout << std::endl;
+	drawMap(bestMap);
+	/*
     //for(int n = 5; n<6; n++) {
         std::cout << "Here we go!\t\t" << n << std::endl;
         auto tim = time(0);
@@ -145,5 +153,6 @@ int main() {
         ops = 0;
         std::cout <<"======================================="<< std::endl;
     //}
+	*/
     return 0;
 }
