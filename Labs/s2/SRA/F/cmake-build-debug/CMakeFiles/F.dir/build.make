@@ -57,27 +57,27 @@ include CMakeFiles/F.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/F.dir/flags.make
 
-CMakeFiles/F.dir/main.cpp.o: CMakeFiles/F.dir/flags.make
-CMakeFiles/F.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/F.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/F.dir/main.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/main.cpp
+CMakeFiles/F.dir/LETI_Larin.cpp.o: CMakeFiles/F.dir/flags.make
+CMakeFiles/F.dir/LETI_Larin.cpp.o: ../LETI_Larin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/F.dir/LETI_Larin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/F.dir/LETI_Larin.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/LETI_Larin.cpp
 
-CMakeFiles/F.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/main.cpp > CMakeFiles/F.dir/main.cpp.i
+CMakeFiles/F.dir/LETI_Larin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/F.dir/LETI_Larin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/LETI_Larin.cpp > CMakeFiles/F.dir/LETI_Larin.cpp.i
 
-CMakeFiles/F.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/main.cpp -o CMakeFiles/F.dir/main.cpp.s
+CMakeFiles/F.dir/LETI_Larin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/F.dir/LETI_Larin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/LETI_Larin.cpp -o CMakeFiles/F.dir/LETI_Larin.cpp.s
 
 # Object files for target F
 F_OBJECTS = \
-"CMakeFiles/F.dir/main.cpp.o"
+"CMakeFiles/F.dir/LETI_Larin.cpp.o"
 
 # External object files for target F
 F_EXTERNAL_OBJECTS =
 
-F : CMakeFiles/F.dir/main.cpp.o
+F : CMakeFiles/F.dir/LETI_Larin.cpp.o
 F : CMakeFiles/F.dir/build.make
 F : CMakeFiles/F.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable F"

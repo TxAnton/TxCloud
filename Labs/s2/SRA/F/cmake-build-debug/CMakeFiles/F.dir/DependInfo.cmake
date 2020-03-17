@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/main.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/cmake-build-debug/CMakeFiles/F.dir/main.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/LETI_Larin.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/SRA/F/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

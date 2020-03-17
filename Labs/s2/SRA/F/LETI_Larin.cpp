@@ -131,7 +131,7 @@ vector<int> longestAscendingSS(vector<int> SS, vector<int> cur = vector<int>()) 
     bool flag = false;
     vector<int> longest;
     for (auto it = SS.begin(); it != SS.end(); it++) {
-        if (cur.empty() || (*it) < cur.back()) {
+        if (cur.empty() || (*it) > cur.back()) {
             flag = true;
             cur.push_back(*it);
             vector<int> temp = longestAscendingSS(vector<int>(it + 1, SS.end()), cur);
@@ -144,24 +144,106 @@ vector<int> longestAscendingSS(vector<int> SS, vector<int> cur = vector<int>()) 
 }
 
 
+
+vector<int> longestDescendingSS(vector<int> SS, vector<int> cur = vector<int>()) {
+    /*
+     * Максимальная убывающая подпоследовательность
+     * На вход:
+     * SS - последовательность
+     * cur - последовательность на текущем витке рекурсии
+     * На выход:
+     * Подпоследовательность в порядке убывания
+     */
+    bool flag = false;
+    vector<int> longest;
+    for (auto it = SS.begin(); it != SS.end(); it++) {
+        if (cur.empty() || (*it) < cur.back()) {
+            flag = true;
+            cur.push_back(*it);
+            vector<int> temp = longestDescendingSS(vector<int>(it + 1, SS.end()), cur);
+            cur.pop_back();
+            if (longest.empty() || temp.size() > longest.size())longest = temp;
+        }
+    }
+    if (!flag)return cur;
+    return longest;
+}
+
+vector<int> revRSK(vector<vector<int>> P, vector<vector<int>> Q) {
+    vector<int> perm;
+
+    while(!Q.empty()) {
+        int cRow = 0;
+        int cCol = 0;
+        for (int col = 0; col < Q.size(); col++) {
+            for (int row = 0; row < Q[col].size(); row++) {
+                if (Q[col][row] > Q[cCol][cRow]) {
+                    cCol = col;
+                    cRow = row;
+                }
+            }
+        }//Q[cCol][cRow]
+        int val = P[cCol][cRow];
+        P[cCol].pop_back();
+        Q[cCol].pop_back();
+        if(P[cCol].empty()){P.pop_back();Q.pop_back();}
+        cCol--;
+        bool flag = true;
+        while (flag) {
+            //cRow cCol - val to be moved
+            flag = false;
+
+            if (cCol == -1) {
+                perm.push_back(val);
+                flag = false;
+                break;
+            } else {
+                flag = true;
+                for (int seek = Q[cCol].size() - 1; seek >= 0; seek--) {
+                    if (P[cCol][seek] < val) {
+                        int t = val;
+                        val = P[cCol][seek];
+                        P[cCol][seek] = t;
+                        cCol--;
+                        break;
+                    }
+                }
+            }
+        }
+        //Q.clear();
+    }
+    return vector<int>(perm.rbegin(),perm.rend());
+}
+
 int main() {
-/*
-    vector<int> perm = {13,19,9,16,14,4,17,18,11,7,8,1,2,5,15,20,12,3,10,6};//perm = {6,7,5,4,10,1,8,9,2,3};
+
+    vector<int> perm = {13, 19, 9, 16, 14, 4, 17, 18, 11, 7, 8, 1, 2, 5, 15, 20, 12, 3, 10, 6};//perm = {6,7,5,4,10,1,8,9,2,3};
 
 
     auto t = RSK(perm);
-    cout<<"P:"<<endl;
-    printJ(get<0>(t),false);
-    cout<<endl<<"Q:"<<endl;
-    printJ(get<1>(t),false);
-    cout<<endl<<"SS:"<<endl;
+    cout << "P:" << endl;
+    printJ(get<0>(t), false);
+    cout << endl << "Q:" << endl;
+    printJ(get<1>(t), false);
+    cout << endl << "SS:" << endl;
     printSS(get<2>(t));
-    cout<<endl;
+    cout << endl;
 
-    cout<<"LongestSS:"<<endl;
-    auto lss=longestAscendingSS(perm);
-    for(auto it:lss)cout<<it<<" ";
-*/
+    cout << "LongestAscendingSS:" << endl;
+    auto lss = longestAscendingSS(perm);
+    for (auto it:lss)cout << it << " ";
+
+    cout << endl;
+    cout << "LongestDescendingSS:" << endl;
+    lss = longestDescendingSS(perm);
+    for (auto it:lss)cout << it << " ";
+    cout << endl;
+
+    cout << "Reverce RSK:" << endl;
+    auto pr = revRSK(get<0>(t),get<1>(t));
+    for(auto foo:pr)cout<<foo<<" ";
+    cout << endl;
+
 /*
     cout<<"======================================================"<<endl;
     perm = {13,19,9,16,14,4,17,18,11,7,8,1,2,5,15,20,12,3,10,6};
@@ -175,6 +257,7 @@ int main() {
     //vector<vector<int>> J = {{1,2,3,7},{4,6,8},{5,9},{10}};
     //printJ(J);
 
+    cout << "======================================================" << endl;
 
     for (int i = 0; i < 11; i++) {
         std::cout << i << " " << p(i) << std::endl;

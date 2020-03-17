@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/F.dir/main.cpp.o"
+  "CMakeFiles/F.dir/LETI_Larin.cpp.o"
   "F.pdb"
   "F"
 )

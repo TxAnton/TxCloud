@@ -15,11 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../../Alg/1_Backtracking/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/1_Backtracking/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Alg/2_Pathfinding/.~lock.Larin_Anton_Alg_22_2.odt#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/in" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" afterDir="false" />
@@ -121,6 +116,26 @@
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.ASM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LETI_Larin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LETI_Larin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/F" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/F" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/F.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/F.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +149,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -143,11 +158,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LETI_Larin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3799">
+              <caret line="262" column="34" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/tuple">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19710">
+              <caret line="1314" selection-start-line="1314" selection-end-line="1314" />
             </state>
           </provider>
         </entry>
@@ -155,8 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="327" selection-start-line="327" selection-end-line="327" />
+            <state relative-caret-position="11955">
+              <caret line="797" selection-start-line="797" selection-end-line="797" />
             </state>
           </provider>
         </entry>
@@ -170,6 +191,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/LETI_Larin.cpp" />
       </list>
     </option>
   </component>
@@ -184,8 +206,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1051" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,10 +228,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -242,40 +266,75 @@
       <option name="presentableId" value="Default" />
       <updated>1584036831061</updated>
       <workItem from="1584036832587" duration="11408000" />
+      <workItem from="1584098773143" duration="4924000" />
+      <workItem from="1584181303210" duration="2386000" />
+      <workItem from="1584434604762" duration="364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11408000" />
+    <option name="totallyTimeSpent" value="19082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1051" extended-state="4" />
+    <frame x="961" y="0" width="959" height="1052" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19605696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119386636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33009708" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2858684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
+          <line>242</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
+          <line>174</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
+          <line>185</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
+          <line>196</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="Q[cCol][cRow]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -287,32 +346,27 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LETI_Larin.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///usr/include/c++/7/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19710">
+          <caret line="1314" selection-start-line="1314" selection-end-line="1314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11955">
+          <caret line="797" selection-start-line="797" selection-end-line="797" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LETI_Larin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3799">
+          <caret line="262" column="34" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="34" />
         </state>
       </provider>
     </entry>
