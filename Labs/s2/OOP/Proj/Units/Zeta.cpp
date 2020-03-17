@@ -49,3 +49,12 @@ Zeta::Zeta(Field *fld, int x, int y, int health, UnitDevotion devotion, bool act
 GameObject &Zeta::operator+=(const LandscapeProxy &b) {
     return *this;
 }
+
+GameObject &Zeta::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;//TODO
+}
+
+GameObject &Zeta::operator-=(const GameObject &b) {
+    return *this;//TODO
+}

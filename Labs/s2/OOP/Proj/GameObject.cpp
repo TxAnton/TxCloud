@@ -4,6 +4,8 @@
 
 #include "GameObject.h"
 
+
+
 //#include "Observer.h"
 
 GameObject::GameObject(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active) {
@@ -69,5 +71,4 @@ UnitType GameObject::classToType(UnitClass unitClass) {
 bool GameObject::die(GameObject *src) {
 //    observer->notifyDeath(this);
     return true;
-
 }

@@ -393,6 +393,33 @@ Field.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Field.cpp.s
 .PHONY : Field.cpp.s
 
+FieldCellProxy.o: FieldCellProxy.cpp.o
+
+.PHONY : FieldCellProxy.o
+
+# target to build an object file
+FieldCellProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/FieldCellProxy.cpp.o
+.PHONY : FieldCellProxy.cpp.o
+
+FieldCellProxy.i: FieldCellProxy.cpp.i
+
+.PHONY : FieldCellProxy.i
+
+# target to preprocess a source file
+FieldCellProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/FieldCellProxy.cpp.i
+.PHONY : FieldCellProxy.cpp.i
+
+FieldCellProxy.s: FieldCellProxy.cpp.s
+
+.PHONY : FieldCellProxy.s
+
+# target to generate assembly for a file
+FieldCellProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/FieldCellProxy.cpp.s
+.PHONY : FieldCellProxy.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -972,6 +999,9 @@ help:
 	@echo "... Field.o"
 	@echo "... Field.i"
 	@echo "... Field.s"
+	@echo "... FieldCellProxy.o"
+	@echo "... FieldCellProxy.i"
+	@echo "... FieldCellProxy.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"

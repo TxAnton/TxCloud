@@ -52,6 +52,15 @@ bool Beta::die(GameObject *src) {
     return true;
 }
 
+GameObject &Beta::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;//TODO
+}
+
+GameObject &Beta::operator-=(const GameObject &b) {
+    return *this;//TODO
+}
+
 //void Beta::recieveDeath(GameObject *gameObject) {}
 
 //Beta::Beta(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, CommonFactory *factory, int unitLim) : God(fld, x, y, health, devotion, active), Base(fld, factory, unitLim) {}

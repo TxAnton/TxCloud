@@ -14,11 +14,13 @@
 #include "GameObject.h"
 #include "Field.h"
 #include "Factory/CommonFactory.h"
+#include "Mediator.h"
 
 #define FIELD_ABS_MAX 8
 
 class Game {
 private:
+    Mediator *mediator;
     Field *field;
     CommonFactory *factory;
     //etl::vector<GameObject*, FIELD_ABS_MAX*FIELD_ABS_MAX> objVector;

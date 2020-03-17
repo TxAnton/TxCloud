@@ -61,14 +61,23 @@ void Alpha::setUnitLim(int unitLim1) {
 }
 
 bool Alpha::spawnAt(UnitClass unitClass, int x, int y) {
-    /*
+
     if(unitCnt<unitLim){
         return GameObject::mediator->createAt(unitClass,getUnitDevotion(),x,y);
         //observer->notifyCreate(g);
 
     }
-     */
     return false;
+}
+
+GameObject &Alpha::operator+=(const FieldCellProxy &b) {
+    auto j = b.getLandscape();
+    this->operator+=(b.getLandscape());
+    return *this;
+}
+
+GameObject &Alpha::operator-=(const GameObject &b) {
+    return *this;
 }
 
 /*void Alpha::recieveDeath(GameObject *gameObject) {

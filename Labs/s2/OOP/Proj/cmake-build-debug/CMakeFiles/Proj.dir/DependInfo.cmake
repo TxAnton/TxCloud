@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Factory/UnitFactory.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Factory/ZetaFactory.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/FieldCellProxy.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Game.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Game.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/GameObjectList.cpp.o"

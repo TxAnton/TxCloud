@@ -54,3 +54,12 @@ GameObject &Gamma::operator+=(const LandscapeProxy &b) {
     return *this;
 }
 
+GameObject &Gamma::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;//TODO
+}
+
+GameObject &Gamma::operator-=(const GameObject &b) {
+    return *this;//TODO
+}
+

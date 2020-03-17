@@ -13,6 +13,12 @@ public:
     Delta(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false,
           int girdle = -1);
 
+    GameObject &operator+=(const FieldCellProxy &b) override;
+
+    GameObject &operator-=(const GameObject &b) override;
+
+    virtual GameObject &operator+=(const LandscapeProxy &b);
+
 private:
     wchar_t toChar() override;
 
@@ -23,8 +29,6 @@ private:
     bool isValidStep(int x, int y) override;
 
     bool step(int x, int y) override;
-
-    virtual GameObject &operator+=(const LandscapeProxy &b);
 
 
 private:

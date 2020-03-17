@@ -15,9 +15,13 @@ class Field;
 
 //class Observer;
 
-class Mediator;
+//class Mediator;
 
-class LandscapeProxy;
+//class LandscapeProxy;
+//class FieldCellProxy;
+
+#include "LandscapeProxy.h"//TODO can do some troubs here
+#include "FieldCellProxy.h"
 
 enum class Direction {
     UP,
@@ -92,6 +96,12 @@ public:
     virtual UnitDevotion getUnitDevotion();
 
     virtual GameObject &operator+=(const LandscapeProxy &b) = 0;
+
+    virtual GameObject &operator+=(const FieldCellProxy &b) = 0;
+
+    virtual GameObject &operator-=(const GameObject &b) = 0;
+
+
 
     static UnitType classToType(UnitClass unitClass);
 };

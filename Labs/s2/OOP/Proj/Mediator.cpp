@@ -6,6 +6,7 @@
 
 #include "Field.h"
 #include "LandscapeProxy.h"
+#include "FieldCellProxy.h"
 #include "Factory/CommonFactory.h"
 #include "GameObjectList.h"
 //#include "Observer.h"
@@ -115,16 +116,19 @@ Observer *Mediator::getObserver() {
 }
 
 bool Mediator::moveObj(int x1, int y1, int x2, int y2) {
-    auto src = field->getAt(x1, y1);
-    auto dst = field->getAt(x2, y2);
+    GameObject *src = field->getAt(x1, y1);
+    GameObject *dst = field->getAt(x2, y2);
     if (src) {
         if (dst) {
-            dst->die(src);
+
+            dst->operator-=(*src);
+
+            //dst->die(src);
             destroyAt(x2, y2);
         }
-
-        dst->operator+=(getLandscapeAt(x2, y2));
-        dst->setCoords(x2, y2);
+        src->operator+=(getFieldCellAt(x2, y2));
+        src->setCoords(x2, y2);
+        field->move(x1, y1, x2, y2);
         return true;
     }
     return false;
@@ -134,6 +138,12 @@ LandscapeProxy Mediator::getLandscapeAt(int x, int y) {
     return LandscapeProxy(this, x, y);
 }
 
+FieldCellProxy Mediator::getFieldCellAt(int x, int y) {
+    return FieldCellProxy(this, x, y);
+}
+
 UnitDevotion Mediator::getColorAt(int x, int y) {
     return (x + y) % 2 ? UnitDevotion::DARK : UnitDevotion::LIGHT;
 }
+
+

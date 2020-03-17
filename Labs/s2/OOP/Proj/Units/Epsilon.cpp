@@ -40,3 +40,12 @@ GameObject &Epsilon::operator+=(const LandscapeProxy &b) {
     ord = b.getOrd(this->getUnitDevotion());
     return *this;
 }
+
+GameObject &Epsilon::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;//TODO
+}
+
+GameObject &Epsilon::operator-=(const GameObject &b) {
+    return *this;//TODO
+}

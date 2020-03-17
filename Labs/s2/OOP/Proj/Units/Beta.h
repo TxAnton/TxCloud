@@ -33,6 +33,10 @@ public:
 
     bool die(GameObject *src) override;
 
+    GameObject &operator+=(const FieldCellProxy &b) override;
+
+    GameObject &operator-=(const GameObject &b) override;
+
 //    void recieveDeath(GameObject *gameObject) override;
 
 

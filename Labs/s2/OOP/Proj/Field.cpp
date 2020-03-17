@@ -98,12 +98,11 @@ void Field::swap(int x1, int y1, int x2, int y2) {
 bool Field::move(int x1, int y1, int x2, int y2) {
     GameObject *obj = removeAt(x1, y1);
     GameObject *destObj;
-    bool erfolg = obj->step(x2, y2);
-    if (erfolg) {
-        destObj = replaceAt(*obj, x2, y2);
-        if (destObj)destObj->setActive(false);
-    }
-    return erfolg;
+    //bool erfolg = obj->step(x2, y2);
+    destObj = replaceAt(*obj, x2, y2);
+    assert(destObj == nullptr);
+    //if (destObj)destObj->setActive(false);
+    return true;
 }
 
 GameObject *Field::replaceAt(GameObject &obj, int x, int y) {

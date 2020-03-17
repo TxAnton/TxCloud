@@ -42,3 +42,12 @@ GameObject &Delta::operator+=(const LandscapeProxy &b) {
     this->girdle = b.getGirdle();
     return *this;
 }
+
+GameObject &Delta::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;//TODO
+}
+
+GameObject &Delta::operator-=(const GameObject &b) {
+    return *this;//TODO
+}

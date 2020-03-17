@@ -17,6 +17,8 @@ class GameObject;
 
 class LandscapeProxy;
 
+class FieldCellProxy;
+
 enum class UnitClass;
 enum class UnitType;
 enum class UnitDevotion;
@@ -53,6 +55,8 @@ public:
     GameObject *getObjAt(int x, int y);
 
     LandscapeProxy getLandscapeAt(int x, int y);
+
+    FieldCellProxy getFieldCellAt(int x, int y);
 
     bool moveObj(int x1, int y1, int x2, int y2);
 

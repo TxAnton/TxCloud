@@ -36,6 +36,10 @@ public:
 
     virtual GameObject &operator+=(const LandscapeProxy &b);
 
+    GameObject &operator+=(const FieldCellProxy &b) override;
+
+    GameObject &operator-=(const GameObject &b) override;
+
 //    void recieveDeath(GameObject *gameObject) override;
 
 private:
