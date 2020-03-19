@@ -26,7 +26,6 @@ class Field;
 
 #include "UnitProps.h"
 
-//#include "LandscapeProxy.h"
 
 
 class GameObject : public Observee {
