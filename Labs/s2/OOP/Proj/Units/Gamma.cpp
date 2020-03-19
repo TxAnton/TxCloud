@@ -6,7 +6,7 @@
 
 #include "../LandscapeProxy.h"
 
-UnitClass Gamma::getUnitClass() {
+UnitClass Gamma::getUnitClass() const {
     return UnitClass::GAMMA;
 }
 

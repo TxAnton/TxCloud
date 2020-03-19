@@ -7,11 +7,15 @@
 
 #include <cwchar>
 
-//#include "Observee.h"
+
 
 #include "Mediator.h"
 
+#include "Observee.h"
+
 class Field;
+
+
 
 //class Observer;
 
@@ -20,48 +24,16 @@ class Field;
 //class LandscapeProxy;
 //class FieldCellProxy;
 
-#include "LandscapeProxy.h"//TODO can do some troubs here
-#include "FieldCellProxy.h"
-
-enum class Direction {
-    UP,
-    RIGHT,
-    DOWN,
-    LEFT
-};
-
-enum class UnitClass {
-    ALPHA,
-    BETA,
-    GAMMA,
-    DELTA,
-    EPSILON,
-    ZETA,
-    NO_CLASS
-};
-
-
-enum class UnitType {
-    GOD,
-    MAGE,
-    FIGHTER,
-    NO_TYPE
-};
-
-enum class UnitDevotion {
-    LIGHT,
-    DARK,
-    NEUTER
-};
+#include "UnitProps.h"
 
 //#include "LandscapeProxy.h"
 
 
-class GameObject {
+class GameObject : public Observee {
 
 public:
     static Mediator *mediator;
-    static Observer *observer;
+    //static Observer *observer;
 private:
     //Field *fld;//TODO replace with interface
     int health;
@@ -89,18 +61,19 @@ public:
 
     virtual bool step(int x, int y) = 0;
 
-    virtual bool die(GameObject *src);
+    virtual bool die(const GameObject &src, GameObject &dst);
 
-    virtual UnitClass getUnitClass() = 0;
+    virtual bool kill(GameObject &src, GameObject &dst);
 
-    virtual UnitDevotion getUnitDevotion();
+    virtual UnitClass getUnitClass() const = 0;
+
+    virtual UnitDevotion getUnitDevotion() const;
 
     virtual GameObject &operator+=(const LandscapeProxy &b) = 0;
 
     virtual GameObject &operator+=(const FieldCellProxy &b) = 0;
 
     virtual GameObject &operator-=(const GameObject &b) = 0;
-
 
 
     static UnitType classToType(UnitClass unitClass);

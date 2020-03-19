@@ -8,6 +8,7 @@
 
 #include "../GameObject.h"
 
+
 class Entity : public GameObject {
     Entity &operator+=(const GameObject &other);
 };

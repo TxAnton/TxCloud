@@ -102,6 +102,12 @@
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.h">
 			<Option target="Proj"/>
 		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.h">
+			<Option target="Proj"/>
+		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
@@ -120,10 +126,28 @@
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.h">
 			<Option target="Proj"/>
 		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.h">
+			<Option target="Proj"/>
+		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.h">
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp">
@@ -178,6 +202,15 @@
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h">
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp">

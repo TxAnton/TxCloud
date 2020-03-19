@@ -3,6 +3,9 @@
 //
 
 #include "Base.h"
+
+#include "Observee.h"
+//#include "GameObject.h"
 /*
 Base::Base(Field *field,) : field(field) {
     factory=new CommonFactory(field);
@@ -30,3 +33,15 @@ void Base::setUnitLim(int unitLim) {
     Base::unitLim = unitLim;
 }
 */
+
+bool Base::addObservee(Observee *observee) {
+    if (observees.count(observee))return false;
+    observees.insert(observee);
+    return true;
+}
+
+bool Base::removeObservee(Observee *observee) {
+    if (!observees.count(observee))return false;
+    observees.erase(observee);
+    return true;
+}

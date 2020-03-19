@@ -5,9 +5,14 @@
 #ifndef PROJ_FIELDCELLPROXY_H
 #define PROJ_FIELDCELLPROXY_H
 
-#include "Mediator.h"
+
+#include "UnitProps.h"
+
+//#include "Mediator.h"
 #include "LandscapeProxy.h"
 
+
+class Mediator;
 
 class GameObject;
 
@@ -18,7 +23,7 @@ public:
     int x;
     int y;
 
-    FieldCellProxy(Mediator *mediator1, int x = 0, int y = 0);
+    FieldCellProxy(Mediator *mediator1, int x1 = 0, int y1 = 0);
 
     LandscapeProxy getLandscape() const;
 

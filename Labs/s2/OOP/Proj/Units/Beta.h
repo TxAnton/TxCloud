@@ -17,7 +17,7 @@ public:
 
     //Beta(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, CommonFactory *factory,int unitLim);
 
-    UnitClass getUnitClass() override;
+    UnitClass getUnitClass() const override;
 
     void deathEvent() override;
 
@@ -31,7 +31,7 @@ public:
 
     virtual GameObject &operator+=(const LandscapeProxy &b);
 
-    bool die(GameObject *src) override;
+    bool die(const GameObject &src, GameObject &dst) override;
 
     GameObject &operator+=(const FieldCellProxy &b) override;
 

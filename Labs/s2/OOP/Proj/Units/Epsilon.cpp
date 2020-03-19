@@ -11,7 +11,7 @@ wchar_t Epsilon::toChar() {
     return L'e';
 }
 
-UnitClass Epsilon::getUnitClass() {
+UnitClass Epsilon::getUnitClass() const {
     return UnitClass::EPSILON;
 }
 

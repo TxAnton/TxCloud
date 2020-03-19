@@ -119,14 +119,15 @@ bool Mediator::moveObj(int x1, int y1, int x2, int y2) {
     GameObject *src = field->getAt(x1, y1);
     GameObject *dst = field->getAt(x2, y2);
     if (src) {
+        src->operator+=(getFieldCellAt(x2, y2));//First: say stepping object what it stepped at
+
         if (dst) {
-
-            dst->operator-=(*src);
-
+            dst->operator-=(*src);//Then say object being stepped at
+            // Or not, src obj should take care of it
             //dst->die(src);
             destroyAt(x2, y2);
         }
-        src->operator+=(getFieldCellAt(x2, y2));
+
         src->setCoords(x2, y2);
         field->move(x1, y1, x2, y2);
         return true;

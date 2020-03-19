@@ -3,17 +3,40 @@
 //
 
 #include "EntityBush.h"
-#include "../GameObject.h"
+//#include "../GameObject.h"
 
 
 wchar_t EntityBush::toChar() {
-    return 0;
+    return '%';
 }
 
-bool EntityBush::die(GameObject *src) {
+bool EntityBush::die(const GameObject &src, GameObject &dst) {
     return false;
 }
 
 GameObject &EntityBush::operator+=(const LandscapeProxy &b) {
     return *this;
+}
+
+GameObject &EntityBush::operator+=(const FieldCellProxy &b) {
+    this->operator+=(b.getLandscape());
+    return *this;
+}
+
+GameObject &EntityBush::operator-=(const GameObject &b) {
+    return *this;
+}
+
+EntityBush::EntityBush() {}
+
+bool EntityBush::isValidStep(int x, int y) {
+    return false;
+}
+
+bool EntityBush::step(int x, int y) {
+    return false;
+}
+
+UnitClass EntityBush::getUnitClass() const {
+    return UnitClass::BUSH;
 }

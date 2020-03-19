@@ -3,6 +3,7 @@
 //
 
 #include "LandscapeProxy.h"
+
 #include "Mediator.h"
 
 LandscapeProxy::LandscapeProxy(Mediator *mediator, int x, int y) : mediator(mediator), x(x), y(y) {}

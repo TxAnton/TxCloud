@@ -7,10 +7,11 @@
 //#include "../Observer.h"
 #include "../Mediator.h"
 
-#include "../LandscapeProxy.h"
+//#include "../LandscapeProxy.h"
+#include "../FieldCellProxy.h"
 
 
-UnitClass Beta::getUnitClass() {
+UnitClass Beta::getUnitClass() const {
     return UnitClass::BETA;
 }
 
@@ -46,7 +47,7 @@ GameObject &Beta::operator+=(const LandscapeProxy &b) {
     return *this;
 }
 
-bool Beta::die(GameObject *src) {
+bool Beta::die(const GameObject &src, GameObject &dst) {
     //mediator->changeGodPowers(getUnitDevotion(),getUnitDevotion()==UnitDevotion::LIGHT?UnitDevotion::DARK:UnitDevotion::LIGHT,false);
 //    observer->notifyDeath(this);
     return true;

@@ -11,7 +11,18 @@
 
 class Alpha : public God, public Base {
 
+private:
+
+    int unitLim;
+
+    int unitCnt;
+
+
+
 public:
+
+    int killCnt;//TODO Shouldn't be here in public
+
     Alpha(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false);
 
     int getUnitLim() override;
@@ -22,7 +33,7 @@ public:
 
     //Alpha(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active, CommonFactory *factory, int unitLim);
 
-    UnitClass getUnitClass() override;
+    UnitClass getUnitClass() const override;
 
     void deathEvent() override;
 
@@ -40,13 +51,24 @@ public:
 
     GameObject &operator-=(const GameObject &b) override;
 
+
+    //"Base" superclass methods
+
+    void slKill(GameObject &src, GameObject &dst) const override;
+
+    void slDeath(const GameObject &src, GameObject &dst) const override;
+
+
+/*
+    void slKill(GameObject &src, GameObject &dst) override;
+
+    void slDeath(GameObject &src, GameObject &dst) override;
+*/
+    //bool addObservee(Observee *observee) override;
+
 //    void recieveDeath(GameObject *gameObject) override;
 
-private:
 
-    int unitLim;
-
-    int unitCnt;
 
     /*
     char toChar();

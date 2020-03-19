@@ -13,7 +13,7 @@ public:
     Zeta(Field *fld, int x, int y, int health = 0, UnitDevotion devotion = UnitDevotion::NEUTER, bool active = false,
          bool allyPowered = false, bool enemyPowered = false);
 
-    UnitClass getUnitClass() override;
+    UnitClass getUnitClass() const override;
 
     bool isAllyPowered() const override;
 

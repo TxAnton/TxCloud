@@ -30,6 +30,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proj.dir/Units/EntityStone.cpp.o"
   "CMakeFiles/Proj.dir/Units/EntityFire.cpp.o"
   "CMakeFiles/Proj.dir/FieldCellProxy.cpp.o"
+  "CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o"
+  "CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o"
+  "CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o"
+  "CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o"
+  "CMakeFiles/Proj.dir/Observee.cpp.o"
   "Proj.pdb"
   "Proj"
 )

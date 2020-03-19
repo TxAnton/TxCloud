@@ -11,7 +11,7 @@ wchar_t Delta::toChar() {
     return L'd';
 }
 
-UnitClass Delta::getUnitClass() {
+UnitClass Delta::getUnitClass() const {
     return UnitClass::DELTA;
 }
 

@@ -7,8 +7,9 @@
 
 #include<string>
 #include<assert.h>
-//#include "Game.h"
-#include "GameObject.h"
+
+//#include "GameObject.h"
+class GameObject;
 
 class FieldIterator;
 
@@ -34,6 +35,8 @@ public:
     FieldIterator end();
 
     void getSize(int &width, int &height);
+
+    std::pair<int, int> getSize();
 
     void resetField();
 

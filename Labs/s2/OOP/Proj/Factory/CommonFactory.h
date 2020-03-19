@@ -12,6 +12,11 @@
 #include "DeltaFactory.h"
 #include "EpsilonFactory.h"
 #include "ZetaFactory.h"
+#include "BushFactory.h"
+#include "FireFactory.h"
+#include "TreeFactory.h"
+#include "StoneFactory.h"
+
 
 class CommonFactory {
 private:
@@ -22,6 +27,10 @@ private:
     DeltaFactory *deltaFactory;
     EpsilonFactory *epsilonFactory;
     ZetaFactory *zetaFactory;
+    BushFactory *bushFactory;
+    FireFactory *fireFactory;
+    TreeFactory *treeFactory;
+    StoneFactory *stoneFactory;
 
 public:
     CommonFactory(Field *fld);

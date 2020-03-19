@@ -6,7 +6,7 @@
 
 #include "../LandscapeProxy.h"
 
-UnitClass Zeta::getUnitClass() {
+UnitClass Zeta::getUnitClass() const {
     return UnitClass::ZETA;
 }
 
@@ -56,5 +56,7 @@ GameObject &Zeta::operator+=(const FieldCellProxy &b) {
 }
 
 GameObject &Zeta::operator-=(const GameObject &b) {
+    die(b, *this);
+//    die(b,*this);
     return *this;//TODO
 }

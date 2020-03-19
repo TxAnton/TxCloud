@@ -12,6 +12,10 @@ CommonFactory::CommonFactory(Field *fld) {
     deltaFactory = new DeltaFactory(fld);
     epsilonFactory = new EpsilonFactory(fld);
     zetaFactory = new ZetaFactory(fld);
+    treeFactory = new TreeFactory(fld);
+    fireFactory = new FireFactory(fld);
+    stoneFactory = new StoneFactory(fld);
+    bushFactory = new BushFactory(fld);
 }
 
 CommonFactory::~CommonFactory() {
@@ -21,6 +25,10 @@ CommonFactory::~CommonFactory() {
     delete deltaFactory;
     delete epsilonFactory;
     delete zetaFactory;
+    delete treeFactory;
+    delete fireFactory;
+    delete stoneFactory;
+    delete bushFactory;
 
 }
 
@@ -56,6 +64,16 @@ GameObject *CommonFactory::createUnit(UnitClass _class, UnitDevotion devotion, i
             return nullptr;
         default:
             return nullptr;
+        case UnitClass::BUSH: {
+            return bushFactory->createUnit(_class, devotion, x, y);
+            break;
+        }
+        case UnitClass::FIRE:
+            return fireFactory->createUnit(_class, devotion, x, y);
+        case UnitClass::STONE:
+            return stoneFactory->createUnit(_class, devotion, x, y);
+        case UnitClass::TREE:
+            return treeFactory->createUnit(_class, devotion, x, y);
     }
 
 }

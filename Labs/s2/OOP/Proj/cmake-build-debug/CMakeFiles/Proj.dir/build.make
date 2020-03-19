@@ -460,6 +460,71 @@ CMakeFiles/Proj.dir/FieldCellProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/FieldCellProxy.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.cpp -o CMakeFiles/Proj.dir/FieldCellProxy.cpp.s
 
+CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o: ../Factory/BushFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/BushFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/BushFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp > CMakeFiles/Proj.dir/Factory/BushFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/BushFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/BushFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp -o CMakeFiles/Proj.dir/Factory/BushFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o: ../Factory/FireFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/FireFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/FireFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.cpp > CMakeFiles/Proj.dir/Factory/FireFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/FireFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/FireFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.cpp -o CMakeFiles/Proj.dir/Factory/FireFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o: ../Factory/StoneFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.cpp > CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.cpp -o CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.s
+
+CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o: ../Factory/TreeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.cpp
+
+CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.cpp > CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.i
+
+CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.cpp -o CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.s
+
+CMakeFiles/Proj.dir/Observee.cpp.o: CMakeFiles/Proj.dir/flags.make
+CMakeFiles/Proj.dir/Observee.cpp.o: ../Observee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Proj.dir/Observee.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proj.dir/Observee.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp
+
+CMakeFiles/Proj.dir/Observee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proj.dir/Observee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp > CMakeFiles/Proj.dir/Observee.cpp.i
+
+CMakeFiles/Proj.dir/Observee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proj.dir/Observee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp -o CMakeFiles/Proj.dir/Observee.cpp.s
+
 # Object files for target Proj
 Proj_OBJECTS = \
 "CMakeFiles/Proj.dir/main.cpp.o" \
@@ -492,7 +557,12 @@ Proj_OBJECTS = \
 "CMakeFiles/Proj.dir/Units/EntityTree.cpp.o" \
 "CMakeFiles/Proj.dir/Units/EntityStone.cpp.o" \
 "CMakeFiles/Proj.dir/Units/EntityFire.cpp.o" \
-"CMakeFiles/Proj.dir/FieldCellProxy.cpp.o"
+"CMakeFiles/Proj.dir/FieldCellProxy.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o" \
+"CMakeFiles/Proj.dir/Observee.cpp.o"
 
 # External object files for target Proj
 Proj_EXTERNAL_OBJECTS =
@@ -528,9 +598,14 @@ Proj: CMakeFiles/Proj.dir/Units/EntityTree.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/EntityStone.cpp.o
 Proj: CMakeFiles/Proj.dir/Units/EntityFire.cpp.o
 Proj: CMakeFiles/Proj.dir/FieldCellProxy.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o
+Proj: CMakeFiles/Proj.dir/Observee.cpp.o
 Proj: CMakeFiles/Proj.dir/build.make
 Proj: CMakeFiles/Proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable Proj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable Proj"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

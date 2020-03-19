@@ -204,6 +204,33 @@ Factory/BetaFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.s
 .PHONY : Factory/BetaFactory.cpp.s
 
+Factory/BushFactory.o: Factory/BushFactory.cpp.o
+
+.PHONY : Factory/BushFactory.o
+
+# target to build an object file
+Factory/BushFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o
+.PHONY : Factory/BushFactory.cpp.o
+
+Factory/BushFactory.i: Factory/BushFactory.cpp.i
+
+.PHONY : Factory/BushFactory.i
+
+# target to preprocess a source file
+Factory/BushFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BushFactory.cpp.i
+.PHONY : Factory/BushFactory.cpp.i
+
+Factory/BushFactory.s: Factory/BushFactory.cpp.s
+
+.PHONY : Factory/BushFactory.s
+
+# target to generate assembly for a file
+Factory/BushFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/BushFactory.cpp.s
+.PHONY : Factory/BushFactory.cpp.s
+
 Factory/CommonFactory.o: Factory/CommonFactory.cpp.o
 
 .PHONY : Factory/CommonFactory.o
@@ -285,6 +312,33 @@ Factory/EpsilonFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/EpsilonFactory.cpp.s
 .PHONY : Factory/EpsilonFactory.cpp.s
 
+Factory/FireFactory.o: Factory/FireFactory.cpp.o
+
+.PHONY : Factory/FireFactory.o
+
+# target to build an object file
+Factory/FireFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/FireFactory.cpp.o
+.PHONY : Factory/FireFactory.cpp.o
+
+Factory/FireFactory.i: Factory/FireFactory.cpp.i
+
+.PHONY : Factory/FireFactory.i
+
+# target to preprocess a source file
+Factory/FireFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/FireFactory.cpp.i
+.PHONY : Factory/FireFactory.cpp.i
+
+Factory/FireFactory.s: Factory/FireFactory.cpp.s
+
+.PHONY : Factory/FireFactory.s
+
+# target to generate assembly for a file
+Factory/FireFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/FireFactory.cpp.s
+.PHONY : Factory/FireFactory.cpp.s
+
 Factory/GammaFactory.o: Factory/GammaFactory.cpp.o
 
 .PHONY : Factory/GammaFactory.o
@@ -311,6 +365,60 @@ Factory/GammaFactory.s: Factory/GammaFactory.cpp.s
 Factory/GammaFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/GammaFactory.cpp.s
 .PHONY : Factory/GammaFactory.cpp.s
+
+Factory/StoneFactory.o: Factory/StoneFactory.cpp.o
+
+.PHONY : Factory/StoneFactory.o
+
+# target to build an object file
+Factory/StoneFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.o
+.PHONY : Factory/StoneFactory.cpp.o
+
+Factory/StoneFactory.i: Factory/StoneFactory.cpp.i
+
+.PHONY : Factory/StoneFactory.i
+
+# target to preprocess a source file
+Factory/StoneFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.i
+.PHONY : Factory/StoneFactory.cpp.i
+
+Factory/StoneFactory.s: Factory/StoneFactory.cpp.s
+
+.PHONY : Factory/StoneFactory.s
+
+# target to generate assembly for a file
+Factory/StoneFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/StoneFactory.cpp.s
+.PHONY : Factory/StoneFactory.cpp.s
+
+Factory/TreeFactory.o: Factory/TreeFactory.cpp.o
+
+.PHONY : Factory/TreeFactory.o
+
+# target to build an object file
+Factory/TreeFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.o
+.PHONY : Factory/TreeFactory.cpp.o
+
+Factory/TreeFactory.i: Factory/TreeFactory.cpp.i
+
+.PHONY : Factory/TreeFactory.i
+
+# target to preprocess a source file
+Factory/TreeFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.i
+.PHONY : Factory/TreeFactory.cpp.i
+
+Factory/TreeFactory.s: Factory/TreeFactory.cpp.s
+
+.PHONY : Factory/TreeFactory.s
+
+# target to generate assembly for a file
+Factory/TreeFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Factory/TreeFactory.cpp.s
+.PHONY : Factory/TreeFactory.cpp.s
 
 Factory/UnitFactory.o: Factory/UnitFactory.cpp.o
 
@@ -554,6 +662,33 @@ Mediator.s: Mediator.cpp.s
 Mediator.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Mediator.cpp.s
 .PHONY : Mediator.cpp.s
+
+Observee.o: Observee.cpp.o
+
+.PHONY : Observee.o
+
+# target to build an object file
+Observee.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Observee.cpp.o
+.PHONY : Observee.cpp.o
+
+Observee.i: Observee.cpp.i
+
+.PHONY : Observee.i
+
+# target to preprocess a source file
+Observee.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Observee.cpp.i
+.PHONY : Observee.cpp.i
+
+Observee.s: Observee.cpp.s
+
+.PHONY : Observee.s
+
+# target to generate assembly for a file
+Observee.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Observee.cpp.s
+.PHONY : Observee.cpp.s
 
 Units/Alpha.o: Units/Alpha.cpp.o
 
@@ -978,6 +1113,9 @@ help:
 	@echo "... Factory/BetaFactory.o"
 	@echo "... Factory/BetaFactory.i"
 	@echo "... Factory/BetaFactory.s"
+	@echo "... Factory/BushFactory.o"
+	@echo "... Factory/BushFactory.i"
+	@echo "... Factory/BushFactory.s"
 	@echo "... Factory/CommonFactory.o"
 	@echo "... Factory/CommonFactory.i"
 	@echo "... Factory/CommonFactory.s"
@@ -987,9 +1125,18 @@ help:
 	@echo "... Factory/EpsilonFactory.o"
 	@echo "... Factory/EpsilonFactory.i"
 	@echo "... Factory/EpsilonFactory.s"
+	@echo "... Factory/FireFactory.o"
+	@echo "... Factory/FireFactory.i"
+	@echo "... Factory/FireFactory.s"
 	@echo "... Factory/GammaFactory.o"
 	@echo "... Factory/GammaFactory.i"
 	@echo "... Factory/GammaFactory.s"
+	@echo "... Factory/StoneFactory.o"
+	@echo "... Factory/StoneFactory.i"
+	@echo "... Factory/StoneFactory.s"
+	@echo "... Factory/TreeFactory.o"
+	@echo "... Factory/TreeFactory.i"
+	@echo "... Factory/TreeFactory.s"
 	@echo "... Factory/UnitFactory.o"
 	@echo "... Factory/UnitFactory.i"
 	@echo "... Factory/UnitFactory.s"
@@ -1017,6 +1164,9 @@ help:
 	@echo "... Mediator.o"
 	@echo "... Mediator.i"
 	@echo "... Mediator.s"
+	@echo "... Observee.o"
+	@echo "... Observee.i"
+	@echo "... Observee.s"
 	@echo "... Units/Alpha.o"
 	@echo "... Units/Alpha.i"
 	@echo "... Units/Alpha.s"

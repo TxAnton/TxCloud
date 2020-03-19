@@ -9,8 +9,9 @@
 //#include "../Mediator.h"
 
 #include "../LandscapeProxy.h"
+#include "../FieldCellProxy.h"
 
-UnitClass Alpha::getUnitClass() {
+UnitClass Alpha::getUnitClass() const {
     return UnitClass::ALPHA;
 }
 
@@ -63,7 +64,13 @@ void Alpha::setUnitLim(int unitLim1) {
 bool Alpha::spawnAt(UnitClass unitClass, int x, int y) {
 
     if(unitCnt<unitLim){
-        return GameObject::mediator->createAt(unitClass,getUnitDevotion(),x,y);
+        bool erfolg = GameObject::mediator->createAt(unitClass, getUnitDevotion(), x, y);
+        if (erfolg) {
+            GameObject *go = mediator->getObjAt(x, y);
+            go->addObserver(this);
+        }
+
+        return erfolg;
         //observer->notifyCreate(g);
 
     }
@@ -73,12 +80,26 @@ bool Alpha::spawnAt(UnitClass unitClass, int x, int y) {
 GameObject &Alpha::operator+=(const FieldCellProxy &b) {
     auto j = b.getLandscape();
     this->operator+=(b.getLandscape());
+    kill(*this, *b.getObject());
+    //sigKill(*this,*b.getObject());
     return *this;
 }
 
 GameObject &Alpha::operator-=(const GameObject &b) {
     return *this;
 }
+
+void Alpha::slKill(GameObject &src, GameObject &dst) const {
+    std::cout << "Class " << (int) src.getUnitClass() << " killed class " << (int) src.getUnitClass() << std::endl;
+}
+
+void Alpha::slDeath(const GameObject &src, GameObject &dst) const {
+    std::cout << "Class " << (int) dst.getUnitClass() << " was killed by class " << (int) src.getUnitClass()
+              << std::endl;
+    //if(dst.getUnitDevotion()==getUnitDevotion())unitCnt--;
+}
+
+
 
 /*void Alpha::recieveDeath(GameObject *gameObject) {
     unitCnt--;

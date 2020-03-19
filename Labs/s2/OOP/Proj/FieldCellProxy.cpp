@@ -4,8 +4,12 @@
 
 #include "FieldCellProxy.h"
 
-FieldCellProxy::FieldCellProxy(Mediator *mediator1, int x, int y) {
+#include "Mediator.h"
+
+FieldCellProxy::FieldCellProxy(Mediator *mediator1, int x1, int y1) {
     mediator = mediator1;
+    x = x1;
+    y = y1;
 }
 
 LandscapeProxy FieldCellProxy::getLandscape() const {

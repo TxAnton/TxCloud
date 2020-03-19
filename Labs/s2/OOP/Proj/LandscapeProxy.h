@@ -5,8 +5,8 @@
 #ifndef PROJ_LANDSCAPEPROXY_H
 #define PROJ_LANDSCAPEPROXY_H
 
-
-#include "GameObject.h"
+#include "UnitProps.h"
+//#include "GameObject.h"
 
 class Mediator;
 

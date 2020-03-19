@@ -4,7 +4,7 @@
 
 #include "GameObject.h"
 
-
+#include "Field.h"
 
 //#include "Observer.h"
 
@@ -45,7 +45,7 @@ void GameObject::setActive(bool flag) {
     this->active = flag;
 }
 
-UnitDevotion GameObject::getUnitDevotion() {
+UnitDevotion GameObject::getUnitDevotion() const {
     return UnitDevotion::NEUTER;
 }
 
@@ -68,7 +68,13 @@ UnitType GameObject::classToType(UnitClass unitClass) {
     }
 }
 
-bool GameObject::die(GameObject *src) {
+bool GameObject::die(const GameObject &src, GameObject &dst) {
 //    observer->notifyDeath(this);
+    sigDeath(src, dst);
     return true;
+}
+
+bool GameObject::kill(GameObject &src, GameObject &dst) {
+    sigKill(src, dst);
+    return false;
 }

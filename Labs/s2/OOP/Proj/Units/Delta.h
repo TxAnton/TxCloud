@@ -22,7 +22,7 @@ public:
 private:
     wchar_t toChar() override;
 
-    UnitClass getUnitClass() override;
+    UnitClass getUnitClass() const override;
 
     int getPower() override;
 

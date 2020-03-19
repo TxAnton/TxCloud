@@ -4,6 +4,8 @@
 
 #include "Field.h"
 
+#include "GameObject.h"
+
 Field::Field(int width, int height, int objLimit) {// : width(width), height(height), objLimit(objLimit)
     assert(width > 0);
     assert(height > 0);
@@ -222,4 +224,8 @@ FieldIterator Field::begin() {
 
 FieldIterator Field::end() {
     return FieldIterator(width, height, this);
+}
+
+std::pair<int, int> Field::getSize() {
+    return std::pair<int, int>(width, height);
 }

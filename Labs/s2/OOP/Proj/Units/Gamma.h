@@ -9,6 +9,8 @@
 #include <utility>
 #include "Fighter.h"
 
+#include "../FieldCellProxy.h"
+
 class Gamma : public Fighter {
 private:
     std::pair<int, int> link;
@@ -20,7 +22,7 @@ public:
 
     bool ritual();
 
-    UnitClass getUnitClass() override;
+    UnitClass getUnitClass() const override;
 
     bool isAllyPowered() const override;
 

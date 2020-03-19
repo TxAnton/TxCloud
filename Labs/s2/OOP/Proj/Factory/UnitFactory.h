@@ -16,6 +16,10 @@
 #include "../Units/Delta.h"
 #include "../Units/Epsilon.h"
 #include "../Units/Zeta.h"
+#include "../Units/EntityStone.h"
+#include "../Units/EntityTree.h"
+#include "../Units/EntityBush.h"
+#include "../Units/EntityFire.h"
 class UnitFactory {
     friend class CommonFactory;
 public:

@@ -20,6 +20,9 @@ void Game::run() {
 
     mediator->createAt(UnitClass::ALPHA, UnitDevotion::LIGHT, 5, 5);
 
+    dynamic_cast<Alpha *>(mediator->getObjAt(5, 5))->setUnitLim(field->getSize().first * field->getSize().second);
+    //mediator.
+
     std::cout << "Set unit" << std::endl;
     //GameObject *go = factory->createUnit(UnitClass::ALPHA);
 //    objVector.push_back(go);
@@ -27,7 +30,7 @@ void Game::run() {
     auto obj = mediator->getObjAt(5, 5);
     dynamic_cast<Alpha *>(obj)->spawnAt(UnitClass::ZETA, 1, 1);
 
-
+    mediator->createAt(UnitClass::STONE, UnitDevotion::NEUTER, 6, 6);
     std::wcout << field->toWString();
 
     mediator->moveObj(5, 5, 1, 1);

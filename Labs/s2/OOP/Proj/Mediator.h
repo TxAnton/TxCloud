@@ -6,22 +6,20 @@
 #define PROJ_MEDIATOR_H
 
 #include <iostream>
-#include <map>
+//#include <map>
 #include <vector>
+
+#include "UnitProps.h"
 //#include "GameObject.h"
 //#include "GameObjectList.h"
-
+#include "FieldCellProxy.h"
 class GameObjectList;
 
 class GameObject;
 
-class LandscapeProxy;
+//class LandscapeProxy;
 
-class FieldCellProxy;
-
-enum class UnitClass;
-enum class UnitType;
-enum class UnitDevotion;
+//class FieldCellProxy;
 
 class Field;
 
