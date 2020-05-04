@@ -5,24 +5,45 @@
 #ifndef PROJ_COMMAND_H
 #define PROJ_COMMAND_H
 
+#include <string>
+#include <cassert>
 
-#include "Mediator.h"
+#include "../GameObject.h"
+#include "../Mediator.h"
+
+
+class Facade;
 
 class Command {
-private:
-    Mediator mediator;
+protected:
+    std::string title;
+    Mediator* mediator;
+    Facade* facade;
     bool userActions;
 public:
 
-
-    Command(const Mediator &mediator, bool userActions);
+    Command(Mediator *mediator, Facade *facade, bool userActions, std::string title = "");
 
     bool requiresUserActions() const;
 
     virtual bool execute() = 0;
+    
+    /*
+     * yhohoiukyllkjhjjnn
+    oootlrf
+    llllte
+    ujrik
+    lmhfynjh
+    kkkk))
+    kkk
+    *$#@
+    87775,(5588)
+     hhjggg7897 (fth) 44" ,./tt
+     yrrjj--//
+     */
+
 
 public:
-
 
 
 

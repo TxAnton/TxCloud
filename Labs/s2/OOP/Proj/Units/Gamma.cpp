@@ -56,6 +56,13 @@ GameObject &Gamma::operator+=(const LandscapeProxy &b) {
 
 GameObject &Gamma::operator+=(const FieldCellProxy &b) {
     this->operator+=(b.getLandscape());
+    GameObject* obj = b.getObject();
+    if(obj->getUnitClass()==UnitClass::FIRE){
+        die(*obj,*static_cast<GameObject*>(this));
+        setActive(false);
+        //mediator->destroyAt(x,y);
+    }
+
     return *this;//TODO
 }
 

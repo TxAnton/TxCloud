@@ -5,6 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Base.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Commands/Command.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandSelect.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Commands/CommandSelect.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Facade.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Factory/BetaFactory.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Factory/BushFactory.cpp.o"
@@ -25,6 +31,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/LandscapeProxy.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Mediator.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Observee.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.o"
+  "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/UI/UI.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Alpha.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Beta.cpp.o"
   "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp" "/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Delta.cpp.o"

@@ -18,7 +18,7 @@ UnitClass Epsilon::getUnitClass() const {
 int Epsilon::getPower() {
     int _x, _y;
     this->getCoords(_x, _y);
-    return _y;//TODO
+    return mediator->getOrdAt(_x,_y,getUnitDevotion());;//TODO
 }
 
 bool Epsilon::isValidStep(int x, int y) {

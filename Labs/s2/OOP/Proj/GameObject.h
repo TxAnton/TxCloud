@@ -34,7 +34,6 @@ public:
     static Mediator *mediator;
     //static Observer *observer;
 private:
-    //Field *fld;//TODO replace with interface
     int health;
     UnitDevotion devotion;
     bool active;

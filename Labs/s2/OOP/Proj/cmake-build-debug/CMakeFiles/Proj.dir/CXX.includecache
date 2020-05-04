@@ -6,45 +6,101 @@
 
 #IncludeRegexTransform: 
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.cpp
-Base.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h
-Observee.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h
 set
 -
 UnitProps.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp
-AlphaFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+string
+-
+cassert
+-
+../GameObject.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
+../Mediator.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.cpp
+CommandNotify.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.h
+../Facade.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.h
+Command.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.cpp
+memory
+-
+CommandPlace.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.h
+CommonComands.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommonComands.h
+../Facade.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.h
+../UnitProps.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h
+Command.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.cpp
+cassert
+-
+CommandStep.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.h
+CommonComands.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommonComands.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.h
+Command.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommonComands.h
+Command.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+../Facade.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+CommandStep.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.h
+CommandPlace.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.h
+CommandNotify.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.cpp
+cassert
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/cassert
+Facade.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+vector
+-
+memory
+-
+Mediator.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
+Commands/Command.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h
+UI/ConsoleUI.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.cpp
-BetaFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BetaFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.cpp
-BushFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/BushFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.cpp
-CommonFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.h
 ../Field.h
@@ -70,55 +126,27 @@ TreeFactory.h
 StoneFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.cpp
-DeltaFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/DeltaFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.cpp
-EpsilonFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/EpsilonFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.cpp
-FireFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/FireFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.cpp
-GammaFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/GammaFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.cpp
-StoneFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/StoneFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.cpp
-TreeFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/TreeFactory.h
-UnitFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.cpp
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
 
@@ -152,31 +180,15 @@ UnitFactory.h
 ../Units/EntityFire.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.cpp
-ZetaFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/ZetaFactory.h
 UnitFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/UnitFactory.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.cpp
-Field.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.h
-GameObject.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.h
 string
 -
 assert.h
 -
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.cpp
-FieldCellProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
-Mediator.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
 UnitProps.h
@@ -201,12 +213,10 @@ Factory/CommonFactory.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.h
 Mediator.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.cpp
-GameObject.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
-Field.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.h
+Facade.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h
+Commands/CommonComands.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommonComands.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
 cwchar
@@ -218,33 +228,9 @@ Observee.h
 UnitProps.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.cpp
-GameObjectList.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.h
-list
--
-GameObject.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
 UnitProps.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.cpp
-Mediator.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
-Field.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Field.h
-LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
-FieldCellProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
-Factory/CommonFactory.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/CommonFactory.h
-GameObjectList.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObjectList.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
 iostream
@@ -256,39 +242,39 @@ UnitProps.h
 FieldCellProxy.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.cpp
-Observee.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.h
-Base.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.h
 set
 -
 
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.cpp
+iostream
+-
+utility
+-
+ConsoleUI.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.h
+utility
+-
+UI.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.cpp
+UI.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.h
+string
+-
+
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.cpp
-Alpha.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.h
-../LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
-../FieldCellProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Alpha.h
 God.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.h
 ../Base.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.cpp
-Beta.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.h
-../Mediator.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Mediator.h
-../FieldCellProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Beta.h
 God.h
@@ -296,79 +282,37 @@ God.h
 ../Base.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.cpp
-Delta.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.h
-../LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Delta.h
 Mage.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.cpp
-Entity.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
 ../GameObject.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.cpp
-EntityBush.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityBush.h
 Entity.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.cpp
-EntityFire.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityFire.h
 Entity.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.cpp
-EntityStone.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityStone.h
 Entity.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.cpp
-EntityTree.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/EntityTree.h
 Entity.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Entity.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.cpp
-Epsilon.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.h
-../LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Epsilon.h
 Mage.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.cpp
-Fighter.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Fighter.h
 ../GameObject.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.cpp
-Gamma.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.h
-../LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Gamma.h
 utility
@@ -378,27 +322,13 @@ Fighter.h
 ../FieldCellProxy.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/FieldCellProxy.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.cpp
-God.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/God.h
 ../GameObject.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.cpp
-Mage.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Mage.h
 ../GameObject.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/GameObject.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.cpp
-Zeta.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.h
-../LandscapeProxy.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/LandscapeProxy.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Units/Zeta.h
 Fighter.h
@@ -413,6 +343,8 @@ sstream
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/main.cpp
 iostream
 -
+stdio.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/stdio.h
 clocale
 -
 iostream

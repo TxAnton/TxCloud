@@ -6,6 +6,72 @@ CMakeFiles/Proj.dir/Base.cpp.o: ../Base.h
 CMakeFiles/Proj.dir/Base.cpp.o: ../Observee.h
 CMakeFiles/Proj.dir/Base.cpp.o: ../UnitProps.h
 
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../Commands/Command.cpp
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../FieldCellProxy.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../GameObject.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../LandscapeProxy.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../Mediator.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Commands/Command.cpp.o: ../UnitProps.h
+
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Commands/CommandNotify.cpp
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Commands/CommandNotify.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Facade.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../FieldCellProxy.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../GameObject.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../LandscapeProxy.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Mediator.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../UI/UI.h
+CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o: ../UnitProps.h
+
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/CommandNotify.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/CommandPlace.cpp
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/CommandPlace.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/CommandStep.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Commands/CommonComands.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Facade.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../FieldCellProxy.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../GameObject.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../LandscapeProxy.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Mediator.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../UI/UI.h
+CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o: ../UnitProps.h
+
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/CommandNotify.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/CommandPlace.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/CommandStep.cpp
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/CommandStep.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Commands/CommonComands.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Facade.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../FieldCellProxy.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../GameObject.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../LandscapeProxy.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Mediator.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../UI/UI.h
+CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o: ../UnitProps.h
+
+CMakeFiles/Proj.dir/Facade.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../Facade.cpp
+CMakeFiles/Proj.dir/Facade.cpp.o: ../Facade.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../FieldCellProxy.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../GameObject.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../LandscapeProxy.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../Mediator.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../UI/UI.h
+CMakeFiles/Proj.dir/Facade.cpp.o: ../UnitProps.h
+
 CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o: ../Base.h
 CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o: ../Factory/AlphaFactory.cpp
 CMakeFiles/Proj.dir/Factory/AlphaFactory.cpp.o: ../Factory/AlphaFactory.h
@@ -332,6 +398,12 @@ CMakeFiles/Proj.dir/FieldCellProxy.cpp.o: ../Mediator.h
 CMakeFiles/Proj.dir/FieldCellProxy.cpp.o: ../UnitProps.h
 
 CMakeFiles/Proj.dir/Game.cpp.o: ../Base.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Commands/CommandNotify.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Commands/CommandPlace.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Commands/CommandStep.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Commands/CommonComands.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../Facade.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Factory/AlphaFactory.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Factory/BetaFactory.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Factory/BushFactory.h
@@ -352,6 +424,8 @@ CMakeFiles/Proj.dir/Game.cpp.o: ../GameObject.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../LandscapeProxy.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Mediator.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/Game.cpp.o: ../UI/UI.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../UnitProps.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Units/Alpha.h
 CMakeFiles/Proj.dir/Game.cpp.o: ../Units/Beta.h
@@ -433,6 +507,13 @@ CMakeFiles/Proj.dir/Observee.cpp.o: ../Base.h
 CMakeFiles/Proj.dir/Observee.cpp.o: ../Observee.cpp
 CMakeFiles/Proj.dir/Observee.cpp.o: ../Observee.h
 CMakeFiles/Proj.dir/Observee.cpp.o: ../UnitProps.h
+
+CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.o: ../UI/ConsoleUI.cpp
+CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.o: ../UI/UI.h
+
+CMakeFiles/Proj.dir/UI/UI.cpp.o: ../UI/UI.cpp
+CMakeFiles/Proj.dir/UI/UI.cpp.o: ../UI/UI.h
 
 CMakeFiles/Proj.dir/Units/Alpha.cpp.o: ../Base.h
 CMakeFiles/Proj.dir/Units/Alpha.cpp.o: ../FieldCellProxy.h
@@ -573,6 +654,12 @@ CMakeFiles/Proj.dir/Units/Zeta.cpp.o: ../Units/Zeta.cpp
 CMakeFiles/Proj.dir/Units/Zeta.cpp.o: ../Units/Zeta.h
 
 CMakeFiles/Proj.dir/main.cpp.o: ../Base.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Commands/Command.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Commands/CommandNotify.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Commands/CommandPlace.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Commands/CommandStep.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Commands/CommonComands.h
+CMakeFiles/Proj.dir/main.cpp.o: ../Facade.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Factory/AlphaFactory.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Factory/BetaFactory.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Factory/BushFactory.h
@@ -592,6 +679,8 @@ CMakeFiles/Proj.dir/main.cpp.o: ../GameObject.h
 CMakeFiles/Proj.dir/main.cpp.o: ../LandscapeProxy.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Mediator.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Observee.h
+CMakeFiles/Proj.dir/main.cpp.o: ../UI/ConsoleUI.h
+CMakeFiles/Proj.dir/main.cpp.o: ../UI/UI.h
 CMakeFiles/Proj.dir/main.cpp.o: ../UnitProps.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Units/Alpha.h
 CMakeFiles/Proj.dir/main.cpp.o: ../Units/Beta.h

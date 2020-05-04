@@ -6,8 +6,8 @@
 #define PROJ_MEDIATOR_H
 
 #include <iostream>
-//#include <map>
 #include <vector>
+
 
 #include "UnitProps.h"
 //#include "GameObject.h"
@@ -31,7 +31,6 @@ class Mediator {
 private:
     Field *field;
     CommonFactory *commonFactory;
-    Observer *observer;
 
     void init();
 
@@ -39,12 +38,6 @@ public:
     Mediator(int fieldWidth, int fieldHeigh);
 
     Mediator(Field *field1);
-
-    void setObserver(Observer *observer1);
-
-    Observer *getObserver();
-
-    void createObserver();
 
     GameObjectList getGameObjectList();
 
@@ -68,6 +61,7 @@ public:
 
     bool destroyAt(int x, int y);
 
+    bool isValidCoords(int x,int y);
 
     void getGodPowers(UnitDevotion godSide, bool &allyColour, bool &enemyColour);
 

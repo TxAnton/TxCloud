@@ -90,6 +90,45 @@
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Base.h">
 			<Option target="Proj"/>
 		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/Command.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandNotify.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandPlace.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandSelect.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandSelect.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommandStep.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Commands/CommonComands.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Facade.h">
+			<Option target="Proj"/>
+		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Factory/AlphaFactory.cpp">
 			<Option target="Proj"/>
 		</Unit>
@@ -208,6 +247,18 @@
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/Observee.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/ConsoleUI.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UI/UI.h">
 			<Option target="Proj"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/Proj/UnitProps.h">

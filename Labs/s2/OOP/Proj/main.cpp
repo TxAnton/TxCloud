@@ -1,4 +1,6 @@
 #include <iostream>
+#include "stdio.h"
+
 #include <clocale>
 
 
@@ -8,6 +10,18 @@
 
 
 int main() {
+
+    int a;
+
+    std::vector<int> v;
+
+    printf("%f",0.5);
+    std::cout<<5<<0.5;
+
+    return 0;
+
+
+
     std::setlocale(LC_ALL, "xx_XX.UTF-8");
     std::cout << "Hello, World!" << std::endl;
     Game* game = new Game(8,8);

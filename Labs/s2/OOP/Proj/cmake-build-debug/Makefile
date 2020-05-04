@@ -150,6 +150,168 @@ Base.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Base.cpp.s
 .PHONY : Base.cpp.s
 
+Commands/Command.o: Commands/Command.cpp.o
+
+.PHONY : Commands/Command.o
+
+# target to build an object file
+Commands/Command.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/Command.cpp.o
+.PHONY : Commands/Command.cpp.o
+
+Commands/Command.i: Commands/Command.cpp.i
+
+.PHONY : Commands/Command.i
+
+# target to preprocess a source file
+Commands/Command.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/Command.cpp.i
+.PHONY : Commands/Command.cpp.i
+
+Commands/Command.s: Commands/Command.cpp.s
+
+.PHONY : Commands/Command.s
+
+# target to generate assembly for a file
+Commands/Command.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/Command.cpp.s
+.PHONY : Commands/Command.cpp.s
+
+Commands/CommandNotify.o: Commands/CommandNotify.cpp.o
+
+.PHONY : Commands/CommandNotify.o
+
+# target to build an object file
+Commands/CommandNotify.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.o
+.PHONY : Commands/CommandNotify.cpp.o
+
+Commands/CommandNotify.i: Commands/CommandNotify.cpp.i
+
+.PHONY : Commands/CommandNotify.i
+
+# target to preprocess a source file
+Commands/CommandNotify.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.i
+.PHONY : Commands/CommandNotify.cpp.i
+
+Commands/CommandNotify.s: Commands/CommandNotify.cpp.s
+
+.PHONY : Commands/CommandNotify.s
+
+# target to generate assembly for a file
+Commands/CommandNotify.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandNotify.cpp.s
+.PHONY : Commands/CommandNotify.cpp.s
+
+Commands/CommandPlace.o: Commands/CommandPlace.cpp.o
+
+.PHONY : Commands/CommandPlace.o
+
+# target to build an object file
+Commands/CommandPlace.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.o
+.PHONY : Commands/CommandPlace.cpp.o
+
+Commands/CommandPlace.i: Commands/CommandPlace.cpp.i
+
+.PHONY : Commands/CommandPlace.i
+
+# target to preprocess a source file
+Commands/CommandPlace.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.i
+.PHONY : Commands/CommandPlace.cpp.i
+
+Commands/CommandPlace.s: Commands/CommandPlace.cpp.s
+
+.PHONY : Commands/CommandPlace.s
+
+# target to generate assembly for a file
+Commands/CommandPlace.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandPlace.cpp.s
+.PHONY : Commands/CommandPlace.cpp.s
+
+Commands/CommandSelect.o: Commands/CommandSelect.cpp.o
+
+.PHONY : Commands/CommandSelect.o
+
+# target to build an object file
+Commands/CommandSelect.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandSelect.cpp.o
+.PHONY : Commands/CommandSelect.cpp.o
+
+Commands/CommandSelect.i: Commands/CommandSelect.cpp.i
+
+.PHONY : Commands/CommandSelect.i
+
+# target to preprocess a source file
+Commands/CommandSelect.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandSelect.cpp.i
+.PHONY : Commands/CommandSelect.cpp.i
+
+Commands/CommandSelect.s: Commands/CommandSelect.cpp.s
+
+.PHONY : Commands/CommandSelect.s
+
+# target to generate assembly for a file
+Commands/CommandSelect.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandSelect.cpp.s
+.PHONY : Commands/CommandSelect.cpp.s
+
+Commands/CommandStep.o: Commands/CommandStep.cpp.o
+
+.PHONY : Commands/CommandStep.o
+
+# target to build an object file
+Commands/CommandStep.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandStep.cpp.o
+.PHONY : Commands/CommandStep.cpp.o
+
+Commands/CommandStep.i: Commands/CommandStep.cpp.i
+
+.PHONY : Commands/CommandStep.i
+
+# target to preprocess a source file
+Commands/CommandStep.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandStep.cpp.i
+.PHONY : Commands/CommandStep.cpp.i
+
+Commands/CommandStep.s: Commands/CommandStep.cpp.s
+
+.PHONY : Commands/CommandStep.s
+
+# target to generate assembly for a file
+Commands/CommandStep.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Commands/CommandStep.cpp.s
+.PHONY : Commands/CommandStep.cpp.s
+
+Facade.o: Facade.cpp.o
+
+.PHONY : Facade.o
+
+# target to build an object file
+Facade.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Facade.cpp.o
+.PHONY : Facade.cpp.o
+
+Facade.i: Facade.cpp.i
+
+.PHONY : Facade.i
+
+# target to preprocess a source file
+Facade.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Facade.cpp.i
+.PHONY : Facade.cpp.i
+
+Facade.s: Facade.cpp.s
+
+.PHONY : Facade.s
+
+# target to generate assembly for a file
+Facade.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Facade.cpp.s
+.PHONY : Facade.cpp.s
+
 Factory/AlphaFactory.o: Factory/AlphaFactory.cpp.o
 
 .PHONY : Factory/AlphaFactory.o
@@ -690,6 +852,60 @@ Observee.cpp.s:
 	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/Observee.cpp.s
 .PHONY : Observee.cpp.s
 
+UI/ConsoleUI.o: UI/ConsoleUI.cpp.o
+
+.PHONY : UI/ConsoleUI.o
+
+# target to build an object file
+UI/ConsoleUI.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.o
+.PHONY : UI/ConsoleUI.cpp.o
+
+UI/ConsoleUI.i: UI/ConsoleUI.cpp.i
+
+.PHONY : UI/ConsoleUI.i
+
+# target to preprocess a source file
+UI/ConsoleUI.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.i
+.PHONY : UI/ConsoleUI.cpp.i
+
+UI/ConsoleUI.s: UI/ConsoleUI.cpp.s
+
+.PHONY : UI/ConsoleUI.s
+
+# target to generate assembly for a file
+UI/ConsoleUI.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/ConsoleUI.cpp.s
+.PHONY : UI/ConsoleUI.cpp.s
+
+UI/UI.o: UI/UI.cpp.o
+
+.PHONY : UI/UI.o
+
+# target to build an object file
+UI/UI.cpp.o:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/UI.cpp.o
+.PHONY : UI/UI.cpp.o
+
+UI/UI.i: UI/UI.cpp.i
+
+.PHONY : UI/UI.i
+
+# target to preprocess a source file
+UI/UI.cpp.i:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/UI.cpp.i
+.PHONY : UI/UI.cpp.i
+
+UI/UI.s: UI/UI.cpp.s
+
+.PHONY : UI/UI.s
+
+# target to generate assembly for a file
+UI/UI.cpp.s:
+	$(MAKE) -f CMakeFiles/Proj.dir/build.make CMakeFiles/Proj.dir/UI/UI.cpp.s
+.PHONY : UI/UI.cpp.s
+
 Units/Alpha.o: Units/Alpha.cpp.o
 
 .PHONY : Units/Alpha.o
@@ -1107,6 +1323,24 @@ help:
 	@echo "... Base.o"
 	@echo "... Base.i"
 	@echo "... Base.s"
+	@echo "... Commands/Command.o"
+	@echo "... Commands/Command.i"
+	@echo "... Commands/Command.s"
+	@echo "... Commands/CommandNotify.o"
+	@echo "... Commands/CommandNotify.i"
+	@echo "... Commands/CommandNotify.s"
+	@echo "... Commands/CommandPlace.o"
+	@echo "... Commands/CommandPlace.i"
+	@echo "... Commands/CommandPlace.s"
+	@echo "... Commands/CommandSelect.o"
+	@echo "... Commands/CommandSelect.i"
+	@echo "... Commands/CommandSelect.s"
+	@echo "... Commands/CommandStep.o"
+	@echo "... Commands/CommandStep.i"
+	@echo "... Commands/CommandStep.s"
+	@echo "... Facade.o"
+	@echo "... Facade.i"
+	@echo "... Facade.s"
 	@echo "... Factory/AlphaFactory.o"
 	@echo "... Factory/AlphaFactory.i"
 	@echo "... Factory/AlphaFactory.s"
@@ -1167,6 +1401,12 @@ help:
 	@echo "... Observee.o"
 	@echo "... Observee.i"
 	@echo "... Observee.s"
+	@echo "... UI/ConsoleUI.o"
+	@echo "... UI/ConsoleUI.i"
+	@echo "... UI/ConsoleUI.s"
+	@echo "... UI/UI.o"
+	@echo "... UI/UI.i"
+	@echo "... UI/UI.s"
 	@echo "... Units/Alpha.o"
 	@echo "... Units/Alpha.i"
 	@echo "... Units/Alpha.s"

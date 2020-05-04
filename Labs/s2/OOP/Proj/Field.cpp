@@ -70,7 +70,7 @@ bool Field::setAt(GameObject &obj, int x, int y) {
     if (objCount < objLimit) {
         objCount++;
         obj.setCoords(x, y);
-        obj.setActive(true);
+        //obj.setActive(true);
         content[x][y] = &obj;
         return true;
     }

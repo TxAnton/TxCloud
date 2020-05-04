@@ -47,7 +47,10 @@ bool Alpha::step(int x, int y) {
 
 Alpha::Alpha(Field *fld, int x, int y, int health, UnitDevotion devotion, bool active) : God(fld, x, y, health,
                                                                                              devotion,
-                                                                                             active) { unitCnt = 0; }
+                                                                                             active) {
+    addObserver(this);
+    unitCnt = 0;
+}
 
 GameObject &Alpha::operator+=(const LandscapeProxy &b) {
     return *this;
@@ -64,7 +67,7 @@ void Alpha::setUnitLim(int unitLim1) {
 bool Alpha::spawnAt(UnitClass unitClass, int x, int y) {
 
     if(unitCnt<unitLim){
-        bool erfolg = GameObject::mediator->createAt(unitClass, getUnitDevotion(), x, y);
+        bool erfolg = GameObject::mediator->createAt(unitClass, this->getUnitDevotion(), x, y);
         if (erfolg) {
             GameObject *go = mediator->getObjAt(x, y);
             go->addObserver(this);

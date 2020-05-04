@@ -15,6 +15,10 @@
 #include "Field.h"
 #include "Factory/CommonFactory.h"
 #include "Mediator.h"
+#include "Facade.h"
+
+#include "Commands/CommonComands.h"
+
 
 #define FIELD_ABS_MAX 8
 
@@ -23,6 +27,7 @@ private:
     Mediator *mediator;
     Field *field;
     CommonFactory *factory;
+    Facade* facade;
     //etl::vector<GameObject*, FIELD_ABS_MAX*FIELD_ABS_MAX> objVector;
 
 public:

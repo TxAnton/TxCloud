@@ -11,62 +11,53 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e47a237-a35e-4152-aa11-81a130afc607" name="Default Changelist" comment="OOP got observer to work">
-      <change afterPath="$PROJECT_DIR$/Factory/BushFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/BushFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/FireFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/FireFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/StoneFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/StoneFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/TreeFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/TreeFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observee.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observee.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitProps.h" afterDir="false" />
+    <list default="true" id="6e47a237-a35e-4152-aa11-81a130afc607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Moldwerp/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/Command.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/Command.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandNotify.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandNotify.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandPlace.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandPlace.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandSelect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandSelect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandStep.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommandStep.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Commands/CommonComands.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ConsoleUI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ConsoleUI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/UI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/UI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../s1/Mathan/Fourier series/Cw.mlx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../s1/Mathan/Fourier series/Cw.mlx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../s1/OEVM/comput_org_2018/Лаб_работы/.~lock.Мет_указ_ЛР_ОргКомп.rtf#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Base.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base.h" beforeDir="false" afterPath="$PROJECT_DIR$/Base.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/CommonFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/CommonFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/CommonFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/CommonFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/UnitFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/UnitFactory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Field.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Field.h" beforeDir="false" afterPath="$PROJECT_DIR$/Field.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldCellProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FieldCellProxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldCellProxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/FieldCellProxy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandscapeProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LandscapeProxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LandscapeProxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/LandscapeProxy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Units/Alpha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Alpha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Alpha.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Alpha.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Beta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Beta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Beta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Beta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Delta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Delta.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Units/Delta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Delta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Entity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityBush.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityBush.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityBush.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityBush.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityFire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityFire.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityFire.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityFire.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityStone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityStone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityStone.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityStone.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/EntityTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/EntityTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Units/Epsilon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Epsilon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Epsilon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Epsilon.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Units/Gamma.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Gamma.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Gamma.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Gamma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Zeta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Zeta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Zeta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Zeta.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" afterDir="false" />
@@ -76,6 +67,39 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proj.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proj.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wtf.odg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO1" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO2" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO4" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.EXE" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.EXE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRA/F/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRA/F/LETI_Larin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/LETI_Larin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/F" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/F" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,226 +130,112 @@
     <favorites_list name="Proj" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Mediator.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="121" selection-start-line="121" selection-end-line="121" />
-                  <folding>
-                    <element signature="e#38#59#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/FieldCellProxy.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
-                  <folding>
-                    <element signature="e#39#66#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/Alpha.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#83#99#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Field.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#82#98#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/Zeta.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/EntityStone.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/EntityFire.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Field.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="169">
-                  <caret line="60" selection-start-line="60" selection-end-line="60" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Base.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#80#94#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GameObject.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#39#62#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Observee.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/FieldCellProxy.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Game.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/LandscapeProxy.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Game.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#80#98#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="62" selection-start-line="62" selection-end-line="62" />
-                  <folding>
-                    <element signature="e#92#109#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/Beta.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Observee.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
-                  <folding>
-                    <element signature="e#40#61#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Units/Alpha.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
-                  <caret line="82" selection-start-line="82" selection-end-line="82" />
-                  <folding>
-                    <element signature="e#89#119#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObjectList.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/UI.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="e#89#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Field.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facade.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#84#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facade.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Commands/CommandStep.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Commands/CommandStep.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -350,64 +260,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Units/EntityStone.h" />
-        <option value="$PROJECT_DIR$/Units/EntityFire.h" />
-        <option value="$PROJECT_DIR$/Observer.h" />
-        <option value="$PROJECT_DIR$/Observer.cpp" />
-        <option value="$PROJECT_DIR$/GameObjectList.h" />
-        <option value="$PROJECT_DIR$/Units/Beta.h" />
-        <option value="$PROJECT_DIR$/Units/Delta.cpp" />
-        <option value="$PROJECT_DIR$/Units/Delta.h" />
-        <option value="$PROJECT_DIR$/Units/Epsilon.cpp" />
-        <option value="$PROJECT_DIR$/Units/Epsilon.h" />
-        <option value="$PROJECT_DIR$/Units/Zeta.h" />
-        <option value="$PROJECT_DIR$/Units/Gamma.cpp" />
-        <option value="$PROJECT_DIR$/Factory/BushFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/UnitFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/BushFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/FireFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/StoneFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/TreeFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/CommonFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/FireFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/StoneFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/TreeFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/CommonFactory.cpp" />
-        <option value="$PROJECT_DIR$/Game.h" />
-        <option value="$PROJECT_DIR$/Units/Beta.cpp" />
-        <option value="$PROJECT_DIR$/Units/Gamma.h" />
-        <option value="$PROJECT_DIR$/unitProps.h" />
-        <option value="$PROJECT_DIR$/LandscapeProxy.h" />
         <option value="$PROJECT_DIR$/Units/Entity.h" />
         <option value="$PROJECT_DIR$/Units/EntityBush.cpp" />
         <option value="$PROJECT_DIR$/FieldCellProxy.h" />
         <option value="$PROJECT_DIR$/LandscapeProxy.cpp" />
-        <option value="$PROJECT_DIR$/Mediator.h" />
-        <option value="$PROJECT_DIR$/Base.cpp" />
-        <option value="$PROJECT_DIR$/Mediator.cpp" />
         <option value="$PROJECT_DIR$/Field.h" />
-        <option value="$PROJECT_DIR$/Field.cpp" />
-        <option value="$PROJECT_DIR$/Observee.h" />
-        <option value="$PROJECT_DIR$/Base.h" />
         <option value="$PROJECT_DIR$/Units/Zeta.cpp" />
         <option value="$PROJECT_DIR$/Units/EntityTree.cpp" />
         <option value="$PROJECT_DIR$/Units/EntityStone.cpp" />
         <option value="$PROJECT_DIR$/Units/EntityFire.cpp" />
         <option value="$PROJECT_DIR$/Observee.cpp" />
-        <option value="$PROJECT_DIR$/GameObject.cpp" />
-        <option value="$PROJECT_DIR$/Units/Alpha.h" />
-        <option value="$PROJECT_DIR$/GameObject.h" />
-        <option value="$PROJECT_DIR$/Game.cpp" />
         <option value="$PROJECT_DIR$/GameObjectList.cpp" />
         <option value="$PROJECT_DIR$/FieldCellProxy.cpp" />
+        <option value="$PROJECT_DIR$/Base.cpp" />
+        <option value="$PROJECT_DIR$/GameObject.h" />
+        <option value="$PROJECT_DIR$/Units/Gamma.cpp" />
+        <option value="$PROJECT_DIR$/Units/Epsilon.cpp" />
         <option value="$PROJECT_DIR$/Units/Alpha.cpp" />
+        <option value="$PROJECT_DIR$/Field.cpp" />
+        <option value="$PROJECT_DIR$/Base.h" />
+        <option value="$PROJECT_DIR$/Observee.h" />
+        <option value="$PROJECT_DIR$/GameObject.cpp" />
+        <option value="$PROJECT_DIR$/Factory/CommonFactory.h" />
+        <option value="$PROJECT_DIR$/Units/God.cpp" />
+        <option value="$PROJECT_DIR$/Units/God.h" />
+        <option value="$PROJECT_DIR$/Units/Alpha.h" />
+        <option value="$PROJECT_DIR$/Units/Beta.h" />
+        <option value="$PROJECT_DIR$/Units/Delta.h" />
+        <option value="$PROJECT_DIR$/Units/EntityFire.h" />
+        <option value="$PROJECT_DIR$/Command.h" />
+        <option value="$PROJECT_DIR$/Command.cpp" />
+        <option value="$PROJECT_DIR$/Units/EntityTree.h" />
+        <option value="$PROJECT_DIR$/Commands/Command.cpp" />
+        <option value="$PROJECT_DIR$/Mediator.cpp" />
+        <option value="$PROJECT_DIR$/Game.h" />
+        <option value="$PROJECT_DIR$/Mediator.h" />
+        <option value="$PROJECT_DIR$/Commands/CommandPlace.h" />
+        <option value="$PROJECT_DIR$/UI/UI.cpp" />
+        <option value="$PROJECT_DIR$/Commands/CommandNotify.cpp" />
+        <option value="$PROJECT_DIR$/Commands/CommandNotify.h" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
+        <option value="$PROJECT_DIR$/Commands/CommandPlace.cpp" />
+        <option value="$PROJECT_DIR$/Commands/CommonComands.h" />
+        <option value="$PROJECT_DIR$/Commands/Command.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/UI/UI.h" />
+        <option value="$PROJECT_DIR$/UI/ConsoleUI.h" />
+        <option value="$PROJECT_DIR$/UI/ConsoleUI.cpp" />
+        <option value="$PROJECT_DIR$/Commands/CommandStep.h" />
+        <option value="$PROJECT_DIR$/Commands/CommandStep.cpp" />
+        <option value="$PROJECT_DIR$/Facade.h" />
+        <option value="$PROJECT_DIR$/Facade.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
+    <option name="width" value="959" />
     <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -427,12 +336,12 @@
             <path>
               <item name="Proj" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proj" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proj" type="b2602c69:ProjectViewProjectNode" />
               <item name="Proj" type="462c0819:PsiDirectoryNode" />
-              <item name="Units" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -448,15 +357,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/libs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Commands" />
       <recent name="$PROJECT_DIR$/Units" />
       <recent name="$PROJECT_DIR$/Factory" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,6 +387,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",INHERITORS_AND_CATEGORIES,KIND" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -515,7 +428,22 @@
       <workItem from="1584437305038" duration="9005000" />
       <workItem from="1584474520532" duration="7304000" />
       <workItem from="1584524303427" duration="18822000" />
-      <workItem from="1584611863160" duration="7877000" />
+      <workItem from="1584611863160" duration="8637000" />
+      <workItem from="1584636301122" duration="1074000" />
+      <workItem from="1584784859574" duration="958000" />
+      <workItem from="1584950463362" duration="11290000" />
+      <workItem from="1584980233281" duration="754000" />
+      <workItem from="1585230310964" duration="8474000" />
+      <workItem from="1585484751888" duration="3580000" />
+      <workItem from="1585649230810" duration="9664000" />
+      <workItem from="1585827550519" duration="7427000" />
+      <workItem from="1585911647545" duration="9981000" />
+      <workItem from="1585986807510" duration="7970000" />
+      <workItem from="1586160753307" duration="3917000" />
+      <workItem from="1586279286001" duration="1063000" />
+      <workItem from="1586823157957" duration="57000" />
+      <workItem from="1587297345342" duration="4112000" />
+      <workItem from="1587465820803" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="OOP at point where all's kinda working">
       <created>1584438241347</created>
@@ -531,13 +459,20 @@
       <option name="project" value="LOCAL" />
       <updated>1584446862792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="OOP got observer to work">
+      <created>1584621665392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584621665392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173950000" />
+    <option name="totallyTimeSpent" value="245189000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -551,16 +486,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5010776" side_tool="true" weight="0.11259338" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4989224" visible="true" weight="0.14994664" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49784482" visible="true" weight="0.13874066" />
+      <window_info id="Structure" order="2" sideWeight="0.5021552" side_tool="true" weight="0.15154749" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.33512932" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.33297414" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3286638" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31896552" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.24030173" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31823084" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39870688" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" />
@@ -571,39 +506,15 @@
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.098719314" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.32977587" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" sideWeight="0.5010776" side_tool="true" weight="0.11259338" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4989224" visible="true" weight="0.14994664" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3297414" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.33512932" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.31896552" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39870688" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3297414" />
-      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3297414" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="PlantUML" order="4" weight="0.32977587" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="OOP at point where all's kinda working" />
     <MESSAGE value="OOP got mediator to work" />
@@ -617,18 +528,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Field.cpp</url>
-          <line>89</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Vector.h</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>16</line>
+          <line>30</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -643,28 +549,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>20</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>35</line>
+          <line>87</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
-          <line>129</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
-          <line>121</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>30</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GameObject.cpp</url>
@@ -673,8 +559,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Units/Alpha.cpp</url>
-          <line>80</line>
+          <line>83</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Game.cpp</url>
+          <line>66</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Units/Gamma.cpp</url>
+          <line>60</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Game.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -686,6 +587,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>obj.isActive()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>src-&gt;isActive()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this-&gt;getUnitClass()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>vec.arr+1+1</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -714,399 +630,413 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Units/EntityStone.h">
+    <entry file="file://$PROJECT_DIR$/Units/Epsilon.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityFire.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityTree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/BushFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/BushFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/AlphaFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/TreeFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/StoneFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/TreeFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/StoneFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/FireFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/FireFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Mage.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Mage.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/AlphaFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/ext/aligned_buffer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="270" column="6" selection-start-line="270" selection-start-column="6" selection-end-line="270" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_tree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="230" column="40" selection-start-line="230" selection-start-column="40" selection-end-line="230" selection-end-column="40" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="555">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
             <element signature="e#98#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Factory/AlphaFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Beta.cpp">
+    <entry file="file://$PROJECT_DIR$/Factory/ZetaFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Gamma.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Entity.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityBush.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityBush.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LandscapeProxy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LandscapeProxy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieldCellProxy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitProps.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mediator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#124#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-          <folding>
-            <element signature="e#39#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#80#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Beta.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityFire.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/EntityStone.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Zeta.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Observee.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Base.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="e#80#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#92#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObjectList.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Field.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mediator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="e#38#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FieldCellProxy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#39#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Units/Alpha.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="240">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="e#89#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Alpha.h">
+    <entry file="file://$PROJECT_DIR$/Units/God.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#83#99#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Field.h">
+    <entry file="file://$PROJECT_DIR$/Units/God.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="e#82#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Mage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Mage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Fighter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameObject.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#39#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Observee.cpp">
+    <entry file="file://$PROJECT_DIR$/Factory/UnitFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Entity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/EntityStone.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Epsilon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/EntityFire.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/EntityFire.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Beta.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#81#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Beta.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/EntityBush.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#82#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#80#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Observee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Alpha.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#83#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/Delta.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Units/EntityTree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
-            <element signature="e#40#61#0" expanded="true" />
+            <element signature="e#80#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1462" selection-start-line="5" selection-start-column="1462" selection-end-line="5" selection-end-column="1462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory/DeltaFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/Command.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandNotify.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandNotify.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#38#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommonComands.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/Command.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#85#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandPlace.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#95#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandPlace.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#87#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mediator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+          <folding>
+            <element signature="e#38#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#89#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#84#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandStep.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandStep.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

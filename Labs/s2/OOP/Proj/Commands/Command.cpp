@@ -8,4 +8,7 @@ bool Command::requiresUserActions() const {
     return userActions;
 }
 
-Command::Command(const Mediator &mediator, bool userActions) : mediator(mediator), userActions(userActions) {}
+Command::Command(Mediator *mediator, Facade *facade, bool userActions, std::string title)
+        : mediator(mediator), facade(facade),
+          userActions(userActions), title(title) {}
+

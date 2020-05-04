@@ -26,16 +26,6 @@ void Mediator::init() {
 
 }
 
-void Mediator::setObserver(Observer *observer1) {
-    observer = observer1;
-
-}
-
-void Mediator::createObserver() {
-    //TODO
-//observer = new Observer(this);
-}
-
 GameObjectList Mediator::getGameObjectList() {
     auto lst = GameObjectList();
     for (auto it = field->begin(); it != field->end(); it.next()) {
@@ -80,6 +70,7 @@ bool Mediator::createAt(UnitClass unitClass, UnitDevotion devotion, int x, int y
 
     if (field->getAt(x, y))return false;
     GameObject *unit = commonFactory->createUnit(unitClass, devotion, x, y);
+    unit->setActive(true);
     field->setAt(*unit, x, y);
 }
 
@@ -111,10 +102,6 @@ bool Mediator::destroyAt(int x, int y) {
     return false;
 }
 
-Observer *Mediator::getObserver() {
-    return observer;
-}
-
 bool Mediator::moveObj(int x1, int y1, int x2, int y2) {
     GameObject *src = field->getAt(x1, y1);
     GameObject *dst = field->getAt(x2, y2);
@@ -130,6 +117,8 @@ bool Mediator::moveObj(int x1, int y1, int x2, int y2) {
 
         src->setCoords(x2, y2);
         field->move(x1, y1, x2, y2);
+        if(!src->isActive())
+            destroyAt(x2, y2);
         return true;
     }
     return false;
@@ -145,6 +134,12 @@ FieldCellProxy Mediator::getFieldCellAt(int x, int y) {
 
 UnitDevotion Mediator::getColorAt(int x, int y) {
     return (x + y) % 2 ? UnitDevotion::DARK : UnitDevotion::LIGHT;
+}
+
+bool Mediator::isValidCoords(int x, int y) {
+    int w,h;
+    getSize(w,h);
+    return (x>=0&&x<w&&y>=0&&y<h);
 }
 
 

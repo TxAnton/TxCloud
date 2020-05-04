@@ -46,10 +46,11 @@ void GameObject::setActive(bool flag) {
 }
 
 UnitDevotion GameObject::getUnitDevotion() const {
-    return UnitDevotion::NEUTER;
+    return devotion;
 }
 
 UnitType GameObject::classToType(UnitClass unitClass) {
+
     switch (unitClass) {
         case UnitClass::ALPHA:
             return UnitType::GOD;
@@ -69,7 +70,6 @@ UnitType GameObject::classToType(UnitClass unitClass) {
 }
 
 bool GameObject::die(const GameObject &src, GameObject &dst) {
-//    observer->notifyDeath(this);
     sigDeath(src, dst);
     return true;
 }

@@ -19,7 +19,6 @@ public:
 
     virtual GameObject &operator+=(const LandscapeProxy &b);
 
-private:
     wchar_t toChar() override;
 
     UnitClass getUnitClass() const override;
