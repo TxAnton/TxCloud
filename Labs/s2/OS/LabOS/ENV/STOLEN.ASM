@@ -1,197 +1,279 @@
-LAB2 SEGMENT
-	ASSUME  CS:LAB2, DS:LAB2, ES:NOTHING, SS:NOTHING
-	ORG 100H
-START: JMP BEGIN
-LOCKED_MEMORY_STR db 13, 10, "Locked memory addres is $"
-ENVIRONMENT db 13, 10, "Enviroment addres is $"
-TAIL db 13, 10, "Command line tail: $"
-NO_TAIL db "there is no command line tail$"
-ENVIRONMENT_CONTENT db 13, 10, "Enviroment content:", 13, 10, '$'
-ENTER_SYMB db 13, 10, '$'
-PATH_STR db 13, 10, "Path is $"
-;____________________________________________________
-GET_LOCKED_MEMORY PROC
-	push AX
-	push DX
+CODE SEGMENT
+	assume CS:CODE, DS:DATA, SS:STACKK, ES:NOTHING
 	
-	mov DX, offset LOCKED_MEMORY_STR
-	call WRITE
-	mov AX, DS:[02h]
-	call WRITE_HEX_WORD
-	
-	pop DX
-	pop AX
-	ret
-GET_LOCKED_MEMORY ENDP
-;____________________________________________________
-WRITE PROC
-	push AX
-	mov AH, 9h
-	int 21h
-	pop AX
-	ret
-WRITE ENDP
-;____________________________________________________
-WRITE_HEX_WORD PROC
-	push AX
-	
-	push AX
-	mov AL, AH
-	call WRITE_HEX_BYTE
-	pop AX
-	call WRITE_HEX_BYTE
-	
-	pop AX
-	ret
-WRITE_HEX_WORD ENDP
-;____________________________________________________
-WRITE_HEX_BYTE PROC
-	push AX
-	push BX
-	push DX
-	
-	mov AH, 0
-	mov BL, 16
-	div BL
-	mov DX, AX
-	mov AH, 02h
-	cmp DL, 0Ah
-	jl PRINT
-	add DL, 7
-PRINT:
-	add DL, '0'
-	int 21h;
-	
-	mov DL, DH
-	cmp DL, 0Ah
-	jl PRINT2
-	add DL, 7
-PRINT2:
-	add DL, '0'
-	int 21h;
-	
-	pop DX
-	pop BX
-	pop AX
-	ret
-WRITE_HEX_BYTE ENDP
-;____________________________________________________
-GET_ENVIRONMENT PROC
-	push AX
-	push DX
-	
-	mov DX, offset ENVIRONMENT
-	call WRITE
-	mov AX, DS:[2Ch]
-	call WRITE_HEX_WORD
-	
-	pop DX
-	pop AX
-	ret
-GET_ENVIRONMENT ENDP
-;____________________________________________________
-GET_TAIL PROC
-	push AX
-	push CX
-	push DX
-	push SI
-	
-	mov DX, offset TAIL
-	call WRITE
-	xor CX, CX
-	mov CL, DS:[80h]
-	cmp CL, 0
-	jne REWRITING_TAIL
-	mov DX, offset NO_TAIL
-	call WRITE
-	jmp END_OF_PROC_TAIL
-REWRITING_TAIL:
-	xor SI, SI
-	xor AX, AX
-CYCLE:
-	mov AL, DS:[81h + SI]
-	call WRITE_SYMB_BYTE
-	inc SI
-	loop CYCLE
-	
-END_OF_PROC_TAIL:
-	pop SI
-	pop DX
-	pop CX
-	pop AX
-	ret
-GET_TAIL ENDP
-;____________________________________________________
-WRITE_SYMB_BYTE PROC
-	push AX
-	push DX
-	
-	xor DX, DX
-	mov DL, AL
-	mov AH, 02h
-	int 21h
-	
-	pop DX
-	pop AX
-	ret
-WRITE_SYMB_BYTE ENDP
-;____________________________________________________
-GET_ENVIRONMENT_CONTENT PROC
-	push AX
-	push BX
-	push DX
-	push ES
-	push SI
-	
-	mov DX, offset ENVIRONMENT_CONTENT
-	call WRITE
-	xor SI, SI
-	mov BX, 2Ch
-	mov ES, [BX]
-READING_STR:
-	cmp BYTE PTR ES:[SI], 0h
-	je NEW_LINE
-	mov AL, ES:[SI]
-	call WRITE_SYMB_BYTE
-	jmp CHECK_END
-NEW_LINE:
-	mov DX, offset ENTER_SYMB
-	call WRITE
-CHECK_END:
-	inc SI
-	cmp WORD PTR ES:[SI], 0001h
-	je PATH
-	jmp READING_STR
-PATH:
-	mov DX, offset PATH_STR
-	call WRITE
-	add SI, 2
-CYCLE_PATH:
-	cmp BYTE PTR ES:[SI], 00h
-	je END_OF_PROC_CONTENT
-	mov AL, ES:[SI]
-	call WRITE_SYMB_BYTE
-	inc SI
-	jmp CYCLE_PATH
-	
-END_OF_PROC_CONTENT:
-	pop SI
-	pop ES
-	pop DX
-	pop BX
-	pop AX
-	ret
-GET_ENVIRONMENT_CONTENT ENDP
-;____________________________________________________
-BEGIN:
-	call GET_LOCKED_MEMORY
-	call GET_ENVIRONMENT
-	call GET_TAIL
-	call GET_ENVIRONMENT_CONTENT
-	
-	;TO DOS
-	xor AL, AL
-	mov AH, 4Ch
-	int 21h
-LAB2 ENDS
-END START
+	INTERRUPT PROC FAR
+		jmp INTERRUPT_START
+		STR_COUNTER db 'Interrupt number 0000'
+		INTERRUPT_ID dw 0804h
+		SAVE_AX dw 0
+		SAVE_SS dw 0
+		SAVE_SP dw 0
+		KEEP_IP dw 0
+		KEEP_CS dw 0
+		PSP_SEGMENT DW 0
+		INTERRUPTION_STACK dw 128 dup(0);Свой стек для обработчика
+		
+	INTERRUPT_START:	
+		mov SAVE_AX, AX
+		mov SAVE_SP, SP
+		mov SAVE_SS, SS
+		mov AX, SEG INTERRUPTION_STACK
+		mov SS, AX
+		mov AX, offset INTERRUPTION_STACK
+		add AX, 256
+		mov SP, AX
+		push BX
+		push CX
+		push DX
+		push SI
+		push DS
+		push BP
+		push ES
+		mov AX, SEG STR_COUNTER
+		mov DS, AX
+		
+		mov AH, 03h
+		mov BH, 00h
+		int 10h
+		push DX;Сохранение позиции курсора для восстановления в будущем
+		mov AH, 02h
+		mov BH, 00h
+		mov DX, 1820h;18 строка, 20 столбец для курсора
+		int 10h
+		mov AX, SEG STR_COUNTER
+		push DS
+		mov DS, AX
+		mov SI, offset STR_COUNTER
+		add SI, 20
+		mov CX, 4
+	INT_CYCLE:;Увеличение счетчика
+		mov AH, [SI]
+		inc AH
+		mov [SI], AH
+		cmp AH, ':'
+		jne INT_END_CYCLE
+		mov AH, '0'
+		mov [SI], AH
+		dec SI
+		loop INT_CYCLE		
+	INT_END_CYCLE:
+		pop DS
+		
+		push ES
+		push BP
+		mov AX, SEG STR_COUNTER
+		mov ES, AX
+		mov BP, offset STR_COUNTER
+		mov AH, 13h
+		mov AL, 1h
+		mov BL, 5h
+		mov CX, 21
+		mov BH, 0
+		int 10h
+		pop BP
+		pop ES
+		
+		pop DX
+		mov AH, 02h;Восстановление курсора
+		mov BH, 0h
+		int 10h
+		
+		pop ES
+		pop BP
+		pop DS
+		pop SI
+		pop DX
+		pop CX
+		pop BX
+		mov SP, SAVE_SP
+		mov AX, SAVE_SS
+		mov SS, AX
+		mov AX, SAVE_AX
+		mov AL, 20h
+		out 20h, AL
+		IRET
+		ret
+	INTERRUPT ENDP
+END_OF_INTERRUPT:
+;____________________________________________________________
+	CHECK_INTERRUPT PROC
+		push AX
+		push BX
+		push SI
+		
+		mov AH, 35h
+		mov AL, 1Ch;Номер прерывания
+		int 21h
+		mov  SI, offset INTERRUPT_ID
+		sub SI, offset INTERRUPT
+		mov AX, ES:[BX + SI]
+		cmp	AX, 0804h
+		jne CHECK_INTERRUPT_END
+		mov INTERRUPT_LOADED, 1
+		
+	CHECK_INTERRUPT_END:
+		pop SI
+		pop BX
+		pop AX
+		ret
+	CHECK_INTERRUPT ENDP
+;____________________________________________________________
+	WRITE  	PROC	NEAR
+       	PUSH AX
+       	MOV	AH, 09H
+        INT	21H
+		POP AX 
+		RET
+	WRITE  	ENDP
+;____________________________________________________________
+	LOAD_INTERRUPT PROC
+		push AX
+		push BX
+		push CX
+		push DX
+		push DS
+		push ES
+		
+		mov AH, 35h
+		mov AL, 1Ch
+		int 21h
+		mov KEEP_CS, ES
+		mov KEEP_IP, BX
+		push DS
+		mov DX, offset INTERRUPT
+		mov AX, SEG INTERRUPT	
+		mov DS, AX
+		mov AH, 25h
+		mov AL, 1Ch
+		int 21h
+		pop DS
+		mov DX, offset END_OF_INTERRUPT
+		add DX, 10Fh
+		mov CL, 4h
+		shr DX, CL
+		inc DX
+		xor AX, AX
+		mov AH, 31h
+		int 21h
+		
+		pop ES
+		pop DS
+		pop DX
+		pop CX
+		pop BX
+		pop AX
+		ret
+	LOAD_INTERRUPT ENDP
+;____________________________________________________________
+	CHECK_PARAM PROC
+		push AX
+		push ES
+		
+		mov AX, PSP_SEGMENT
+		mov ES, AX
+		cmp byte ptr ES:[82h], '/'
+		jne CHECK_PARAM_END
+		cmp byte ptr ES:[83h], 'u'
+		jne CHECK_PARAM_END
+		cmp byte ptr ES:[84h], 'n'
+		jne CHECK_PARAM_END
+		mov UN_PARAM, 1
+		
+	CHECK_PARAM_END:
+		pop ES
+		pop AX
+		ret
+	CHECK_PARAM ENDP
+;____________________________________________________________
+	UNLOAD_INTERRUPTION PROC
+		CLI
+		push AX
+		push BX
+		push DX
+		push DS
+		push ES
+		push SI
+		
+		mov AH, 35h
+		mov AL, 1Ch
+		int 21h
+		mov SI, offset KEEP_IP
+		sub SI, offset INTERRUPT
+		mov DX, ES:[BX + SI];Смещение
+		mov AX, ES:[BX + SI + 2];Сегмент
+		push DS
+		mov DS, AX
+		mov AH, 25h
+		mov AL, 1Ch
+		int 21h
+		pop DS
+		mov AX, ES:[BX + SI + 4]
+		mov ES, AX
+		push ES
+		mov AX, ES:[2Ch]
+		mov ES, AX
+		mov AH, 49h
+		int 21h
+		pop ES
+		mov AH, 49h
+		int 21h
+		
+		pop SI
+		pop ES
+		pop DS
+		pop DX
+		pop BX
+		pop AX
+		STI
+		ret
+	UNLOAD_INTERRUPTION ENDP
+;____________________________________________________________
+	MAIN PROC
+		push DS
+		xor AX, AX
+		push AX
+		mov AX, DATA
+		mov DS, AX
+		mov PSP_SEGMENT, ES
+		
+		call CHECK_INTERRUPT
+		call CHECK_PARAM
+		cmp UN_PARAM, 1
+		je MAIN_UNLOAD
+		mov AL, INTERRUPT_LOADED
+		cmp AL, 1
+		jne MAIN_LOAD
+		mov DX, offset STR_INTERRUPT_EXIST
+		call WRITE
+		jmp MAIN_END
+	MAIN_LOAD:
+		call LOAD_INTERRUPT
+		jmp MAIN_END
+	MAIN_UNLOAD:
+		cmp INTERRUPT_LOADED, 1
+		jne NOT_EXIST
+		call UNLOAD_INTERRUPTION
+		jmp MAIN_END
+	NOT_EXIST:
+		mov DX, offset STR_NOT_EXIST
+		call WRITE
+	MAIN_END:
+		xor AL, AL
+		mov AH, 4Ch
+		int 21h
+	MAIN ENDP
+;____________________________________________________________
+CODE ENDS
+
+STACKK SEGMENT STACK
+	dw 128 dup(0)
+STACKK ENDS
+
+
+DATA SEGMENT
+	INTERRUPT_LOADED db 0
+	UN_PARAM db 0
+	STR_INTERRUPT_EXIST db 'Interrupt already exist$'
+	STR_NOT_EXIST db 'Interrupt does not exist$'
+DATA ENDS
+END MAIN

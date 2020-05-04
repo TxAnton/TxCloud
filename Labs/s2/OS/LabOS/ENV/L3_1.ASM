@@ -12,7 +12,11 @@ STR_O4 db " MS DOS$";
 STR_O5 db " control block 386MAX UMB$";
 STR_O6 db " blocked 386MAX$";
 STR_O7 db " 386MAX UMB$";
-
+STR_AV_MEM db " Avaible memory: $";
+STR_EX_MEM db " Extended memory: $";
+STR_MCB db " MCB $"
+STR_OWNER db " Owner $"
+STR_SIZE db " Size $"
 NEW_LINE db 0DH,0AH,'$'
 
 
@@ -37,7 +41,6 @@ DIGIT_TO_CHAR ENDP
 ;----------------------------------------
 PRINT_AS_HEX proc near
 ;AL - number
-;;breaks AX,CX,BX
 	push ax
 	push bx
 	push cx
@@ -87,16 +90,32 @@ LN PROC
 	ret
 LN ENDP
 
+PRINT PROC
+;DX - str to print offset
+	push AX
+	xor AX,AX
+	mov AH, 9h
+	int 21h
+	pop AX
+	ret
+PRINT ENDP
+
 ;-----------------
 BEGIN:	
 ;Avalible mem
+	mov DX, offset STR_AV_MEM
+	call PRINT
+	
 	mov AH, 4Ah
 	mov BX, 0FFFFh
 	int 21h;
 	shl BX, 4
 	mov AX, BX
 	call PRINT_WORD	
+	call LN
 ;Extended mem
+	mov DX, offset STR_EX_MEM
+	call PRINT
 	mov AL, 30h
 	out 70h, AL
 	in AL, 71h
@@ -106,7 +125,6 @@ BEGIN:
 	in AL, 71h
 	mov BH, AL
 	mov AX, BX
-	call LN
 	call PRINT_WORD	
 	call LN
 	call LN
@@ -119,6 +137,8 @@ BEGIN:
 NEXT:
 	inc CX
 	mov AX,CX
+	mov DX, offset STR_MCB
+	call PRINT
 	call PRINT_WORD
 	call LN
 	push CX
@@ -127,6 +147,9 @@ NEXT:
 	mov AL, ES:[0h]
 	push AX
 	mov AX, ES:[1h]
+
+	mov DX, offset STR_OWNER
+	call PRINT
 
 	cmp AX, 0h
 	je AREA_FREE
@@ -142,6 +165,8 @@ NEXT:
 	je AREA_BLOCKED
 	cmp AX, 0FFFEh
 	je AREA_LAST
+	
+	
 	xor DX, DX
 	call PRINT_WORD
 	call LN
@@ -173,20 +198,23 @@ END_OF_SWITCH:
 	mov AH, 9h
 	int 21h
 	pop AX
-	call LN
+	;call LN
 	call LN
 
 AFTER_SWITCH:	
 ;size
+	mov DX, offset STR_SIZE
+	call PRINT
+	
 	mov AX, ES:[3h]
 	mov BX, 10h
-	mul BX
+	mul BX	
 	call PRINT_WORD
 	call LN
 	
 	mov CX, 8
 	xor SI, SI
-	call LN
+	;call LN
 PRINT_LAST_BYTES:
 	mov DL, ES:[SI + 8h]
 	mov AH, 02h

@@ -12,9 +12,13 @@ STR_O4 db " MS DOS$";
 STR_O5 db " control block 386MAX UMB$";
 STR_O6 db " blocked 386MAX$";
 STR_O7 db " 386MAX UMB$";
-
-FREE_SUCCESS db "Mem freed$";
-FREE_FAIL db "Mem not freed$";
+STR_AV_MEM db " Avaible memory: $";
+STR_EX_MEM db " Extended memory: $";
+STR_MCB db " MCB $"
+STR_OWNER db " Owner $"
+STR_SIZE db " Size $"
+STR_FREE_SUCCESS db "Mem freed$";
+STR_FREE_FAIL db "Mem not freed$";
 
 ALLOC_SUCCESS db "Mem allocated$";
 ALLOC_FAIL db "Mem not allocated$";
@@ -105,13 +109,16 @@ LN ENDP
 BEGIN:	
 
 ;Avalible mem
+	mov DX, offset STR_AV_MEM
+	call PRINT
+	
 	mov AH, 4Ah
 	mov BX, 0FFFFh
 	int 21h;
 	shl BX, 4
 	mov AX, BX
 	call PRINT_WORD	
-
+	call LN
 ;Alloc mem
 	mov BX, 1000h
 	mov AH, 48h
@@ -138,21 +145,21 @@ ALLOCATE_DONE:
 	mov AH, 4Ah
 	int 21h
 	jnc SUCCESS
-	mov DX, offset FREE_FAIL
+	mov DX, offset STR_FREE_FAIL
 	call PRINT
 	call LN
 	jmp FREE_END
 
 SUCCESS:
-	mov DX, offset FREE_SUCCESS
+	mov DX, offset STR_FREE_SUCCESS
 	call PRINT
 	call LN
 FREE_END:
 	xor AX,AX
 
-
-	
 ;Extended mem
+	mov DX, offset STR_EX_MEM
+	call PRINT
 	mov AL, 30h
 	out 70h, AL
 	in AL, 71h
@@ -162,7 +169,6 @@ FREE_END:
 	in AL, 71h
 	mov BH, AL
 	mov AX, BX
-	call LN
 	call PRINT_WORD	
 	call LN
 	call LN
@@ -175,6 +181,8 @@ FREE_END:
 NEXT:
 	inc CX
 	mov AX,CX
+	mov DX, offset STR_MCB
+	call PRINT
 	call PRINT_WORD
 	call LN
 	push CX
@@ -183,6 +191,9 @@ NEXT:
 	mov AL, ES:[0h]
 	push AX
 	mov AX, ES:[1h]
+
+	mov DX, offset STR_OWNER
+	call PRINT
 
 	cmp AX, 0h
 	je AREA_FREE
@@ -198,6 +209,8 @@ NEXT:
 	je AREA_BLOCKED
 	cmp AX, 0FFFEh
 	je AREA_LAST
+	
+	
 	xor DX, DX
 	call PRINT_WORD
 	call LN
@@ -225,21 +238,27 @@ AREA_BLOCKED:
 AREA_LAST:
 	mov DX, offset STR_O7
 END_OF_SWITCH:
-	call PRINT
-	call LN
+	push AX
+	mov AH, 9h
+	int 21h
+	pop AX
+	;call LN
 	call LN
 
 AFTER_SWITCH:	
 ;size
+	mov DX, offset STR_SIZE
+	call PRINT
+	
 	mov AX, ES:[3h]
 	mov BX, 10h
-	mul BX
+	mul BX	
 	call PRINT_WORD
 	call LN
 	
 	mov CX, 8
 	xor SI, SI
-	call LN
+	;call LN
 PRINT_LAST_BYTES:
 	mov DL, ES:[SI + 8h]
 	mov AH, 02h
