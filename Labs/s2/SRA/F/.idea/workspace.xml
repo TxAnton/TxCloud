@@ -12,130 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb3c7b08-1382-496b-b4f6-e1a70fe89360" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Alg/1_Backtracking/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/1_Backtracking/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/2_Pathfinding/.~lock.Larin_Anton_Alg_22_2.odt#" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Moldwerp/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Base.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Base.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Base.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/AlphaFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/AlphaFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/AlphaFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/AlphaFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/BetaFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/BetaFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/BetaFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/BetaFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/CommonFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/CommonFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/CommonFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/CommonFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/DeltaFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/DeltaFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/DeltaFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/DeltaFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/EpsilonFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/EpsilonFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/EpsilonFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/EpsilonFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/GammaFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/GammaFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/GammaFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/GammaFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/UnitFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/UnitFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/UnitFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/UnitFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/ZetaFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/ZetaFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Factory/ZetaFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Factory/ZetaFactory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Field.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Field.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Field.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/GameObjectList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/LandscapeProxy.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Mediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Mediator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Alpha.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Beta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Delta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Entity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityBush.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityFire.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityStone.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/EntityTree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Epsilon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Fighter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Gamma.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Gamma.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Gamma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Gamma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/God.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/God.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/God.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/God.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Mage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Mage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Mage.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Mage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Zeta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Zeta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Units/Zeta.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Units/Zeta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/Vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Game.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Alpha.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Alpha.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Beta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Beta.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Delta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Delta.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Epsilon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Epsilon.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Gamma.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Gamma.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/God.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/God.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Mage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Mage.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Zeta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/Units/Zeta.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/Proj.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/Proj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/Proj.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/Proj.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ООП 2020 ЛР.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.ASM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/wtf.odg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LETI_Larin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LETI_Larin.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/F" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/F" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/F.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/F.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LETI_Larin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3799">
-              <caret line="262" column="34" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="34" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -205,10 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="961" />
-    <option name="width" value="959" />
-    <option name="height" value="1052" />
+  <component name="ProjectFrameBounds" extendedState="2">
+    <option name="width" value="1920" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +125,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,6 +133,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,6 +154,9 @@
       </method>
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -269,28 +171,34 @@
       <workItem from="1584098773143" duration="4924000" />
       <workItem from="1584181303210" duration="2386000" />
       <workItem from="1584434604762" duration="364000" />
+      <workItem from="1584622293084" duration="8095000" />
+      <workItem from="1584637376342" duration="3191000" />
+      <workItem from="1584647355057" duration="6115000" />
+      <workItem from="1584784812703" duration="43000" />
+      <workItem from="1585048493541" duration="725000" />
+      <workItem from="1585158519513" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19082000" />
+    <option name="totallyTimeSpent" value="38497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1052" extended-state="4" />
+    <frame x="0" y="0" width="1920" height="1049" extended-state="2" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119386636" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49405405" visible="true" weight="0.12540022" />
+      <window_info id="Structure" order="1" sideWeight="0.5059459" side_tool="true" visible="true" weight="0.12540022" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2858684" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30453563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28556034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32721382" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -306,30 +214,6 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
-          <line>242</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
-          <line>174</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
-          <line>185</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LETI_Larin.cpp</url>
-          <line>196</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="Q[cCol][cRow]" />
@@ -365,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LETI_Larin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3799">
-          <caret line="262" column="34" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
