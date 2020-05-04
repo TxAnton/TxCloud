@@ -10,7 +10,7 @@
 #include <assert.h>
 
 #define FILE_INP
-#define DEBUG
+//#define DEBUG
 
 
 #define V_TYPE char
@@ -388,9 +388,7 @@ void ff() {//Main Ford-Fulkerson method logic function
 
 int main() {
 #ifdef FILE_INP
-    //std::ifstream in("/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/3_NetFlow/in");
-    std::ifstream in("/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/3_NetFlow/Tests/test3");
-
+    std::ifstream in("/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/Alg/3_NetFlow/Tests/test1");
     std::cin.rdbuf(in.rdbuf());
 #endif
     read();

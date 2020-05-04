@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/4_KMP.dir/src.cpp.o  -o 4_KMP 
