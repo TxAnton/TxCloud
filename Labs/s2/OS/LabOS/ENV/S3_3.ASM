@@ -139,7 +139,6 @@ SUCCESS:
 	call LN
 FREE_END:
 	xor AX,AX
-	xor DX,DX
 ;Alloc mem
 	mov BX, 1000h
 	mov AH, 48h
@@ -157,7 +156,22 @@ ALLOCATE_SUCCESS:
 
 ALLOCATE_DONE:
 	
-	;MCB's
+;Extended mem
+	mov DX, offset STR_EX_MEM
+	call PRINT
+	mov AL, 30h
+	out 70h, AL
+	in AL, 71h
+	mov BL, AL
+	mov AL, 31h
+	out 70h, AL
+	in AL, 71h
+	mov BH, AL
+	mov AX, BX
+	call PRINT_WORD	
+	call LN
+	call LN
+;MCB's
 	mov AH, 52h
 	int 21h
 	mov AX, ES:[BX-2]
@@ -231,24 +245,6 @@ END_OF_SWITCH:
 	call LN
 
 AFTER_SWITCH:	
-	
-	
-;Extended mem
-	mov DX, offset STR_EX_MEM
-	call PRINT
-	mov AL, 30h
-	out 70h, AL
-	in AL, 71h
-	mov BL, AL
-	mov AL, 31h
-	out 70h, AL
-	in AL, 71h
-	mov BH, AL
-	mov AX, BX
-	call PRINT_WORD	
-	call LN
-	call LN
-
 ;size
 	mov DX, offset STR_SIZE
 	call PRINT
