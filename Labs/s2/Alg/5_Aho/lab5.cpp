@@ -4,10 +4,10 @@
 
 using namespace std;
 
-#define JOKER
+//#define JOKER
 #define TASK
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 #define BDEBUG
@@ -84,7 +84,7 @@ void addString(const string &s) {
 }
 
 
-int getAdvanceVertex(int v, char ch);
+int getAdvanceVertex(int v, char ch, bool suff = false);
 
 int getSuffixIx(int v) {
 #ifdef DDEBUG
@@ -97,25 +97,52 @@ int getSuffixIx(int v) {
 #ifdef DDEBUG
             cout<<"Advancing from parent"<<endl;
 #endif
-            bohr[v].suffixIx = getAdvanceVertex(getSuffixIx(bohr[v].par), bohr[v].symbol);//Calc from parent's suffix
+            bohr[v].suffixIx = getAdvanceVertex(getSuffixIx(bohr[v].par), bohr[v].symbol, true);//Calc from parent's suffix
 #ifdef DDEBUG
     cout<<"Suffix link for"<<v<<"{"<<NUM_TO_AL(bohr[v].symbol)<<"}"<<" is"<<bohr[v].suffixIx<<"{"<<NUM_TO_AL(bohr[bohr[v].suffixIx].symbol)<<"}"<<endl;
 #endif
     return bohr[v].suffixIx;
 }
 
-int getAdvanceVertex(int v, char ch) {
+int getAdvanceVertex(int v, char ch, bool suff) {
     //Advance by char, checking J in bohr
 #ifdef CDEBUG
     cout<<"\n/>=>=>=>=>=>=>=>=>\\"<<endl;
     cout<<"Getting advance from vertex "<<v<<"{"<<NUM_TO_AL(bohr[v].symbol)<<"} "<<"by char "<<NUM_TO_AL(ch)<<endl;
 #endif
+/*
+    if(ch == AL_TO_NUM(J)){
+        int cl = -1;
+        for(int i = 0; i<k;i++){
+            if(bohr[v].children[i]!=-1){
+                cl = bohr[v].children[i];
+            }
+        }
+    }
+*/
+    suff = ch == AL_TO_NUM(J);
+
     if (bohr[v].advanceVertexes[ch] == -1)//Dont have regular advance vertex
-        if (bohr[v].advanceVertexes[AL_TO_NUM(J)] == -1) {//Dont have J advance vertex
+        if (bohr[v].advanceVertexes[AL_TO_NUM(J)] == -1 || suff) {//Dont have J advance vertex
             if (bohr[v].children[ch] != -1) {//Have regular child
                 bohr[v].advanceVertexes[ch] = bohr[v].children[ch];
-            } else if (bohr[v].children[AL_TO_NUM(J)] != -1) {//Have J child
+            } else if (bohr[v].children[AL_TO_NUM(J)] != -1 && !suff) {//Have J child
                 bohr[v].advanceVertexes[ch] = bohr[v].children[AL_TO_NUM(J)];
+            } else if(ch == AL_TO_NUM(J)){//Advance by J symbol
+                int cl = -1;
+                for(int i = 0; i<k;i++){
+                    if(bohr[v].children[i]!=-1){
+                        cl = bohr[v].children[i];
+                    }
+                }
+                if(cl!=-1){//Hath any child
+                    bohr[v].advanceVertexes[ch] = cl;
+                }else if (v == 0)//In init vertex
+                    bohr[v].advanceVertexes[ch] = 0;
+                else {
+                    auto sf = getSuffixIx(v);
+                    bohr[v].advanceVertexes[ch] = getAdvanceVertex(sf, ch);//Jump to suffix's advance vertex
+                }
             } else if (v == 0)//In init vertex
                 bohr[v].advanceVertexes[ch] = 0;
             else {
@@ -171,12 +198,25 @@ void follow(int v, int i, vector<pair<int, int>> &occ) {
     }
 }
 
+vector<pair<int, int>> qcheck(vector<pair<int, int>> occ, const string &s){
+    vector<pair<int, int>> res;
+    for(pair<int, int> it:occ){
+        bool b = true;
+        //for(int i = it.first-1; i<it.first+patterns[it.second].length();i++){
+        for(int i = 0; i<patterns[it.second-1].length();i++){
+            if(i+it.first-1<s.length()&&s[i+it.first-1]!=patterns[it.second-1][i]&&patterns[it.second-1][i]!=J)b=false;
+        }
+        if(b)res.push_back(it);
+    }
+    return res;
+}
+
 vector<pair<int, int>> findAllOccurrences(const string &s) {
     vector<pair<int, int>> occ;
     int u = 0;
     for (int i = 0; i < s.length(); i++) {
 #ifdef CDEBUG
-        cout<<"STATE "<<u<<" INPUT "<<s[i]<<endl;
+        cout<<"STATE "<<u<<" INPUT "<<s[i]<<" AT POSITION "<<i<<endl;
 #endif
         u = getAdvanceVertex(u, AL_TO_NUM(s[i]));
 #ifdef CDEBUG
@@ -184,7 +224,7 @@ vector<pair<int, int>> findAllOccurrences(const string &s) {
 #endif
         follow(u, i + 1, occ);
     }
-    return occ;
+    return qcheck(occ,s);
 }
 
 void outVecPairs(const vector<pair<int, int>> &occ) {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="4_KMP" targetName="4_KMP" />
+      <config projectName="5_Aho" targetName="5_Aho" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff72a11f-3dba-43cf-8977-bd4c89b8ca8d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="02311874-bbd8-4734-996c-509a1fe594a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../4_KMP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_KMP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Larin_Anton_Alg_22_5.odt" beforeDir="false" afterPath="$PROJECT_DIR$/Larin_Anton_Alg_22_5.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Proj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/UML.dia" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/UML.dia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/wtf.odg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.EXE" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.EXE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/T.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/T.OBJ" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,34 +42,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src.cpp">
+        <entry file="file://$PROJECT_DIR$/lab5.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="190">
+              <caret line="218" column="8" lean-forward="true" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#7740#7765#0" expanded="true" />
+                <element signature="e#8606#8659#0" expanded="true" />
+                <element signature="e#8846#8878#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/allocator.h">
+        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="182">
+              <caret line="797" selection-start-line="797" selection-end-line="797" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>+'a'</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -66,15 +85,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/src.cpp" />
+        <option value="$PROJECT_DIR$/lab5.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/4_KMP.iml" />
+        <option value="$PROJECT_DIR$/.idea/5_Aho.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -82,8 +100,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="959" />
-    <option name="height" value="1051" />
+    <option name="x" value="240" />
+    <option name="y" value="131" />
+    <option name="width" value="1440" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,8 +116,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="4_KMP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_KMP" type="462c0819:PsiDirectoryNode" />
+              <item name="5_Aho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_Aho" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,10 +126,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +144,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="4_KMP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="4_KMP" TARGET_NAME="4_KMP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="4_KMP" RUN_TARGET_NAME="4_KMP">
+    <configuration name="5_Aho" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_Aho" TARGET_NAME="5_Aho" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_Aho" RUN_TARGET_NAME="5_Aho">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -135,43 +155,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff72a11f-3dba-43cf-8977-bd4c89b8ca8d" name="Default Changelist" comment="" />
-      <created>1586823216989</created>
+      <changelist id="02311874-bbd8-4734-996c-509a1fe594a1" name="Default Changelist" comment="" />
+      <created>1588631944506</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586823216989</updated>
-      <workItem from="1586823218705" duration="5390000" />
-      <workItem from="1586829769023" duration="501000" />
-      <workItem from="1586872049663" duration="5249000" />
-      <workItem from="1587033259113" duration="1197000" />
-      <workItem from="1587297227068" duration="115000" />
-      <workItem from="1587465984639" duration="5027000" />
-      <workItem from="1587759992007" duration="595000" />
-      <workItem from="1587830861561" duration="4081000" />
-      <workItem from="1587911977081" duration="667000" />
-      <workItem from="1587990300502" duration="617000" />
-      <workItem from="1588631816636" duration="123000" />
+      <updated>1588631944506</updated>
+      <workItem from="1588631956282" duration="2435000" />
+      <workItem from="1588670918376" duration="24314000" />
+      <workItem from="1588932859403" duration="10664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23562000" />
+    <option name="totallyTimeSpent" value="37413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.055496264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32845187" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38685346" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30064654" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39870688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3279396" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3286638" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -190,114 +202,105 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>77</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/lab5.cpp</url>
+          <line>299</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>71</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>82</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src.cpp</url>
-          <line>82</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src.cpp</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src.cpp</url>
-          <line>24</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/lab5.cpp</url>
+          <line>226</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="s[i]" language="ObjectiveC" />
+        <watch expression="bohr" language="ObjectiveC" />
+        <watch expression="occ" />
+        <watch expression="bohr[v].advanceVertexes[ch]" language="ObjectiveC" />
+        <watch expression="J" />
+        <watch expression="s[i]" />
+        <watch expression="patterns" language="ObjectiveC" />
+        <watch expression="bohr[v].symbol" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>patterns</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bohr</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bohr[v].advanceVertexes[ch]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bohr[curLast]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>boht[curLast]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s[i]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>text</expression-string>
+        <expression-string>bohr[v].suffixIx</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>text[]</expression-string>
+        <expression-string>bohr[3].symbol</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>text[14]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[11]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[10]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[9]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[8]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sample[7]</expression-string>
+        <expression-string>bohr[3]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/allocator.h">
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="182">
+          <caret line="797" selection-start-line="797" selection-end-line="797" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src.cpp">
+    <entry file="file://$PROJECT_DIR$/lab5.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="190">
+          <caret line="218" column="8" lean-forward="true" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#7740#7765#0" expanded="true" />
+            <element signature="e#8606#8659#0" expanded="true" />
+            <element signature="e#8846#8878#0" expanded="true" />
           </folding>
         </state>
       </provider>
