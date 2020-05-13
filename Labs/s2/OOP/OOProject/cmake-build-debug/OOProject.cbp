@@ -84,6 +84,69 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Ability.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Ability.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Game.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Game.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mobility.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mobility.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Stats.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Vitality.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Vitality.h">
+			<Option target="OOProject"/>
+		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/main.cpp">
 			<Option target="OOProject"/>
 		</Unit>

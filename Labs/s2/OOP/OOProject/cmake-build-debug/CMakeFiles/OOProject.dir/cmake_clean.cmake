@@ -1,5 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OOProject.dir/main.cpp.o"
+  "CMakeFiles/OOProject.dir/Game.cpp.o"
+  "CMakeFiles/OOProject.dir/GameObject.cpp.o"
+  "CMakeFiles/OOProject.dir/Vitality.cpp.o"
+  "CMakeFiles/OOProject.dir/Unit/Unit.cpp.o"
+  "CMakeFiles/OOProject.dir/Ability.cpp.o"
+  "CMakeFiles/OOProject.dir/Mobility.cpp.o"
+  "CMakeFiles/OOProject.dir/Field.cpp.o"
+  "CMakeFiles/OOProject.dir/Cell.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain.cpp.o"
+  "CMakeFiles/OOProject.dir/Entity/Entity.cpp.o"
   "OOProject.pdb"
   "OOProject"
 )

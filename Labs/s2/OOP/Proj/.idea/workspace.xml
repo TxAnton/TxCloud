@@ -12,94 +12,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e47a237-a35e-4152-aa11-81a130afc607" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Experiments/Moldwerp/mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/Command.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/Command.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandNotify.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandNotify.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandPlace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandPlace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandSelect.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandSelect.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandStep.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommandStep.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands/CommonComands.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facade.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/ConsoleUI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/ConsoleUI.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/UI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/UI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Experiments/Keras/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../s1/Mathan/Fourier series/Cw.mlx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../s1/Mathan/Fourier series/Cw.mlx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../s1/OEVM/comput_org_2018/Лаб_работы/.~lock.Мет_указ_ЛР_ОргКомп.rtf#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/Larin_Anton_Alg_22_3.odt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/3_NetFlow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/cmake-build-debug/CMakeFiles/3_NetFlow.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/3_NetFlow/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Ability.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Ability.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Cell.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Cell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Entity/Entity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Entity/Entity.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Field.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Field.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/GameObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/GameObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Mobility.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Mobility.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Stats.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Terrain/Terrain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Terrain/Terrain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Unit/Unit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Unit/Unit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Vitality.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOProject/Vitality.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/OOProject.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOProject/cmake-build-debug/OOProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../OOProject/cmake-build-debug/OOProject.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base.h" beforeDir="false" afterPath="$PROJECT_DIR$/Base.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Field.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Alpha.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Alpha.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Delta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Delta.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Epsilon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Epsilon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Units/Gamma.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Units/Gamma.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/Field.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/GameObject.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Proj.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Proj.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Proj.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UML.dia" beforeDir="false" afterPath="$PROJECT_DIR$/../UML.dia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wtf.odg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO1" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO2" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO4" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/ECHO4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_1.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_2.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_3.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/L3_4.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.ASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.ASM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.COM" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.COM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.EXE" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.EXE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.MAP" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.MAP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.OBJ" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS/LabOS/ENV/STOLEN.OBJ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRA/F/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRA/F/LETI_Larin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/LETI_Larin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/CMakeFiles/F.dir/LETI_Larin.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/F" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRA/F/cmake-build-debug/F" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,42 +81,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/UI.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Commands/CommandSelect.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/UI.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Commands/CommandSelect.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Field.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#89#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/ConsoleUI.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
+                <element signature="e#82#98#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,40 +104,43 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Field.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facade.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding>
-                <element signature="e#84#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facade.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameObjectList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameObjectList.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-              <folding>
-                <element signature="e#38#56#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Commands/CommandStep.h">
+        <entry file="file://$PROJECT_DIR$/UnitProps.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vector.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -317,7 +249,7 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="959" />
-    <option name="height" value="1052" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -325,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,10 +274,16 @@
               <item name="Proj" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proj" type="462c0819:PsiDirectoryNode" />
+              <item name="Units" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,6 +381,10 @@
       <workItem from="1586823157957" duration="57000" />
       <workItem from="1587297345342" duration="4112000" />
       <workItem from="1587465820803" duration="158000" />
+      <workItem from="1588790036257" duration="1029000" />
+      <workItem from="1588876935408" duration="647000" />
+      <workItem from="1588932826367" duration="32000" />
+      <workItem from="1589097306383" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="OOP at point where all's kinda working">
       <created>1584438241347</created>
@@ -470,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245189000" />
+    <option name="totallyTimeSpent" value="247960000" />
   </component>
   <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
@@ -486,7 +427,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5010776" side_tool="true" weight="0.11259338" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49784482" visible="true" weight="0.13874066" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49784482" visible="true" weight="0.14514408" />
       <window_info id="Structure" order="2" sideWeight="0.5021552" side_tool="true" weight="0.15154749" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -630,54 +571,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Units/Epsilon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-          <folding>
-            <element signature="e#98#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/AlphaFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/ZetaFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/Alpha.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#89#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Units/God.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Units/God.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -786,16 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Field.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#82#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,9 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Field.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facade.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1009,6 +889,39 @@
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandSelect.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Commands/CommandSelect.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObjectList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitProps.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Commands/CommandStep.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1030,12 +943,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facade.cpp">
+    <entry file="file://$PROJECT_DIR$/GameObjectList.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#38#56#0" expanded="true" />
+            <element signature="e#82#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
