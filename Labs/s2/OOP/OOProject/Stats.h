@@ -5,6 +5,9 @@
 #ifndef OOPROJECT_STATS_H
 #define OOPROJECT_STATS_H
 
+static const int defaultSteepness = 2;
+static const int highSteepness = 7;
+
 enum class Devotion{
     Neuter,
     Light,
@@ -24,6 +27,7 @@ enum class UnitType{
 };
 
 enum class CommonClass{
+    NONE,
     Unit1,
     Unit2,
     Unit3,
@@ -35,7 +39,20 @@ enum class CommonClass{
     Terrain3,
     Entity1,
     Entity2,
-    Entity3
+    Entity3,
+
+};
+
+enum class TerrainType{
+    SpikyTerrain,
+    SteepTerrain,
+    HollyTerrain
+};
+
+struct GameObjectFlyWeight{
+    std::string name = "NoName";
+    //CommonClass commonClass = CommonClass::NONE;
+    char symbol = '@';
 };
 
 #endif //OOPROJECT_STATS_H

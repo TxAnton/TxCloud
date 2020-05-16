@@ -312,32 +312,140 @@ Mobility.cpp.s:
 	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Mobility.cpp.s
 .PHONY : Mobility.cpp.s
 
-Terrain.o: Terrain.cpp.o
+Terrain/HollyTerrain.o: Terrain/HollyTerrain.cpp.o
 
-.PHONY : Terrain.o
+.PHONY : Terrain/HollyTerrain.o
 
 # target to build an object file
-Terrain.cpp.o:
-	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain.cpp.o
-.PHONY : Terrain.cpp.o
+Terrain/HollyTerrain.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o
+.PHONY : Terrain/HollyTerrain.cpp.o
 
-Terrain.i: Terrain.cpp.i
+Terrain/HollyTerrain.i: Terrain/HollyTerrain.cpp.i
 
-.PHONY : Terrain.i
+.PHONY : Terrain/HollyTerrain.i
 
 # target to preprocess a source file
-Terrain.cpp.i:
-	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain.cpp.i
-.PHONY : Terrain.cpp.i
+Terrain/HollyTerrain.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.i
+.PHONY : Terrain/HollyTerrain.cpp.i
 
-Terrain.s: Terrain.cpp.s
+Terrain/HollyTerrain.s: Terrain/HollyTerrain.cpp.s
 
-.PHONY : Terrain.s
+.PHONY : Terrain/HollyTerrain.s
 
 # target to generate assembly for a file
-Terrain.cpp.s:
-	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain.cpp.s
-.PHONY : Terrain.cpp.s
+Terrain/HollyTerrain.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s
+.PHONY : Terrain/HollyTerrain.cpp.s
+
+Terrain/SpikyTerrain.o: Terrain/SpikyTerrain.cpp.o
+
+.PHONY : Terrain/SpikyTerrain.o
+
+# target to build an object file
+Terrain/SpikyTerrain.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o
+.PHONY : Terrain/SpikyTerrain.cpp.o
+
+Terrain/SpikyTerrain.i: Terrain/SpikyTerrain.cpp.i
+
+.PHONY : Terrain/SpikyTerrain.i
+
+# target to preprocess a source file
+Terrain/SpikyTerrain.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.i
+.PHONY : Terrain/SpikyTerrain.cpp.i
+
+Terrain/SpikyTerrain.s: Terrain/SpikyTerrain.cpp.s
+
+.PHONY : Terrain/SpikyTerrain.s
+
+# target to generate assembly for a file
+Terrain/SpikyTerrain.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.s
+.PHONY : Terrain/SpikyTerrain.cpp.s
+
+Terrain/SteepTerrain.o: Terrain/SteepTerrain.cpp.o
+
+.PHONY : Terrain/SteepTerrain.o
+
+# target to build an object file
+Terrain/SteepTerrain.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o
+.PHONY : Terrain/SteepTerrain.cpp.o
+
+Terrain/SteepTerrain.i: Terrain/SteepTerrain.cpp.i
+
+.PHONY : Terrain/SteepTerrain.i
+
+# target to preprocess a source file
+Terrain/SteepTerrain.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.i
+.PHONY : Terrain/SteepTerrain.cpp.i
+
+Terrain/SteepTerrain.s: Terrain/SteepTerrain.cpp.s
+
+.PHONY : Terrain/SteepTerrain.s
+
+# target to generate assembly for a file
+Terrain/SteepTerrain.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.s
+.PHONY : Terrain/SteepTerrain.cpp.s
+
+Terrain/Terrain.o: Terrain/Terrain.cpp.o
+
+.PHONY : Terrain/Terrain.o
+
+# target to build an object file
+Terrain/Terrain.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o
+.PHONY : Terrain/Terrain.cpp.o
+
+Terrain/Terrain.i: Terrain/Terrain.cpp.i
+
+.PHONY : Terrain/Terrain.i
+
+# target to preprocess a source file
+Terrain/Terrain.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.i
+.PHONY : Terrain/Terrain.cpp.i
+
+Terrain/Terrain.s: Terrain/Terrain.cpp.s
+
+.PHONY : Terrain/Terrain.s
+
+# target to generate assembly for a file
+Terrain/Terrain.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.s
+.PHONY : Terrain/Terrain.cpp.s
+
+Terrain/TerrainProxy.o: Terrain/TerrainProxy.cpp.o
+
+.PHONY : Terrain/TerrainProxy.o
+
+# target to build an object file
+Terrain/TerrainProxy.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o
+.PHONY : Terrain/TerrainProxy.cpp.o
+
+Terrain/TerrainProxy.i: Terrain/TerrainProxy.cpp.i
+
+.PHONY : Terrain/TerrainProxy.i
+
+# target to preprocess a source file
+Terrain/TerrainProxy.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.i
+.PHONY : Terrain/TerrainProxy.cpp.i
+
+Terrain/TerrainProxy.s: Terrain/TerrainProxy.cpp.s
+
+.PHONY : Terrain/TerrainProxy.s
+
+# target to generate assembly for a file
+Terrain/TerrainProxy.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.s
+.PHONY : Terrain/TerrainProxy.cpp.s
 
 Unit/Unit.o: Unit/Unit.cpp.o
 
@@ -450,9 +558,21 @@ help:
 	@echo "... Mobility.o"
 	@echo "... Mobility.i"
 	@echo "... Mobility.s"
-	@echo "... Terrain.o"
-	@echo "... Terrain.i"
-	@echo "... Terrain.s"
+	@echo "... Terrain/HollyTerrain.o"
+	@echo "... Terrain/HollyTerrain.i"
+	@echo "... Terrain/HollyTerrain.s"
+	@echo "... Terrain/SpikyTerrain.o"
+	@echo "... Terrain/SpikyTerrain.i"
+	@echo "... Terrain/SpikyTerrain.s"
+	@echo "... Terrain/SteepTerrain.o"
+	@echo "... Terrain/SteepTerrain.i"
+	@echo "... Terrain/SteepTerrain.s"
+	@echo "... Terrain/Terrain.o"
+	@echo "... Terrain/Terrain.i"
+	@echo "... Terrain/Terrain.s"
+	@echo "... Terrain/TerrainProxy.o"
+	@echo "... Terrain/TerrainProxy.i"
+	@echo "... Terrain/TerrainProxy.s"
 	@echo "... Unit/Unit.o"
 	@echo "... Unit/Unit.i"
 	@echo "... Unit/Unit.s"

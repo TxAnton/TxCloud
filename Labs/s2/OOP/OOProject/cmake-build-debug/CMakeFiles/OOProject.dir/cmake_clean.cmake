@@ -8,8 +8,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOProject.dir/Mobility.cpp.o"
   "CMakeFiles/OOProject.dir/Field.cpp.o"
   "CMakeFiles/OOProject.dir/Cell.cpp.o"
-  "CMakeFiles/OOProject.dir/Terrain.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o"
   "CMakeFiles/OOProject.dir/Entity/Entity.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o"
+  "CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o"
   "OOProject.pdb"
   "OOProject"
 )

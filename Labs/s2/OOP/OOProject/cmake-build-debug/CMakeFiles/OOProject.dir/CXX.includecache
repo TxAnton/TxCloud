@@ -6,39 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Ability.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.cpp
-Cell.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h
 memory
 -
-GameObject.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h
-Unit/Unit.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.h
-Terrain.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.h
-Entity/Entity.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.cpp
-Entity.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.cpp
-Field.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.h
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.h
-memory
+string
 -
-
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h
 utility
 -
 Stats.h
@@ -46,27 +18,41 @@ Stats.h
 Vitality.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Vitality.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mobility.h
-
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Stats.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.cpp
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.cpp
+HollyTerrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.h
 Terrain.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.cpp
+SpikyTerrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.cpp
-Unit.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.h
+Terrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.h
 
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.cpp
+SteepTerrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.h
+Terrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.cpp
+Terrain.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.h
+
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.h
 ../GameObject.h
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h
-../Ability.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Ability.h
-../Mobility.h
-/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mobility.h
+../Stats.h
+/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Stats.h
 
 /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Vitality.h
 

@@ -9,28 +9,32 @@
 
 #include "GameObject.h"
 #include "Unit/Unit.h"
-#include "Terrain/Terrain.h"
+#include "Terrain/TerrainProxy.h"
 #include "Entity/Entity.h"
 
 class Cell {
 public:
     Cell(std::shared_ptr<Unit> &unit);
 
-    std::shared_ptr<Unit> &getUnit();
+    Cell();
 
-    void setUnit(std::shared_ptr<Unit> &unit);
+    Cell(const Cell & src);
 
-    std::shared_ptr<Terrain> &getTerrain();
+    std::shared_ptr<Unit> getUnit();
 
-    void setTerrain(std::shared_ptr<Terrain> &terrain);
+    void setUnit(std::shared_ptr<Unit> unit);
 
-    std::shared_ptr<Entity> &getEntity();
+    std::shared_ptr<TerrainProxy> getTerrain();
 
-    void setEntity(std::shared_ptr<Entity> &entity);
+    void setTerrain(std::shared_ptr<TerrainProxy> terrain);
+
+    std::shared_ptr<Entity> getEntity();
+
+    void setEntity(std::shared_ptr<Entity> entity);
 
 private:
     std::shared_ptr<Unit> unit;
-    std::shared_ptr<Terrain> terrain;
+    std::shared_ptr<TerrainProxy> terrain;
     std::shared_ptr<Entity> entity;
 };
 

@@ -9,16 +9,12 @@
 //#include "GameObject.h"
 class GameObject;
 
-class Mobility {
-public:
+struct Mobility {
     Mobility(int agility, int range, GameObject *master);
 
-private:
     int agility;
     int range;
     GameObject* master;
-
-
 };
 
 

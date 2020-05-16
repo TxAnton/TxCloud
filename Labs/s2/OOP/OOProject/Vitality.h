@@ -18,7 +18,7 @@ class Vitality {
 public:
     Vitality(int health, int armour, float dmgMul, GameObject *master);
 
-private:
+public:
     void damage(int amount);
     void heal(int amount);
 };

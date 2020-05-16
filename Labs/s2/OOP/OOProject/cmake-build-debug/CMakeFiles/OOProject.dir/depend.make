@@ -11,18 +11,37 @@ CMakeFiles/OOProject.dir/Cell.cpp.o: ../Entity/Entity.h
 CMakeFiles/OOProject.dir/Cell.cpp.o: ../GameObject.h
 CMakeFiles/OOProject.dir/Cell.cpp.o: ../Mobility.h
 CMakeFiles/OOProject.dir/Cell.cpp.o: ../Stats.h
-CMakeFiles/OOProject.dir/Cell.cpp.o: ../Terrain.h
+CMakeFiles/OOProject.dir/Cell.cpp.o: ../Terrain/TerrainProxy.h
 CMakeFiles/OOProject.dir/Cell.cpp.o: ../Unit/Unit.h
 CMakeFiles/OOProject.dir/Cell.cpp.o: ../Vitality.h
 
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: ../Entity/Entity.cpp
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: ../Entity/Entity.h
 
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Cell.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Entity/Entity.h
 CMakeFiles/OOProject.dir/Field.cpp.o: ../Field.cpp
 CMakeFiles/OOProject.dir/Field.cpp.o: ../Field.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Terrain/TerrainProxy.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Field.cpp.o: ../Vitality.h
 
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Cell.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Entity/Entity.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Field.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Game.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Terrain/TerrainProxy.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Vitality.h
 
 CMakeFiles/OOProject.dir/GameObject.cpp.o: ../GameObject.cpp
 CMakeFiles/OOProject.dir/GameObject.cpp.o: ../GameObject.h
@@ -32,8 +51,35 @@ CMakeFiles/OOProject.dir/GameObject.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/Mobility.cpp.o: ../Mobility.cpp
 CMakeFiles/OOProject.dir/Mobility.cpp.o: ../Mobility.h
 
-CMakeFiles/OOProject.dir/Terrain.cpp.o: ../Terrain.cpp
-CMakeFiles/OOProject.dir/Terrain.cpp.o: ../Terrain.h
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Terrain/HollyTerrain.cpp
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Terrain/HollyTerrain.h
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Terrain/SpikyTerrain.cpp
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Terrain/SpikyTerrain.h
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Terrain/SteepTerrain.cpp
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Terrain/SteepTerrain.h
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Terrain/Terrain.cpp
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: ../Terrain/TerrainProxy.cpp
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: ../Terrain/TerrainProxy.h
 
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Ability.h
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../GameObject.h
@@ -43,8 +89,21 @@ CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Unit/Unit.cpp
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Unit/Unit.h
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Vitality.h
 
+CMakeFiles/OOProject.dir/Vitality.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Vitality.cpp.o: ../Stats.h
 CMakeFiles/OOProject.dir/Vitality.cpp.o: ../Vitality.cpp
 CMakeFiles/OOProject.dir/Vitality.cpp.o: ../Vitality.h
 
+CMakeFiles/OOProject.dir/main.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Cell.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Entity/Entity.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Field.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Game.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Terrain/TerrainProxy.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../main.cpp
 

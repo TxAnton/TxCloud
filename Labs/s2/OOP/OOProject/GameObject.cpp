@@ -15,13 +15,21 @@ void GameObject::setToBeRemoved(bool toBeRemoved) {
 GameObject::GameObject(int x, int y, bool toBeRemoved, Devotion devotion, ObjectType objectType,
                        CommonClass objectClass,
                        int health, int armour, float dmgmul) : x(x), y(y), toBeRemoved(toBeRemoved), devotion(devotion),
-                                                vitality(health,armour,dmgmul,this), objectType(objectType),objectClass(objectClass) {}
+                                                vitality(health,armour,dmgmul,this), objectType(objectType),objectClass(objectClass) {flyWeight=new GameObjectFlyWeight;}
 
 std::pair<int, int> GameObject::getCoords() {
-    return std::pair<int, int>(x,y);
+    return {x,y};
 }
 
 void GameObject::setCoords(int x, int y) {
     this->x = x;
     this->y = y;
+}
+void GameObject::setCoords(std::pair<int,int> coords) {
+    this->x = coords.first;
+    this->y = coords.second;
+}
+
+Vitality &GameObject::getVitality() {
+    return vitality;
 }

@@ -9,16 +9,12 @@
 //#include "GameObject.h"
 class GameObject;
 
-class Ability {
+struct Ability {
     int power;
     int range;
     GameObject* master;
 
-public:
     Ability(int power, int range, GameObject *master);
-
-private:
-    bool canAct(int x, int y);
 };
 
 

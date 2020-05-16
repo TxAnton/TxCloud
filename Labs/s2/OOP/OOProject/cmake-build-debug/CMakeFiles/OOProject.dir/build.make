@@ -174,18 +174,18 @@ CMakeFiles/OOProject.dir/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Cell.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Cell.cpp -o CMakeFiles/OOProject.dir/Cell.cpp.s
 
-CMakeFiles/OOProject.dir/Terrain.cpp.o: CMakeFiles/OOProject.dir/flags.make
-CMakeFiles/OOProject.dir/Terrain.cpp.o: ../Terrain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOProject.dir/Terrain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.cpp
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: ../Terrain/TerrainProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/TerrainProxy.cpp
 
-CMakeFiles/OOProject.dir/Terrain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.cpp > CMakeFiles/OOProject.dir/Terrain.cpp.i
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/TerrainProxy.cpp > CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.i
 
-CMakeFiles/OOProject.dir/Terrain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain.cpp -o CMakeFiles/OOProject.dir/Terrain.cpp.s
+CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/TerrainProxy.cpp -o CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.s
 
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: CMakeFiles/OOProject.dir/flags.make
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: ../Entity/Entity.cpp
@@ -200,6 +200,58 @@ CMakeFiles/OOProject.dir/Entity/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Entity/Entity.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.cpp -o CMakeFiles/OOProject.dir/Entity/Entity.cpp.s
 
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Terrain/Terrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.cpp
+
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.cpp > CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.i
+
+CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/Terrain.cpp -o CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.s
+
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o: ../Terrain/SpikyTerrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.cpp
+
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.cpp > CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.i
+
+CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SpikyTerrain.cpp -o CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.s
+
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o: ../Terrain/SteepTerrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.cpp
+
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.cpp > CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.i
+
+CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/SteepTerrain.cpp -o CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.s
+
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o: ../Terrain/HollyTerrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.cpp
+
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.cpp > CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.i
+
+CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.cpp -o CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s
+
 # Object files for target OOProject
 OOProject_OBJECTS = \
 "CMakeFiles/OOProject.dir/main.cpp.o" \
@@ -211,8 +263,12 @@ OOProject_OBJECTS = \
 "CMakeFiles/OOProject.dir/Mobility.cpp.o" \
 "CMakeFiles/OOProject.dir/Field.cpp.o" \
 "CMakeFiles/OOProject.dir/Cell.cpp.o" \
-"CMakeFiles/OOProject.dir/Terrain.cpp.o" \
-"CMakeFiles/OOProject.dir/Entity/Entity.cpp.o"
+"CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o" \
+"CMakeFiles/OOProject.dir/Entity/Entity.cpp.o" \
+"CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o" \
+"CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o" \
+"CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o" \
+"CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o"
 
 # External object files for target OOProject
 OOProject_EXTERNAL_OBJECTS =
@@ -226,11 +282,15 @@ OOProject: CMakeFiles/OOProject.dir/Ability.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Mobility.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Field.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Cell.cpp.o
-OOProject: CMakeFiles/OOProject.dir/Terrain.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Entity/Entity.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o
 OOProject: CMakeFiles/OOProject.dir/build.make
 OOProject: CMakeFiles/OOProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OOProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable OOProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
