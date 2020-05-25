@@ -27,7 +27,11 @@ public:
 
     bool canAct(int x, int y) override;
 
-    CommonClass getObjectClass() override;
+    Ability &getAbility();
+
+    Mobility &getMobility();
+
+//protected: CommonClass getObjectClass() override;
 
 private:
     Ability ability;

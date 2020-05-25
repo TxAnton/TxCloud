@@ -3,6 +3,7 @@
 //
 
 #include "Game.h"
+#include "Unit/TheTough.h"
 
 Game* Game::instance = nullptr;
 
@@ -23,7 +24,8 @@ void Game::demo() {
 
     field = new Field(10,9,9);
 
-    field->setUnitAt(std::make_shared<Unit>(5, 5, Devotion::Neuter, CommonClass::Unit1, 100, 100, 1, 50, 5, 5, 5, UnitType::AbleUnit),5,5);
+    //new TheTough(5,5,Devotion::Neuter,100,100,1,50,5,5,5)
+    field->setUnitAt(std::make_shared<TheTough>(5,5,Devotion::Neuter,100,100,1,50,5,5,5),5,5);
 
     std::wcout<<field->toWString();
 

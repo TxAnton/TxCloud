@@ -28,7 +28,7 @@ public:
 
     virtual int getSteepness();
 
-private:
+protected:
     TerrainType terrainType;
     int steepness;
 

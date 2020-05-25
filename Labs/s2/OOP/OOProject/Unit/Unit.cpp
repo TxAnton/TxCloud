@@ -31,13 +31,23 @@ void Unit::restep(std::shared_ptr<GameObject> sbj) {
 }
 
 bool Unit::canStep(int x, int y) {
+    std::pair<int,int> cords=this->getCoords();
+
     return true;//TODO
 }
 
 bool Unit::canAct(int x, int y) {
     return true;//TODO
 }
-
+/*
 CommonClass Unit::getObjectClass() {
     return CommonClass::NONE;
+}
+*/
+Ability &Unit::getAbility() {
+    return ability;
+}
+
+Mobility &Unit::getMobility() {
+    return mobility;
 }

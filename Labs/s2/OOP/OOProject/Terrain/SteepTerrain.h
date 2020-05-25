@@ -9,8 +9,7 @@
 
 class SteepTerrain:public Terrain {
 public:
-    SteepTerrain(int x, int y);
-
+    SteepTerrain(int x, int y, int steepness);
 };
 
 

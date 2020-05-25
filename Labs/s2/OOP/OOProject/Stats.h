@@ -7,6 +7,9 @@
 
 static const int defaultSteepness = 2;
 static const int highSteepness = 7;
+static const int defaultRange= 2;
+static const int highRange= 5;
+
 
 enum class Devotion{
     Neuter,

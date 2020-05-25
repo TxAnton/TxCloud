@@ -121,3 +121,57 @@ Field &Field::operator=(Field &&other) {
     std::swap(*this, other);
     return *this;
 }
+
+Field::iterator Field::begin() {
+    return Field::iterator(0, 0, this);
+}
+
+Field::iterator Field::end() {
+    return Field::iterator(0, height, this);
+}
+
+bool Field::iterator::operator==(const Field::iterator &rhs) const {
+    return x == rhs.x &&
+           y == rhs.y;
+}
+
+bool Field::iterator::operator!=(const Field::iterator &rhs) const {
+    return !(rhs == *this);
+}
+
+Field::iterator& Field::iterator::next() {
+    if(x+1==collection->width){
+        if(y==collection->height){
+            assert(0&&"Iterating out of collection");
+        }else{
+            y++;
+            return *this;
+            //return Field::iterator(0,y+1,collection);
+        }
+    }
+    else{
+        x++;
+        return *this;
+        //return Field::iterator(x+1,y,collection);
+    }
+}
+
+bool Field::iterator::hasNext() {
+    return *this==iterator(0,collection->height,0);
+}
+
+Field::iterator::iterator(int x, int y, Field *collection) : collection(collection), x(x), y(y) {}
+
+Cell &Field::iterator::operator*() const {
+    return collection->content[y][x];
+}
+
+Field::iterator Field::iterator::operator++() {
+    auto it = *this;
+    next();
+    return it;
+}
+
+Field::iterator &Field::iterator::operator++(int) {
+    return next();
+}

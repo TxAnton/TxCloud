@@ -4,8 +4,9 @@
 
 #include "SteepTerrain.h"
 
-SteepTerrain::SteepTerrain(int x, int y) : Terrain(x,
-                                                   y,
-                                                   CommonClass::Terrain2,
-                                                   TerrainType::SteepTerrain,
-                                                   highSteepness) {}
+SteepTerrain::SteepTerrain(int x, int y, int steepness) : Terrain(x,
+                                                                  y,
+                                                                  CommonClass::Terrain2,
+                                                                  TerrainType::SteepTerrain,
+                                                                  steepness) {}
+

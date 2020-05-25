@@ -40,6 +40,34 @@ private:
     int objCnt;
     int height;
     int width;
+
+public:
+    class iterator{
+    public:
+        iterator(int x, int y, Field *collection);
+
+        bool operator==(const iterator &rhs) const;
+
+        bool operator!=(const iterator &rhs) const;
+
+        iterator operator++();
+        iterator& operator++(int);
+
+        Cell& operator*() const;
+
+        iterator& next();
+        bool hasNext();
+
+    private:
+        Field* collection;
+        int x;
+        int y;
+    };
+
+    iterator begin();
+    iterator end();
+
+
 };
 
 

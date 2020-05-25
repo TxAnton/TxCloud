@@ -9,7 +9,9 @@
 
 class SpikyTerrain: public Terrain {
 public:
-    SpikyTerrain(int x, int y, int damage);
+    SpikyTerrain(int x, int y, int steepness, int damage);
+
+    CommonClass getObjectClass() override;
 
 private:
     int damage;
