@@ -14,6 +14,9 @@ public:
     void restep(std::shared_ptr<GameObject> sbj) override;
 
 private:
+    CommonClass getObjectClass() override;
+
+private:
     int amount;
 };
 

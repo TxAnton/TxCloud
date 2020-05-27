@@ -5,8 +5,12 @@
 #include "HollyTerrain.h"
 
 HollyTerrain::HollyTerrain(int x, int y, int amount)
-        : Terrain(x, y, CommonClass::Terrain3, TerrainType::HollyTerrain, defaultSteepness), amount(amount) {}
+        : Terrain(x, y, CommonClass::HollyTerrain, TerrainType::HollyTerrain, defaultSteepness), amount(amount) {}
 
 void HollyTerrain::restep(std::shared_ptr<GameObject> sbj) {
     sbj->getVitality().heal(amount);
+}
+
+CommonClass HollyTerrain::getObjectClass() {
+    return CommonClass::HollyTerrain;
 }

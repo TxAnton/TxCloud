@@ -102,6 +102,84 @@
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Entity/Entity.h">
 			<Option target="OOProject"/>
 		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/AbstractFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/AbstractFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/CommonFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/CommonFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/AbstractTerrainFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/AbstractTerrainFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/HollyFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/HollyFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SpikyFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SpikyFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SteepFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SteepFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AbstractUnitFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AbstractUnitFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AgileFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AgileFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/MarathonerFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/MarathonerFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/PowerfulFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/PowerfulFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/RangerFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/RangerFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/ToughFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/ToughFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/VampireFactory.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/VampireFactory.h">
+			<Option target="OOProject"/>
+		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Field.cpp">
 			<Option target="OOProject"/>
 		</Unit>
@@ -118,6 +196,12 @@
 			<Option target="OOProject"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/GameObject.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mediator.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mediator.h">
 			<Option target="OOProject"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mobility.cpp">
@@ -157,6 +241,60 @@
 			<Option target="OOProject"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/TerrainProxy.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/AbleUnit.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/AbleUnit.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/EnduringUnit.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/EnduringUnit.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/MobileUnit.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/MobileUnit.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheAgile.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheAgile.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheMarathoner.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheMarathoner.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/ThePowerful.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/ThePowerful.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheRanger.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheRanger.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheTough.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheTough.h">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheVampire.cpp">
+			<Option target="OOProject"/>
+		</Unit>
+		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheVampire.h">
 			<Option target="OOProject"/>
 		</Unit>
 		<Unit filename="/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/Unit.cpp">

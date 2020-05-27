@@ -23,9 +23,13 @@ void Game::demo() {
     s2 = "foo";
 
     field = new Field(10,9,9);
+    factory=new CommonFactory();
+
+
+    //std::static_pointer_cast<Unit>(factory->createObject(5,5,Devotion::Dark,CommonClass::TheTough));
 
     //new TheTough(5,5,Devotion::Neuter,100,100,1,50,5,5,5)
-    field->setUnitAt(std::make_shared<TheTough>(5,5,Devotion::Neuter,100,100,1,50,5,5,5),5,5);
+    field->setUnitAt(std::static_pointer_cast<Unit>(factory->createObject(5,5,Devotion::Dark,CommonClass::TheTough)),5,5);
 
     std::wcout<<field->toWString();
 
@@ -37,7 +41,7 @@ void Game::demo() {
 
     /*
     Unit* unit;
-    unit = new Unit(5, 5, Devotion::Neuter, CommonClass::Unit1, 100, 100, 1, 50, 5, 5, 5, UnitType::AbleUnit);
+    unit = new Unit(5, 5, Devotion::Neuter, CommonClass::TheRanger, 100, 100, 1, 50, 5, 5, 5, UnitType::AbleUnit);
     unit->flyWeight={"TheUnit",'#'};
 
     std::cout<<unit->canStep(6,6);

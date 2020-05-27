@@ -204,6 +204,357 @@ Entity/Entity.cpp.s:
 	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Entity/Entity.cpp.s
 .PHONY : Entity/Entity.cpp.s
 
+Factory/AbstractFactory.o: Factory/AbstractFactory.cpp.o
+
+.PHONY : Factory/AbstractFactory.o
+
+# target to build an object file
+Factory/AbstractFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o
+.PHONY : Factory/AbstractFactory.cpp.o
+
+Factory/AbstractFactory.i: Factory/AbstractFactory.cpp.i
+
+.PHONY : Factory/AbstractFactory.i
+
+# target to preprocess a source file
+Factory/AbstractFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.i
+.PHONY : Factory/AbstractFactory.cpp.i
+
+Factory/AbstractFactory.s: Factory/AbstractFactory.cpp.s
+
+.PHONY : Factory/AbstractFactory.s
+
+# target to generate assembly for a file
+Factory/AbstractFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.s
+.PHONY : Factory/AbstractFactory.cpp.s
+
+Factory/CommonFactory.o: Factory/CommonFactory.cpp.o
+
+.PHONY : Factory/CommonFactory.o
+
+# target to build an object file
+Factory/CommonFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o
+.PHONY : Factory/CommonFactory.cpp.o
+
+Factory/CommonFactory.i: Factory/CommonFactory.cpp.i
+
+.PHONY : Factory/CommonFactory.i
+
+# target to preprocess a source file
+Factory/CommonFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.i
+.PHONY : Factory/CommonFactory.cpp.i
+
+Factory/CommonFactory.s: Factory/CommonFactory.cpp.s
+
+.PHONY : Factory/CommonFactory.s
+
+# target to generate assembly for a file
+Factory/CommonFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.s
+.PHONY : Factory/CommonFactory.cpp.s
+
+Factory/Terrain/AbstractTerrainFactory.o: Factory/Terrain/AbstractTerrainFactory.cpp.o
+
+.PHONY : Factory/Terrain/AbstractTerrainFactory.o
+
+# target to build an object file
+Factory/Terrain/AbstractTerrainFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o
+.PHONY : Factory/Terrain/AbstractTerrainFactory.cpp.o
+
+Factory/Terrain/AbstractTerrainFactory.i: Factory/Terrain/AbstractTerrainFactory.cpp.i
+
+.PHONY : Factory/Terrain/AbstractTerrainFactory.i
+
+# target to preprocess a source file
+Factory/Terrain/AbstractTerrainFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.i
+.PHONY : Factory/Terrain/AbstractTerrainFactory.cpp.i
+
+Factory/Terrain/AbstractTerrainFactory.s: Factory/Terrain/AbstractTerrainFactory.cpp.s
+
+.PHONY : Factory/Terrain/AbstractTerrainFactory.s
+
+# target to generate assembly for a file
+Factory/Terrain/AbstractTerrainFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.s
+.PHONY : Factory/Terrain/AbstractTerrainFactory.cpp.s
+
+Factory/Terrain/HollyFactory.o: Factory/Terrain/HollyFactory.cpp.o
+
+.PHONY : Factory/Terrain/HollyFactory.o
+
+# target to build an object file
+Factory/Terrain/HollyFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o
+.PHONY : Factory/Terrain/HollyFactory.cpp.o
+
+Factory/Terrain/HollyFactory.i: Factory/Terrain/HollyFactory.cpp.i
+
+.PHONY : Factory/Terrain/HollyFactory.i
+
+# target to preprocess a source file
+Factory/Terrain/HollyFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.i
+.PHONY : Factory/Terrain/HollyFactory.cpp.i
+
+Factory/Terrain/HollyFactory.s: Factory/Terrain/HollyFactory.cpp.s
+
+.PHONY : Factory/Terrain/HollyFactory.s
+
+# target to generate assembly for a file
+Factory/Terrain/HollyFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.s
+.PHONY : Factory/Terrain/HollyFactory.cpp.s
+
+Factory/Terrain/SpikyFactory.o: Factory/Terrain/SpikyFactory.cpp.o
+
+.PHONY : Factory/Terrain/SpikyFactory.o
+
+# target to build an object file
+Factory/Terrain/SpikyFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o
+.PHONY : Factory/Terrain/SpikyFactory.cpp.o
+
+Factory/Terrain/SpikyFactory.i: Factory/Terrain/SpikyFactory.cpp.i
+
+.PHONY : Factory/Terrain/SpikyFactory.i
+
+# target to preprocess a source file
+Factory/Terrain/SpikyFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.i
+.PHONY : Factory/Terrain/SpikyFactory.cpp.i
+
+Factory/Terrain/SpikyFactory.s: Factory/Terrain/SpikyFactory.cpp.s
+
+.PHONY : Factory/Terrain/SpikyFactory.s
+
+# target to generate assembly for a file
+Factory/Terrain/SpikyFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.s
+.PHONY : Factory/Terrain/SpikyFactory.cpp.s
+
+Factory/Terrain/SteepFactory.o: Factory/Terrain/SteepFactory.cpp.o
+
+.PHONY : Factory/Terrain/SteepFactory.o
+
+# target to build an object file
+Factory/Terrain/SteepFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o
+.PHONY : Factory/Terrain/SteepFactory.cpp.o
+
+Factory/Terrain/SteepFactory.i: Factory/Terrain/SteepFactory.cpp.i
+
+.PHONY : Factory/Terrain/SteepFactory.i
+
+# target to preprocess a source file
+Factory/Terrain/SteepFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.i
+.PHONY : Factory/Terrain/SteepFactory.cpp.i
+
+Factory/Terrain/SteepFactory.s: Factory/Terrain/SteepFactory.cpp.s
+
+.PHONY : Factory/Terrain/SteepFactory.s
+
+# target to generate assembly for a file
+Factory/Terrain/SteepFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.s
+.PHONY : Factory/Terrain/SteepFactory.cpp.s
+
+Factory/Unit/AbstractUnitFactory.o: Factory/Unit/AbstractUnitFactory.cpp.o
+
+.PHONY : Factory/Unit/AbstractUnitFactory.o
+
+# target to build an object file
+Factory/Unit/AbstractUnitFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o
+.PHONY : Factory/Unit/AbstractUnitFactory.cpp.o
+
+Factory/Unit/AbstractUnitFactory.i: Factory/Unit/AbstractUnitFactory.cpp.i
+
+.PHONY : Factory/Unit/AbstractUnitFactory.i
+
+# target to preprocess a source file
+Factory/Unit/AbstractUnitFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.i
+.PHONY : Factory/Unit/AbstractUnitFactory.cpp.i
+
+Factory/Unit/AbstractUnitFactory.s: Factory/Unit/AbstractUnitFactory.cpp.s
+
+.PHONY : Factory/Unit/AbstractUnitFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/AbstractUnitFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.s
+.PHONY : Factory/Unit/AbstractUnitFactory.cpp.s
+
+Factory/Unit/AgileFactory.o: Factory/Unit/AgileFactory.cpp.o
+
+.PHONY : Factory/Unit/AgileFactory.o
+
+# target to build an object file
+Factory/Unit/AgileFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o
+.PHONY : Factory/Unit/AgileFactory.cpp.o
+
+Factory/Unit/AgileFactory.i: Factory/Unit/AgileFactory.cpp.i
+
+.PHONY : Factory/Unit/AgileFactory.i
+
+# target to preprocess a source file
+Factory/Unit/AgileFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.i
+.PHONY : Factory/Unit/AgileFactory.cpp.i
+
+Factory/Unit/AgileFactory.s: Factory/Unit/AgileFactory.cpp.s
+
+.PHONY : Factory/Unit/AgileFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/AgileFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.s
+.PHONY : Factory/Unit/AgileFactory.cpp.s
+
+Factory/Unit/MarathonerFactory.o: Factory/Unit/MarathonerFactory.cpp.o
+
+.PHONY : Factory/Unit/MarathonerFactory.o
+
+# target to build an object file
+Factory/Unit/MarathonerFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o
+.PHONY : Factory/Unit/MarathonerFactory.cpp.o
+
+Factory/Unit/MarathonerFactory.i: Factory/Unit/MarathonerFactory.cpp.i
+
+.PHONY : Factory/Unit/MarathonerFactory.i
+
+# target to preprocess a source file
+Factory/Unit/MarathonerFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.i
+.PHONY : Factory/Unit/MarathonerFactory.cpp.i
+
+Factory/Unit/MarathonerFactory.s: Factory/Unit/MarathonerFactory.cpp.s
+
+.PHONY : Factory/Unit/MarathonerFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/MarathonerFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.s
+.PHONY : Factory/Unit/MarathonerFactory.cpp.s
+
+Factory/Unit/PowerfulFactory.o: Factory/Unit/PowerfulFactory.cpp.o
+
+.PHONY : Factory/Unit/PowerfulFactory.o
+
+# target to build an object file
+Factory/Unit/PowerfulFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o
+.PHONY : Factory/Unit/PowerfulFactory.cpp.o
+
+Factory/Unit/PowerfulFactory.i: Factory/Unit/PowerfulFactory.cpp.i
+
+.PHONY : Factory/Unit/PowerfulFactory.i
+
+# target to preprocess a source file
+Factory/Unit/PowerfulFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.i
+.PHONY : Factory/Unit/PowerfulFactory.cpp.i
+
+Factory/Unit/PowerfulFactory.s: Factory/Unit/PowerfulFactory.cpp.s
+
+.PHONY : Factory/Unit/PowerfulFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/PowerfulFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.s
+.PHONY : Factory/Unit/PowerfulFactory.cpp.s
+
+Factory/Unit/RangerFactory.o: Factory/Unit/RangerFactory.cpp.o
+
+.PHONY : Factory/Unit/RangerFactory.o
+
+# target to build an object file
+Factory/Unit/RangerFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o
+.PHONY : Factory/Unit/RangerFactory.cpp.o
+
+Factory/Unit/RangerFactory.i: Factory/Unit/RangerFactory.cpp.i
+
+.PHONY : Factory/Unit/RangerFactory.i
+
+# target to preprocess a source file
+Factory/Unit/RangerFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.i
+.PHONY : Factory/Unit/RangerFactory.cpp.i
+
+Factory/Unit/RangerFactory.s: Factory/Unit/RangerFactory.cpp.s
+
+.PHONY : Factory/Unit/RangerFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/RangerFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.s
+.PHONY : Factory/Unit/RangerFactory.cpp.s
+
+Factory/Unit/ToughFactory.o: Factory/Unit/ToughFactory.cpp.o
+
+.PHONY : Factory/Unit/ToughFactory.o
+
+# target to build an object file
+Factory/Unit/ToughFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o
+.PHONY : Factory/Unit/ToughFactory.cpp.o
+
+Factory/Unit/ToughFactory.i: Factory/Unit/ToughFactory.cpp.i
+
+.PHONY : Factory/Unit/ToughFactory.i
+
+# target to preprocess a source file
+Factory/Unit/ToughFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.i
+.PHONY : Factory/Unit/ToughFactory.cpp.i
+
+Factory/Unit/ToughFactory.s: Factory/Unit/ToughFactory.cpp.s
+
+.PHONY : Factory/Unit/ToughFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/ToughFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.s
+.PHONY : Factory/Unit/ToughFactory.cpp.s
+
+Factory/Unit/VampireFactory.o: Factory/Unit/VampireFactory.cpp.o
+
+.PHONY : Factory/Unit/VampireFactory.o
+
+# target to build an object file
+Factory/Unit/VampireFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o
+.PHONY : Factory/Unit/VampireFactory.cpp.o
+
+Factory/Unit/VampireFactory.i: Factory/Unit/VampireFactory.cpp.i
+
+.PHONY : Factory/Unit/VampireFactory.i
+
+# target to preprocess a source file
+Factory/Unit/VampireFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.i
+.PHONY : Factory/Unit/VampireFactory.cpp.i
+
+Factory/Unit/VampireFactory.s: Factory/Unit/VampireFactory.cpp.s
+
+.PHONY : Factory/Unit/VampireFactory.s
+
+# target to generate assembly for a file
+Factory/Unit/VampireFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.s
+.PHONY : Factory/Unit/VampireFactory.cpp.s
+
 Field.o: Field.cpp.o
 
 .PHONY : Field.o
@@ -284,6 +635,33 @@ GameObject.s: GameObject.cpp.s
 GameObject.cpp.s:
 	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/GameObject.cpp.s
 .PHONY : GameObject.cpp.s
+
+Mediator.o: Mediator.cpp.o
+
+.PHONY : Mediator.o
+
+# target to build an object file
+Mediator.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Mediator.cpp.o
+.PHONY : Mediator.cpp.o
+
+Mediator.i: Mediator.cpp.i
+
+.PHONY : Mediator.i
+
+# target to preprocess a source file
+Mediator.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Mediator.cpp.i
+.PHONY : Mediator.cpp.i
+
+Mediator.s: Mediator.cpp.s
+
+.PHONY : Mediator.s
+
+# target to generate assembly for a file
+Mediator.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Mediator.cpp.s
+.PHONY : Mediator.cpp.s
 
 Mobility.o: Mobility.cpp.o
 
@@ -447,6 +825,249 @@ Terrain/TerrainProxy.cpp.s:
 	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.s
 .PHONY : Terrain/TerrainProxy.cpp.s
 
+Unit/AbleUnit.o: Unit/AbleUnit.cpp.o
+
+.PHONY : Unit/AbleUnit.o
+
+# target to build an object file
+Unit/AbleUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o
+.PHONY : Unit/AbleUnit.cpp.o
+
+Unit/AbleUnit.i: Unit/AbleUnit.cpp.i
+
+.PHONY : Unit/AbleUnit.i
+
+# target to preprocess a source file
+Unit/AbleUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.i
+.PHONY : Unit/AbleUnit.cpp.i
+
+Unit/AbleUnit.s: Unit/AbleUnit.cpp.s
+
+.PHONY : Unit/AbleUnit.s
+
+# target to generate assembly for a file
+Unit/AbleUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.s
+.PHONY : Unit/AbleUnit.cpp.s
+
+Unit/EnduringUnit.o: Unit/EnduringUnit.cpp.o
+
+.PHONY : Unit/EnduringUnit.o
+
+# target to build an object file
+Unit/EnduringUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o
+.PHONY : Unit/EnduringUnit.cpp.o
+
+Unit/EnduringUnit.i: Unit/EnduringUnit.cpp.i
+
+.PHONY : Unit/EnduringUnit.i
+
+# target to preprocess a source file
+Unit/EnduringUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.i
+.PHONY : Unit/EnduringUnit.cpp.i
+
+Unit/EnduringUnit.s: Unit/EnduringUnit.cpp.s
+
+.PHONY : Unit/EnduringUnit.s
+
+# target to generate assembly for a file
+Unit/EnduringUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.s
+.PHONY : Unit/EnduringUnit.cpp.s
+
+Unit/MobileUnit.o: Unit/MobileUnit.cpp.o
+
+.PHONY : Unit/MobileUnit.o
+
+# target to build an object file
+Unit/MobileUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o
+.PHONY : Unit/MobileUnit.cpp.o
+
+Unit/MobileUnit.i: Unit/MobileUnit.cpp.i
+
+.PHONY : Unit/MobileUnit.i
+
+# target to preprocess a source file
+Unit/MobileUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.i
+.PHONY : Unit/MobileUnit.cpp.i
+
+Unit/MobileUnit.s: Unit/MobileUnit.cpp.s
+
+.PHONY : Unit/MobileUnit.s
+
+# target to generate assembly for a file
+Unit/MobileUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.s
+.PHONY : Unit/MobileUnit.cpp.s
+
+Unit/TheAgile.o: Unit/TheAgile.cpp.o
+
+.PHONY : Unit/TheAgile.o
+
+# target to build an object file
+Unit/TheAgile.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o
+.PHONY : Unit/TheAgile.cpp.o
+
+Unit/TheAgile.i: Unit/TheAgile.cpp.i
+
+.PHONY : Unit/TheAgile.i
+
+# target to preprocess a source file
+Unit/TheAgile.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.i
+.PHONY : Unit/TheAgile.cpp.i
+
+Unit/TheAgile.s: Unit/TheAgile.cpp.s
+
+.PHONY : Unit/TheAgile.s
+
+# target to generate assembly for a file
+Unit/TheAgile.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.s
+.PHONY : Unit/TheAgile.cpp.s
+
+Unit/TheMarathoner.o: Unit/TheMarathoner.cpp.o
+
+.PHONY : Unit/TheMarathoner.o
+
+# target to build an object file
+Unit/TheMarathoner.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o
+.PHONY : Unit/TheMarathoner.cpp.o
+
+Unit/TheMarathoner.i: Unit/TheMarathoner.cpp.i
+
+.PHONY : Unit/TheMarathoner.i
+
+# target to preprocess a source file
+Unit/TheMarathoner.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.i
+.PHONY : Unit/TheMarathoner.cpp.i
+
+Unit/TheMarathoner.s: Unit/TheMarathoner.cpp.s
+
+.PHONY : Unit/TheMarathoner.s
+
+# target to generate assembly for a file
+Unit/TheMarathoner.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.s
+.PHONY : Unit/TheMarathoner.cpp.s
+
+Unit/ThePowerful.o: Unit/ThePowerful.cpp.o
+
+.PHONY : Unit/ThePowerful.o
+
+# target to build an object file
+Unit/ThePowerful.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o
+.PHONY : Unit/ThePowerful.cpp.o
+
+Unit/ThePowerful.i: Unit/ThePowerful.cpp.i
+
+.PHONY : Unit/ThePowerful.i
+
+# target to preprocess a source file
+Unit/ThePowerful.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.i
+.PHONY : Unit/ThePowerful.cpp.i
+
+Unit/ThePowerful.s: Unit/ThePowerful.cpp.s
+
+.PHONY : Unit/ThePowerful.s
+
+# target to generate assembly for a file
+Unit/ThePowerful.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.s
+.PHONY : Unit/ThePowerful.cpp.s
+
+Unit/TheRanger.o: Unit/TheRanger.cpp.o
+
+.PHONY : Unit/TheRanger.o
+
+# target to build an object file
+Unit/TheRanger.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o
+.PHONY : Unit/TheRanger.cpp.o
+
+Unit/TheRanger.i: Unit/TheRanger.cpp.i
+
+.PHONY : Unit/TheRanger.i
+
+# target to preprocess a source file
+Unit/TheRanger.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.i
+.PHONY : Unit/TheRanger.cpp.i
+
+Unit/TheRanger.s: Unit/TheRanger.cpp.s
+
+.PHONY : Unit/TheRanger.s
+
+# target to generate assembly for a file
+Unit/TheRanger.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.s
+.PHONY : Unit/TheRanger.cpp.s
+
+Unit/TheTough.o: Unit/TheTough.cpp.o
+
+.PHONY : Unit/TheTough.o
+
+# target to build an object file
+Unit/TheTough.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o
+.PHONY : Unit/TheTough.cpp.o
+
+Unit/TheTough.i: Unit/TheTough.cpp.i
+
+.PHONY : Unit/TheTough.i
+
+# target to preprocess a source file
+Unit/TheTough.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheTough.cpp.i
+.PHONY : Unit/TheTough.cpp.i
+
+Unit/TheTough.s: Unit/TheTough.cpp.s
+
+.PHONY : Unit/TheTough.s
+
+# target to generate assembly for a file
+Unit/TheTough.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheTough.cpp.s
+.PHONY : Unit/TheTough.cpp.s
+
+Unit/TheVampire.o: Unit/TheVampire.cpp.o
+
+.PHONY : Unit/TheVampire.o
+
+# target to build an object file
+Unit/TheVampire.cpp.o:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o
+.PHONY : Unit/TheVampire.cpp.o
+
+Unit/TheVampire.i: Unit/TheVampire.cpp.i
+
+.PHONY : Unit/TheVampire.i
+
+# target to preprocess a source file
+Unit/TheVampire.cpp.i:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.i
+.PHONY : Unit/TheVampire.cpp.i
+
+Unit/TheVampire.s: Unit/TheVampire.cpp.s
+
+.PHONY : Unit/TheVampire.s
+
+# target to generate assembly for a file
+Unit/TheVampire.cpp.s:
+	$(MAKE) -f CMakeFiles/OOProject.dir/build.make CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.s
+.PHONY : Unit/TheVampire.cpp.s
+
 Unit/Unit.o: Unit/Unit.cpp.o
 
 .PHONY : Unit/Unit.o
@@ -546,6 +1167,45 @@ help:
 	@echo "... Entity/Entity.o"
 	@echo "... Entity/Entity.i"
 	@echo "... Entity/Entity.s"
+	@echo "... Factory/AbstractFactory.o"
+	@echo "... Factory/AbstractFactory.i"
+	@echo "... Factory/AbstractFactory.s"
+	@echo "... Factory/CommonFactory.o"
+	@echo "... Factory/CommonFactory.i"
+	@echo "... Factory/CommonFactory.s"
+	@echo "... Factory/Terrain/AbstractTerrainFactory.o"
+	@echo "... Factory/Terrain/AbstractTerrainFactory.i"
+	@echo "... Factory/Terrain/AbstractTerrainFactory.s"
+	@echo "... Factory/Terrain/HollyFactory.o"
+	@echo "... Factory/Terrain/HollyFactory.i"
+	@echo "... Factory/Terrain/HollyFactory.s"
+	@echo "... Factory/Terrain/SpikyFactory.o"
+	@echo "... Factory/Terrain/SpikyFactory.i"
+	@echo "... Factory/Terrain/SpikyFactory.s"
+	@echo "... Factory/Terrain/SteepFactory.o"
+	@echo "... Factory/Terrain/SteepFactory.i"
+	@echo "... Factory/Terrain/SteepFactory.s"
+	@echo "... Factory/Unit/AbstractUnitFactory.o"
+	@echo "... Factory/Unit/AbstractUnitFactory.i"
+	@echo "... Factory/Unit/AbstractUnitFactory.s"
+	@echo "... Factory/Unit/AgileFactory.o"
+	@echo "... Factory/Unit/AgileFactory.i"
+	@echo "... Factory/Unit/AgileFactory.s"
+	@echo "... Factory/Unit/MarathonerFactory.o"
+	@echo "... Factory/Unit/MarathonerFactory.i"
+	@echo "... Factory/Unit/MarathonerFactory.s"
+	@echo "... Factory/Unit/PowerfulFactory.o"
+	@echo "... Factory/Unit/PowerfulFactory.i"
+	@echo "... Factory/Unit/PowerfulFactory.s"
+	@echo "... Factory/Unit/RangerFactory.o"
+	@echo "... Factory/Unit/RangerFactory.i"
+	@echo "... Factory/Unit/RangerFactory.s"
+	@echo "... Factory/Unit/ToughFactory.o"
+	@echo "... Factory/Unit/ToughFactory.i"
+	@echo "... Factory/Unit/ToughFactory.s"
+	@echo "... Factory/Unit/VampireFactory.o"
+	@echo "... Factory/Unit/VampireFactory.i"
+	@echo "... Factory/Unit/VampireFactory.s"
 	@echo "... Field.o"
 	@echo "... Field.i"
 	@echo "... Field.s"
@@ -555,6 +1215,9 @@ help:
 	@echo "... GameObject.o"
 	@echo "... GameObject.i"
 	@echo "... GameObject.s"
+	@echo "... Mediator.o"
+	@echo "... Mediator.i"
+	@echo "... Mediator.s"
 	@echo "... Mobility.o"
 	@echo "... Mobility.i"
 	@echo "... Mobility.s"
@@ -573,6 +1236,33 @@ help:
 	@echo "... Terrain/TerrainProxy.o"
 	@echo "... Terrain/TerrainProxy.i"
 	@echo "... Terrain/TerrainProxy.s"
+	@echo "... Unit/AbleUnit.o"
+	@echo "... Unit/AbleUnit.i"
+	@echo "... Unit/AbleUnit.s"
+	@echo "... Unit/EnduringUnit.o"
+	@echo "... Unit/EnduringUnit.i"
+	@echo "... Unit/EnduringUnit.s"
+	@echo "... Unit/MobileUnit.o"
+	@echo "... Unit/MobileUnit.i"
+	@echo "... Unit/MobileUnit.s"
+	@echo "... Unit/TheAgile.o"
+	@echo "... Unit/TheAgile.i"
+	@echo "... Unit/TheAgile.s"
+	@echo "... Unit/TheMarathoner.o"
+	@echo "... Unit/TheMarathoner.i"
+	@echo "... Unit/TheMarathoner.s"
+	@echo "... Unit/ThePowerful.o"
+	@echo "... Unit/ThePowerful.i"
+	@echo "... Unit/ThePowerful.s"
+	@echo "... Unit/TheRanger.o"
+	@echo "... Unit/TheRanger.i"
+	@echo "... Unit/TheRanger.s"
+	@echo "... Unit/TheTough.o"
+	@echo "... Unit/TheTough.i"
+	@echo "... Unit/TheTough.s"
+	@echo "... Unit/TheVampire.o"
+	@echo "... Unit/TheVampire.i"
+	@echo "... Unit/TheVampire.s"
 	@echo "... Unit/Unit.o"
 	@echo "... Unit/Unit.i"
 	@echo "... Unit/Unit.s"

@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include "Field.h"
+#include "Factory/CommonFactory.h"
+
 
 class Game {
 
@@ -14,6 +16,10 @@ private:
     static Game* instance;
 
     Field* field;
+
+    CommonFactory* factory;
+
+
 public:
     static Game &getInstance();
 

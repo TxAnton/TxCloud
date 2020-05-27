@@ -5,11 +5,11 @@
 #include "ThePowerful.h"
 
 ThePowerful::ThePowerful(int x, int y, Devotion devotion, int health, int armour, float dmgmul, int abPower,
-                         int abRange, int mbAgility, int mbRange) : AbleUnit(x, y, devotion, CommonClass::Unit2,
+                         int abRange, int mbAgility, int mbRange) : AbleUnit(x, y, devotion, CommonClass::ThePowerful,
                                                                                           health, armour, dmgmul,
                                                                                           abPower, abRange, mbAgility,
                                                                                           mbRange) {}
 
 CommonClass ThePowerful::getObjectClass() {
-    return CommonClass::Unit2;
+    return CommonClass::ThePowerful;
 }

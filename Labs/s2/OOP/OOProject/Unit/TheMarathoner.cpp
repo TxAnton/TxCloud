@@ -7,7 +7,7 @@
 TheMarathoner::TheMarathoner(int x, int y, Devotion devotion, int health, int armour, float dmgmul, int abPower,
                              int abRange, int mbAgility, int mbRange) : MobileUnit(x, y,
                                                                                                               devotion,
-                                                                                                              CommonClass::Unit4,
+                                                                                                              CommonClass::TheMarathoner,
                                                                                                               health,
                                                                                                               armour,
                                                                                                               dmgmul,
@@ -17,5 +17,5 @@ TheMarathoner::TheMarathoner(int x, int y, Devotion devotion, int health, int ar
                                                                                                               mbRange) {}
 
 CommonClass TheMarathoner::getObjectClass() {
-    return CommonClass::Unit4;
+    return CommonClass::TheMarathoner;
 }

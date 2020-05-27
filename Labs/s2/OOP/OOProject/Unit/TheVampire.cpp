@@ -5,13 +5,13 @@
 #include "TheVampire.h"
 
 TheVampire::TheVampire(int x, int y, Devotion devotion, int health, int armour, float dmgmul, int abPower, int abRange,
-                       int mbAgility, int mbRange, float vampiricMultiplyer) : EnduringUnit(x, y, devotion, CommonClass::Unit6,
+                       int mbAgility, int mbRange, float vampiricMultiplyer) : EnduringUnit(x, y, devotion, CommonClass::TheVampire,
                                                                                             health, armour, dmgmul,
                                                                                             abPower, abRange, mbAgility,
                                                                                             mbRange),vampiricMultiplyer(vampiricMultiplyer) {}
 
 CommonClass TheVampire::getObjectClass() {
-    return CommonClass::Unit6;
+    return CommonClass::TheVampire;
 }
 
 void TheVampire::act(std::shared_ptr<GameObject> obj) {

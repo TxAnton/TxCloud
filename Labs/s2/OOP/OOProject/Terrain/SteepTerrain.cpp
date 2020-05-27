@@ -6,7 +6,11 @@
 
 SteepTerrain::SteepTerrain(int x, int y, int steepness) : Terrain(x,
                                                                   y,
-                                                                  CommonClass::Terrain2,
+                                                                  CommonClass::SteepTerrain,
                                                                   TerrainType::SteepTerrain,
                                                                   steepness) {}
+
+CommonClass SteepTerrain::getObjectClass() {
+    return CommonClass::SteepTerrain;
+}
 

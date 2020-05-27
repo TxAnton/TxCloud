@@ -18,6 +18,152 @@ CMakeFiles/OOProject.dir/Cell.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: ../Entity/Entity.cpp
 CMakeFiles/OOProject.dir/Entity/Entity.cpp.o: ../Entity/Entity.h
 
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../Factory/AbstractFactory.cpp
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/CommonFactory.cpp
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/CommonFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Terrain/HollyFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Terrain/SpikyFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Terrain/SteepFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/AgileFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/MarathonerFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/PowerfulFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/RangerFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/ToughFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/Unit/VampireFactory.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Factory/Terrain/HollyFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Factory/Terrain/HollyFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Terrain/HollyTerrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Factory/Terrain/SpikyFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Factory/Terrain/SpikyFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Terrain/SpikyTerrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Factory/Terrain/SteepFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Factory/Terrain/SteepFactory.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Terrain/SteepTerrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Terrain/Terrain.h
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Factory/Unit/AgileFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Factory/Unit/AgileFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Unit/MobileUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Unit/TheAgile.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Factory/Unit/MarathonerFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Factory/Unit/MarathonerFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Unit/MobileUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Unit/TheMarathoner.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Factory/Unit/PowerfulFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Factory/Unit/PowerfulFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Unit/AbleUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Unit/ThePowerful.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Factory/Unit/RangerFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Factory/Unit/RangerFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Unit/AbleUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Unit/TheRanger.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Factory/Unit/ToughFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Factory/Unit/ToughFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Unit/TheTough.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Factory/Unit/VampireFactory.cpp
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Factory/Unit/VampireFactory.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Unit/TheVampire.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Vitality.h
+
 CMakeFiles/OOProject.dir/Field.cpp.o: ../Ability.h
 CMakeFiles/OOProject.dir/Field.cpp.o: ../Cell.h
 CMakeFiles/OOProject.dir/Field.cpp.o: ../Entity/Entity.h
@@ -33,6 +179,19 @@ CMakeFiles/OOProject.dir/Field.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Ability.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Cell.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Entity/Entity.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/CommonFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Terrain/HollyFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Terrain/SpikyFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Terrain/SteepFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/AgileFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/MarathonerFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/PowerfulFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/RangerFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/ToughFactory.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Factory/Unit/VampireFactory.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Field.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Game.h
@@ -40,6 +199,8 @@ CMakeFiles/OOProject.dir/Game.cpp.o: ../GameObject.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Mobility.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Stats.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Terrain/TerrainProxy.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Game.cpp.o: ../Unit/TheTough.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Unit/Unit.h
 CMakeFiles/OOProject.dir/Game.cpp.o: ../Vitality.h
 
@@ -47,6 +208,19 @@ CMakeFiles/OOProject.dir/GameObject.cpp.o: ../GameObject.cpp
 CMakeFiles/OOProject.dir/GameObject.cpp.o: ../GameObject.h
 CMakeFiles/OOProject.dir/GameObject.cpp.o: ../Stats.h
 CMakeFiles/OOProject.dir/GameObject.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Cell.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Entity/Entity.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Field.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Mediator.cpp
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Mediator.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Terrain/TerrainProxy.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Vitality.h
 
 CMakeFiles/OOProject.dir/Mobility.cpp.o: ../Mobility.cpp
 CMakeFiles/OOProject.dir/Mobility.cpp.o: ../Mobility.h
@@ -81,6 +255,93 @@ CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: ../Terrain/TerrainProxy.cpp
 CMakeFiles/OOProject.dir/Terrain/TerrainProxy.cpp.o: ../Terrain/TerrainProxy.h
 
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Unit/AbleUnit.cpp
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Unit/AbleUnit.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Unit/EnduringUnit.cpp
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Unit/MobileUnit.cpp
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Unit/MobileUnit.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Unit/MobileUnit.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Unit/TheAgile.cpp
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Unit/TheAgile.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Unit/MobileUnit.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Unit/TheMarathoner.cpp
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Unit/TheMarathoner.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Unit/AbleUnit.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Unit/ThePowerful.cpp
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Unit/ThePowerful.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Unit/AbleUnit.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Unit/TheRanger.cpp
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Unit/TheRanger.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Unit/TheTough.cpp
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Unit/TheTough.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Vitality.h
+
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Ability.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../GameObject.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Mobility.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Stats.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Unit/EnduringUnit.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Unit/TheVampire.cpp
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Unit/TheVampire.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Unit/Unit.h
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Vitality.h
+
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Ability.h
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../GameObject.h
 CMakeFiles/OOProject.dir/Unit/Unit.cpp.o: ../Mobility.h
@@ -97,6 +358,19 @@ CMakeFiles/OOProject.dir/Vitality.cpp.o: ../Vitality.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../Ability.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../Cell.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../Entity/Entity.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/AbstractFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/CommonFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Terrain/HollyFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Terrain/SpikyFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Terrain/SteepFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/AbstractUnitFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/AgileFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/MarathonerFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/PowerfulFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/RangerFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/ToughFactory.h
+CMakeFiles/OOProject.dir/main.cpp.o: ../Factory/Unit/VampireFactory.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../Field.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../Game.h
 CMakeFiles/OOProject.dir/main.cpp.o: ../GameObject.h

@@ -252,6 +252,305 @@ CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Terrain/HollyTerrain.cpp -o CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.s
 
+CMakeFiles/OOProject.dir/Mediator.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Mediator.cpp.o: ../Mediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OOProject.dir/Mediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Mediator.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mediator.cpp
+
+CMakeFiles/OOProject.dir/Mediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Mediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mediator.cpp > CMakeFiles/OOProject.dir/Mediator.cpp.i
+
+CMakeFiles/OOProject.dir/Mediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Mediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Mediator.cpp -o CMakeFiles/OOProject.dir/Mediator.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o: ../Unit/AbleUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/AbleUnit.cpp
+
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/AbleUnit.cpp > CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/AbleUnit.cpp -o CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o: ../Unit/TheRanger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheRanger.cpp
+
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheRanger.cpp > CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheRanger.cpp -o CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o: ../Unit/ThePowerful.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/ThePowerful.cpp
+
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/ThePowerful.cpp > CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/ThePowerful.cpp -o CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o: ../Unit/MobileUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/MobileUnit.cpp
+
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/MobileUnit.cpp > CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/MobileUnit.cpp -o CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o: ../Unit/TheAgile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheAgile.cpp
+
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheAgile.cpp > CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheAgile.cpp -o CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o: ../Unit/TheMarathoner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheMarathoner.cpp
+
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheMarathoner.cpp > CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheMarathoner.cpp -o CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o: ../Unit/EnduringUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/EnduringUnit.cpp
+
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/EnduringUnit.cpp > CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/EnduringUnit.cpp -o CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o: ../Unit/TheTough.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheTough.cpp
+
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/TheTough.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheTough.cpp > CMakeFiles/OOProject.dir/Unit/TheTough.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/TheTough.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/TheTough.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheTough.cpp -o CMakeFiles/OOProject.dir/Unit/TheTough.cpp.s
+
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o: ../Unit/TheVampire.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheVampire.cpp
+
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheVampire.cpp > CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.i
+
+CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Unit/TheVampire.cpp -o CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o: ../Factory/AbstractFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/AbstractFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/AbstractFactory.cpp > CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/AbstractFactory.cpp -o CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o: ../Factory/Unit/AbstractUnitFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AbstractUnitFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AbstractUnitFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AbstractUnitFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o: ../Factory/Unit/RangerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/RangerFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/RangerFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/RangerFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o: ../Factory/Unit/PowerfulFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/PowerfulFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/PowerfulFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/PowerfulFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o: ../Factory/Unit/AgileFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AgileFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AgileFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/AgileFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o: ../Factory/Unit/MarathonerFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/MarathonerFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/MarathonerFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/MarathonerFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o: ../Factory/Unit/VampireFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/VampireFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/VampireFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/VampireFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o: ../Factory/Terrain/AbstractTerrainFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/AbstractTerrainFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/AbstractTerrainFactory.cpp > CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/AbstractTerrainFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o: ../Factory/Terrain/SpikyFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SpikyFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SpikyFactory.cpp > CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SpikyFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o: ../Factory/Terrain/SteepFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SteepFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SteepFactory.cpp > CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/SteepFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o: ../Factory/Terrain/HollyFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/HollyFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/HollyFactory.cpp > CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Terrain/HollyFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o: ../Factory/CommonFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/CommonFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/CommonFactory.cpp > CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/CommonFactory.cpp -o CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.s
+
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: CMakeFiles/OOProject.dir/flags.make
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o: ../Factory/Unit/ToughFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o -c /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/ToughFactory.cpp
+
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/ToughFactory.cpp > CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.i
+
+CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/Factory/Unit/ToughFactory.cpp -o CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.s
+
 # Object files for target OOProject
 OOProject_OBJECTS = \
 "CMakeFiles/OOProject.dir/main.cpp.o" \
@@ -268,7 +567,30 @@ OOProject_OBJECTS = \
 "CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o" \
 "CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o" \
 "CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o" \
-"CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o"
+"CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o" \
+"CMakeFiles/OOProject.dir/Mediator.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o" \
+"CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o" \
+"CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o"
 
 # External object files for target OOProject
 OOProject_EXTERNAL_OBJECTS =
@@ -288,9 +610,32 @@ OOProject: CMakeFiles/OOProject.dir/Terrain/Terrain.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Terrain/SteepTerrain.cpp.o
 OOProject: CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Mediator.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/AbleUnit.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/TheRanger.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/ThePowerful.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/MobileUnit.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/TheAgile.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/TheMarathoner.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/EnduringUnit.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/TheTough.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Unit/TheVampire.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o
+OOProject: CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o
 OOProject: CMakeFiles/OOProject.dir/build.make
 OOProject: CMakeFiles/OOProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable OOProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anton/E6D8B24FD8B21E2D/Git/txcloud/Labs/s2/OOP/OOProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable OOProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OOProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

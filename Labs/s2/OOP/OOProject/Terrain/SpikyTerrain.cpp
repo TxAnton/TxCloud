@@ -11,9 +11,9 @@ void SpikyTerrain::restep(std::shared_ptr<GameObject> sbj) {
 }
 
 SpikyTerrain::SpikyTerrain(int x, int y, int steepness, int damage)
-        : Terrain(x, y, CommonClass::Terrain1, TerrainType::SpikyTerrain, steepness), damage(damage) {}
+        : Terrain(x, y, CommonClass::SpikyTerrain, TerrainType::SpikyTerrain, steepness), damage(damage) {}
 
 
 CommonClass SpikyTerrain::getObjectClass() {
-    return CommonClass ::Terrain1;
+    return CommonClass ::SpikyTerrain;
 }

@@ -10,6 +10,9 @@
 class SteepTerrain:public Terrain {
 public:
     SteepTerrain(int x, int y, int steepness);
+
+private:
+    CommonClass getObjectClass() override;
 };
 
 
