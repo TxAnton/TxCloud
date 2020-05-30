@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "GameObject.h"
-#include "Unit/Unit.h"
-#include "Terrain/TerrainProxy.h"
-#include "Entity/Entity.h"
+#include "GameObject/GameObject.h"
+#include "GameObject/Unit/Unit.h"
+#include "GameObject/Terrain/TerrainProxy.h"
+#include "GameObject/Entity/Entity.h"
 
 class Cell {
 public:

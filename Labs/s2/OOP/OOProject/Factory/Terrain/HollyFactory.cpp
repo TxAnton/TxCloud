@@ -4,7 +4,7 @@
 
 #include "HollyFactory.h"
 
-#include "../../Terrain/HollyTerrain.h"
+#include "../../GameObject/Terrain/HollyTerrain.h"
 
 HollyFactory::HollyFactory(int steepness, int healAmount) : AbstractTerrainFactory(steepness), healAmount(healAmount) {}
 

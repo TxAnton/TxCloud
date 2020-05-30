@@ -4,7 +4,7 @@
 
 #include "SteepFactory.h"
 
-#include "../../Terrain/SteepTerrain.h"
+#include "../../GameObject/Terrain/SteepTerrain.h"
 
 SteepFactory::SteepFactory(int steepness, int enhancedSteepness) : AbstractTerrainFactory(steepness),
                                                                    enhancedSteepness(enhancedSteepness) {}

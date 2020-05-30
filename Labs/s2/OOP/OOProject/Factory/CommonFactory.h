@@ -6,6 +6,7 @@
 #define OOPROJECT_COMMONFACTORY_H
 
 #include <memory>
+#include <cassert>
 
 #include "Unit/AgileFactory.h"
 #include "Unit/MarathonerFactory.h"
@@ -16,25 +17,45 @@
 #include "Terrain/HollyFactory.h"
 #include "Terrain/SpikyFactory.h"
 #include "Terrain/SteepFactory.h"
+#include "Entity/BlockFactory.h"
+#include "Entity/PitFactory.h"
+#include "Entity/TrapFactory.h"
+#include "Entity/HealFactory.h"
+#include "Base/BaseFactory.h"
 
+#include <memory>
+
+#include "../GameObject/FlyWeight.h"
+
+class Mediator;
 
 class CommonFactory {
 public:
+
+    CommonFactory(const std::shared_ptr<Mediator> &mediator);
+
     CommonFactory();
 
-    /*
-    CommonFactory(int health, int enhancedHealth, int armour, float dmgmul, float vampiricMultiplyer,
-                  int abPower, int enhancedPower, int abRange, int enhancedAbRange, int mbAgility,
-                  int enhancedAgility, int mbRange, int enhancedMbRange);
-                  */
+
     std::shared_ptr<GameObject> createObject(int x, int y, Devotion devotion, CommonClass objectClass);
+    void setBase(std::shared_ptr<Base> base, Devotion devotion);
 private:
     void initFactories();
+
     void initParams(int health, int enhancedHealth, int armour, float dmgmul, float vampiricMultiplyer,
                     int abPower, int enhancedPower, int abRange, int enhancedAbRange, int mbAgility,
                     int enhancedAgility, int mbRange, int enhancedMbRange, int steepness,
-                    int enhancedSteepness, int terrainDamage, int terrainHeal);
+                    int enhancedSteepness, int terrainDamage, int terrainHeal,int baseLim,
+                    int baseHealth,int baseArmour,float baseDmgmul,
+                    int blockHealth,int healAmount,int pitHealth,int pitDmg,int trapDmg);
 private:
+    std::shared_ptr<Mediator> mediator;
+public:
+    void setMediator(const std::shared_ptr<Mediator> &mediator);
+
+private:
+    FlyWeight flyWeight;
+
     std::unique_ptr<RangerFactory> rangerFactory;
     std::unique_ptr<PowerfulFactory> powerfulFactory;
     std::unique_ptr<AgileFactory> agileFactory;
@@ -44,9 +65,15 @@ private:
     std::unique_ptr<SpikyFactory> spikyFactory;
     std::unique_ptr<SteepFactory> steepFactory;
     std::unique_ptr<HollyFactory> hollyFactory;
+    std::unique_ptr<BaseFactory> baseFactory;
+    std::unique_ptr<HealFactory> healFactory;
+    std::unique_ptr<TrapFactory> trapFactory;
+    std::unique_ptr<BlockFactory> blockFactory;
+    std::unique_ptr<PitFactory> pitFactory;
+
 
     int health = 100;
-    int enhancedHealth;
+    int enhancedHealth=200;
     int armour = 100;
     float dmgmul = 1;
     float vampiricMultiplyer=.8;
@@ -63,6 +90,20 @@ private:
     int enhancedSteepness = 7;
     int terrainDamage = 25;
     int terrainHeal = 25;
+
+    int baseLim=50;
+    int baseHealth=500;
+    int baseArmour=100;
+    float baseDmgmul=1;
+
+    int blockHealth=100;
+    int healAmount=25;
+    int pitHealth=1000;
+    int pitDmg=999;
+    int trapDmg=25;
+
+    std::shared_ptr<Base> lightBase;
+    std::shared_ptr<Base> darkBase;
 
 
 

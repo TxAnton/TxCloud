@@ -4,7 +4,7 @@
 
 #include "SpikyFactory.h"
 
-#include "../../Terrain/SpikyTerrain.h"
+#include "../../GameObject/Terrain/SpikyTerrain.h"
 
 SpikyFactory::SpikyFactory(int steepness, int damage) : AbstractTerrainFactory(steepness), damage(damage) {}
 

@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "../GameObject.h"
+#include "../GameObject/GameObject.h"
 
 class AbstractFactory {
 public:

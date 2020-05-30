@@ -7,10 +7,11 @@
 
 
 #include "../GameObject.h"
-#include "../Stats.h"
+#include "../../Stats.h"
 
 
 class Terrain: public GameObject {
+    friend class TerrainProxy;
 public:
     Terrain(int x, int y, CommonClass objectClass, TerrainType terrainType, int steepness);
 

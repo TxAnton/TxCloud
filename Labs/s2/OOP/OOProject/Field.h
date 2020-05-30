@@ -20,6 +20,7 @@ public:
     std::shared_ptr<Unit> getUnitAt(int x, int y);
     void setUnitAt(std::shared_ptr<Unit> unit, int x, int y);
 
+
     std::shared_ptr<TerrainProxy> getTerrainAt(int x, int y);
     void setTerrainAt(std::shared_ptr<TerrainProxy> terrain, int x, int y);
 

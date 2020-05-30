@@ -85,14 +85,21 @@ std::wstring Field::toWString() {
             if (i == -1 || i == width) {
                 if (j == -1 || j == height) str += L"#";//Corner element
                 else {//Left/right Border
-                    str += L'a' + j;
+                    str += L'0' + j;
                 }
             } else if (j == -1 || j == height) {
-                str += L'1' + i;
+                str += L'0' + i;
             } else {
-                if (content[i][j].getUnit() == nullptr)str += L" ";
-                else {
-                    str += content[i][j].getUnit()->flyWeight->symbol;
+                auto ptr = content[i][j].getUnit();
+                if(ptr){
+                        str += ptr->getFlyWeight()->symbol;
+                }else{
+                    auto ePtr = content[i][j].getEntity();
+                    if(ePtr){
+                        str += ePtr->getFlyWeight()->symbol;
+                    } else{
+                        str += content[i][j].getTerrain()->getFlyWeight()->symbol;
+                    }
                 }
             }
         }

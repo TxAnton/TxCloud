@@ -4,10 +4,11 @@
 
 #include "RangerFactory.h"
 
-#include "../../Unit/TheRanger.h"
+#include "../../GameObject/Unit/TheRanger.h"
 
 std::shared_ptr<GameObject> RangerFactory::createObject(int x, int y, Devotion devotion) {
     auto rPtr = std::make_shared<TheRanger>(x,y,devotion,health,armour,dmgmul,abPower,enhancedRange,mbAgility,mbRange);
+    onUnitCreate(std::static_pointer_cast<Unit>(rPtr));
     return std::static_pointer_cast<GameObject>(rPtr);
 }
 

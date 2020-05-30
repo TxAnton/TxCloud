@@ -11,6 +11,10 @@ class GameObject;
 
 class Vitality {
     int health;
+public:
+    int getHealth() const;
+
+private:
     int armour;
     float dmgMul = 1;
     GameObject* master;
