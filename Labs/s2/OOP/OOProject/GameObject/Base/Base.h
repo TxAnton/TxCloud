@@ -5,7 +5,7 @@
 #ifndef OOPROJECT_BASE_H
 #define OOPROJECT_BASE_H
 
-#include <iostream>
+//#include <iostream>
 
 #include <vector>
 #include <memory>
@@ -13,6 +13,7 @@
 #include "../Entity/Entity.h"
 
 #include "Observee.h"
+
 
 
 class Base:public Entity {
@@ -25,7 +26,8 @@ public:
     void addObservee(std::shared_ptr<Observee> observee);
     void addObservee(Observee* observee);
 
-private:
+    bool isLim();
+
     CommonClass getObjectClass() override;
 
     void act(std::shared_ptr<GameObject> obj) override;
@@ -42,8 +44,18 @@ private:
 
     bool createUnit(CommonClass commonClass);
 
+
+
 private:
     int lim;
+public:
+    int getLim() const;
+
+    int getCur() const;
+
+    void setToBeRemoved(bool toBeRemoved) override;
+
+private:
     int cur;
     std::vector<Observee*> observees;
 };

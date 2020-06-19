@@ -7,6 +7,8 @@
 
 #include <memory>
 
+
+
 class Base;
 
 class Observee {

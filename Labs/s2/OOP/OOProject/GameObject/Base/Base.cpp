@@ -5,7 +5,9 @@
 #include "Base.h"
 
 #include "../../Mediator.h"
+
 //Base::Base(int x, int y, Devotion devotion, int health, int armour, float dmgmul, int lim) : GameObject(x, y, false, devotion, ObjectType::Base, CommonClass::Base, health, armour, dmgmul), lim(lim), cur(0) {}
+
 
 Base::Base(int x, int y, Devotion devotion, CommonClass objectClass, int health, EntityType entityType, int lim)
         : Entity(x, y, devotion, objectClass, health, entityType), lim(lim), cur(0) {}
@@ -23,19 +25,23 @@ void Base::slObserveeDeath(Observee *observee) {
         //TODO exceptions on else
         }
     }
+
     if(!flag){
         //TODO exeption observee not found
     }
-    std::cout<<"Base: observee died"<<std::endl;
+    if(observees.size()==0){
+        getMediator()->onUnitsDestroyed(getDevotion());
+    }
+    //std::cout<<"Base: observee died"<<std::endl;
 }
 
 void Base::addObservee(std::shared_ptr<Observee> observee) {
     //observees.push_back(observee);
-    std::cout<<"Base: observee added"<<std::endl;
+    //std::cout<<"Base: observee added"<<std::endl;
 }
 void Base::addObservee(Observee* observee) {
     observees.push_back(observee);
-    std::cout<<"Base: observee added"<<std::endl;
+    //std::cout<<"Base: observee added"<<std::endl;
 }
 
 CommonClass Base::getObjectClass() {
@@ -70,6 +76,23 @@ bool Base::createUnit(CommonClass commonClass) {
     assert(classToType(commonClass)==ObjectType::Unit);
     std::pair<int,int> c = getCoords();
     return getMediator()->createObject(c.first,c.second,getDevotion(),commonClass);
+}
+
+bool Base::isLim() {
+    return cur>=lim;
+}
+
+int Base::getLim() const {
+    return lim;
+}
+
+int Base::getCur() const {
+    return cur;
+}
+
+void Base::setToBeRemoved(bool toBeRemoved) {
+    GameObject::setToBeRemoved(toBeRemoved);
+    getMediator()->onBaseDestroyed(getDevotion());
 }
 
 

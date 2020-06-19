@@ -12,123 +12,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cc606ae-e2f6-4b63-9460-01e702f064eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Factory/Base/BaseFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Base/BaseFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/AbstractEntityFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/AbstractEntityFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/BlockFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/BlockFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/HealFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/HealFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/PitFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/PitFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/TrapFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Factory/Entity/TrapFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Base/Base.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Base/Base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Base/Observee.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Base/Observee.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/BlockEntity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/BlockEntity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/HealEntity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/HealEntity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/PitEntity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/PitEntity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/TrapEntity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/Entity/TrapEntity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/FlyWeight.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameObject/FlyWeight.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/AI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/AI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/Actor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/Actor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/CLI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actor/CLI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/AbstractCommand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/CommandExit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/CommandInteract.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/CommandRestart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/CommandSelect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/CommandSummon.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Command/everything.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/AbstractHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/AbstractHandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerExit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerExit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerRestart.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerRestart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerStuff.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/HandlerStuff.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Handler/everything.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Sender/ISender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Sender/Sender.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Command/Sender/Sender.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/AttemptToSetNeutralBaseException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/BaseNotSetException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/MediatorNotSetException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/NoTerrainException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/ObjectLimitExceededException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exeptions/SelectionOutOfBoundsExeption.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/Composer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/Composer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/FacadeReciever.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/FacadeReciever.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/IFacade.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/IFacade.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/State.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/State.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlyCell.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlyCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameLoop.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameLoop.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameRules.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameRules.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/AbstractLogger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/ConsoleLogger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/ConsoleLoggerAdapter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/FileLogger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/FileLoggerAdapter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/LoggerProxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/NoLogger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/everything.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Experiments/Moldwerp/echo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Experiments/Moldwerp/echo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Alg/5_Aho/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Alg/5_Aho/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../EO/Larin_Anton_8383_EO_22_2.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EO/Larin_Anton_8383_EO_22_2.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ability.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Ability.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ability.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Ability.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cell.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Entity/Entity.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Entity/Entity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/AbstractFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/AbstractFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/AbstractFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/AbstractFactory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Factory/CommonFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/CommonFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Factory/CommonFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/CommonFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Terrain/HollyFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Terrain/HollyFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Terrain/SpikyFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Terrain/SpikyFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Terrain/SteepFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Terrain/SteepFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/AgileFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/AgileFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/MarathonerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/MarathonerFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/PowerfulFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/PowerfulFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/RangerFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/RangerFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/ToughFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/ToughFactory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Unit/VampireFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Unit/VampireFactory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Field.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Field.h" beforeDir="false" afterPath="$PROJECT_DIR$/Field.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/GameObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Base/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Base/Base.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Base/Base.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Base/Base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Base/Observee.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Base/Observee.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Base/Observee.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Base/Observee.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject/Unit/Unit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/Unit.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mobility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Mobility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mobility.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Mobility.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stats.h" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/HollyTerrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/HollyTerrain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/HollyTerrain.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/HollyTerrain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/SpikyTerrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/SpikyTerrain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/SpikyTerrain.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/SpikyTerrain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/SteepTerrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/SteepTerrain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/SteepTerrain.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/SteepTerrain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/Terrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/Terrain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/Terrain.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/Terrain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/TerrainProxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terrain/TerrainProxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/AbleUnit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/AbleUnit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/AbleUnit.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/AbleUnit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/EnduringUnit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/EnduringUnit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/EnduringUnit.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/EnduringUnit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/MobileUnit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/MobileUnit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/MobileUnit.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/MobileUnit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheAgile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheAgile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheAgile.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheAgile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheMarathoner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheMarathoner.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheMarathoner.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheMarathoner.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/ThePowerful.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/ThePowerful.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/ThePowerful.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/ThePowerful.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheRanger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheRanger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheRanger.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheRanger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheTough.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheTough.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheTough.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheTough.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheVampire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheVampire.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/TheVampire.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/TheVampire.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/Unit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/Unit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit/Unit.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Unit/Unit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vitality.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Vitality.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vitality.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameObject/Vitality.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Ability.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Cell.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Cell.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Cell.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Entity/Entity.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Field.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Game.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/AbstractFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/CommonFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/AbstractTerrainFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/HollyFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SpikyFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Terrain/SteepFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AbstractUnitFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/AgileFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/MarathonerFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/PowerfulFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/RangerFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/ToughFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Factory/Unit/VampireFactory.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Field.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Field.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Game.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/GameObject.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Mediator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Mediator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Mediator.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Mobility.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Terrain/HollyTerrain.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/Terrain/SpikyTerrain.cpp.o" beforeDir="false" />
@@ -151,12 +132,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OOProject.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OOProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OOProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OOProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OOProject.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UML.dia" beforeDir="false" afterPath="$PROJECT_DIR$/../UML.dia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wtf.odg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ООП 2020 ЛР.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../ООП 2020 ЛР.odt" afterDir="false" />
@@ -187,226 +169,119 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48614457">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/GameObject.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="38" selection-start-line="38" selection-end-line="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Field.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="100" selection-start-line="100" selection-end-line="100" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="545">
-                  <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#106#123#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Cell.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="118" selection-start-line="118" selection-end-line="118" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/GameObject.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#101#118#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#108#125#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Stats.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1620">
-                  <caret line="108" selection-start-line="108" selection-end-line="108" />
-                  <folding>
-                    <element signature="e#91#108#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/FlyWeight.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/FlyWeight.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1335">
-                  <caret line="89" selection-start-line="89" selection-end-line="89" />
-                  <folding>
-                    <element signature="e#100#114#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Game.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#38#55#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Game.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="364">
-                  <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#89#108#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Mediator.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="132" selection-start-line="132" selection-end-line="132" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="546">
-                  <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#39#64#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="164" selection-start-line="164" selection-end-line="164" />
-                  <folding>
-                    <element signature="e#39#65#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="968" selection-start-line="968" selection-end-line="968" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/include/c++/7/ext/atomicity.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="254">
-                  <caret line="97" selection-start-line="97" selection-end-line="97" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file:///usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="250" selection-start-line="250" selection-end-line="250" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GameObject/Entity/HealEntity.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facade/IFacade.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#96#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+              <folding>
+                <element signature="e#89#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Command/Sender/ISender.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#96#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stats.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Command/Sender/Sender.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exeptions/SelectionOutOfBoundsExeption.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#138#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Command/Handler/AbstractHandler.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#112#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Command/Handler/AbstractHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facade/FacadeReciever.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -421,6 +296,12 @@
       <find>dict</find>
       <find>};</find>
       <find>{&quot;</find>
+      <find>return lightBase;</find>
+      <find>break</find>
+      <find>&lt;T&gt;&lt;T&gt;</find>
+      <find>&lt;class T&gt;</find>
+      <find>TODO</find>
+      <find>cre</find>
     </findStrings>
     <replaceStrings>
       <replace>entity</replace>
@@ -436,6 +317,8 @@
       <replace>FlyWeight::dict</replace>
       <replace>});</replace>
       <replace>new GameObjectFlyWeight{&quot;</replace>
+      <replace>return CommonClass ::TheRanger</replace>
+      <replace>&lt;T&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -444,56 +327,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Factory/Unit/VampireFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Terrain/SteepFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Terrain/HollyFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Terrain/SpikyFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Unit/ToughFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Base/BaseFactory.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/Entity.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/HealEntity.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/TrapEntity.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/TrapEntity.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/BlockEntity.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/PitEntity.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/AbstractEntityFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/Entity/AbstractEntityFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/HealFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/Entity/HealFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/TrapFactory.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/BlockEntity.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/BlockFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/Entity/BlockFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/PitFactory.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Entity/PitFactory.h" />
-        <option value="$PROJECT_DIR$/Factory/Entity/TrapFactory.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/PitEntity.h" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/Entity.h" />
-        <option value="$PROJECT_DIR$/GameObject/Terrain/Terrain.h" />
-        <option value="$PROJECT_DIR$/Field.h" />
+        <option value="$PROJECT_DIR$/Logger/AbstractLogger.h" />
+        <option value="$PROJECT_DIR$/Logger/LoggerProxy.h" />
+        <option value="$PROJECT_DIR$/Actor/CLI.h" />
+        <option value="$PROJECT_DIR$/Facade/Composer.cpp" />
+        <option value="$PROJECT_DIR$/Facade/Composer.h" />
+        <option value="$PROJECT_DIR$/Command/Sender/Sender.h" />
+        <option value="$PROJECT_DIR$/Logger/everything.h" />
+        <option value="$PROJECT_DIR$/Logger/FileLoggereAdapter.h" />
+        <option value="$PROJECT_DIR$/Logger/FileLoggerAdapter.h" />
+        <option value="$PROJECT_DIR$/FlyCell.cpp" />
+        <option value="$PROJECT_DIR$/Actor/Actor.h" />
+        <option value="$PROJECT_DIR$/Actor/CLI.cpp" />
+        <option value="$PROJECT_DIR$/Actor/Actor.cpp" />
+        <option value="$PROJECT_DIR$/FlyCell.h" />
+        <option value="$PROJECT_DIR$/Facade/State.cpp" />
+        <option value="$PROJECT_DIR$/GameRules.h" />
         <option value="$PROJECT_DIR$/Mediator.h" />
-        <option value="$PROJECT_DIR$/Game.h" />
-        <option value="$PROJECT_DIR$/Factory/Base/BaseFactory.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Vitality.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Entity/HealEntity.cpp" />
-        <option value="$PROJECT_DIR$/Factory/AbstractFactory.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Unit/Unit.h" />
-        <option value="$PROJECT_DIR$/Factory/AbstractFactory.h" />
-        <option value="$PROJECT_DIR$/GameObject/FlyWeight.cpp" />
-        <option value="$PROJECT_DIR$/Factory/Unit/RangerFactory.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Unit/Unit.cpp" />
-        <option value="$PROJECT_DIR$/Mediator.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Base/Base.h" />
-        <option value="$PROJECT_DIR$/GameObject/Base/Base.cpp" />
-        <option value="$PROJECT_DIR$/Stats.h" />
+        <option value="$PROJECT_DIR$/Exeptions/AbstractExeption.h" />
         <option value="$PROJECT_DIR$/Factory/CommonFactory.h" />
-        <option value="$PROJECT_DIR$/Field.cpp" />
-        <option value="$PROJECT_DIR$/Factory/CommonFactory.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/FlyWeight.h" />
-        <option value="$PROJECT_DIR$/GameObject/GameObject.h" />
-        <option value="$PROJECT_DIR$/GameObject/GameObject.cpp" />
-        <option value="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.h" />
         <option value="$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp" />
+        <option value="$PROJECT_DIR$/Exeptions/MediatorNotSetExeption.h" />
+        <option value="$PROJECT_DIR$/GameObject/Unit/Unit.cpp" />
+        <option value="$PROJECT_DIR$/Factory/CommonFactory.cpp" />
+        <option value="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.cpp" />
+        <option value="$PROJECT_DIR$/Exeptions/SelectionOutOfBoundsExeption.h" />
+        <option value="$PROJECT_DIR$/Exeptions/ObjectLimitExceededException.cpp" />
+        <option value="$PROJECT_DIR$/Exeptions/ObjectLimitExceededException.h" />
+        <option value="$PROJECT_DIR$/Field.cpp" />
+        <option value="$PROJECT_DIR$/Exeptions/NoTerrainException.h" />
+        <option value="$PROJECT_DIR$/Command/Handler/HandlerStuff.cpp" />
+        <option value="$PROJECT_DIR$/Mediator.cpp" />
+        <option value="$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.h" />
+        <option value="$PROJECT_DIR$/GameObject/Base/Observee.cpp" />
+        <option value="$PROJECT_DIR$/GameObject/Base/Observee.h" />
+        <option value="$PROJECT_DIR$/Factory/Base/BaseFactory.h" />
+        <option value="$PROJECT_DIR$/GameObject/Base/Base.cpp" />
+        <option value="$PROJECT_DIR$/GameObject/Base/Base.h" />
+        <option value="$PROJECT_DIR$/Actor/AI.h" />
+        <option value="$PROJECT_DIR$/Actor/AI.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Stats.h" />
+        <option value="$PROJECT_DIR$/Exeptions/AttemptToSetNeutralBaseException.h" />
+        <option value="$PROJECT_DIR$/Exeptions/BaseNotSetException.h" />
+        <option value="$PROJECT_DIR$/Exeptions/MediatorNotSetException.h" />
+        <option value="$PROJECT_DIR$/Command/Handler/AbstractHandler.h" />
+        <option value="$PROJECT_DIR$/Command/Handler/AbstractHandler.cpp" />
+        <option value="$PROJECT_DIR$/Facade/IFacade.h" />
+        <option value="$PROJECT_DIR$/Command/Sender/ISender.h" />
+        <option value="$PROJECT_DIR$/Command/Sender/Sender.cpp" />
+        <option value="$PROJECT_DIR$/Game.h" />
         <option value="$PROJECT_DIR$/Game.cpp" />
       </list>
     </option>
@@ -502,7 +385,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="961" />
     <option name="width" value="959" />
-    <option name="height" value="1051" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -520,7 +403,46 @@
             <path>
               <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Actor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="Handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="Sender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
               <item name="GameObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOProject" type="462c0819:PsiDirectoryNode" />
+              <item name="GameObject" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -539,11 +461,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Command/Command" />
+      <recent name="$PROJECT_DIR$/Command" />
       <recent name="$PROJECT_DIR$/GameObject" />
       <recent name="$PROJECT_DIR$/Factory/Terrain" />
       <recent name="$PROJECT_DIR$/Factory/Unit" />
-      <recent name="$PROJECT_DIR$/Terrain" />
-      <recent name="$PROJECT_DIR$/Entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -594,37 +516,66 @@
       <workItem from="1590773011606" duration="4863000" />
       <workItem from="1590824244752" duration="13250000" />
       <workItem from="1590837570631" duration="2629000" />
+      <workItem from="1590863304397" duration="3762000" />
+      <workItem from="1590906850751" duration="36205000" />
+      <workItem from="1590996696604" duration="43475000" />
+      <workItem from="1591050837600" duration="22133000" />
+      <workItem from="1591078336789" duration="18279000" />
+      <workItem from="1592127738893" duration="345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154555000" />
+    <option name="totallyTimeSpent" value="278754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1052" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11419424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1248666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.18318966" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32004312" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29202586" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36422414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19827586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31896552" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.3286638" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3297414" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4994664" weight="0.30172414" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4994664" visible="true" weight="0.24811219" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15688367" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36422414" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21228448" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28879312" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297414" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.4994664" visible="true" weight="0.24784483" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -634,23 +585,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Field.h</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/GameObject/Base/Base.cpp</url>
-          <line>14</line>
+          <line>16</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>79</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>42</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Factory/Unit/RangerFactory.cpp</url>
@@ -658,30 +599,90 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Game.cpp</url>
-          <line>26</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Field.cpp</url>
-          <line>100</line>
+          <line>101</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp</url>
-          <line>71</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/Command/Command/CommandInteract.h</url>
+          <line>9</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp</url>
-          <line>65</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/Actor/CLI.cpp</url>
+          <line>133</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Facade/FacadeReciever.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Command/Handler/HandlerStuff.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Facade/State.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
+          <line>90</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Actor/CLI.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mediator.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>facadeReciever-&gt;turnDevotion()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sns-&gt;devotion</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>turnDevotion()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>activeState.use_count()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>facadeReciever-&gt;turnDevotion()]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>content[0][8].getTerrain()</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -702,446 +703,412 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>(dict.at({objectClass,devotion}))==0)</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dict.at({objectClass,devotion}))==0</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dict.at({objectClass,devotion}))==0return</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dict.at({objectClass,devotion}))</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(*dict.at({objectClass,devotion}))</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Factory/Entity/TrapFactory.h">
+    <entry file="file://$PROJECT_DIR$/Exeptions/NoTerrainException.cpp" />
+    <entry file="file://$PROJECT_DIR$/Command/Handler/HandlerStuff.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Entity/PitEntity.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Entity/Entity.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="209">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#94#120#0" expanded="true" />
+            <element signature="e#38#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Entity/Entity.cpp">
+    <entry file="file://$PROJECT_DIR$/Facade/FacadeReciever.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="179">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cell.h">
+    <entry file="file://$PROJECT_DIR$/Facade/State.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="269">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#90#107#0" expanded="true" />
+            <element signature="e#39#57#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Unit/ToughFactory.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/Terrain.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/7/bits/move.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
+        <state relative-caret-position="201">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Field.h">
+    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/HollyTerrain.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.cpp">
+    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#39#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Unit/ToughFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="968" selection-start-line="968" selection-end-line="968" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObject/Unit/Unit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
-            <element signature="e#39#64#0" expanded="true" />
+            <element signature="e#38#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mediator.h">
+    <entry file="file://$PROJECT_DIR$/GameObject/Entity/PitEntity.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="e#98#115#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Base/Observee.cpp">
+    <entry file="file://$PROJECT_DIR$/Mediator.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
           <folding>
             <element signature="e#39#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Vitality.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/GameRules.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Base/BaseFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Unit/Unit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="e#90#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/AbstractFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/AbstractFactory.h">
+    <entry file="file://$PROJECT_DIR$/GameRules.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
-          <folding>
-            <element signature="e#112#129#0" expanded="true" />
-          </folding>
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/HollyTerrain.h">
+    <entry file="file://$PROJECT_DIR$/GameObject/GameObject.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
+        <state relative-caret-position="-45" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/SpikyTerrain.h">
+    <entry file="file://$PROJECT_DIR$/Logger/ConsoleLoggerAdapter.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="210">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/alloc_traits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="486" selection-start-line="486" selection-end-line="486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/SteepTerrain.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/unique_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/Unit/RangerFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="119" lean-forward="true" selection-start-line="9" selection-start-column="119" selection-end-line="9" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Vitality.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/Terrain.h">
+    <entry file="file://$PROJECT_DIR$/Mediator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
-            <element signature="e#108#125#0" expanded="true" />
+            <element signature="e#98#115#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stats.h">
+    <entry file="file://$PROJECT_DIR$/Actor/Actor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="196">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
-            <element signature="e#91#108#0" expanded="true" />
+            <element signature="e#92#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/FlyWeight.cpp">
+    <entry file="file://$PROJECT_DIR$/FlyCell.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Unit/Unit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#38#55#0" expanded="true" />
+            <element signature="e#96#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Base/Base.h">
+    <entry file="file://$PROJECT_DIR$/GameLoop.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actor/CLI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding>
-            <element signature="e#90#109#0" expanded="true" />
+            <element signature="e#88#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Base/Base.cpp">
+    <entry file="file://$PROJECT_DIR$/Actor/CLI.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="83" selection-start-line="71" selection-start-column="83" selection-end-line="71" selection-end-column="83" />
+        <state relative-caret-position="660">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLoop.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory/Unit/AbstractUnitFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#39#56#0" expanded="true" />
+            <element signature="e#120#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/SpikyTerrain.cpp">
+    <entry file="file://$PROJECT_DIR$/GameObject/Base/Observee.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#39#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObject/Base/Observee.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Entity/HealEntity.cpp">
+    <entry file="file://$PROJECT_DIR$/Factory/Base/BaseFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObject/Base/Base.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#39#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameObject/Base/Base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#113#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Field.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Command/CommandSelect.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Command/everything.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actor/AI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actor/AI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/GameObject.h">
+    <entry file="file://$PROJECT_DIR$/Exeptions/AttemptToSetNeutralBaseException.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <element signature="e#101#118#0" expanded="true" />
+            <element signature="e#146#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mediator.cpp">
+    <entry file="file://$PROJECT_DIR$/Exeptions/BaseNotSetException.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        <state relative-caret-position="810">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.h">
+    <entry file="file://$PROJECT_DIR$/Exeptions/MediatorNotSetException.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exeptions/NoTerrainException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exeptions/ObjectLimitExceededException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facade/IFacade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#106#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/ext/atomicity.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="968" selection-start-line="968" selection-end-line="968" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/GameObject.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/CommonFactory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="e#39#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/FlyWeight.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#100#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cell.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Field.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameObject/Terrain/TerrainProxy.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding>
-            <element signature="e#39#64#0" expanded="true" />
+            <element signature="e#96#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Sender/ISender.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#96#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stats.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Sender/Sender.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exeptions/SelectionOutOfBoundsExeption.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#138#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Handler/AbstractHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#112#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command/Handler/AbstractHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facade/FacadeReciever.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Game.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        <state relative-caret-position="695">
+          <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
           <folding>
-            <element signature="e#38#55#0" expanded="true" />
+            <element signature="e#38#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

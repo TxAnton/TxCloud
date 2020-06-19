@@ -2,20 +2,45 @@
 // Created by anton on 5/9/20.
 //
 
+#include <utility>
 #include "Game.h"
+#include "Logger/LoggerProxy.h"
+#include "Logger/ConsoleLoggerAdapter.h"
+#include "Logger/FileLoggerAdapter.h"
+#include "Logger/NoLogger.h"
+#include "Command/Command/CommandSelect.h"
+
+/*
 #include "GameObject/Unit/TheTough.h"
 #include "GameObject/Entity/PitEntity.h"
 #include "GameObject/Terrain/HollyTerrain.h"
+*/
 
+GameRules Game::gameRules;
+ 
 Game* Game::instance = nullptr;
-
+/*
+ 
 Game &Game::getInstance() {
     if(instance== nullptr){
         instance = new Game(9,9);
     }
     return *instance;
 }
+*/
 
+
+
+Game &Game::getInstance() {
+    if(instance== nullptr){
+        instance = new Game();
+    }
+    return *instance;
+}
+
+
+
+ 
 void Game::demo() {
 
     std::string s1 = "foo";
@@ -23,105 +48,72 @@ void Game::demo() {
 
 
     s2 = "foo";
-
-    std::wcout<<field->toWString();
-
-    mediator->createObject(1,1,Devotion::Light,CommonClass::Base);
-
-    mediator->createObject(2,2,Devotion::Light,CommonClass::TheMarathoner);
-
-    mediator->createObject(3,3,Devotion::Light,CommonClass::HealEntity);
-
-    //mediator->createObject(8,8,Devotion::Dark,CommonClass::Base);
-
-    mediator->setSelectionA({2,2});
-    mediator->setSelectionB({3,3});
-
-    std::wcout<<field->toWString();
-
-    std::cout<<field->getUnitAt(2,2)->getVitality().getHealth()<<std::endl;
-    std::cout<<mediator->step()<<std::endl;
-    std::cout<<field->getUnitAt(3,3)->getVitality().getHealth()<<std::endl;
-    std::wcout<<field->toWString();
-    //mediator->act();
-    //mediator->act();
-
-
-
-
-
-
-
+    gameLoop->loop();
     return;
 
-    auto terrain = new TerrainProxy(2, 2,TerrainType::SpikyTerrain,std::shared_ptr<CommonFactory>(factory));
+}
 
-    field->setTerrainAt(std::shared_ptr<TerrainProxy>(terrain),2,2);
-
-
-
-    auto pit = factory->createObject(8,8,Devotion::Neuter,CommonClass::PitEntity);
-    //field->setUnitAt(std::static_pointer_cast<Unit>(pit),8,8);
-    field->setEntityAt(std::static_pointer_cast<Entity>(pit),8,8);
-
-
-
-    auto base = factory->createObject(1,1,Devotion::Light,CommonClass::Base);
-
-    field->setUnitAt(std::static_pointer_cast<Unit>(base),1,1);
-
-    //std::static_pointer_cast<Unit>(factory->createObject(5,5,Devotion::Dark,CommonClass::TheTough));
-    auto tough = factory->createObject(5,5,Devotion::Light,CommonClass::TheTough);
-    //new TheTough(5,5,Devotion::Neuter,100,100,1,50,5,5,5)
-    field->setUnitAt(std::static_pointer_cast<Unit>(tough),5,5);
-
-    tough->getVitality().damage(195);
-
-    terrain->restep(tough);
-
-    //std::dynamic_pointer_cast<PitEntity>(pit)->restep(tough);
-
-    std::cout<<base.use_count()<<std::endl;
 /*
-    auto uPtr = field->getUnitAt(5,5);
-    auto vPtr = uPtr->getVitality();
-    vPtr.damage(250);
 
-    */
-    //uPtr.reset();
-
-    std::wcout<<field->toWString();
-
-
-    field->objSwap(5, 5, 0, 0);
-
-    std::wcout<<field->toWString();
-
-
-    /*
-    Unit* unit;
-    unit = new Unit(5, 5, Devotion::Neuter, CommonClass::TheRanger, 100, 100, 1, 50, 5, 5, 5, UnitType::AbleUnit);
-    unit->flyWeight={"TheUnit",'#'};
-
-    std::cout<<unit->canStep(6,6);
+Game::Game(const std::shared_ptr<Field> &field):field(field) {}
 */
 
-}
+Game::Game() {
+    winCondition=gameRules.winCondition;
 
-Game::Game(int width, int height) : width(width), height(height) {
-    field = new Field(2*width*height,height,width);
-    factory = new CommonFactory();
-    mediator = new Mediator(std::shared_ptr<Field>(field),std::shared_ptr<CommonFactory>(factory));
+    this->width=gameRules.width;
+    this->height=gameRules.height;
+
+    field =std::make_shared<Field>(2*width*height,height,width);
+    //field = new Field(2*width*height,height,width);
+
+    factory =std::make_shared<CommonFactory>();
+            //factory = new CommonFactory();
+    mediator =std::make_shared<Mediator>(std::shared_ptr<Field>(field),std::shared_ptr<CommonFactory>(factory));
+    //mediator = new Mediator(std::shared_ptr<Field>(field),std::shared_ptr<CommonFactory>(factory));
     factory->setMediator(std::shared_ptr<Mediator>(mediator));
-    //factory = new CommonFactory(std::shared_ptr<Mediator>(mediator));
+
+    actorA = std::make_shared<CLI>("A");
+    if(gameRules.multiplayer) {
+        actorB = std::make_shared<CLI>("B");
+    }else{
+        actorB = std::make_shared<AI>("Bot");
+    }
+    composerA= std::make_shared<Composer>(true,actorA,mediator);//Should be two of'em
+    composerB= std::make_shared<Composer>(true,actorB,mediator);//Should be two of'em
+    actorA->setComposer(composerA);
+    actorB->setComposer(composerB);
+    facadeReciever = std::make_shared<FacadeReciever>(mediator);
+    facadeReciever->init(gameRules.firstA,actorA,actorB);
 
 
-    initField();
+    initHandlers();
+    sender=std::make_shared<Sender>(commandHandlers.front());
+    composerA->setSender(sender);
+    composerB->setSender(sender);
 
+
+    gameLoop = std::make_shared<GameLoop>(sender,facadeReciever);
+
+
+
+
+    setNoLogger();
+
+    initField(gameRules.initAPos, gameRules.initBPos);
+}
+ 
+void Game::initHandlers() {
+    commandHandlers.push_back(std::make_shared<HandlerExit>(facadeReciever));
+    commandHandlers.push_back(std::make_shared<HandlerRestart>(facadeReciever));
+    commandHandlers.push_back(std::make_shared<HandlerStuff>(facadeReciever));
+    for (int i = 0; i < commandHandlers.size() - 1; i++) {
+        commandHandlers[i]->setNextHandler(commandHandlers[i + 1]);
+    }
 }
 
-void Game::initField() {
-
+ 
+void Game::initField(std::pair<int, int> initAPos, std::pair<int, int> initBPos) {
     for(int i= 0;i<height; i++){
         for(int j = 0; j<width; j++){
             int s = (i+j)%3;
@@ -130,8 +122,85 @@ void Game::initField() {
              case 1:mediator->createObject(j,i,Devotion::Neuter,CommonClass::SteepTerrain);break;
              case 2:mediator->createObject(j,i,Devotion::Neuter,CommonClass::HollyTerrain);break;
             }
-
-            //bool b = mediator->createObject(j,i,Devotion::Neuter,CommonClass::SpikyTerrain);
         }
     }
+    mediator->createObject(initAPos.first,initAPos.second,Devotion::Light,CommonClass::Base);
+    //std::pair<int,int> dim = mediator->getDimensions();
+    mediator->createObject(initBPos.first,initBPos.second,Devotion::Dark,CommonClass::Base);
+    mediator->createObject(3,3,Devotion::Neuter,CommonClass::HealEntity);
+    mediator->createObject(5,5,Devotion::Neuter,CommonClass::TrapEntity);
+    mediator->createObject(4,4,Devotion::Neuter,CommonClass::PitEntity);
 }
+
+ 
+void Game::setConsoleLoger() {
+    std::shared_ptr<LoggerProxy> lp = std::make_shared<LoggerProxy>();
+    std::shared_ptr<ConsoleLoggerAdapter> cla  =std::make_shared<ConsoleLoggerAdapter>();
+    lp->setAbstractLogger(cla);
+    logger=lp;
+
+    sender->setLogger(logger);
+    mediator->setLogger(logger);
+}
+
+ 
+void Game::setFileLogger(std::string fileName) {
+    std::shared_ptr<LoggerProxy> lp = std::make_shared<LoggerProxy>();
+    std::shared_ptr<FileLoggerAdapter> fla  =std::make_shared<FileLoggerAdapter>(fileName);
+    lp->setAbstractLogger(fla);
+    logger=lp;
+
+    sender->setLogger(logger);
+    mediator->setLogger(logger);
+}
+
+ 
+void Game::setNoLogger() {
+    std::shared_ptr<LoggerProxy> lp = std::make_shared<LoggerProxy>();
+    std::shared_ptr<NoLogger> nl=std::make_shared<NoLogger>();
+    lp->setAbstractLogger(nl);
+    logger=lp;
+
+    sender->setLogger(logger);
+    mediator->setLogger(logger);
+}
+
+void Game::setGameRules(const GameRules &gameRules) {
+    Game::gameRules = gameRules;
+}
+
+bool Game::testCreate() {
+    mediator->createObject(8,3,Devotion::Light,CommonClass::TheMarathoner);
+    assert(field->getUnitAt(8,3)&&field->getUnitAt(8,3)->getObjectClass()==CommonClass::TheMarathoner);
+    return true;
+}
+
+bool Game::testFill() {
+    initField({0,0},{8,8});
+
+    //assert(field->getUnitAt(0,0));
+
+    for(auto i =field->begin();i.hasNext();i.next()){
+        assert((*i).getTerrain());
+    }
+    return true;
+}
+
+bool Game::testCommand() {
+
+    sender->set(std::make_unique<CommandSelect>(actorA,false,3,4));
+    assert(sender->sendIfSet());
+    assert((mediator->getSelectionA()==std::pair<int,int>(3,4))||(mediator->getSelectionA()==std::pair<int,int>(4,3))||field->getTerrainAt(0,0));
+    return true;
+}
+
+bool Game::test() {
+    return testCreate()&&testFill()&&testCommand();
+}
+
+void Game::load(std::string str) {
+
+
+}
+
+

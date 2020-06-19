@@ -1,0 +1,3 @@
+F_LOG: Player A summoned unit class 0 at 4:4
+F_LOG: Unit of class 0 at 4:4 was spawned by light base
+F_LOG: Player Bot exited
